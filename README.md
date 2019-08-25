@@ -1,4 +1,4 @@
-This is hugo repository for [kivanc's blog](https://kyzn.org/).
+This is hugo repository for [kivanc's blog](https://kyzn.org/). For generated `/public` folder see [kyzn/kyzn.github.io](https://github.com/kyzn/kyzn.github.io). 
 
 - To test it, run `hugo server -p 3000`
 - To generate `/public` folder, run `hugo`
