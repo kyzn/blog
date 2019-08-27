@@ -60,6 +60,10 @@ disqusShortname = "kivancs-blog"
     url = "mailto:kyzn@cpan.org"
 
   [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/kyzn"
+
+  [[params.social]]
     name = "github"
     url = "https://github.com/kyzn"
 
