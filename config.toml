@@ -17,9 +17,9 @@ disqusShortname = "kivancs-blog"
   name = "Kivanc Yazan"
 
 [blackfriday]
-  # hrefTargetBlank = true
+  hrefTargetBlank = true
   # noreferrerLinks = true
-  # nofollowLinks = true
+  nofollowLinks = true
 
 [taxonomies]
   tag = "tags"
