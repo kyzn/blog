@@ -74,7 +74,7 @@ I gave talks about CPAN Pull Request Challenge & [Pull Request Club](https://pul
 
 Did you see a pattern? I never missed any October! This is all thanks to Hacktoberfest.
 
-![](images/hacktoberfest.jpg)
+![](/images/hacktoberfest.jpg)
 
 ## Total Stats
 
