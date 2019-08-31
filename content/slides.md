@@ -5,22 +5,22 @@ date: 2019-08-25T12:57:19-07:00
 
 ## 2018, The Perl Conference in Glasgow, Scotland
 
-- [CPAN Pull Request Challenge](/slides/TPC/2018-EU/PullRequestChallenge.pdf)
-- [Contributor Covenant Code of Conduct (LT)](/slides/TPC/2018-EU/ContributorCovenant.pdf)
+- CPAN Pull Request Challenge [PDF](/slides/TPC/2018-EU/PullRequestChallenge.pdf), [YouTube](https://www.youtube.com/watch?v=QiZOEIwkuek)
+- Contributor Covenant Code of Conduct (LT) [PDF](/slides/TPC/2018-EU/ContributorCovenant.pdf), [YouTube](https://www.youtube.com/watch?v=xGishnF1bQI&t=24m30s)
 
 ## 2018, The Perl Conference in Salt Lake City, UT
 
-- [CPAN Pull Request Challenge](/slides/TPC/2018-NA/PullRequestChallenge.pdf)
+- CPAN Pull Request Challenge [PDF](/slides/TPC/2018-NA/PullRequestChallenge.pdf), [YouTube](https://www.youtube.com/watch?v=_jvXg4urq1U)
 
 ## 2017, Big Data Day in Los Angeles, CA
 
-- [Crowd Surfing Tweets](/slides/BDD/2017/twitter.pdf)
+- Crowd Surfing Tweets [PDF](/slides/BDD/2017/twitter.pdf), [YouTube](https://www.youtube.com/watch?v=6UKpMDGnQv0)
 
 ## 2017, The Perl Conference in Alexandria, VA
 
-- [A Brief History of Timekeeping](/slides/TPC/2017/timekeeping.pdf)
+- A Brief History of Timekeeping [PDF](/slides/TPC/2017/timekeeping.pdf), [YouTube](https://www.youtube.com/watch?v=a20-g1DAZUA)
 
 ## 2016, The Perl Conference in Orlando, FL
 
-- [My First CPAN Module (LT)](/slides/TPC/2016/firstCPAN.pdf)
+- My First CPAN Module (LT) [PDF](/slides/TPC/2016/firstCPAN.pdf), [YouTube](https://www.youtube.com/watch?v=s8BvPwkvBEI&t=7m45s)
 
