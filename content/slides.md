@@ -1,5 +1,5 @@
 ---
-title: "Slide Decks"
+title: "Slides"
 date: 2019-08-25T12:57:19-07:00
 ---
 
