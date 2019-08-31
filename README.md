@@ -9,6 +9,10 @@ This is hugo repository for [kivanc's blog](https://kyzn.org/). For generated `/
 - Generate `/public` folder
 
       hugo
+      
+- Copy public folder to the other repository
+
+      cp -r public/* ../kyzn.github.io/
 
 - Add a new post
 
