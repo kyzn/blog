@@ -34,7 +34,7 @@ Let's look at what we can do to fix this problem.
 
 If daylight saving rules were in sync, we wouldn't have any problem figuring out time zone.
 
-| post\_id| Turkey Time   | Eksisozluk Time |      Comment       |
+| Post ID | Turkey Time   | Eksisozluk Time |      Comment       |
 | ------- | ------------- | --------------- | ------------------ |
 |   ...   |     ...       |      ...        |                    |
 |   101   | 00:59:59 (+2) |  00:59:59 (+2)  | Both change TZ     |
@@ -46,7 +46,7 @@ If daylight saving rules were in sync, we wouldn't have any problem figuring out
 
 But we know that these rules were out of sync for 2001 through 2006. Turkey had observed daylight saving at `01:00:00`, whereas Eksisozluk had it at `02:00:00`.
 
-| post\_id| Turkey Time   | Eksisozluk Time |       Comment      |
+| Post ID | Turkey Time   | Eksisozluk Time |       Comment      |
 | ------- | ------------- | --------------- | ------------------ |
 |   ...   |     ...       |      ...        |                    |
 |   201   | 00:59:59 (+2) |  00:59:59 (+2)  | In sync up to here |
@@ -72,7 +72,7 @@ I mentioned some posts have two times: One for creation, and another one for upd
 
 Even if daylight saving rules were in sync, we still end up with an Ambiguous-Zone. This is because Eksisozluk does not show us time zone alongside with time.
 
-| post\_id| Turkey Time   | Eksisozluk Time |      Comment       |
+| Post ID | Turkey Time   | Eksisozluk Time |      Comment       |
 | ------- | ------------- | --------------- | ------------------ |
 |   ...   |     ...       |      ...        |                    |
 |   301   | 00:59:59 (+3) |  00:59:59 (+3)  |                    |
@@ -102,7 +102,7 @@ If you parse post #302 and post #312, both of them will have the same time zone,
 But we know daylight saving rules were not in sync.
 
 
-| post\_id| Turkey Time   | Eksisozluk Time |      Comment       |
+| Post ID | Turkey Time   | Eksisozluk Time |      Comment       |
 | ------- | ------------- | --------------- | ------------------ |
 |   ...   |     ...       |      ...        |                    |
 |   401   | 00:59:59 (+3) |  00:59:59 (+3)  |                    |
