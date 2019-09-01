@@ -42,7 +42,7 @@ Make sure NOT to remove quotes. There's one problem with this approach: your pas
 
     wpa_passphrase "my_network" "my_password"
 
-This will output a text like below:
+Here's another quick tip: If you don't want your password to show up in your bash history, put a space before command above. This command will output a text like below:
 
     network={
      ssid="my_network"
