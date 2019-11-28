@@ -43,7 +43,7 @@ Although it's better to do your assignments every month, you may not be willing 
 
 One reason is that this year might be your [last chance!](http://neilb.org/2018/01/01/cpan-prc-2018.html) It may [evolve](http://neilb.org/2018/01/06/what-after-prc.html), but this will most likely be the **last year** you can get a CPAN module assignment.
 
-I joined this challenge [in 2015](https://kyzn.org/2015-01-17-cpan-pr-challenge-012015.html) when I was still at college. It motivated me to read other people's code, even though I had a hard time understanding it. It also taught me a lot about the Open Source ecosystem. I did 4 assignments in 2015, another 4 in 2016, and doubled to 8 in 2017. I am also part of [Team-ZipRecruiter](https://github.com/ziprecruiter), which has been participating since April 2017. It really is fun!
+I joined this challenge [in 2015](/posts/cpan-pr-challenge-012015/) when I was still at college. It motivated me to read other people's code, even though I had a hard time understanding it. It also taught me a lot about the Open Source ecosystem. I did 4 assignments in 2015, another 4 in 2016, and doubled to 8 in 2017. I am also part of [Team-ZipRecruiter](https://github.com/ziprecruiter), which has been participating since April 2017. It really is fun!
 
 If you are looking for more reasons, here are few:
 
