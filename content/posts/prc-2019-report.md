@@ -1,6 +1,6 @@
 ---
 title: "Pull Request Club 2019 Report"
-date: 2019-12-28T11:00:00-08:00
+date: 2018-12-28T19:30:00Z
 tags:
   - perl
   - pull-request
@@ -23,11 +23,12 @@ I wanted this challenge to go on, so I created Pull Request Club. It has been a 
 - We have reached 100+ users and 200+ repositories in the pool.
 - 70 users have received at least 1 assignment.
 - 16 of them have completed at least 1 assignment.
-- Only 1 user have completed all 12 assignments.
+- Only 1 user has completed all 12 assignments.
 - October was the month with most assignments completed (8), followed by January and March (7).
 - 21 users have received at least 1 assignee.
 - 14 of them have received at least 1 pull request.
-- 170+ assignments were out this year. 60 of them are completed, meaning **users have submitted 60 pull requests**.
+- 170+ assignments were out this year.
+- 60 of those were completed, meaning **users have submitted 60 pull requests**.
 
 <center>
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">I joined <a href="https://twitter.com/PullRequestClub?ref_src=twsrc%5Etfw">@PullRequestClub</a> yesterday. Today I got my first Pull Request and it was from <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a> himself. This thing works!!!<br><br>Also, thanks <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a>. I need to buy you lunch sometime. <a href="https://t.co/Bk3iTFJzUu">https://t.co/Bk3iTFJzUu</a></p>&mdash; Olaf Alders (@olafalders) <a href="https://twitter.com/olafalders/status/1179083495177629696?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
