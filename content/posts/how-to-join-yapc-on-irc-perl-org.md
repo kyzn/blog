@@ -4,6 +4,9 @@ date: 2017-06-19T03:18:10Z
 tags:
   - perl
   - conference
+aliases: [
+  "/2017-06-19-how-to-join-yapc-on-irc-perl-org.html"
+]
 ---
 
  - IRC is used A LOT during The Perl Conference
