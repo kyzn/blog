@@ -45,6 +45,19 @@
 	{{- if templates.Exists "partials/extra-foot.html" -}}
 	{{ partial "extra-foot.html" . }}
 	{{- end }}
+
+<script>
+	(function() {
+		window.counter = 'https://kyzn_org.goatcounter.com/count'
+
+		var script = document.createElement('script');
+		script.async = 1;
+		script.src = '//gc.zgo.at/count.js';
+		var ins = document.getElementsByTagName('script')[0];
+		ins.parentNode.insertBefore(script, ins)
+	})();
+</script>
+
 </body>
 
 </html>
