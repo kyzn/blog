@@ -15,8 +15,8 @@ Last week, I attended my very first YAPC (Yet Another Perl Conference) at Orland
 ## 1) USA is huge.
 I remember stories on Quora about tourists who tried to make a day trip to California all the way from New York, and I actually laughed at them too. So I knew the continent is big, I guess I never realized it is "that" big. I was at San Jose, California. I took a flight to Orlando with a stop at Dallas. These were almost 3 hours each. To top it all, Orlando is 3 hours ahead of California, so I also experienced a slight jetlag (not being able to fall asleep even if it's pretty late etc). But we made it safe and sound, so it was fine.
 
-<a href="https://en.wikipedia.org/wiki/File:1867_Mitchell_Map_of_the_United_States_-_Geographicus_-_UnitedStates-mitchell-1867.jpg"><img width="600" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/1867_Mitchell_Map_of_the_United_States_-_Geographicus_-_UnitedStates-mitchell-1867.jpg/800px-1867_Mitchell_Map_of_the_United_States_-_Geographicus_-_UnitedStates-mitchell-1867.jpg" alt="Map of USA I found at Wikipedia" /></a>
-
+![](/images/map-usa.jpg)
+<center><h6>Photo by Chris Lawton on Unsplash.</h6></center>
 
 
 
