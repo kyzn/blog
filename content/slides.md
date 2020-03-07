@@ -5,7 +5,7 @@ date: 2019-08-25T12:57:19-07:00
 
 ## 2020, Southern California Linux Expo (SCALE), Pasadena
 
-- My First Pull Request, will be available soon
+- My First Pull Request, [PDF](/slides/SCALE/2020/PullRequest.pdf)
 
 ## 2018, The Perl Conference in Glasgow, Scotland
 
