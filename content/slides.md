@@ -3,6 +3,10 @@ title: "Slides"
 date: 2019-08-25T12:57:19-07:00
 ---
 
+## 2020, Southern California Linux Expo (SCALE), Pasadena
+
+- My First Pull Request, will be available soon
+
 ## 2018, The Perl Conference in Glasgow, Scotland
 
 - CPAN Pull Request Challenge [PDF](/slides/TPC/2018-EU/PullRequestChallenge.pdf), [YouTube](https://www.youtube.com/watch?v=QiZOEIwkuek)
