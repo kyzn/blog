@@ -1,41 +1,112 @@
 baseURL = "https://kyzn.org"
-languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Kivanc Yazan"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
-[author]
-  name = "Kivanc Yazan"
 
 [blackfriday]
   hrefTargetBlank = true
   # noreferrerLinks = true
   nofollowLinks = true
 
+[languages]
+
+  [languages.en]
+    title = "Kivanc Yazan"
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
+    copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License." # This message is only used by the RSS template.
+
+    [languages.en.author]
+      name = "Kivanc Yazan"
+
+    [languages.en.params]
+      dateform        = "Jan 2, 2006"
+      dateformShort   = "Jan 2"
+      dateformNum     = "2006-01-02"
+      dateformNumTime = "2006-01-02 15:04 -0700"
+      homeSubtitle = "Software engineer interested in web apps & security."
+      footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>'
+
+    [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        name = "Posts"
+        url = "posts/"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        name = "Slides"
+        url = "slides/"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        name = "PR Club"
+        url = "https://pullrequest.club"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        name = "Türkçe"
+        url  = "tr/"
+        weight = 99
+
+  [languages.tr]
+    title = "Kıvanç Yazan"
+    languageName = "Türkçe"
+    languageCode = "tr-tr"
+    weight = 2
+    copyright = "Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır." # This message is only used by the RSS template.
+
+    [languages.tr.author]
+      name = "Kıvanç Yazan"
+
+    [languages.tr.params]
+      dateform        = "2 Jan 2006" # These two actually don't work. So I had to hack a index at
+      dateformShort   = "2 Jan"      # layouts/_defaults/list.html and hermit/layouts/posts/single.html
+      dateformNum     = "02/01/2006"
+      dateformNumTime = "02/01/2006 15:04 -0700"
+      homeSubtitle = "Web uygulamaları ve güvenliği ile ilgilenen bir yazılım mühendisi."
+      footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>'
+
+    [languages.tr.menu]
+
+      [[languages.tr.menu.main]]
+        name = "Yazılar"
+        url = "posts/"
+        weight = 1
+
+      [[languages.tr.menu.main]]
+        name = "Sunular"
+        url = "slides/"
+        weight = 2
+
+      [[languages.tr.menu.main]]
+        name = "PR Kulübü"
+        url = "https://pullrequest.club"
+        weight = 3
+
+      [[languages.tr.menu.main]]
+        name = "English"
+        url = "https://kyzn.org/" # because absLangURL makes / a tr/
+        weight = 99
+
+
 [taxonomies]
   tag = "tags"
   # Categories are disabled by default.
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
 
-  homeSubtitle = "Software engineer interested in web apps & security."
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>'
+  themeColor = "#494f5c"
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -68,20 +139,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/kivancyazan/"
-
-[menu]
-
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-
-  [[menu.main]]
-    name = "Slides"
-    url = "slides/"
-    weight = 20
-
-  [[menu.main]]
-    name = "PR Club"
-    url = "https://pullrequest.club"
-    weight = 20
