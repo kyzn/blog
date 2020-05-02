@@ -3,6 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $trShortMonths := dict "1" "Oca" "2" "Şub" "3" "Mar" "4" "Nis" "5" "May" "6" "Haz" "7" "Tem" "8" "Ağu" "9" "Eyl" "10" "Eki" "11" "Kas" "12" "Ara" }}
 	<main class="site-main section-inner thin animated fadeIn faster">
 		<h1>{{ .Title }}</h1>
 		{{- if .Content }}
@@ -18,7 +19,11 @@
 				<li class="post-item">
 					<a href="{{.Permalink}}">
 						<span class="post-title">{{.Title}}</span>
+						{{- if (eq .Site.LanguageCode "tr-tr") }}
+						<span class="post-day">{{ .Date.Day }} {{ index $trShortMonths (printf "%d" .Date.Month) }}</span>
+						{{- else }}
 						<span class="post-day">{{ .Date.Format .Site.Params.dateformShort }}</span>
+						{{- end }}
 					</a>
 				</li>
 				{{- end }}

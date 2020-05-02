@@ -13,13 +13,18 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $trShortMonths := dict "1" "Oca" "2" "Şub" "3" "Mar" "4" "Nis" "5" "May" "6" "Haz" "7" "Tem" "8" "Ağu" "9" "Eyl" "10" "Eki" "11" "Kas" "12" "Ara" }}
 	{{- if (or .Params.images .Params.featuredImg) }}
 	<div class="bg-img"></div>
 	{{- end }}
 	<main class="site-main section-inner animated fadeIn faster">
 		<article class="thin">
 			<header class="post-header">
+				{{- if (eq .Site.LanguageCode "tr-tr") }}
+				<div class="post-meta"><span>{{ .Date.Day }} {{ index $trShortMonths (printf "%d" .Date.Month) }} {{ .Date.Year }}</span></div>
+				{{- else }}
 				<div class="post-meta"><span>{{ .Date.Format .Site.Params.dateform }}</span></div>
+				{{- end }}
 				<h1>{{ .Title }}</h1>
 			</header>
 			<div class="content">
