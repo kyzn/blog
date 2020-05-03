@@ -1,0 +1,132 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Kıvanç Yazan</title>
+		<link>https://kyzn.org/tr/posts/</link>
+		<description>Recent content in Posts on Kıvanç Yazan</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>tr-tr</language>
+		<copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
+		<lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate>
+		<atom:link href="https://kyzn.org/tr/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Pull Request Kulübü 2019 Raporu</title>
+			<link>https://kyzn.org/tr/posts/prc-2019-report/</link>
+			<pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+			
+			<guid>https://kyzn.org/tr/posts/prc-2019-report/</guid>
+			<description>CPAN Meydan Okuması CPAN geliştiricileri ile katkı sağlamak isteyen katılımcıları eşleştiriyordu. Katılımcılar aylık ödev almak için kayıt oluyordu. Hedef ise en azından 1 pull request göndermekti. Bu çok eğlenceliydi, ama 2018 sonunda sona erdi.
+Ben bu meydan okumanın devam etmesini istediğim için Pull Request Kulübü’nü oluşturdum. Başladığımızdan beri tam bir yıl geçtiği için yıllık bir rapor yazıp sayıları paylaşmak istedim.
+Yeni özellikler  Pull Request Kulübü temel özelliklerini CPAN Meydan Okuması’ndan alıyor ancak ben biraz daha self servis bir site yaratmak istedim.</description>
+			<content type="html"><![CDATA[
+
+<p>CPAN Meydan Okuması CPAN geliştiricileri ile katkı sağlamak isteyen katılımcıları eşleştiriyordu. Katılımcılar aylık ödev almak için kayıt oluyordu. Hedef ise en azından 1 pull request göndermekti. Bu çok eğlenceliydi, ama 2018 sonunda sona erdi.</p>
+
+<p>Ben bu meydan okumanın devam etmesini istediğim için Pull Request Kulübü’nü oluşturdum. Başladığımızdan beri tam bir yıl geçtiği için yıllık bir rapor yazıp sayıları paylaşmak istedim.</p>
+
+<h1 id="yeni-özellikler">Yeni özellikler</h1>
+
+<ul>
+<li>Pull Request Kulübü temel özelliklerini CPAN Meydan Okuması’ndan alıyor ancak ben biraz daha self servis bir site yaratmak istedim. Kayıt olmak veya bir ödevi atlamak gibi işlemler artık birkaç tıklama ile yapılabiliyor.</li>
+<li>Kullanıcılar siteye GitHub hesaplarıyla kayıt oluyorlar. Böylece kendi depolarını çok kolay bir şekilde ödev havuzuna ekleyebiliyorlar.</li>
+<li>Kullanıcılar sitede hem aldıkları hem de verdikleri ödev geçmişlerini görebiliyorlar.</li>
+</ul>
+
+<p><img src="/images/prc-home-2019-12.png" alt="" />
+<center><h6>Pull Request Kulübü, Benim Ödevim sayfası.</h6></center></p>
+
+<h1 id="sayılar">Sayılar</h1>
+
+<ul>
+<li>Havuzda 100&rsquo;den fazla kullanıcımız ve 200&rsquo;den fazla depomuz oldu.</li>
+<li>70 kullanıcımız en az 1 ödev aldı.</li>
+<li>16 kullanıcımız en az 1 ödevini tamamladı.</li>
+<li>Sadece 1 kullanıcımız 12 ödevin hepsini tamamladı.</li>
+<li>Ekim ayı 8 ödev ile en çok ödevin tamamlandığı ay oldu. Ekim’i 7 ödev ile Ocak ve Mart izledi.</li>
+<li>21 kullanıcımızın en az 1 deposu ödev olarak verildi.</li>
+<li>14 kullanıcımız en az 1 pull request aldı.</li>
+<li>Bu yıl 170&rsquo;ten fazla ödev dağıttık.</li>
+<li>Bu ödevlerin 60 tanesi tamamlandı. Yani <strong>kullanıcılarımız 60 pull request gönderdi</strong>.</li>
+</ul>
+
+<p><center>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">I joined <a href="https://twitter.com/PullRequestClub?ref_src=twsrc%5Etfw">@PullRequestClub</a> yesterday. Today I got my first Pull Request and it was from <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a> himself. This thing works!!!<br><br>Also, thanks <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a>. I need to buy you lunch sometime. <a href="https://t.co/Bk3iTFJzUu">https://t.co/Bk3iTFJzUu</a></p>&mdash; Olaf Alders (@olafalders) <a href="https://twitter.com/olafalders/status/1179083495177629696?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<center><h6>Olaf Alders: &ldquo;Dün Pull Request Kulübü’ne katıldım. Bugün ilk Pull Requestimi aldım. Bu site işe yarıyor!&rdquo;</h6></center></p>
+
+<h1 id="bize-katılın">Bize katılın!</h1>
+
+<p>Kulağınıza ilginç geldi mi? Yeni yılda açık kaynak dünyasına siz de katkı sağlamak ister misiniz? <a href="https://pullrequest.club" rel="nofollow" target="_blank">Pull Request Kulübü</a>’ne hemen bugün katılabilirsiniz.</p>
+
+<p>Sadece depolarınıza gelecek pull requestler ile ilgileniyorsanız da kaydolabilirsiniz. Kayıt olduktan sonra ödev almak istemediğinizi belirtseniz bile depolarınızı ödev havuzunda tutabilirsiniz.</p>
+
+<p>Yeni yıldan önce kayıt olursanız (ve ödev almak istediğinizi belirtirseniz), ilk ödevinizi 1 Ocak&rsquo;ta alabilirsiniz.</p>
+
+<p><img src="/images/prc-card.jpg" alt="" /></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Hoş Geldin Hugo</title>
+			<link>https://kyzn.org/tr/posts/welcome-hugo/</link>
+			<pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+			
+			<guid>https://kyzn.org/tr/posts/welcome-hugo/</guid>
+			<description>Blogumu bir statik site üreticisinden başkasına taşıdım. Bugüne kadar Plerd’ün sadeleştirilmiş bir kopyası ile html dosyalarını üretiyordum. Doğruyu söylemek gerekirse bu aslında güzel bir sistemdi. Şimdi aynı markdown dosyalarından statik içerik üretmek için Hugo’yu kullanıyorum.
+mini-plerd’ü (yukarıda bahsettiğim sadeleştirilmiş Plerd) ne kadar istesem de güncel tutamadım. Orijinal Plerd’ün bazı güncellemelerini kendi kopyama dahil edemedim. Çok yakın bir zamana kadar markdown tablolarını bile destekleyemiyordum. Belki de Plerd’ün kendisini kullansam daha iyi olurdu.</description>
+			<content type="html"><![CDATA[<p>Blogumu bir statik site üreticisinden başkasına taşıdım. Bugüne kadar <a href="https://github.com/jmacdotorg/plerd" rel="nofollow" target="_blank">Plerd</a>’ün <a href="https://github.com/kyzn/mini-plerd" rel="nofollow" target="_blank">sadeleştirilmiş bir kopyası</a> ile html dosyalarını üretiyordum. Doğruyu söylemek gerekirse bu aslında güzel bir sistemdi. Şimdi aynı markdown dosyalarından statik içerik üretmek için <a href="https://gohugo.io" rel="nofollow" target="_blank">Hugo</a>’yu kullanıyorum.</p>
+
+<p>mini-plerd’ü (yukarıda bahsettiğim sadeleştirilmiş Plerd) ne kadar istesem de güncel tutamadım. Orijinal Plerd’ün bazı güncellemelerini kendi kopyama dahil edemedim. Çok yakın bir zamana kadar markdown tablolarını bile destekleyemiyordum. Belki de Plerd’ün kendisini kullansam daha iyi olurdu.</p>
+
+<p>Hugo <a href="https://themes.gohugo.io/" rel="nofollow" target="_blank">çok sayıda tema</a> ile geliyor. Bunlardan bir tane seçmeniz gerekiyor. Temayı kurmak ve değiştirmek gayet kolay.</p>
+
+<p>Ayrıca blogu internete yükleme şeklimi de değiştirdim. Önceden dosyalarımı DigitalOcean’a yüklüyor, oradan da nginx aracılığıyla yayınlıyordum. Bunun maliyeti ayda 5 dolardı. Şimdi düşünüyorum da AWS S3 veya DigitalOcean Spaces gibi bir obje deposu da kullanabilirdim. Artık <a href="https://pages.github.com" rel="nofollow" target="_blank">GitHub pages</a> kullanıyorum. Burada dosyalarınızı bir depoya yüklüyorsunuz ve GitHub sizin için ücretsiz bir şekilde yayınlıyor. Kendi alan adınızla da kullanabilmeniz güzel bir detay.</p>
+
+<p>Şimdilik Hugo’yu çok sevdim. Yerelde yeni yazılar yazmak çok kolay. Yakında Hugo ile ilgili bir kurulum blogu yazacağım. Yüklerken karşılaştığım hata mesajlarını da içerecek.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Koşutakvimi Kapanıyor</title>
+			<link>https://kyzn.org/tr/posts/kosutakvimi-going-down/</link>
+			<pubDate>Tue, 21 Jul 2015 21:51:37 +0000</pubDate>
+			
+			<guid>https://kyzn.org/tr/posts/kosutakvimi-going-down/</guid>
+			<description>Türkiye&amp;rsquo;deki ve çevresindeki koşu etkinliklerinin listelendiği basit takvim uygulamasını sonlandırmaya karar verdim. kosutakvimi.org alanında ilklerden biri olmuştu. Tek Türkçe koşu podcastinde tanıtılmıştı. Aşağıda başarılı bazı alternatiflerini bulabilirsiniz:
+koscora.com/yaris-takvimi
+yaristakvimi.com
+kosukolik.com/etkinlik-takvimi/
+Runnery for Android
+Runnery for iOS</description>
+			<content type="html"><![CDATA[<p>Türkiye&rsquo;deki ve çevresindeki koşu etkinliklerinin listelendiği basit takvim uygulamasını sonlandırmaya karar verdim. kosutakvimi.org alanında ilklerden biri olmuştu. Tek Türkçe koşu podcastinde <a href="https://kosturmaca.wordpress.com/2014/09/26/bolum-47-spartatlon-ve-yakin-tarihli-kosu-yarislari/" rel="nofollow" target="_blank">tanıtılmıştı</a>. Aşağıda başarılı bazı alternatiflerini bulabilirsiniz:</p>
+
+<p><a href="http://koscora.com/yaris-takvimi/" rel="nofollow" target="_blank">koscora.com/yaris-takvimi</a></p>
+
+<p><a href="http://www.yaristakvimi.com/" rel="nofollow" target="_blank">yaristakvimi.com</a></p>
+
+<p><a href="http://www.kosukolik.com/#!etkinlik-takvimi/c1i52" rel="nofollow" target="_blank">kosukolik.com/etkinlik-takvimi/</a></p>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.imaginor.runnery" rel="nofollow" target="_blank">Runnery for Android</a></p>
+
+<p><a href="https://itunes.apple.com/tr/app/runnery/id911690713?mt=8" rel="nofollow" target="_blank">Runnery for iOS</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Yahoo&#39;nun 11 Mart Arama Kampanyası</title>
+			<link>https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/</link>
+			<pubDate>Sat, 14 Mar 2015 00:53:59 +0000</pubDate>
+			
+			<guid>https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/</guid>
+			<description>Japonyanın en çok ziyaret edilen web sitesi Yahoo, 11 Mart&amp;rsquo;ta gerçekleşen Doğu Japonya Depremi&amp;rsquo;nin 4. yıldönümünde anlamlı bir kampanya gerçekleştirdi. Yapılan her &amp;ldquo;3.11&amp;rdquo; araması için yardım kampanyalarına 10 yen bağışladılar. &amp;ldquo;3.11 için ara&amp;rdquo; kampanyasına yaklaşık 3 milyon kişi katıldı. Yahoo yaklaşık 240 bin dolar bağışlayacak. Bu sadece maddi bir bağış değil, ayrıca bir bilinçlendirme çalışması.
+ Deprem ile ilgili en çok aranan kelimelerden hazırladıkları görseli de paylaştılar. Her yılın 11 Mart gününde deprem ile ilgili kelimelerle yapılan aramalardaki artış görülebilir.</description>
+			<content type="html"><![CDATA[<p>Japonyanın en çok ziyaret edilen web sitesi Yahoo, 11 Mart&rsquo;ta gerçekleşen Doğu Japonya Depremi&rsquo;nin 4. yıldönümünde anlamlı bir kampanya gerçekleştirdi. Yapılan her &ldquo;3.11&rdquo; araması için yardım kampanyalarına 10 yen bağışladılar. &ldquo;<a href="http://search.yahoo.co.jp/searchfor311/2015/" rel="nofollow" target="_blank">3.11 için ara</a>&rdquo; kampanyasına yaklaşık 3 milyon kişi katıldı. Yahoo yaklaşık 240 bin dolar bağışlayacak. Bu sadece maddi bir bağış değil, ayrıca bir bilinçlendirme çalışması.</p>
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/TVEBlhPf0io" frameborder="0" allowfullscreen></iframe>
+
+<p>Deprem ile ilgili en çok aranan kelimelerden hazırladıkları görseli de paylaştılar. Her yılın 11 Mart gününde deprem ile ilgili kelimelerle yapılan aramalardaki artış görülebilir. Örneğin benim için en üzücü aramalardan biri &ldquo;nükleer erime nedir&rdquo; sorgusuydu. Ayrıca <a href="http://search.yahoo.co.jp/searchfor311_2015_flash.html" rel="nofollow" target="_blank">bu interaktif sunuya</a> da bakabilirsiniz.</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

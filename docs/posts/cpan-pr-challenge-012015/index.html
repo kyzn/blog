@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="CPAN PR Challenge 01/2015">
+<meta itemprop="description" content="When I was reading through Perl Weekly newsletter the other day, I realized that there is a challenge named &lsquo;CPAN Pull Request Challenge&rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right here.
+The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code.">
+
+
+<meta itemprop="datePublished" content="2015-01-17T16:50:08&#43;00:00" />
+<meta itemprop="dateModified" content="2015-01-17T16:50:08&#43;00:00" />
+<meta itemprop="wordCount" content="523">
+
+
+
+<meta itemprop="keywords" content="perl,pull-request," />
+<meta property="og:title" content="CPAN PR Challenge 01/2015" />
+<meta property="og:description" content="When I was reading through Perl Weekly newsletter the other day, I realized that there is a challenge named &lsquo;CPAN Pull Request Challenge&rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right here.
+The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kyzn.org/posts/cpan-pr-challenge-012015/" />
+<meta property="article:published_time" content="2015-01-17T16:50:08+00:00" />
+<meta property="article:modified_time" content="2015-01-17T16:50:08+00:00" /><meta property="og:site_name" content="Kivanc Yazan" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CPAN PR Challenge 01/2015"/>
+<meta name="twitter:description" content="When I was reading through Perl Weekly newsletter the other day, I realized that there is a challenge named &lsquo;CPAN Pull Request Challenge&rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right here.
+The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>CPAN PR Challenge 01/2015</title>
+	<link rel="stylesheet" href="https://kyzn.org/css/style.min.b93d42479df6f74537c3be071f81b8f5a33fca83a2601447b4ac50d988280b5f.css" integrity="sha256-uT1CR53290U3w74HH4G49aM/yoOiYBRHtKxQ2YgoC18=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://kyzn.org/posts/">Posts</a>
+				<a href="https://kyzn.org/slides/">Slides</a>
+				<a href="https://pullrequest.club">PR Club</a>
+				<a href="https://kyzn.org/tr/">Türkçe</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="mailto:kyzn@cpan.org" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://twitter.com/kyzn" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/kyzn" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/kivancyazan/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://kyzn.org/posts/">Posts</a></li>
+			<li><a href="https://kyzn.org/slides/">Slides</a></li>
+			<li><a href="https://pullrequest.club">PR Club</a></li>
+			<li><a href="https://kyzn.org/tr/">Türkçe</a></li>
+		</ul>
+	</div>
+
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jan 17, 2015</span></div>
+				<h1>CPAN PR Challenge 01/2015</h1>
+			</header>
+			<div class="content">
+				<p>When I was reading through <a href="http://perlweekly.com/" rel="nofollow" target="_blank">Perl Weekly</a> newsletter the other day, I realized that there is a challenge named &lsquo;CPAN Pull Request Challenge&rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right <a href="http://neilb.org/2014/11/29/pr-challenge-2015.html" rel="nofollow" target="_blank">here</a>.</p>
+
+<p>The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code. Be it improving documentation, writing more tests to improve test coverage, fixing a bug or actually implementing a new feature, you were to do something and then submit a pull request on GitHub. As this challenge was open to &lsquo;anyone&rsquo;, there were several documents explaining how GitHub works, and how to submit your first pull request and what not. If you have a look at <a href="http://blogs.perl.org" rel="nofollow" target="_blank">blogs.perl.org</a>, you&rsquo;ll see several of them. Even if you&rsquo;re not going to participate, they are still pretty decent how-to documents, and having a look will not hurt.</p>
+
+<p>Here&rsquo;s what I did for January: I was assigned <a href="https://github.com/exodist/Exporter-Declare" rel="nofollow" target="_blank">Exporter::Declare</a>, a module that is rather decent and in a good shape. First thing I realized was the readme file. It did not contain any markdown elements of GitHub. So I forked the code, renamed README to README.md (to denote markdown, explanation <a href="http://stackoverflow.com/questions/5922882/what-file-uses-md-extension-and-how-should-i-edit-them" rel="nofollow" target="_blank">here</a>) and changed the file. I added headers, code blocks with syntax highlighting, and sent a <a href="https://github.com/exodist/Exporter-Declare/pull/9" rel="nofollow" target="_blank">pull request</a>.</p>
+
+<p><img src="/images/cpanprc-oldreadme.png" alt="" />
+<center><h6>Old readme file with no markdown.</h6></center></p>
+
+<p><img src="/images/cpanprc-newreadme.png" alt="" />
+<center><h6>Modified readme file with markdown.</h6></center></p>
+
+<p>This was pretty simple and extremely easy task to complete, but it wasn&rsquo;t the great PR, as the readme file turned out to be auto generated. Then I took a look into <a href="http://blogs.perl.org/users/michal_wojciechowski/2011/11/github-friendly-readme-files-with-extutils-makemaker-and-module-build.html" rel="nofollow" target="_blank">this post</a>, which described the way to handle auto-generated github-friendly readme files. I ended up creating another pull request for this approach at <a href="https://github.com/exodist/Exporter-Declare/pull/10" rel="nofollow" target="_blank">here</a>.</p>
+
+<p><img src="/images/cpanprc-autoreadme.png" alt="" />
+<center><h6>Automatically generated readme file with markdown.</h6></center></p>
+
+<p>It&rsquo;s a small contribution, but I believe it&rsquo;s still better than giving nothing to the community at all. Plus, this is only the beginning. There will be 11 more tasks assigned to me, and I promise to work harder on upcoming module assignments. For example, I haven&rsquo;t written any tests for my only module on CPAN, as I always found an excuse to skip writing them. As searching for what I can do to improve my assignment, I&rsquo;ve already learned about <a href="http://blogs.perl.org/users/neilb/2014/08/check-your-test-coverage-with-develcover.html" rel="nofollow" target="_blank">Devel::Cover</a>, <a href="http://cpancover.com" rel="nofollow" target="_blank">cpancover.com</a>, and <a href="http://www.cpantesters.org/" rel="nofollow" target="_blank">cpantesters</a>. Test is not the only thing I&rsquo;ve learned about: There is <a href="http://en.wikipedia.org/wiki/Perl::Critic" rel="nofollow" target="_blank">Perl::Critic</a> that evaluates your code. There is also a way to <a href="http://perlmaven.com/how-to-add-link-to-version-control-system-of-a-cpan-distributions" rel="nofollow" target="_blank">add your github link to the meta file</a>.</p>
+
+<p>I&rsquo;ll finish with two quotes: One is about pull requests. They say that the &lsquo;true&rsquo; way of submitting a PR is by <a href="http://neilb.org/2015/01/10/pr-in-branch.html" rel="nofollow" target="_blank">creating a new branch</a>. This was something I was not aware of. The other one comes from the mail-list of CPAN-PR: They say &ldquo;Code can almost always use more comments: this is no exception.&rdquo;</p>
+
+<p>If you want to join in, I suppose you&rsquo;re not late. Try to e-mail Neil Bowers and he&rsquo;ll most probably assign you a module. See January assignments <a href="http://cpan-prc.org/2015/january.html" rel="nofollow" target="_blank">here</a> (not all of them are public, so the number is higher than what you see.)</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>Kivanc Yazan</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://kyzn.org/tags/perl">perl</a></span><span class="tag"><a href="https://kyzn.org/tags/pull-request">pull-request</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>523 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2015-01-17 18:50 &#43;0200</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://kyzn.org/posts/new-type-of-network-in-eksisozluk/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>New Type of Network in Ekşisözlük</span>
+			</a>
+			<a class="prev-post" href="https://kyzn.org/posts/uncyclopedia-to-detect-sarcasm/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Uncyclopedia to Detect Sarcasm?</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://kyzn.org">Kivanc Yazan</a> &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+		<p>
+			<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://kyzn.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://kyzn.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

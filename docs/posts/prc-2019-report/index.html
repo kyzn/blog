@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Pull Request Club 2019 Report">
+<meta itemprop="description" content="CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.
+I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights.">
+
+
+<meta itemprop="datePublished" content="2019-12-28T19:30:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-12-28T19:30:00&#43;00:00" />
+<meta itemprop="wordCount" content="344">
+
+
+
+<meta itemprop="keywords" content="perl,pull-request," />
+<meta property="og:title" content="Pull Request Club 2019 Report" />
+<meta property="og:description" content="CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.
+I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kyzn.org/posts/prc-2019-report/" />
+<meta property="article:published_time" content="2019-12-28T19:30:00+00:00" />
+<meta property="article:modified_time" content="2019-12-28T19:30:00+00:00" /><meta property="og:site_name" content="Kivanc Yazan" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pull Request Club 2019 Report"/>
+<meta name="twitter:description" content="CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.
+I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Pull Request Club 2019 Report</title>
+	<link rel="stylesheet" href="https://kyzn.org/css/style.min.b93d42479df6f74537c3be071f81b8f5a33fca83a2601447b4ac50d988280b5f.css" integrity="sha256-uT1CR53290U3w74HH4G49aM/yoOiYBRHtKxQ2YgoC18=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://kyzn.org/posts/">Posts</a>
+				<a href="https://kyzn.org/slides/">Slides</a>
+				<a href="https://pullrequest.club">PR Club</a>
+				<a href="https://kyzn.org/tr/">Türkçe</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="mailto:kyzn@cpan.org" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://twitter.com/kyzn" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/kyzn" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/kivancyazan/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://kyzn.org/posts/">Posts</a></li>
+			<li><a href="https://kyzn.org/slides/">Slides</a></li>
+			<li><a href="https://pullrequest.club">PR Club</a></li>
+			<li><a href="https://kyzn.org/tr/">Türkçe</a></li>
+		</ul>
+	</div>
+
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Dec 28, 2019</span></div>
+				<h1>Pull Request Club 2019 Report</h1>
+			</header>
+			<div class="content">
+				
+
+<p>CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.</p>
+
+<p>I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights.</p>
+
+<h1 id="new-features">New features<a href="#new-features" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+
+<ul>
+<li>While Pull Request Club took its basics from CPAN-PRC, I wanted to make it more self-served. Users can take various actions such as signing up or skipping an assignment with a few clicks.</li>
+<li>Users sign up to the site with their GitHub accounts. This lets them add their repositories to the assignment pool without hassle.</li>
+<li>Users can see both their “assignment history” and “assignee history”.</li>
+</ul>
+
+<p><img src="/images/prc-home-2019-12.png" alt="" /></p>
+
+<h1 id="numbers">Numbers<a href="#numbers" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+
+<ul>
+<li>We have reached 100+ users and 200+ repositories in the pool.</li>
+<li>70 users have received at least 1 assignment.</li>
+<li>16 of them have completed at least 1 assignment.</li>
+<li>Only 1 user has completed all 12 assignments.</li>
+<li>October was the month with most assignments completed (8), followed by January and March (7).</li>
+<li>21 users have received at least 1 assignee.</li>
+<li>14 of them have received at least 1 pull request.</li>
+<li>170+ assignments were out this year.</li>
+<li>60 of those were completed, meaning <strong>users have submitted 60 pull requests</strong>.</li>
+</ul>
+
+<p><center>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">I joined <a href="https://twitter.com/PullRequestClub?ref_src=twsrc%5Etfw">@PullRequestClub</a> yesterday. Today I got my first Pull Request and it was from <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a> himself. This thing works!!!<br><br>Also, thanks <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a>. I need to buy you lunch sometime. <a href="https://t.co/Bk3iTFJzUu">https://t.co/Bk3iTFJzUu</a></p>&mdash; Olaf Alders (@olafalders) <a href="https://twitter.com/olafalders/status/1179083495177629696?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center></p>
+
+<h1 id="join-us">Join us!<a href="#join-us" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+
+<p>Does this sound interesting to you? Do you want to contribute to open source more in the new year? You can join us at <a href="https://pullrequest.club" rel="nofollow" target="_blank">PullRequest.Club</a> today.</p>
+
+<p>Feel free to sign up if you are only interested in getting more pull requests too. You can opt out of assignments while keeping your repositories in the pool.</p>
+
+<p>If you sign up before the new year (and opt into receiving assignments), you will get an assignment on January 1st.</p>
+
+<p><img src="/images/prc-card.jpg" alt="" /></p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>Kivanc Yazan</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://kyzn.org/tags/perl">perl</a></span><span class="tag"><a href="https://kyzn.org/tags/pull-request">pull-request</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>344 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-12-28 22:30 &#43;0300</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://kyzn.org/posts/welcome-hugo/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Welcome Hugo</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://kyzn.org">Kivanc Yazan</a> &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+		<p>
+			<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://kyzn.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://kyzn.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

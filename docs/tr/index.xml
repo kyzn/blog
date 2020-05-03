@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kıvanç Yazan</title>
+    <link>https://kyzn.org/tr/</link>
+    <description>Recent content on Kıvanç Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-tr</language>
+    <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
+    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pull Request Kulübü 2019 Raporu</title>
+      <link>https://kyzn.org/tr/posts/prc-2019-report/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/prc-2019-report/</guid>
+      <description>CPAN Meydan Okuması CPAN geliştiricileri ile katkı sağlamak isteyen katılımcıları eşleştiriyordu. Katılımcılar aylık ödev almak için kayıt oluyordu. Hedef ise en azından 1 pull request göndermekti. Bu çok eğlenceliydi, ama 2018 sonunda sona erdi.
+Ben bu meydan okumanın devam etmesini istediğim için Pull Request Kulübü’nü oluşturdum. Başladığımızdan beri tam bir yıl geçtiği için yıllık bir rapor yazıp sayıları paylaşmak istedim.
+Yeni özellikler  Pull Request Kulübü temel özelliklerini CPAN Meydan Okuması’ndan alıyor ancak ben biraz daha self servis bir site yaratmak istedim.</description>
+    </item>
+    
+    <item>
+      <title>Hoş Geldin Hugo</title>
+      <link>https://kyzn.org/tr/posts/welcome-hugo/</link>
+      <pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/welcome-hugo/</guid>
+      <description>Blogumu bir statik site üreticisinden başkasına taşıdım. Bugüne kadar Plerd’ün sadeleştirilmiş bir kopyası ile html dosyalarını üretiyordum. Doğruyu söylemek gerekirse bu aslında güzel bir sistemdi. Şimdi aynı markdown dosyalarından statik içerik üretmek için Hugo’yu kullanıyorum.
+mini-plerd’ü (yukarıda bahsettiğim sadeleştirilmiş Plerd) ne kadar istesem de güncel tutamadım. Orijinal Plerd’ün bazı güncellemelerini kendi kopyama dahil edemedim. Çok yakın bir zamana kadar markdown tablolarını bile destekleyemiyordum. Belki de Plerd’ün kendisini kullansam daha iyi olurdu.</description>
+    </item>
+    
+    <item>
+      <title>Anki</title>
+      <link>https://kyzn.org/tr/anki/</link>
+      <pubDate>Sun, 25 Aug 2019 13:04:26 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tr/anki/</guid>
+      <description>Bu sayfada bir süre önce hazırlamış olduğum Anki kanji setlerini bulabilirsiniz.
+ 102 Write 201 Write 202 Write 301 Read 301 Write  </description>
+    </item>
+    
+    <item>
+      <title>Sunular</title>
+      <link>https://kyzn.org/tr/slides/</link>
+      <pubDate>Sun, 25 Aug 2019 12:57:19 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tr/slides/</guid>
+      <description> 2020, Güney Kaliforniya Linux Fuarı, Pasadena  Açık Kaynak Dünyasına İlk Katkım PDF, YouTube  2018, Avrupa Perl Konferansı, Glasgow, İskoçya  CPAN Meydan Okuması PDF, YouTube Katkıcı Ahdi Topluluk Sözleşmesi (Kısa Sunum) PDF, YouTube  2018, Kuzey Amerika Perl Konferansı, Salt Lake City, Utah  CPAN Meydan Okuması PDF, YouTube  2017, Büyük Veri Günü, Los Angeles, Kaliforniya  Kitle Tweetlerinde Yüzmek PDF, YouTube  2017, Kuzey Amerika Perl Konferansı, Alexandria, Virginia  Zaman Tutmanın Kısa Bir Tarihi PDF, YouTube  2016, Kuzey Amerika Perl Konferansı, Orlando, Florida  İlk CPAN Kütüphanem (Kısa Sunum) PDF, YouTube  2015, Akademik Bilişim Konferansı, Eskişehir  Sosyal Ağlar Üzerinden Deprem Tespiti Sunu, Makale  </description>
+    </item>
+    
+    <item>
+      <title>Koşutakvimi Kapanıyor</title>
+      <link>https://kyzn.org/tr/posts/kosutakvimi-going-down/</link>
+      <pubDate>Tue, 21 Jul 2015 21:51:37 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/kosutakvimi-going-down/</guid>
+      <description>Türkiye&amp;rsquo;deki ve çevresindeki koşu etkinliklerinin listelendiği basit takvim uygulamasını sonlandırmaya karar verdim. kosutakvimi.org alanında ilklerden biri olmuştu. Tek Türkçe koşu podcastinde tanıtılmıştı. Aşağıda başarılı bazı alternatiflerini bulabilirsiniz:
+koscora.com/yaris-takvimi
+yaristakvimi.com
+kosukolik.com/etkinlik-takvimi/
+Runnery for Android
+Runnery for iOS</description>
+    </item>
+    
+    <item>
+      <title>Yahoo&#39;nun 11 Mart Arama Kampanyası</title>
+      <link>https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/</link>
+      <pubDate>Sat, 14 Mar 2015 00:53:59 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/</guid>
+      <description>Japonyanın en çok ziyaret edilen web sitesi Yahoo, 11 Mart&amp;rsquo;ta gerçekleşen Doğu Japonya Depremi&amp;rsquo;nin 4. yıldönümünde anlamlı bir kampanya gerçekleştirdi. Yapılan her &amp;ldquo;3.11&amp;rdquo; araması için yardım kampanyalarına 10 yen bağışladılar. &amp;ldquo;3.11 için ara&amp;rdquo; kampanyasına yaklaşık 3 milyon kişi katıldı. Yahoo yaklaşık 240 bin dolar bağışlayacak. Bu sadece maddi bir bağış değil, ayrıca bir bilinçlendirme çalışması.
+ Deprem ile ilgili en çok aranan kelimelerden hazırladıkları görseli de paylaştılar. Her yılın 11 Mart gününde deprem ile ilgili kelimelerle yapılan aramalardaki artış görülebilir.</description>
+    </item>
+    
+  </channel>
+</rss>

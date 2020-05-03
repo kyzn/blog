@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kivanc Yazan</title>
+    <link>https://kyzn.org/</link>
+    <description>Recent content on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pull Request Club 2019 Report</title>
+      <link>https://kyzn.org/posts/prc-2019-report/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/prc-2019-report/</guid>
+      <description>CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.
+I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights.</description>
+    </item>
+    
+    <item>
+      <title>Welcome Hugo</title>
+      <link>https://kyzn.org/posts/welcome-hugo/</link>
+      <pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+      
+      <guid>https://kyzn.org/posts/welcome-hugo/</guid>
+      <description>I’ve moved my blog from one static site generator to another. I used to use a stripped clone of Plerd to generate html files. To be clear, that was a nice setup! Now I’m using Hugo to generate static content, from the very same markdown files.
+I never was able to maintain mini-plerd (the stripped Plerd clone I mentioned above) as I hoped. Plerd upstream got updates, and I missed it.</description>
+    </item>
+    
+    <item>
+      <title>Anki</title>
+      <link>https://kyzn.org/anki/</link>
+      <pubDate>Sun, 25 Aug 2019 13:04:26 -0700</pubDate>
+      
+      <guid>https://kyzn.org/anki/</guid>
+      <description>Here are some Anki kanji decks from a while ago.
+ 102 Write 201 Write 202 Write 301 Read 301 Write  </description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://kyzn.org/slides/</link>
+      <pubDate>Sun, 25 Aug 2019 12:57:19 -0700</pubDate>
+      
+      <guid>https://kyzn.org/slides/</guid>
+      <description> 2020, Southern California Linux Expo (SCALE), Pasadena  My First Pull Request PDF, YouTube  2018, The Perl Conference in Glasgow, Scotland  CPAN Pull Request Challenge PDF, YouTube Contributor Covenant Code of Conduct (LT) PDF, YouTube  2018, The Perl Conference in Salt Lake City, UT  CPAN Pull Request Challenge PDF, YouTube  2017, Big Data Day in Los Angeles, CA  Crowd Surfing Tweets PDF, YouTube  2017, The Perl Conference in Alexandria, VA  A Brief History of Timekeeping PDF, YouTube  2016, The Perl Conference in Orlando, FL  My First CPAN Module (LT) PDF, YouTube  2015, Akademik Bilişim Konferansı, Eskişehir  Sosyal Ağlar Üzerinden Deprem Tespiti Slides, Paper  </description>
+    </item>
+    
+    <item>
+      <title>Loadable Libraries Mismatched</title>
+      <link>https://kyzn.org/posts/loadable-libraries-mismatched/</link>
+      <pubDate>Fri, 24 May 2019 00:03:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/loadable-libraries-mismatched/</guid>
+      <description>While working on a Perl project, I have received an error message that I have never seen before. I did take a look at search engines, but no solutions there helped me. In the end I was able to figure out what&amp;rsquo;s wrong, so I thought I should share it here.
+Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc280000, needed 0xc180000)  This is more likely to happen if you are dealing with multiple versions of perl (note the word &amp;ldquo;mismatched&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>CPAN-PRC Report</title>
+      <link>https://kyzn.org/posts/cpan-prc-report/</link>
+      <pubDate>Thu, 27 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/cpan-prc-report/</guid>
+      <description>Neil Bowers had started CPAN Pull Request Challenge in January 2015. Participants received a CPAN module as their assignment each month. The goal was to submit pull requests. I joined the challenge right away. Here&amp;rsquo;s how it went.
+2015: Warming Up My last semester at Bogazici University in Istanbul started February of this year. I moved to California for grad school in September.
+I’ve completed my assignments in January and February before taking a long pause (and a long flight).</description>
+    </item>
+    
+    <item>
+      <title>Two Perl Conferences in One Year</title>
+      <link>https://kyzn.org/posts/two-perl-conferences-in-one-year/</link>
+      <pubDate>Mon, 20 Aug 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/two-perl-conferences-in-one-year/</guid>
+      <description>My very first Perl Conference was the one in Orlando, in 2016. In fact, the only blog I&amp;rsquo;ve written in 2016 was about that very conference. I&amp;rsquo;ve enjoyed it so much, I went again in 2017, this time as a speaker.
+I have attended not one but two Perl Conferences during 2018: One in Salt Lake City (NA), and one in Glasgow (EU). This time I was not only a speaker: I also organized a Birds of Feather (BOF).</description>
+    </item>
+    
+    <item>
+      <title>Setup Your Computer for CPAN-PRC</title>
+      <link>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</link>
+      <pubDate>Wed, 21 Feb 2018 21:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</guid>
+      <description>This blog is originally posted on perl.com, edited by David Farrell.
+Earlier I wrote about why should you join CPAN Pull Request Challenge. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.
+Option 1: The Docker Way By using a Docker image that has everything you need, you can start working in minutes.</description>
+    </item>
+    
+    <item>
+      <title>Why Should You Join CPAN-PRC?</title>
+      <link>https://kyzn.org/posts/why-should-you-join-cpan-prc/</link>
+      <pubDate>Thu, 25 Jan 2018 08:15:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/why-should-you-join-cpan-prc/</guid>
+      <description>This blog is originally posted on perl.com, edited by David Farrell.
+The CPAN Pull Request Challenge (PRC) aims to improve the quality of code on CPAN, the online archive of Perl modules, by having participants submit pull requests to CPAN module authors.
+Every month participants are assigned a new module to improve, and submit pull requests to the module repo on GitHub. Participants are not competing with each other, rather the &amp;ldquo;challenge&amp;rdquo; is to keep up with your monthly assignments.</description>
+    </item>
+    
+    <item>
+      <title>How to Setup Headless Raspberry Pi</title>
+      <link>https://kyzn.org/posts/how-to-setup-headless-raspberry-pi/</link>
+      <pubDate>Mon, 07 Aug 2017 22:13:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/how-to-setup-headless-raspberry-pi/</guid>
+      <description>Quarter to scale
+&amp;ldquo;I had no ideas for projects&amp;rdquo; was the reason I waited so long before finally buying a Raspberry Pi. I got tired of waiting for a light bulb to appear, and ordered a model Zero W. It&amp;rsquo;s the smallest one, and it can connect to wireless networks. Only later I found out that this model was not recommended for beginners. One of the reasons might be that there is no soldered general purpose pins.</description>
+    </item>
+    
+  </channel>
+</rss>
