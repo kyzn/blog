@@ -1,4 +1,4 @@
-This is hugo repository for [kivanc's blog](https://kyzn.org/). For generated `/public` folder see [kyzn/kyzn.github.io](https://github.com/kyzn/kyzn.github.io). 
+This is hugo repository for [kivanc's blog](https://kyzn.org/). Generated content (published on the blog) can be found in `/docs` folder.
 
 ## Quick notes
 
@@ -6,13 +6,9 @@ This is hugo repository for [kivanc's blog](https://kyzn.org/). For generated `/
 
       hugo server -p 3000
 
-- Generate `/public` folder
+- Generate content into `docs/` folder
 
-      hugo
-      
-- Copy public folder to the other repository
-
-      cp -r public/* ../kyzn.github.io/
+      hugo -d docs/
 
 - Add a new post
 
