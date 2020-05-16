@@ -9,7 +9,7 @@ tags:
 140 karakterlik mikro blogların yazıldığı Twitter'da kullanıcılar daha fazla takipçiye sahip olmak için savaşıyorlar. Twitter bağlantıları iki yönlü çalışıyor. Yani bir kullanıcı korumalı hesaplar hariç istediği herkesi takip edebiliyor. Bu sayede ünlü kişiler kolaylıkla onbinlerce takipçiye sahip olabiliyor. Bazıları milyonlara erişiyor. Bu aslında hesabın iyi olup olmadığını gösteren bir şey değil, ama Twitter bu sayıyı çok öne çıkarıyor. Dolayısıyla bu sayı kullanıcıların dikkatini çekiyor.
 
 ![](/images/twitter-obama.png)
-<center><h6>Number of followers is used to introduce the user by Twitter.</h6></center>
+<center><h6>Takipçi sayısı Twitter'da bir kullanıcı tanıtmak için kullanılıyor.</h6></center>
 
 Bazı kullanıcılar takipçi sayısını arttırmak için yasadışı marketlerde binlerce sahte, bot takipçi sayın alıyor.
 [Barracuda Labs](http://venturebeat.com/2012/08/11/the-twitter-black-market-barracuda-on-dealers-abusers-and-fake-accounts/) araştırmasına göre Mitt Romney'nin binlerce sahte takipçisi var. Bu tabii ki kendisinin takipçi satın aldığını göstermiyor, ama bu pazarın varlığını ispatlıyor. Türkiye'de, [Twitter 8. en çok ziyaret edilen site konumunda](https://web.archive.org/web/20141003145357/http://www.alexa.com/topsites/countries/TR), ve aynı sorun burada da var.
