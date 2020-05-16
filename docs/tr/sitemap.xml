@@ -1,19 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kyzn.org/tr/</loc>
-    <lastmod>2019-12-28T19:30:00+00:00</lastmod>
+    <loc>https://kyzn.org/tr/tags/ak%C4%B1ll%C4%B1-kart/</loc>
+    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/posts/log-in-to-e-government-with-id-card/</loc>
+    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kyzn.org/"
+                href="https://kyzn.org/posts/log-in-to-e-government-with-id-card/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
-                href="https://kyzn.org/tr/"
+                href="https://kyzn.org/tr/posts/log-in-to-e-government-with-id-card/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/posts/</loc>
+    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/</loc>
+    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/ubuntu/</loc>
+    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/ubuntu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/ubuntu/"
                 />
   </url>
   
@@ -29,21 +79,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://kyzn.org/tr/tags/perl/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://kyzn.org/tr/posts/</loc>
-    <lastmod>2019-12-28T19:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/posts/"
                 />
   </url>
   
@@ -74,21 +109,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://kyzn.org/tr/tags/pull-request/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://kyzn.org/tr/tags/</loc>
-    <lastmod>2019-12-28T19:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/tags/"
                 />
   </url>
   
@@ -124,6 +144,21 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://kyzn.org/tr/anki/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/</loc>
+    <lastmod>2019-08-25T13:04:26-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/"
                 />
   </url>
   
@@ -174,6 +209,56 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/sosyal-a%C4%9Flar/</loc>
+    <lastmod>2014-10-09T00:50:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/twitter/</loc>
+    <lastmod>2014-10-09T00:50:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/twitter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/twitter/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/posts/news-from-twitter/</loc>
+    <lastmod>2014-10-09T00:50:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/news-from-twitter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/news-from-twitter/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/posts/trending-topics-for-sale/</loc>
+    <lastmod>2014-09-30T23:30:34+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/trending-topics-for-sale/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/trending-topics-for-sale/"
                 />
   </url>
   

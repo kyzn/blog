@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr-tr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak">
+<meta itemprop="description" content="E-Devlet çok sayıda kurumun çok sayıda hizmeti sunduğu bir web uygulaması olarak artık birçok kişi tarafından kullanılıyor. Bu uygulamaya kimlik kartınızı kullanarak da giriş yapabiliyorsunuz. Estonya E-Oturumu başvurusundan kalan kart okuyucumu kullanarak giriş yapmayı denedim.
+Malzemeler:
+ Ubuntu 19.10 Estonia E-Oturumu USB kart okuyucu T.C. Kimlik Kartı ve kartın pin kodu  1. Adım Önce kart okuyucunun lsusb komutu tarafından gösterilip gösterilmediğine bakalım. Kart okuyucuyu bilgisayara bağlamadan önce lsusb komutunu çalıştırın.">
+<meta itemprop="datePublished" content="2020-05-16T15:30:00&#43;03:00" />
+<meta itemprop="dateModified" content="2020-05-16T15:30:00&#43;03:00" />
+<meta itemprop="wordCount" content="500">
+
+
+
+<meta itemprop="keywords" content="ubuntu,akıllı-kart," /><meta property="og:title" content="E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak" />
+<meta property="og:description" content="E-Devlet çok sayıda kurumun çok sayıda hizmeti sunduğu bir web uygulaması olarak artık birçok kişi tarafından kullanılıyor. Bu uygulamaya kimlik kartınızı kullanarak da giriş yapabiliyorsunuz. Estonya E-Oturumu başvurusundan kalan kart okuyucumu kullanarak giriş yapmayı denedim.
+Malzemeler:
+ Ubuntu 19.10 Estonia E-Oturumu USB kart okuyucu T.C. Kimlik Kartı ve kartın pin kodu  1. Adım Önce kart okuyucunun lsusb komutu tarafından gösterilip gösterilmediğine bakalım. Kart okuyucuyu bilgisayara bağlamadan önce lsusb komutunu çalıştırın." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kyzn.org/tr/posts/log-in-to-e-government-with-id-card/" />
+<meta property="article:published_time" content="2020-05-16T15:30:00+03:00" />
+<meta property="article:modified_time" content="2020-05-16T15:30:00+03:00" /><meta property="og:site_name" content="Kıvanç Yazan" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak"/>
+<meta name="twitter:description" content="E-Devlet çok sayıda kurumun çok sayıda hizmeti sunduğu bir web uygulaması olarak artık birçok kişi tarafından kullanılıyor. Bu uygulamaya kimlik kartınızı kullanarak da giriş yapabiliyorsunuz. Estonya E-Oturumu başvurusundan kalan kart okuyucumu kullanarak giriş yapmayı denedim.
+Malzemeler:
+ Ubuntu 19.10 Estonia E-Oturumu USB kart okuyucu T.C. Kimlik Kartı ve kartın pin kodu  1. Adım Önce kart okuyucunun lsusb komutu tarafından gösterilip gösterilmediğine bakalım. Kart okuyucuyu bilgisayara bağlamadan önce lsusb komutunu çalıştırın."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak</title>
+	<link rel="stylesheet" href="https://kyzn.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://kyzn.org/tr/posts/">Yazılar</a>
+				<a href="https://kyzn.org/tr/slides/">Sunular</a>
+				<a href="https://pullrequest.club">PR Kulübü</a>
+				<a href="https://kyzn.org/">English</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="mailto:kyzn@cpan.org" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://twitter.com/kyzn" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/kyzn" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/kivancyazan/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menü"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://kyzn.org/tr/posts/">Yazılar</a></li>
+			<li><a href="https://kyzn.org/tr/slides/">Sunular</a></li>
+			<li><a href="https://pullrequest.club">PR Kulübü</a></li>
+			<li><a href="https://kyzn.org/">English</a></li>
+		</ul>
+	</div>
+
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>16 May 2020</span></div>
+				<h1>E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak</h1>
+			</header>
+			<div class="content">
+				<p><img src="/images/edevlet-menu.png" alt=""></p>
+<p>E-Devlet çok sayıda kurumun çok sayıda hizmeti sunduğu bir web uygulaması olarak artık birçok kişi tarafından kullanılıyor. Bu uygulamaya kimlik kartınızı kullanarak da giriş yapabiliyorsunuz. Estonya E-Oturumu başvurusundan kalan kart okuyucumu kullanarak giriş yapmayı denedim.</p>
+<p>Malzemeler:</p>
+<ul>
+<li>Ubuntu 19.10</li>
+<li>Estonia E-Oturumu USB kart okuyucu</li>
+<li>T.C. Kimlik Kartı</li>
+<li>ve kartın pin kodu</li>
+</ul>
+<h1 id="1-adım">1. Adım<a href="#1-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Önce kart okuyucunun <code>lsusb</code> komutu tarafından gösterilip gösterilmediğine bakalım. Kart okuyucuyu bilgisayara bağlamadan önce <code>lsusb</code> komutunu çalıştırın. Daha sonra kart okuyucuyu bağlayıp tekrar çalıştırın. Komut çıktısında fazladan bir satır görmeniz gerekiyor.</p>
+<pre><code>Advanced Card Systems, Ltd ACR38 SmartCard Reader
+</code></pre>
+<p>Bunu yapmanın bir yolu daha var. <code>watch lsusb</code> komutunu çalıştırın ve kart okuyucuyu takıp çıkardığınızda ekranı izleyin.</p>
+<h1 id="2-adım">2. Adım<a href="#2-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>E-Kimlik uygulamasını <a href="https://cdn.e-devlet.gov.tr/downloads/e-kimlik/edevlet-ekimlik.jnlp">https://cdn.e-devlet.gov.tr/downloads/e-kimlik/edevlet-ekimlik.jnlp</a> adresinden indirin. Bu dosyayı Ubuntu işletim sisteminde açabilmek için <code>icedtea-netx</code> kütüphanesini yüklemelisiniz.</p>
+<pre><code>$ sudo apt-get install icedtea-netx
+</code></pre>
+<h1 id="3-adım">3. Adım<a href="#3-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Kart okuyucunuzun <code>lsusb</code> komutunda görünmesi E-Kimlik uygulamasının kartınızı okuyabileceği anlamına gelmiyor. Bunun için birkaç kütüphaneye daha ihtiyacımız var.</p>
+<pre><code>$ sudo apt-get install pcscd pcsc-tools
+</code></pre>
+<p>Bunu yüklediğimizde <code>pcsc_scan</code> isminde çok kullanışlı bir aracımız oluyor. Bu komutu kullanarak kart okuyucumuzun çalışıp çalışmadığını kontrol edebiliyoruz. Kart okuyucuyu bilgisayarınızdan çıkarın ve aşağıdaki komutu çalıştırın. 3. adımın buradan sonrası zorunlu değil, <strong>isterseniz <a href="#4-ad%C4%B1m">4. adıma geçebilirsiniz</a>.</strong></p>
+<pre><code>$ pcsc_scan
+</code></pre>
+<p>Bu komut siz <code>^C</code> ile durduruna kadar çalışacak. Önce ekranda şöyle bir şey göreceksiniz:</p>
+<pre><code>Scanning present readers...
+Waiting for the first reader...
+</code></pre>
+<center><h6>"Mevcut okuyucular taranıyor... İlk okuyucu için bekleniyor..."</h6></center>
+<p>Daha sonra kart okuyucu taktığınızda burada küçük bir güncelleme olacak:</p>
+<pre><code>Waiting for the first reader...found one
+</code></pre>
+<center><h6>"İlk okuyucu için bekleniyor...Bir tane buldum"</h6></center>
+<p>Eğer kart okuyucuda kart yoksa şunu göreceksiniz:</p>
+<pre><code>Card state: Card removed,
+</code></pre>
+<center><h6>"Kart durumu: Kart çıkarıldı,"</h6></center>
+<p>Ve kartı taktığınızda da şunu göreceksiniz:</p>
+<pre><code>Card state: Card inserted,
+ATR: 01 23 45 67 89 AB CD EF .. .. .. ..
+</code></pre>
+<center><h6>"Kart durumu: Kart takıldı, ATR kodu: ...."</h6></center>
+<p>Aslına bakarsanız ben kartı taktığımda bir hata mesajı aldım.</p>
+<pre><code>Can't locate Chipcard/PCSC/Card.pm in @INC
+</code></pre>
+<p>Sistemin kendi Perl uygulaması yerine <code>perlbrew</code> kullandığım için bu hata oluştu. Yani <code>libpcsc-perl</code> kütüphanesi yüklenmişti, ama benim mevcut Perl kurulumumun bundan pek de haberi yoktu. Dolayısıyla <code>perlbrew switch-off</code> komutuyla sistemin kendi Perl uygulamasına dönmem gerekti. Ondan sonra <code>pcsc_scan</code> komutunu tekrar çalıştırdım ve sorun çıkmadı.</p>
+<pre><code>$ which perl
+/home/kivanc/perl5/perlbrew/perls/perl-5.30.2/bin/perl
+$ perlbrew switch-off
+perlbrew is switched off.
+$ which perl
+/usr/bin/perl
+</code></pre>
+<p>Eğer bunu yaparsanız işiniz bittiğinde <code>perlbrew switch</code> komutuyla eski duruma geri dönebilirsiniz.</p>
+<h1 id="4-adım">4. Adım<a href="#4-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p><a href="https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti">https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti</a> adresine gidin ve T.C. Kimlik Numaranızı yazın. Ekranda bir işlem kodu görünecek. Bu kodu kopyalayın ve tarayıcı sekmesini açık tutun.</p>
+<p><img src="/images/edevlet-giris.png" alt=""></p>
+<h1 id="5-adım">5. Adım<a href="#5-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Kartınızı kart okuyucuya, kart okuyucuyu da bilgisayara takın. JNLP dosyasını çift tıklayarak veya aşağıdaki komutu kullanarak çalıştırın.</p>
+<pre><code>$ javaws edevlet-ekimlik.jnlp
+</code></pre>
+<p>Eğer bu uygulamayı ilk kez çalıştırıyorsanız size izinler ve kısayollar ile ilgili birkaç soru sorabilir. Ben masaüstü kısayolu oluşturmamayı tercih ettim.</p>
+<h1 id="6-adım">6. Adım<a href="#6-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<ol start="4">
+<li>adımdaki işlem kodunu uygulamaya girin. &ldquo;Standart kart okuyucu ile giriş&rdquo; butonunu tıklayın.</li>
+</ol>
+<p><img src="/images/edevlet-jnlp-menu.png" alt=""></p>
+<h1 id="7-adım">7. Adım<a href="#7-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Şimdi uygulama size kartınızın pin kodunu soracak. Yeni kimlik kartı için başvurduğunuzda gelen zarfı hatırlıyor musunuz? Bu pin kodu o zarfın içinde olmalı.</p>
+<p><img src="/images/edevlet-jnlp-pin.png" alt=""></p>
+<h1 id="8-adım">8. Adım<a href="#8-adım" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>İşleminizin tamamlandığı mesajını göreceksiniz. Tarayıcınıza geri dönün ve giriş yapıp yapmadığınızı kontrol edin. Artık uygulamayı kapatıp kart okuyucuyu çıkarabilirsiniz.</p>
+<p><img src="/images/edevlet-jnlp-done.png" alt=""></p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>Kıvanç Yazan</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://kyzn.org/tr/tags/ubuntu">ubuntu</a></span><span class="tag"><a href="https://kyzn.org/tr/tags/ak%C4%B1ll%C4%B1-kart">akıllı-kart</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>500 Kelime</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>16/05/2020 15:30 &#43;0300</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://kyzn.org/tr/posts/prc-2019-report/">
+				<span class="post-nav-label">Önceki&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Pull Request Kulübü 2019 Raporu</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://kyzn.org">Kıvanç Yazan</a> &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+		<p>
+			<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://kyzn.org/tr/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://kyzn.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+
+<script>
+	(function() {
+		window.counter = 'https://kyzn_org.goatcounter.com/count'
+
+		var script = document.createElement('script');
+		script.async = 1;
+		script.src = '//gc.zgo.at/count.js';
+		var ins = document.getElementsByTagName('script')[0];
+		ins.parentNode.insertBefore(script, ins)
+	})();
+</script>
+
+</body>
+
+</html>

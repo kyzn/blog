@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kıvanç Yazan</title>
@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-tr</language>
     <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2019 13:04:26 -0700</lastBuildDate>
     
 	<atom:link href="https://kyzn.org/tr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak</title>
+      <link>https://kyzn.org/tr/posts/log-in-to-e-government-with-id-card/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/log-in-to-e-government-with-id-card/</guid>
+      <description>E-Devlet çok sayıda kurumun çok sayıda hizmeti sunduğu bir web uygulaması olarak artık birçok kişi tarafından kullanılıyor. Bu uygulamaya kimlik kartınızı kullanarak da giriş yapabiliyorsunuz. Estonya E-Oturumu başvurusundan kalan kart okuyucumu kullanarak giriş yapmayı denedim.
+Malzemeler:
+ Ubuntu 19.10 Estonia E-Oturumu USB kart okuyucu T.C. Kimlik Kartı ve kartın pin kodu  1. Adım Önce kart okuyucunun lsusb komutu tarafından gösterilip gösterilmediğine bakalım. Kart okuyucuyu bilgisayara bağlamadan önce lsusb komutunu çalıştırın.</description>
+    </item>
     
     <item>
       <title>Pull Request Kulübü 2019 Raporu</title>
@@ -49,7 +60,7 @@ mini-plerd’ü (yukarıda bahsettiğim sadeleştirilmiş Plerd) ne kadar istese
       <pubDate>Sun, 25 Aug 2019 12:57:19 -0700</pubDate>
       
       <guid>https://kyzn.org/tr/slides/</guid>
-      <description> 2020, Güney Kaliforniya Linux Fuarı, Pasadena  Açık Kaynak Dünyasına İlk Katkım PDF, YouTube  2018, Avrupa Perl Konferansı, Glasgow, İskoçya  CPAN Meydan Okuması PDF, YouTube Katkıcı Ahdi Topluluk Sözleşmesi (Kısa Sunum) PDF, YouTube  2018, Kuzey Amerika Perl Konferansı, Salt Lake City, Utah  CPAN Meydan Okuması PDF, YouTube  2017, Büyük Veri Günü, Los Angeles, Kaliforniya  Kitle Tweetlerinde Yüzmek PDF, YouTube  2017, Kuzey Amerika Perl Konferansı, Alexandria, Virginia  Zaman Tutmanın Kısa Bir Tarihi PDF, YouTube  2016, Kuzey Amerika Perl Konferansı, Orlando, Florida  İlk CPAN Kütüphanem (Kısa Sunum) PDF, YouTube  2015, Akademik Bilişim Konferansı, Eskişehir  Sosyal Ağlar Üzerinden Deprem Tespiti Sunu, Makale  </description>
+      <description>2020, Güney Kaliforniya Linux Fuarı, Pasadena  Açık Kaynak Dünyasına İlk Katkım PDF, YouTube  2018, Avrupa Perl Konferansı, Glasgow, İskoçya  CPAN Meydan Okuması PDF, YouTube Katkıcı Ahdi Topluluk Sözleşmesi (Kısa Sunum) PDF, YouTube  2018, Kuzey Amerika Perl Konferansı, Salt Lake City, Utah  CPAN Meydan Okuması PDF, YouTube  2017, Büyük Veri Günü, Los Angeles, Kaliforniya  Kitle Tweetlerinde Yüzmek PDF, YouTube  2017, Kuzey Amerika Perl Konferansı, Alexandria, Virginia  Zaman Tutmanın Kısa Bir Tarihi PDF, YouTube  2016, Kuzey Amerika Perl Konferansı, Orlando, Florida  İlk CPAN Kütüphanem (Kısa Sunum) PDF, YouTube  2015, Akademik Bilişim Konferansı, Eskişehir  Sosyal Ağlar Üzerinden Deprem Tespiti Sunu, Makale  </description>
     </item>
     
     <item>
@@ -74,6 +85,26 @@ Runnery for iOS</description>
       <guid>https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/</guid>
       <description>Japonyanın en çok ziyaret edilen web sitesi Yahoo, 11 Mart&amp;rsquo;ta gerçekleşen Doğu Japonya Depremi&amp;rsquo;nin 4. yıldönümünde anlamlı bir kampanya gerçekleştirdi. Yapılan her &amp;ldquo;3.11&amp;rdquo; araması için yardım kampanyalarına 10 yen bağışladılar. &amp;ldquo;3.11 için ara&amp;rdquo; kampanyasına yaklaşık 3 milyon kişi katıldı. Yahoo yaklaşık 240 bin dolar bağışlayacak. Bu sadece maddi bir bağış değil, ayrıca bir bilinçlendirme çalışması.
  Deprem ile ilgili en çok aranan kelimelerden hazırladıkları görseli de paylaştılar. Her yılın 11 Mart gününde deprem ile ilgili kelimelerle yapılan aramalardaki artış görülebilir.</description>
+    </item>
+    
+    <item>
+      <title>Twitter&#39;dan Haberler</title>
+      <link>https://kyzn.org/tr/posts/news-from-twitter/</link>
+      <pubDate>Thu, 09 Oct 2014 00:50:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/news-from-twitter/</guid>
+      <description>Geçen hafta Twitter&amp;rsquo;ın kötü yanlarıyla ilgili bir blog yazdım. Aslında o kadar kötü olmayan yanları da var. Bugün bu büyük mikroblog sitesindeki güzel bir şeyden bahsedeceğim.
+Size @140Journos isminde bir hesaptan bahsedeceğim. 140 Twitter&amp;rsquo;daki gönderilerin, yani tweetlerin 140 karakterlik sınırını ima ediyor. Bu hesap vatandaş haberciliği yapıyor. Yani haberleri profesyonel insanlar yerine sıradan insanlar bildiriyor. Gazetecilik ile ilgili bir okul okumuş olmanız veya bir gazeteye çalışıyor olmanız gerekmiyor. Sadece haberin olduğu yerde olmanız yetiyor.</description>
+    </item>
+    
+    <item>
+      <title>Satılık Gündem Konuları</title>
+      <link>https://kyzn.org/tr/posts/trending-topics-for-sale/</link>
+      <pubDate>Tue, 30 Sep 2014 23:30:34 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/trending-topics-for-sale/</guid>
+      <description>140 karakterlik mikro blogların yazıldığı Twitter&amp;rsquo;da kullanıcılar daha fazla takipçiye sahip olmak için savaşıyorlar. Twitter bağlantıları iki yönlü çalışıyor. Yani bir kullanıcı korumalı hesaplar hariç istediği herkesi takip edebiliyor. Bu sayede ünlü kişiler kolaylıkla onbinlerce takipçiye sahip olabiliyor. Bazıları milyonlara erişiyor. Bu aslında hesabın iyi olup olmadığını gösteren bir şey değil, ama Twitter bu sayıyı çok öne çıkarıyor. Dolayısıyla bu sayı kullanıcıların dikkatini çekiyor.
+Number of followers is used to introduce the user by Twitter.</description>
     </item>
     
   </channel>

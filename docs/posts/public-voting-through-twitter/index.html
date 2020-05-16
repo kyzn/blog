@@ -9,16 +9,13 @@
 	<meta name="msapplication-TileColor" content="#494f5c">
 <meta itemprop="name" content="Public Voting Through Twitter">
 <meta itemprop="description" content="Last week, we organized a charity party. It was more like a contest, or a show, in which 10 teams participated. Each team was supposed to perform a show on their choice: dance, music, or even a play. We also had a judge of 5 people to grade performances. These people were not the only ones to decide who wins the night, though. There was going to be a public voting, that anyone can participate.">
-
-
 <meta itemprop="datePublished" content="2015-02-24T12:50:01&#43;00:00" />
 <meta itemprop="dateModified" content="2015-02-24T12:50:01&#43;00:00" />
 <meta itemprop="wordCount" content="354">
 
 
 
-<meta itemprop="keywords" content="twitter,social-networks,crowdsourcing,perl," />
-<meta property="og:title" content="Public Voting Through Twitter" />
+<meta itemprop="keywords" content="twitter,social-networks,crowdsourcing,perl," /><meta property="og:title" content="Public Voting Through Twitter" />
 <meta property="og:description" content="Last week, we organized a charity party. It was more like a contest, or a show, in which 10 teams participated. Each team was supposed to perform a show on their choice: dance, music, or even a play. We also had a judge of 5 people to grade performances. These people were not the only ones to decide who wins the night, though. There was going to be a public voting, that anyone can participate." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kyzn.org/posts/public-voting-through-twitter/" />
@@ -36,7 +33,7 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 
 	<title>Public Voting Through Twitter</title>
-	<link rel="stylesheet" href="https://kyzn.org/css/style.min.b93d42479df6f74537c3be071f81b8f5a33fca83a2601447b4ac50d988280b5f.css" integrity="sha256-uT1CR53290U3w74HH4G49aM/yoOiYBRHtKxQ2YgoC18=" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://kyzn.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
 	
 </head>
 
@@ -78,17 +75,12 @@
 			</header>
 			<div class="content">
 				<p>Last week, we organized a charity party. It was more like a contest, or a show, in which 10 teams participated. Each team was supposed to perform a show on their choice: dance, music, or even a play. We also had a judge of 5 people to grade performances. These people were not the only ones to decide who wins the night, though. There was going to be a public voting, that anyone can participate.</p>
-
 <p>So I wrote a Perl script for the party. We picked an event keyword starting with a # character, and listened Twitter for tweets including that word. Then, we had different keywords for each team. Anyone who wanted to cast their vote would just tweet with event keyword + team keyword, and that would be it.</p>
-
-<p><img src="/images/votepl-ads.png" alt="" />
-<center><h6>People asking their followers to vote for their teams</h6></center></p>
-
+<p><img src="/images/votepl-ads.png" alt=""></p>
+<center><h6>People asking their followers to vote for their teams</h6></center>
 <p>We could have performed a basic search on Twitter Web, and then count the votes one by one, but that wouldn&rsquo;t be a smart solution. Hence the script. It was run for 15 minutes, and we captured 275 tweets with event hashtag which is about one tweet per 3 seconds. However, only 179 tweets were counted as &lsquo;valid vote&rsquo;, which is 65% of total tweets. But why did we ignore 96 tweets?</p>
-
-<p>We&rsquo;ve developed precautive measurements in the script so that no team can abuse the automated vote counting process. We did not count forwarded tweets (that is, a retweet), and there were 22 many. We counted only the first vote of each person. There were 32 tweets that had a note saying &ldquo;This person has voted before!&rdquo;. We also checked for   age of each account. If the account the vote is casted from is newly created, we did not count the vote. If the tweet is sent from an unofficial application, we ignored. And 41 tweets did not contain any team keyword (or had typos in it).</p>
-
-<p>Although tested heavily, I was scared that it simply wouldn&rsquo;t work for no obvious reason. But it did! And it did a good job. The script is on <a href="http://github.com/kyzn/twitter-voting" rel="nofollow" target="_blank">GitHub</a>, you can use it as you wish.</p>
+<p>We&rsquo;ve developed precautive measurements in the script so that no team can abuse the automated vote counting process. We did not count forwarded tweets (that is, a retweet), and there were 22 many. We counted only the first vote of each person. There were 32 tweets that had a note saying &ldquo;This person has voted before!&quot;. We also checked for   age of each account. If the account the vote is casted from is newly created, we did not count the vote. If the tweet is sent from an unofficial application, we ignored. And 41 tweets did not contain any team keyword (or had typos in it).</p>
+<p>Although tested heavily, I was scared that it simply wouldn&rsquo;t work for no obvious reason. But it did! And it did a good job. The script is on <a href="http://github.com/kyzn/twitter-voting">GitHub</a>, you can use it as you wish.</p>
 
 			</div>
 			<hr class="post-end">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kivanc Yazan</title>
@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2019 13:04:26 -0700</lastBuildDate>
     
 	<atom:link href="https://kyzn.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Log In to E-Government with Id Card</title>
+      <link>https://kyzn.org/posts/log-in-to-e-government-with-id-card/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/posts/log-in-to-e-government-with-id-card/</guid>
+      <description>Turkish E-Government is a great web application with quite a number of features. There&amp;rsquo;s many ways to login, one of which involves using a card reader. I have a mini card reader at home that I got from Estonian E-Residency.
+Things I used:
+ Ubuntu 19.10 Estonia E-Residency USB card reader Turkish ID card and its PIN number  Step 1 See if the card reader shows up in lsusb. Run lsusb before plugging the card reader in.</description>
+    </item>
     
     <item>
       <title>Pull Request Club 2019 Report</title>
@@ -48,7 +59,7 @@ I never was able to maintain mini-plerd (the stripped Plerd clone I mentioned ab
       <pubDate>Sun, 25 Aug 2019 12:57:19 -0700</pubDate>
       
       <guid>https://kyzn.org/slides/</guid>
-      <description> 2020, Southern California Linux Expo (SCALE), Pasadena  My First Pull Request PDF, YouTube  2018, The Perl Conference in Glasgow, Scotland  CPAN Pull Request Challenge PDF, YouTube Contributor Covenant Code of Conduct (LT) PDF, YouTube  2018, The Perl Conference in Salt Lake City, UT  CPAN Pull Request Challenge PDF, YouTube  2017, Big Data Day in Los Angeles, CA  Crowd Surfing Tweets PDF, YouTube  2017, The Perl Conference in Alexandria, VA  A Brief History of Timekeeping PDF, YouTube  2016, The Perl Conference in Orlando, FL  My First CPAN Module (LT) PDF, YouTube  2015, Akademik Bilişim Konferansı, Eskişehir  Sosyal Ağlar Üzerinden Deprem Tespiti Slides, Paper  </description>
+      <description>2020, Southern California Linux Expo (SCALE), Pasadena  My First Pull Request PDF, YouTube  2018, The Perl Conference in Glasgow, Scotland  CPAN Pull Request Challenge PDF, YouTube Contributor Covenant Code of Conduct (LT) PDF, YouTube  2018, The Perl Conference in Salt Lake City, UT  CPAN Pull Request Challenge PDF, YouTube  2017, Big Data Day in Los Angeles, CA  Crowd Surfing Tweets PDF, YouTube  2017, The Perl Conference in Alexandria, VA  A Brief History of Timekeeping PDF, YouTube  2016, The Perl Conference in Orlando, FL  My First CPAN Module (LT) PDF, YouTube  2015, Akademik Bilişim Konferansı, Eskişehir  Sosyal Ağlar Üzerinden Deprem Tespiti Slides, Paper  </description>
     </item>
     
     <item>
@@ -102,16 +113,6 @@ Option 1: The Docker Way By using a Docker image that has everything you need, y
       <description>This blog is originally posted on perl.com, edited by David Farrell.
 The CPAN Pull Request Challenge (PRC) aims to improve the quality of code on CPAN, the online archive of Perl modules, by having participants submit pull requests to CPAN module authors.
 Every month participants are assigned a new module to improve, and submit pull requests to the module repo on GitHub. Participants are not competing with each other, rather the &amp;ldquo;challenge&amp;rdquo; is to keep up with your monthly assignments.</description>
-    </item>
-    
-    <item>
-      <title>How to Setup Headless Raspberry Pi</title>
-      <link>https://kyzn.org/posts/how-to-setup-headless-raspberry-pi/</link>
-      <pubDate>Mon, 07 Aug 2017 22:13:00 +0000</pubDate>
-      
-      <guid>https://kyzn.org/posts/how-to-setup-headless-raspberry-pi/</guid>
-      <description>Quarter to scale
-&amp;ldquo;I had no ideas for projects&amp;rdquo; was the reason I waited so long before finally buying a Raspberry Pi. I got tired of waiting for a light bulb to appear, and ordered a model Zero W. It&amp;rsquo;s the smallest one, and it can connect to wireless networks. Only later I found out that this model was not recommended for beginners. One of the reasons might be that there is no soldered general purpose pins.</description>
     </item>
     
   </channel>

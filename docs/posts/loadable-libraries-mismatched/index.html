@@ -10,16 +10,13 @@
 <meta itemprop="name" content="Loadable Libraries Mismatched">
 <meta itemprop="description" content="While working on a Perl project, I have received an error message that I have never seen before. I did take a look at search engines, but no solutions there helped me. In the end I was able to figure out what&rsquo;s wrong, so I thought I should share it here.
 Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc280000, needed 0xc180000)  This is more likely to happen if you are dealing with multiple versions of perl (note the word &ldquo;mismatched&rdquo;).">
-
-
 <meta itemprop="datePublished" content="2019-05-24T00:03:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-05-24T00:03:00&#43;00:00" />
 <meta itemprop="wordCount" content="238">
 
 
 
-<meta itemprop="keywords" content="perl," />
-<meta property="og:title" content="Loadable Libraries Mismatched" />
+<meta itemprop="keywords" content="perl," /><meta property="og:title" content="Loadable Libraries Mismatched" />
 <meta property="og:description" content="While working on a Perl project, I have received an error message that I have never seen before. I did take a look at search engines, but no solutions there helped me. In the end I was able to figure out what&rsquo;s wrong, so I thought I should share it here.
 Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc280000, needed 0xc180000)  This is more likely to happen if you are dealing with multiple versions of perl (note the word &ldquo;mismatched&rdquo;)." />
 <meta property="og:type" content="article" />
@@ -39,7 +36,7 @@ Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc
 	<link rel="shortcut icon" href="/favicon.ico">
 
 	<title>Loadable Libraries Mismatched</title>
-	<link rel="stylesheet" href="https://kyzn.org/css/style.min.b93d42479df6f74537c3be071f81b8f5a33fca83a2601447b4ac50d988280b5f.css" integrity="sha256-uT1CR53290U3w74HH4G49aM/yoOiYBRHtKxQ2YgoC18=" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://kyzn.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
 	
 </head>
 
@@ -81,23 +78,16 @@ Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc
 			</header>
 			<div class="content">
 				<p>While working on a Perl project, I have received an error message that I have never seen before. I did take a look at search engines, but no solutions there helped me. In the end I was able to figure out what&rsquo;s wrong, so I thought I should share it here.</p>
-
 <pre><code>Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc280000, needed 0xc180000)
 </code></pre>
-
 <p>This is more likely to happen if you are dealing with multiple versions of <code>perl</code> (note the word &ldquo;mismatched&rdquo;). For me though, that&rsquo;s usually not the case: I tend to download latest stable version via perlbrew and use it in all places.</p>
-
 <p>Two solutions I could find online were:</p>
-
 <ul>
 <li>Clear <code>PERL5LIB</code> and <code>PERL_LOCAL_LIB_ROOT</code> environment variables</li>
 <li>Reboot your system</li>
 </ul>
-
 <p>Neither worked for me. Those environment variables were already not set, and a reboot didn&rsquo;t help.</p>
-
 <p>Turns out my issue was related to <code>carton</code>. See, very recently I reinstalled everything on my machine. And before doing so, I backed up my work folder to an external memory. Once my system was up again, I went to grab latest stable <code>perl</code> from perlbrew. Just before I did that a new version (5.30.0) was released. Do you see where it&rsquo;s going?</p>
-
 <p>My backed up project included carton&rsquo;s locally installed modules folder: <code>local/</code>. But those modules were installed when latest stable version was 5.28.2, hence the &ldquo;mismatch&rdquo;. Solution was to remove <code>local/</code>, and reinstall modules with <code>carton install</code>.</p>
 
 			</div>
