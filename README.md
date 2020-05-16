@@ -4,32 +4,32 @@ This is hugo repository for [kivanc's blog](https://kyzn.org/). Generated conten
 
 - Testing locally
 
-      hugo server -p 3000
+      hugo server
 
-- Generate content into `docs/` folder
+- Then go to
+
+      http://localhost:1313/
+
+- Generate content into `docs/` folder to publish
 
       hugo -d docs/
 
 - Add a new post
 
-      hugo new posts/my-new-blog-post.md
+      hugo new posts/my-new-blog-post.en.md
+      hugo new posts/my-new-blog-post.tr.md
 
 - Add a new page
 
-      hugo new my-new-page.md
+      hugo new my-new-page.en.md
+      hugo new my-new-page.tr.md
 
 
 ## Installing hugo
 
-- Install linuxbrew
-
-      sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
-
-- Make sure it's in `$PATH`
-
 - Install hugo
 
-      brew install hugo
+      snap install hugo
 
 - Verify hugo version
 
