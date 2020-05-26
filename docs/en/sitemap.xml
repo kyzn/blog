@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kyzn.org/</loc>
+    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/"
+                />
+  </url>
+  
+  <url>
     <loc>https://kyzn.org/posts/log-in-to-e-government-with-id-card/</loc>
     <lastmod>2020-05-16T15:30:00+03:00</lastmod>
     <xhtml:link
@@ -144,21 +159,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kyzn.org/anki/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://kyzn.org/</loc>
-    <lastmod>2019-08-25T13:04:26-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/"
                 />
   </url>
   
@@ -390,6 +390,16 @@
   <url>
     <loc>https://kyzn.org/posts/whats-next/</loc>
     <lastmod>2014-10-15T00:45:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/whats-next/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/whats-next/"
+                />
   </url>
   
   <url>

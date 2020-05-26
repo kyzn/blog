@@ -23,6 +23,21 @@
   </url>
   
   <url>
+    <loc>https://kyzn.org/tr/</loc>
+    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/"
+                />
+  </url>
+  
+  <url>
     <loc>https://kyzn.org/tr/posts/</loc>
     <lastmod>2020-05-16T15:30:00+03:00</lastmod>
     <xhtml:link
@@ -148,21 +163,6 @@
   </url>
   
   <url>
-    <loc>https://kyzn.org/tr/</loc>
-    <lastmod>2019-08-25T13:04:26-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/"
-                />
-  </url>
-  
-  <url>
     <loc>https://kyzn.org/tr/slides/</loc>
     <lastmod>2019-08-25T12:57:19-07:00</lastmod>
     <xhtml:link
@@ -209,6 +209,26 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/semantik-web/</loc>
+    <lastmod>2014-10-15T00:45:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/posts/whats-next/</loc>
+    <lastmod>2014-10-15T00:45:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/whats-next/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/whats-next/"
                 />
   </url>
   
