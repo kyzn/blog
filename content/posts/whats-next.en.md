@@ -19,7 +19,7 @@ I performed a Google Trends search and an n-gram search, because the numbering s
 ![](/images/next-trends-2.png)
 <center><h6>Web 7.0 had a peak in April 2005, and that is related to a java library named something-web-7.0. Other than that, Web 3.0 is clearly visible after 2007 and the same thing goes for 4.0 after 2011.</h6></center>
 
-It looks like this: While we were already talking about Web 3.0 for a while, at 2007 we started talking much more about it. Same thing goes for Web 4.0 on 2011. Can we say that when we realize that "we're using Web 2.0 for x many years" we start talking about Web 3.0? And maybe the same for the 4.0 as well? Well, as I argued above, I do not believe it will arrive like a train arriving at the station. I believe some applications will start to make use of new things, then we'll realise and talk more about it.
+It looks like this: While we were already talking about Web 3.0 for a while, in 2007 we started talking much more about it. Same thing goes for Web 4.0 in 2011. Can we say that when we realize that "we're using Web 2.0 for x many years" we start talking about Web 3.0? And maybe the same for the 4.0 as well? Well, as I argued above, I do not believe it will arrive like a train arriving at the station. I believe some applications will start to make use of new things, then we'll realise and talk more about it.
 
 ![](/images/next-ngram.png)
 <center><h6>Unfortunately, there was not much information coming out of the n-gram database.</h6></center>
@@ -39,4 +39,4 @@ I don't want to sound like an advertiser, but Google (again) has an app for that
 
 We don't know what that agent will be, but Toshiba has developed a glass that works in a way that a supposed agent would. (Obligatory "Google Glass" mention goes here.) But as I mentioned above, it seems like it wouldn't be good to wait for that "uh-huh moment". It looks like the process of transition has already started. Let's just hope that their bubbles do not come soon.
 
-Before leaving, I strongly recommend for you to have a look at the [Physical Web](https://github.com/google/physical-web/blob/master/documentation/introduction.md) project.
+Before leaving, I strongly recommend that you have a look at the [Physical Web](https://github.com/google/physical-web/blob/master/documentation/introduction.md) project.

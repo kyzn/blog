@@ -7,7 +7,7 @@ tags:
   - twitter
 ---
 
-Last week, I wrote a blog about the dark side of the Twitter. Not surprisingly, it's not all that bad. Today I'll be talking about something good that is happening on the most popular microblog site.
+Last week, I wrote a blog about the dark side of Twitter. Not surprisingly, it's not all that bad. Today I'll be talking about something good that is happening on the most popular microblog site.
 
 I'm going to introduce an account called [@140Journos](https://www.twitter.com/140journos), which obviously refers to the character limit of twitter, and is actively doing the job called "citizen journalism." Citizen journalism is where the people report the news instead of the professional. You don't need to have a Bachelor's Degree in Journalism, or you are not required to work for a newspaper. You just need to be at the place where the event is happening.
 
