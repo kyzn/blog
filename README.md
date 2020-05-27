@@ -10,9 +10,9 @@ This is hugo repository for [kivanc's blog](https://kyzn.org/). Generated conten
 
       http://localhost:1313/
 
-- Generate content into `docs/` folder to publish
+- Generate `docs/` and commit
 
-      hugo -d docs/
+      rm -rf docs/ && hugo -d docs/ && echo -n "kyzn.org" > docs/CNAME && git add docs/ && git commit -m "generate docs"
 
 - Add a new post
 
