@@ -190,6 +190,37 @@ Runnery for iOS</description>
 		</item>
 		
 		<item>
+			<title>Kitle Kaynaklı Hava Durumu Tahminleri</title>
+			<link>https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/</link>
+			<pubDate>Mon, 03 Nov 2014 23:17:20 +0000</pubDate>
+			
+			<guid>https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/</guid>
+			<description>Bugün bir mobil uygulamaya denk geldim. Bana yeni gibi göründü ama üç yıldır yayındaymış. Barometre verisini kullanarak &amp;ldquo;yüksek çözünürlüklü basınç haritası&amp;rdquo; oluşturma fikri üzerine kurulmuş. &amp;ldquo;Hava durumunun geleceği&amp;rdquo; diye de anılıyor.
+Telefon üreticileri GPS doğruluğunu arttırmak ve yükseklik tespiti yapabilmek için cihazlara barometre ekliyorlar. Kanadalı bu yazılım geliştiricileri Vaşington Üniversitesi bilim insanları ile birlikte harika bir fikir bulmuşlar. Milyonlarca cihazdaki barometreleri hava durumu tahminlerini yeniden şekillendirmek için kullanabileceklerinin farkına varmışlar.</description>
+			<content type="html"><![CDATA[<p>Bugün bir mobil uygulamaya denk geldim. Bana yeni gibi göründü ama üç yıldır yayındaymış. Barometre verisini kullanarak &ldquo;yüksek çözünürlüklü basınç haritası&rdquo; oluşturma fikri üzerine kurulmuş. &ldquo;Hava durumunun geleceği&rdquo; diye de anılıyor.</p>
+<p>Telefon üreticileri GPS doğruluğunu arttırmak ve yükseklik tespiti yapabilmek için cihazlara barometre ekliyorlar. Kanadalı bu yazılım geliştiricileri Vaşington Üniversitesi bilim insanları ile birlikte harika bir fikir bulmuşlar. Milyonlarca cihazdaki barometreleri hava durumu tahminlerini yeniden şekillendirmek için kullanabileceklerinin farkına varmışlar.</p>
+<p>Bir günde yaklaşık 4 milyon veri kaydediyorlar. Sadece belli başlı cihazlarda barometre bulunuyor. Örneğin Apple telefonlarında iPhone 6&rsquo;dan önce barometre bulunmuyordu. Yine de cihazınızda barometre olmasa bile uygulamayı yükleyebiliyorsunuz. Basınç verilerini görebiliyorsunuz. Ayrıca hava durumunu da paylaşabiliyorsunuz. Kullanıcılar hava durumunu (rüzgarlı, bulutlu, yağmurlu) diğer kullanıcılar ile paylaşabiliyor.</p>
+<p>Yeni bir hava durumu istasyonu kurmak hem çok pahalı, hem de elde edilen veri sadece bir bölge hakkında bilgi veriyor. Bu uygulama tam da bu sorun için harika bir çözüm. Böylece daha tutarlı hava durumu tahminleri üretilebiliyor. Migren hastaları basınçtaki ani düşüşleri bildirimler aracılığıyla öğrenebiliyor. Bir başka kullanım alanı da basınç verisini kullanan fırtına tahmini. Vaşington Üniversitesi bilim insanları PressureNet verisini kullanarak hava durumunu tahmin ettikleri bir <a href="http://journals.ametsoc.org/doi/full/10.1175/BAMS-D-13-00188.1">makale</a> yayınladılar.</p>
+<p><img src="/images/weather-app.jpg" alt=""></p>
+<center><h6>Sol: Barometre verileri. İstanbul'da sadece 4 veri mevcut. Okula yakın olan benim! Sağ: Hava durumu paylaşımları. Türkiye'de sadece 1 veri (Antalya) mevcut. Belki birileri havanın ne kadar güzel olduğunu paylaşmak istedi.</h6></center>
+<p>Bu uygulama iOS cihazlarda henüz çalışmıyor. Apple barometre koymaya başladığı için geliştiricilerin iOS sürümü için çalıştıklarını tahmin ediyorum. Aşağıdaki cihazlardan birine veya daha güncel sürümlerine sahipseniz siz de bilime katkı sağlayabilirsiniz! Uygulamayı <a href="https://web.archive.org/web/20141112173825/https://play.google.com/store/apps/details?id=ca.cumulonimbus.barometernetwork">buradan</a> görebilirsiniz.</p>
+<ul>
+<li>Galaxy S3, S4, S5</li>
+<li>Galaxy Nexus</li>
+<li>Galaxy Note, 2, 3</li>
+<li>Nexus 4, 5, 6, 9, 10</li>
+<li>Xoom</li>
+<li>RAZR MAXX HD</li>
+<li>Xiaomi MI-2, MI-3</li>
+<li>Droid Ultra</li>
+<li>Moto X</li>
+<li>HTC One (M8)</li>
+</ul>
+<p>Bakalım bunun gibi kitle kaynak uygulamaları yaşam şeklimizi nasıl değiştirecek.</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>Oyları Birlikte Saymak</title>
 			<link>https://kyzn.org/tr/posts/counting-votes-collaboratively/</link>
 			<pubDate>Wed, 22 Oct 2014 21:49:22 +0000</pubDate>

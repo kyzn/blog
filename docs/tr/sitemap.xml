@@ -213,6 +213,21 @@
   </url>
   
   <url>
+    <loc>https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/</loc>
+    <lastmod>2014-11-03T23:17:20+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/crowdsourcing-weather-forecasts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/"
+                />
+  </url>
+  
+  <url>
     <loc>https://kyzn.org/tr/posts/counting-votes-collaboratively/</loc>
     <lastmod>2014-10-22T21:49:22+00:00</lastmod>
     <xhtml:link
