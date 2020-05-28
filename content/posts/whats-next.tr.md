@@ -27,7 +27,8 @@ Genel görünüş şu şekilde: Web 3.0 hakkında eskiden de konuşuyorduk, ama 
 Peki Web 4.0 nedir? İsfahan Üniversitesi Bilgisayar Mühendisliği'nin bir öğretim üyesi tarafından yazılmış bir makalede Web 4.0 3 paragrafla anlatılıyor. Aslında ne olduğunu onlar da söyleyemiyorlar, fakat yapay zeka ile akalalı olacağını ve bunun "simbiyotik web" olarak anılacağını tahmin ediyorlar. Yani makineler ile insanlar bir arada çalışacaklar. Bu yeni fikir kulağa çok hoş geliyor. Her ne kadar yazarların tahmin ettiği kadar fütürist olmasa da ben makineler ile insanların zaten bir arada çalıştığını sanıyordum. Geçiş tabii ki yavaş olacak. Şu anda geçiş yapıyoruz, dolayısıyla bazı uygulamalar yeni tanımlara kısmen de olsa uyuyor. Bazı örnekler verebilirim.
 
 ![](/images/next-car.jpg)
-<center><h6>Fotoğraf: Samuele Errico Piccarini, Unsplash.</h6></center>
+<center><h6>Fotoğraf: <a href="https://unsplash.com/photos/qAc3UNF8Hm4" target="_blank">Samuele Errico Piccarini, Unsplash</a>.</h6></center>
+
 
 Otonom araçlar kulağa yeni bir konsept gibi geliyor olabilir, fakat bu aslında 1920'lerden beri araştırılagelen bir konu. Google'ın [çalışan bir prototipi](https://www.youtube.com/watch?v=CqSDWoAhvLU) bile var. Diğer birçok şirket de bu konuda çalışıyor. Son kullanıcının gözünden bu aslında çok basit bir olay. Siz arabaya nereye gitmek istediğinizi söylüyorsunuz, otonom araba da sizi oraya götürüyor. Tahmin edebileceğiniz gibi büyük veriler kullanılarak bu iş başarılıyor. Haritalar, trafik, kamera, lazer, ısı sensörleri... Bir anlamı ve birçok bağlantısı olan veriler bir araya getirilirek makinenin bir karar alması sağlanıyor. Yani veri adeta bir his gibi çalışarak bir aksiyon almakta kullanılıyor.
 
