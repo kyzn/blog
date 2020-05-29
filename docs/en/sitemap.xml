@@ -365,6 +365,16 @@
   <url>
     <loc>https://kyzn.org/posts/results-of-istanbul-marathon/</loc>
     <lastmod>2014-11-22T23:05:48+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/results-of-istanbul-marathon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/results-of-istanbul-marathon/"
+                />
   </url>
   
   <url>
