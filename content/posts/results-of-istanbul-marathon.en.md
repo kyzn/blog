@@ -10,7 +10,7 @@ I'm excited to share the very first map that tweets on Marathon gave us. Take a 
 
 ![](/images/marathon-map.jpg)
 
-Because of our keyword selection, there are totally unrelated tweets too, but most of them are about the marathon. You can clearly see the bridge, starting points at the Asian Side, course along Beşiktaş to Karaköy, 10k&15k finishes at Eminönü and 42k finish at Sultanahmet. If you go west enough, you'll see an accumulation right next to airport, and that is where expo happened.
+Because of our keyword selection, there are unrelated tweets too. But most of them are about the marathon. You can see the bridge, starting points at the Asian Side, course along Beşiktaş to Karaköy, 10k&15k finishes at Eminönü and 42k finish at Sultanahmet. If you go west enough, you'll see an accumulation right next to the airport, and that is where the expo happened.
 
 Overall, there were around 37k tweets, in which only 3381 had location information. Obviously enough, race did not get much attention. We might try this experiment for any soccer game and probably get more dots on the map.
 
