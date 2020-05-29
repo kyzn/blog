@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kitle-kaynak on Kıvanç Yazan</title>
+    <link>https://kyzn.org/tr/tags/kitle-kaynak/</link>
+    <description>Recent content in kitle-kaynak on Kıvanç Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-tr</language>
+    <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
+    <lastBuildDate>Sat, 14 Mar 2015 00:53:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tr/tags/kitle-kaynak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yahoo&#39;nun 11 Mart Arama Kampanyası</title>
+      <link>https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/</link>
+      <pubDate>Sat, 14 Mar 2015 00:53:59 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/yahoos-search-campaign-on-311/</guid>
+      <description>Japonyanın en çok ziyaret edilen web sitesi Yahoo, 11 Mart&amp;rsquo;ta gerçekleşen Doğu Japonya Depremi&amp;rsquo;nin 4. yıldönümünde anlamlı bir kampanya gerçekleştirdi. Yapılan her &amp;ldquo;3.11&amp;rdquo; araması için yardım kampanyalarına 10 yen bağışladılar. &amp;ldquo;3.11 için ara&amp;rdquo; kampanyasına yaklaşık 3 milyon kişi katıldı. Yahoo yaklaşık 240 bin dolar bağışlayacak. Bu sadece maddi bir bağış değil, ayrıca bir bilinçlendirme çalışması.
+ Deprem ile ilgili en çok aranan kelimelerden hazırladıkları görseli de paylaştılar. Her yılın 11 Mart gününde deprem ile ilgili kelimelerle yapılan aramalardaki artış görülebilir.</description>
+    </item>
+    
+    <item>
+      <title>Kitle Kaynaklı Hava Durumu Tahminleri</title>
+      <link>https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/</link>
+      <pubDate>Mon, 03 Nov 2014 23:17:20 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/</guid>
+      <description>Bugün bir mobil uygulamaya denk geldim. Bana yeni gibi göründü ama üç yıldır yayındaymış. Barometre verisini kullanarak &amp;ldquo;yüksek çözünürlüklü basınç haritası&amp;rdquo; oluşturma fikri üzerine kurulmuş. &amp;ldquo;Hava durumunun geleceği&amp;rdquo; diye de anılıyor.
+Telefon üreticileri GPS doğruluğunu arttırmak ve yükseklik tespiti yapabilmek için cihazlara barometre ekliyorlar. Kanadalı bu yazılım geliştiricileri Vaşington Üniversitesi bilim insanları ile birlikte harika bir fikir bulmuşlar. Milyonlarca cihazdaki barometreleri hava durumu tahminlerini yeniden şekillendirmek için kullanabileceklerinin farkına varmışlar.</description>
+    </item>
+    
+    <item>
+      <title>Oyları Birlikte Saymak</title>
+      <link>https://kyzn.org/tr/posts/counting-votes-collaboratively/</link>
+      <pubDate>Wed, 22 Oct 2014 21:49:22 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/counting-votes-collaboratively/</guid>
+      <description>2014 Türkiye&amp;rsquo;de seçimlerin yılı oldu. Mart ayında yerel seçimler vardı. Bu seçimler Haziran ayında bazı şehirlerde tekrarlandı. Ağustos ayında da cumhurbaşkanlığı seçimleri yapıldı. Seçimlerden önce haberlerde protestolar ve skandallar vardı. Bunun yüksek katılıma sebep olduğu tahmin ediliyor. Ayrıca bu seçimlerde ilginç bir kitle kaynak çalışması öne çıktı.
+Burada ilk önce Oy ve Ötesi&amp;rsquo;nden bahsedeceğim. Bu topluluk Mart seçimlerinden önce kuruldu. Toplam 33 bin sandıkta duracak gönüllüler aradılar. Eğitim aracı olarak YouTube&amp;rsquo;u kullandılar: seçmen hakları gibi konular hakkında çok sayıda video yüklediler.</description>
+    </item>
+    
+    <item>
+      <title>Twitter&#39;dan Haberler</title>
+      <link>https://kyzn.org/tr/posts/news-from-twitter/</link>
+      <pubDate>Thu, 09 Oct 2014 00:50:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/news-from-twitter/</guid>
+      <description>Geçen hafta Twitter&amp;rsquo;ın kötü yanlarıyla ilgili bir blog yazdım. Aslında o kadar kötü olmayan yanları da var. Bugün bu büyük mikroblog sitesindeki güzel bir şeyden bahsedeceğim.
+Size @140Journos isminde bir hesaptan bahsedeceğim. 140 Twitter&amp;rsquo;daki gönderilerin, yani tweetlerin 140 karakterlik sınırını ima ediyor. Bu hesap vatandaş haberciliği yapıyor. Yani haberleri profesyonel insanlar yerine sıradan insanlar bildiriyor. Gazetecilik ile ilgili bir okul okumuş olmanız veya bir gazeteye çalışıyor olmanız gerekmiyor. Sadece haberin olduğu yerde olmanız yetiyor.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Kıvanç Yazan</title>
+    <link>https://kyzn.org/tr/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Kıvanç Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-tr</language>
+    <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
+    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tr/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak</title>
+      <link>https://kyzn.org/tr/posts/log-in-to-e-government-with-id-card/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/log-in-to-e-government-with-id-card/</guid>
+      <description>E-Devlet çok sayıda kurumun çok sayıda hizmeti sunduğu bir web uygulaması olarak artık birçok kişi tarafından kullanılıyor. Bu uygulamaya kimlik kartınızı kullanarak da giriş yapabiliyorsunuz. Estonya E-Oturumu başvurusundan kalan kart okuyucumu kullanarak giriş yapmayı denedim.
+Malzemeler:
+ Ubuntu 19.10 Estonia E-Oturumu USB kart okuyucu T.C. Kimlik Kartı ve kartın pin kodu  1. Adım Önce kart okuyucunun lsusb komutu tarafından gösterilip gösterilmediğine bakalım. Kart okuyucuyu bilgisayara bağlamadan önce lsusb komutunu çalıştırın.</description>
+    </item>
+    
+  </channel>
+</rss>

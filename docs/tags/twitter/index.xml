@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>twitter on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/twitter/</link>
+    <description>Recent content in twitter on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 24 Feb 2015 12:50:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Public Voting Through Twitter</title>
+      <link>https://kyzn.org/posts/public-voting-through-twitter/</link>
+      <pubDate>Tue, 24 Feb 2015 12:50:01 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/public-voting-through-twitter/</guid>
+      <description>Last week, we organized a charity party. It was more like a contest, or a show, in which 10 teams participated. Each team was supposed to perform a show on their choice: dance, music, or even a play. We also had a judge of 5 people to grade performances. These people were not the only ones to decide who wins the night, though. There was going to be a public voting, that anyone can participate.</description>
+    </item>
+    
+    <item>
+      <title>Spammers and Their Favourite Tweets</title>
+      <link>https://kyzn.org/posts/spammers-and-their-favourite-tweets/</link>
+      <pubDate>Wed, 03 Dec 2014 19:38:14 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/spammers-and-their-favourite-tweets/</guid>
+      <description>I&amp;rsquo;ve recently seen this blog, and thought that was really nice. It was saying that some people buy applications which favourite random tweets on behalf on themselves, leading to an increase in the number of followers. Then I thought, well, this could mean that people who favourites violently could be the spammers we&amp;rsquo;re looking for! I had to see it for myself, so I did.
+I worked on the set we collected during 36th Istanbul Marathon.</description>
+    </item>
+    
+    <item>
+      <title>Social Network on Marathon Retweets</title>
+      <link>https://kyzn.org/posts/social-network-on-marathon-retweets/</link>
+      <pubDate>Wed, 26 Nov 2014 03:19:20 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/social-network-on-marathon-retweets/</guid>
+      <description>This week, we were to prepare a social network visualization, and I enjoyed it more than I imagined. I got to learn Gephi, which is a fantastic tool. Even simply watching ForceAtlas plugin (that seperates nodes by a certain algorithm) work is entartaining enough.
+What I did was to use the data I already had, although it might have been some kind of cheating. We had over 18k retweets, but I used first 5000.</description>
+    </item>
+    
+    <item>
+      <title>Results of Istanbul Marathon</title>
+      <link>https://kyzn.org/posts/results-of-istanbul-marathon/</link>
+      <pubDate>Sat, 22 Nov 2014 23:05:48 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/results-of-istanbul-marathon/</guid>
+      <description>I&amp;rsquo;m excited to share the very first map that tweets on Marathon gave us. Take a look.
+Because of our keyword selection, there are totally unrelated tweets too, but most of them are about the marathon. You can clearly see the bridge, starting points at the Asian Side, course along Beşiktaş to Karaköy, 10k&amp;amp;15k finishes at Eminönü and 42k finish at Sultanahmet. If you go west enough, you&amp;rsquo;ll see an accumulation right next to airport, and that is where expo happened.</description>
+    </item>
+    
+    <item>
+      <title>Tracking Istanbul Marathon</title>
+      <link>https://kyzn.org/posts/tracking-istanbul-marathon/</link>
+      <pubDate>Fri, 14 Nov 2014 13:13:17 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/tracking-istanbul-marathon/</guid>
+      <description>This Sunday is the day for the biggest sporting event in Turkey! You guessed it right, it’s the Vodafone Istanbul Marathon. 2014 will be the 36th year for the only intercontinental road race that ever happens. I have to note that it is in the &amp;ldquo;Gold Label&amp;rdquo; category of IAAF, a label which only 39 races throughout the world hold.
+The Bosphorus Bridge accepts pedestrians only once a year. Photo by UN Women/Müslüm Bayburs, licensed with CC BY-NC-ND 2.</description>
+    </item>
+    
+    <item>
+      <title>News from Twitter</title>
+      <link>https://kyzn.org/posts/news-from-twitter/</link>
+      <pubDate>Thu, 09 Oct 2014 00:50:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/news-from-twitter/</guid>
+      <description>Last week, I wrote a blog about the dark side of Twitter. Not surprisingly, it&amp;rsquo;s not all that bad. Today I&amp;rsquo;ll be talking about something good that is happening on the most popular microblog site.
+I&amp;rsquo;m going to introduce an account called @140Journos, which obviously refers to the character limit of twitter, and is actively doing the job called &amp;ldquo;citizen journalism.&amp;rdquo; Citizen journalism is where the people report the news instead of the professional.</description>
+    </item>
+    
+    <item>
+      <title>Trending Topics for Sale</title>
+      <link>https://kyzn.org/posts/trending-topics-for-sale/</link>
+      <pubDate>Tue, 30 Sep 2014 23:30:34 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/trending-topics-for-sale/</guid>
+      <description>On Twitter, a microblog where users post tweets with 140 characters, there is usually an untold competition going on for followers. Twitter uses bidirectional connections, so a user can follow anyone unless it&amp;rsquo;s protected. This system allows public figures to have tens of thousands of followers with ease. Some reach millions. Although it&amp;rsquo;s not a true indicator for a &amp;ldquo;good account&amp;rdquo;, it&amp;rsquo;s one of three numbers that twitter uses to introduce the user.</description>
+    </item>
+    
+  </channel>
+</rss>

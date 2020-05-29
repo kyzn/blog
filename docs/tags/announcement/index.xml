@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>announcement on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/announcement/</link>
+    <description>Recent content in announcement on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 26 Aug 2019 20:09:05 -0700</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome Hugo</title>
+      <link>https://kyzn.org/posts/welcome-hugo/</link>
+      <pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+      
+      <guid>https://kyzn.org/posts/welcome-hugo/</guid>
+      <description>I’ve moved my blog from one static site generator to another. I used to use a stripped clone of Plerd to generate html files. To be clear, that was a nice setup! Now I’m using Hugo to generate static content, from the very same markdown files.
+I never was able to maintain mini-plerd (the stripped Plerd clone I mentioned above) as I hoped. Plerd upstream got updates, and I missed it.</description>
+    </item>
+    
+    <item>
+      <title>Koşutakvimi Going Down</title>
+      <link>https://kyzn.org/posts/kosutakvimi-going-down/</link>
+      <pubDate>Tue, 21 Jul 2015 21:51:37 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/kosutakvimi-going-down/</guid>
+      <description>This is to note that simple calendar I created to list all running events in and around Turkey is no more being maintained. kosutakvimi.org was one of the first neat lists to do its task. It was introduced in the only Turkish running podcast. Here are several good alternatives if you want to give it a try:
+koscora.com/yaris-takvimi
+yaristakvimi.com
+kosukolik.com/etkinlik-takvimi/
+Runnery for Android
+Runnery for iOS</description>
+    </item>
+    
+  </channel>
+</rss>

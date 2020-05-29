@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rpi on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/rpi/</link>
+    <description>Recent content in rpi on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 07 Aug 2017 22:13:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/rpi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Setup Headless Raspberry Pi</title>
+      <link>https://kyzn.org/posts/how-to-setup-headless-raspberry-pi/</link>
+      <pubDate>Mon, 07 Aug 2017 22:13:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/how-to-setup-headless-raspberry-pi/</guid>
+      <description>Quarter to scale &amp;ldquo;I had no ideas for projects&amp;rdquo; was the reason I waited so long before finally buying a Raspberry Pi. I got tired of waiting for a light bulb to appear, and ordered a model Zero W. It&amp;rsquo;s the smallest one, and it can connect to wireless networks. Only later I found out that this model was not recommended for beginners. One of the reasons might be that there is no soldered general purpose pins.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eksisozluk on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/eksisozluk/</link>
+    <description>Recent content in eksisozluk on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 08 Feb 2017 23:24:53 -0700</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/eksisozluk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Parsing Time Zones</title>
+      <link>https://kyzn.org/posts/on-parsing-time-zones/</link>
+      <pubDate>Wed, 08 Feb 2017 23:24:53 -0700</pubDate>
+      
+      <guid>https://kyzn.org/posts/on-parsing-time-zones/</guid>
+      <description>I posted this to GitHub first, later edited and moved here.
+Summary This post is about a CPAN module I built, called WWW::Eksi. Module parses posts in a Turkish social network called Eksisozluk. All posts come with an attached &amp;ldquo;creation time&amp;rdquo;, and some also include &amp;ldquo;last update time&amp;rdquo;. I realized DateTime was throwing some errors for some of the posts. It turned out these posts had an attached time that never existed in Turkish time zone.</description>
+    </item>
+    
+    <item>
+      <title>New Type of Network in Ekşisözlük</title>
+      <link>https://kyzn.org/posts/new-type-of-network-in-eksisozluk/</link>
+      <pubDate>Mon, 16 Feb 2015 21:58:04 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/new-type-of-network-in-eksisozluk/</guid>
+      <description>I haven&amp;rsquo;t written much about Ekşi Sözlük on the blog, the 1999-born Turkish social-network, but I have to confess I visit the site almost daily. There is also a CPAN module named WWW::Eksisozluk that I developed, as I think data on the site is very valuable. I&amp;rsquo;ve also witnessed several changes the platform went through, including the latest one I&amp;rsquo;m about the write on.
+As a quick explanation, the site is formatted as a user-based dictionary.</description>
+    </item>
+    
+  </channel>
+</rss>

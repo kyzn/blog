@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guide on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/guide/</link>
+    <description>Recent content in guide on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 21 Feb 2018 21:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup Your Computer for CPAN-PRC</title>
+      <link>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</link>
+      <pubDate>Wed, 21 Feb 2018 21:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</guid>
+      <description>This blog is originally posted on perl.com, edited by David Farrell.
+Earlier I wrote about why should you join CPAN Pull Request Challenge. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.
+Option 1: The Docker Way By using a Docker image that has everything you need, you can start working in minutes.</description>
+    </item>
+    
+    <item>
+      <title>Farewell to Google Code</title>
+      <link>https://kyzn.org/posts/farewell-to-google-code/</link>
+      <pubDate>Tue, 17 Nov 2015 09:28:48 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/farewell-to-google-code/</guid>
+      <description>A while ago, Google decided to shut down Google Code, which hosts over 200k projects. It is in read-only status as of now. You cannot update your code any more. No more wiki updates or issues, it&amp;rsquo;s gone. But, you can still reach the repositories and all pages, that&amp;rsquo;s what they mean by read only. It is also noted that Google is not going to delete your data, just move it to &amp;ldquo;Google Code Archive&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nlp on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/nlp/</link>
+    <description>Recent content in nlp on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 18 Dec 2014 02:49:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uncyclopedia to Detect Sarcasm?</title>
+      <link>https://kyzn.org/posts/uncyclopedia-to-detect-sarcasm/</link>
+      <pubDate>Thu, 18 Dec 2014 02:49:19 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/uncyclopedia-to-detect-sarcasm/</guid>
+      <description>As there&amp;rsquo;s The Onion (and Zaytung) for news, I want to introduce yet another humorous web project called Uncyclopedia. My bringing it up does not mean it&amp;rsquo;s new, it&amp;rsquo;s actually almost 10 years old. Instead of explaining what it is in detail, here&amp;rsquo;s some little quote from the anti-wiki&amp;rsquo;s article for Facebook:
+ Some regard Facebook as the pinnacle of human evolution, and in February of 2011, an Egyptian couple named their daughter after the site.</description>
+    </item>
+    
+  </channel>
+</rss>

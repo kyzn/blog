@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Log In to E-Government with Id Card</title>
+      <link>https://kyzn.org/posts/log-in-to-e-government-with-id-card/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/posts/log-in-to-e-government-with-id-card/</guid>
+      <description>Turkish E-Government is a great web application with quite a number of features. There&amp;rsquo;s many ways to login, one of which involves using a card reader. I have a mini card reader at home that I got from Estonian E-Residency.
+Things I used:
+ Ubuntu 19.10 Estonia E-Residency USB card reader Turkish ID card and its PIN number  Step 1 See if the card reader shows up in lsusb. Run lsusb before plugging the card reader in.</description>
+    </item>
+    
+  </channel>
+</rss>

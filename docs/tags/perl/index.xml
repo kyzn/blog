@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>perl on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/perl/</link>
+    <description>Recent content in perl on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pull Request Club 2019 Report</title>
+      <link>https://kyzn.org/posts/prc-2019-report/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/prc-2019-report/</guid>
+      <description>CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.
+I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights.</description>
+    </item>
+    
+    <item>
+      <title>Loadable Libraries Mismatched</title>
+      <link>https://kyzn.org/posts/loadable-libraries-mismatched/</link>
+      <pubDate>Fri, 24 May 2019 00:03:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/loadable-libraries-mismatched/</guid>
+      <description>While working on a Perl project, I have received an error message that I have never seen before. I did take a look at search engines, but no solutions there helped me. In the end I was able to figure out what&amp;rsquo;s wrong, so I thought I should share it here.
+Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc280000, needed 0xc180000)  This is more likely to happen if you are dealing with multiple versions of perl (note the word &amp;ldquo;mismatched&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>CPAN-PRC Report</title>
+      <link>https://kyzn.org/posts/cpan-prc-report/</link>
+      <pubDate>Thu, 27 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/cpan-prc-report/</guid>
+      <description>Neil Bowers had started CPAN Pull Request Challenge in January 2015. Participants received a CPAN module as their assignment each month. The goal was to submit pull requests. I joined the challenge right away. Here&amp;rsquo;s how it went.
+2015: Warming Up My last semester at Bogazici University in Istanbul started February of this year. I moved to California for grad school in September.
+I’ve completed my assignments in January and February before taking a long pause (and a long flight).</description>
+    </item>
+    
+    <item>
+      <title>Two Perl Conferences in One Year</title>
+      <link>https://kyzn.org/posts/two-perl-conferences-in-one-year/</link>
+      <pubDate>Mon, 20 Aug 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/two-perl-conferences-in-one-year/</guid>
+      <description>My very first Perl Conference was the one in Orlando, in 2016. In fact, the only blog I&amp;rsquo;ve written in 2016 was about that very conference. I&amp;rsquo;ve enjoyed it so much, I went again in 2017, this time as a speaker.
+I have attended not one but two Perl Conferences during 2018: One in Salt Lake City (NA), and one in Glasgow (EU). This time I was not only a speaker: I also organized a Birds of Feather (BOF).</description>
+    </item>
+    
+    <item>
+      <title>Setup Your Computer for CPAN-PRC</title>
+      <link>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</link>
+      <pubDate>Wed, 21 Feb 2018 21:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</guid>
+      <description>This blog is originally posted on perl.com, edited by David Farrell.
+Earlier I wrote about why should you join CPAN Pull Request Challenge. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.
+Option 1: The Docker Way By using a Docker image that has everything you need, you can start working in minutes.</description>
+    </item>
+    
+    <item>
+      <title>Why Should You Join CPAN-PRC?</title>
+      <link>https://kyzn.org/posts/why-should-you-join-cpan-prc/</link>
+      <pubDate>Thu, 25 Jan 2018 08:15:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/why-should-you-join-cpan-prc/</guid>
+      <description>This blog is originally posted on perl.com, edited by David Farrell.
+The CPAN Pull Request Challenge (PRC) aims to improve the quality of code on CPAN, the online archive of Perl modules, by having participants submit pull requests to CPAN module authors.
+Every month participants are assigned a new module to improve, and submit pull requests to the module repo on GitHub. Participants are not competing with each other, rather the &amp;ldquo;challenge&amp;rdquo; is to keep up with your monthly assignments.</description>
+    </item>
+    
+    <item>
+      <title>Highlights From TPC 2017</title>
+      <link>https://kyzn.org/posts/highlights-from-tpc-2017/</link>
+      <pubDate>Sun, 25 Jun 2017 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/highlights-from-tpc-2017/</guid>
+      <description>Disclaimer This list contains just a small number of talks that I personally thought are important/enjoyable for the most readers. This is by no means an official list curated by an organization. See the YouTube playlist for all awesome talks. I also encourage you to write your own blog about TPC. And yes, it&amp;rsquo;s officially called &amp;ldquo;Tipsy&amp;rdquo; now!
+Where did my test fail? Although I tried to select talks with videos, I had to make an exception for this one.</description>
+    </item>
+    
+    <item>
+      <title>How to Join #yapc on irc.perl.org</title>
+      <link>https://kyzn.org/posts/how-to-join-yapc-on-irc-perl-org/</link>
+      <pubDate>Mon, 19 Jun 2017 03:18:10 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/how-to-join-yapc-on-irc-perl-org/</guid>
+      <description>IRC is used A LOT during The Perl Conference To go online instantly in a browser, you can use Mibbit To stay online (to read all messages sent, even the ones sent when you were not around), you can use IRCCloud You can set up your own bouncer too!  And if you are also headed to #tpc2017dc, hop on https://t.co/2UAyAKRpW3#yapc and hang out with the cool kids! #tpc2017 #perl</description>
+    </item>
+    
+    <item>
+      <title>On Parsing Time Zones</title>
+      <link>https://kyzn.org/posts/on-parsing-time-zones/</link>
+      <pubDate>Wed, 08 Feb 2017 23:24:53 -0700</pubDate>
+      
+      <guid>https://kyzn.org/posts/on-parsing-time-zones/</guid>
+      <description>I posted this to GitHub first, later edited and moved here.
+Summary This post is about a CPAN module I built, called WWW::Eksi. Module parses posts in a Turkish social network called Eksisozluk. All posts come with an attached &amp;ldquo;creation time&amp;rdquo;, and some also include &amp;ldquo;last update time&amp;rdquo;. I realized DateTime was throwing some errors for some of the posts. It turned out these posts had an attached time that never existed in Turkish time zone.</description>
+    </item>
+    
+    <item>
+      <title>5 Things I Learned at YAPC</title>
+      <link>https://kyzn.org/posts/5-things-i-learned-at-yapc/</link>
+      <pubDate>Sat, 02 Jul 2016 23:46:34 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/5-things-i-learned-at-yapc/</guid>
+      <description>Last week, I attended my very first YAPC (Yet Another Perl Conference) at Orlando. While I feel I can write for pages, I want to talk only about several things, following the newest format &amp;ldquo;online newspapers&amp;rdquo; are using.
+1) USA is huge. I remember stories on Quora about tourists who tried to make a day trip to California all the way from New York, and I actually laughed at them too.</description>
+    </item>
+    
+  </channel>
+</rss>

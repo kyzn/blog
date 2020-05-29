@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crowdsourcing on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/crowdsourcing/</link>
+    <description>Recent content in crowdsourcing on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 05 Apr 2015 22:55:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/crowdsourcing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Strange Experiment with Single Button</title>
+      <link>https://kyzn.org/posts/strange-experiment-with-single-button/</link>
+      <pubDate>Sun, 05 Apr 2015 22:55:25 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/strange-experiment-with-single-button/</guid>
+      <description>A few days ago (on april fools to be exact) admins of Reddit had posted a blog describing a &amp;ldquo;button&amp;rdquo;. Rules were pretty simple, there will be a button next to a timer. Timer would count down from 60 seconds, only to be reset globally when a user presses it. Each user has one chance to click, and new users are not allowed. What would happen when timer reaches zero was not revealed, making it even more attractive.</description>
+    </item>
+    
+    <item>
+      <title>Yahoo&#39;s Search Campaign on 3/11</title>
+      <link>https://kyzn.org/posts/yahoos-search-campaign-on-311/</link>
+      <pubDate>Sat, 14 Mar 2015 00:53:59 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/yahoos-search-campaign-on-311/</guid>
+      <description>Yahoo, the number one web-site in Japan, had a nice campaign on fourth anniversary of Eastern Japan Earthquake that happened on 3/11. For each &amp;ldquo;3.11&amp;rdquo; search, they made 10¥ donation to relief efforts. Around 3M people participated in &amp;ldquo;Search for 3.11&amp;rdquo; campaign, and Yahoo is going to donate around $240k. That&amp;rsquo;s pretty nice, not only because they&amp;rsquo;re helping out, but also it&amp;rsquo;s a great way to raise awareness.
+ They also shared this beautiful visual on mostly searched terms about the sad event.</description>
+    </item>
+    
+    <item>
+      <title>Public Voting Through Twitter</title>
+      <link>https://kyzn.org/posts/public-voting-through-twitter/</link>
+      <pubDate>Tue, 24 Feb 2015 12:50:01 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/public-voting-through-twitter/</guid>
+      <description>Last week, we organized a charity party. It was more like a contest, or a show, in which 10 teams participated. Each team was supposed to perform a show on their choice: dance, music, or even a play. We also had a judge of 5 people to grade performances. These people were not the only ones to decide who wins the night, though. There was going to be a public voting, that anyone can participate.</description>
+    </item>
+    
+    <item>
+      <title>Crowdsourcing Weather Forecasts</title>
+      <link>https://kyzn.org/posts/crowdsourcing-weather-forecasts/</link>
+      <pubDate>Mon, 03 Nov 2014 23:17:20 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/crowdsourcing-weather-forecasts/</guid>
+      <description>Today, I came across a mobile application. It seemed rather new to me, but it turns out they&amp;rsquo;re leaving their third year behind. The idea is to collect barometer data, creating a &amp;ldquo;high resolution pressure map&amp;rdquo;. It goes with the title &amp;ldquo;The weather&amp;rsquo;s future.&amp;rdquo;
+Manufacturers started adding barometers to their devices to improve GPS accuracy and altitude detection. These Canadian Developers, alongside scientists from University of Washington, came up with a great idea.</description>
+    </item>
+    
+    <item>
+      <title>Counting Votes Collaboratively</title>
+      <link>https://kyzn.org/posts/counting-votes-collaboratively/</link>
+      <pubDate>Wed, 22 Oct 2014 21:49:22 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/counting-votes-collaboratively/</guid>
+      <description>2014 was a year full of elections in Turkey. There was the local elections in March, which was repeated for some cities in June. Presidential elections took place in August. Prior to elections, protests and scandals were on the news. People think that might have caused an increased voter turnout. Also, something interesting has awakened a collaborative soul in these elections.
+The first thing I have to mention is a community called &amp;ldquo;Oy ve Ötesi&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>News from Twitter</title>
+      <link>https://kyzn.org/posts/news-from-twitter/</link>
+      <pubDate>Thu, 09 Oct 2014 00:50:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/news-from-twitter/</guid>
+      <description>Last week, I wrote a blog about the dark side of Twitter. Not surprisingly, it&amp;rsquo;s not all that bad. Today I&amp;rsquo;ll be talking about something good that is happening on the most popular microblog site.
+I&amp;rsquo;m going to introduce an account called @140Journos, which obviously refers to the character limit of twitter, and is actively doing the job called &amp;ldquo;citizen journalism.&amp;rdquo; Citizen journalism is where the people report the news instead of the professional.</description>
+    </item>
+    
+  </channel>
+</rss>

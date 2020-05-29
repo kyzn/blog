@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conference on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/conference/</link>
+    <description>Recent content in conference on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 20 Aug 2018 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two Perl Conferences in One Year</title>
+      <link>https://kyzn.org/posts/two-perl-conferences-in-one-year/</link>
+      <pubDate>Mon, 20 Aug 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/two-perl-conferences-in-one-year/</guid>
+      <description>My very first Perl Conference was the one in Orlando, in 2016. In fact, the only blog I&amp;rsquo;ve written in 2016 was about that very conference. I&amp;rsquo;ve enjoyed it so much, I went again in 2017, this time as a speaker.
+I have attended not one but two Perl Conferences during 2018: One in Salt Lake City (NA), and one in Glasgow (EU). This time I was not only a speaker: I also organized a Birds of Feather (BOF).</description>
+    </item>
+    
+    <item>
+      <title>Highlights From TPC 2017</title>
+      <link>https://kyzn.org/posts/highlights-from-tpc-2017/</link>
+      <pubDate>Sun, 25 Jun 2017 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/highlights-from-tpc-2017/</guid>
+      <description>Disclaimer This list contains just a small number of talks that I personally thought are important/enjoyable for the most readers. This is by no means an official list curated by an organization. See the YouTube playlist for all awesome talks. I also encourage you to write your own blog about TPC. And yes, it&amp;rsquo;s officially called &amp;ldquo;Tipsy&amp;rdquo; now!
+Where did my test fail? Although I tried to select talks with videos, I had to make an exception for this one.</description>
+    </item>
+    
+    <item>
+      <title>How to Join #yapc on irc.perl.org</title>
+      <link>https://kyzn.org/posts/how-to-join-yapc-on-irc-perl-org/</link>
+      <pubDate>Mon, 19 Jun 2017 03:18:10 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/how-to-join-yapc-on-irc-perl-org/</guid>
+      <description>IRC is used A LOT during The Perl Conference To go online instantly in a browser, you can use Mibbit To stay online (to read all messages sent, even the ones sent when you were not around), you can use IRCCloud You can set up your own bouncer too!  And if you are also headed to #tpc2017dc, hop on https://t.co/2UAyAKRpW3#yapc and hang out with the cool kids! #tpc2017 #perl</description>
+    </item>
+    
+    <item>
+      <title>5 Things I Learned at YAPC</title>
+      <link>https://kyzn.org/posts/5-things-i-learned-at-yapc/</link>
+      <pubDate>Sat, 02 Jul 2016 23:46:34 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/5-things-i-learned-at-yapc/</guid>
+      <description>Last week, I attended my very first YAPC (Yet Another Perl Conference) at Orlando. While I feel I can write for pages, I want to talk only about several things, following the newest format &amp;ldquo;online newspapers&amp;rdquo; are using.
+1) USA is huge. I remember stories on Quora about tourists who tried to make a day trip to California all the way from New York, and I actually laughed at them too.</description>
+    </item>
+    
+  </channel>
+</rss>

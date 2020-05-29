@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/</link>
+    <description>Recent content in Tags on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>smart-card</title>
+      <link>https://kyzn.org/tags/smart-card/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/tags/smart-card/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://kyzn.org/tags/ubuntu/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>perl</title>
+      <link>https://kyzn.org/tags/perl/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pull-request</title>
+      <link>https://kyzn.org/tags/pull-request/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/pull-request/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>announcement</title>
+      <link>https://kyzn.org/tags/announcement/</link>
+      <pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tags/announcement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://kyzn.org/tags/conference/</link>
+      <pubDate>Mon, 20 Aug 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>guide</title>
+      <link>https://kyzn.org/tags/guide/</link>
+      <pubDate>Wed, 21 Feb 2018 21:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rpi</title>
+      <link>https://kyzn.org/tags/rpi/</link>
+      <pubDate>Mon, 07 Aug 2017 22:13:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/rpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eksisozluk</title>
+      <link>https://kyzn.org/tags/eksisozluk/</link>
+      <pubDate>Wed, 08 Feb 2017 23:24:53 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tags/eksisozluk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social-networks</title>
+      <link>https://kyzn.org/tags/social-networks/</link>
+      <pubDate>Wed, 08 Feb 2017 23:24:53 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tags/social-networks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

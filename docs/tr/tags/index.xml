@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kıvanç Yazan</title>
+    <link>https://kyzn.org/tr/tags/</link>
+    <description>Recent content in Tags on Kıvanç Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-tr</language>
+    <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
+    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tr/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>akıllı-kart</title>
+      <link>https://kyzn.org/tr/tags/ak%C4%B1ll%C4%B1-kart/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/ak%C4%B1ll%C4%B1-kart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://kyzn.org/tr/tags/ubuntu/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>perl</title>
+      <link>https://kyzn.org/tr/tags/perl/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pull-request</title>
+      <link>https://kyzn.org/tr/tags/pull-request/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/pull-request/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>duyuru</title>
+      <link>https://kyzn.org/tr/tags/duyuru/</link>
+      <pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/duyuru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kitle-kaynak</title>
+      <link>https://kyzn.org/tr/tags/kitle-kaynak/</link>
+      <pubDate>Sat, 14 Mar 2015 00:53:59 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/kitle-kaynak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sosyal-ağlar</title>
+      <link>https://kyzn.org/tr/tags/sosyal-a%C4%9Flar/</link>
+      <pubDate>Fri, 14 Nov 2014 13:13:17 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/sosyal-a%C4%9Flar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://kyzn.org/tr/tags/twitter/</link>
+      <pubDate>Fri, 14 Nov 2014 13:13:17 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>semantik-web</title>
+      <link>https://kyzn.org/tr/tags/semantik-web/</link>
+      <pubDate>Wed, 15 Oct 2014 00:45:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/tags/semantik-web/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

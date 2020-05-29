@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>duyuru on Kıvanç Yazan</title>
+    <link>https://kyzn.org/tr/tags/duyuru/</link>
+    <description>Recent content in duyuru on Kıvanç Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-tr</language>
+    <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
+    <lastBuildDate>Mon, 26 Aug 2019 20:09:05 -0700</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tr/tags/duyuru/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hoş Geldin Hugo</title>
+      <link>https://kyzn.org/tr/posts/welcome-hugo/</link>
+      <pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/welcome-hugo/</guid>
+      <description>Blogumu bir statik site üreticisinden başkasına taşıdım. Bugüne kadar Plerd’ün sadeleştirilmiş bir kopyası ile html dosyalarını üretiyordum. Doğruyu söylemek gerekirse bu aslında güzel bir sistemdi. Şimdi aynı markdown dosyalarından statik içerik üretmek için Hugo’yu kullanıyorum.
+mini-plerd’ü (yukarıda bahsettiğim sadeleştirilmiş Plerd) ne kadar istesem de güncel tutamadım. Orijinal Plerd’ün bazı güncellemelerini kendi kopyama dahil edemedim. Çok yakın bir zamana kadar markdown tablolarını bile destekleyemiyordum. Belki de Plerd’ün kendisini kullansam daha iyi olurdu.</description>
+    </item>
+    
+    <item>
+      <title>Koşutakvimi Kapanıyor</title>
+      <link>https://kyzn.org/tr/posts/kosutakvimi-going-down/</link>
+      <pubDate>Tue, 21 Jul 2015 21:51:37 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/kosutakvimi-going-down/</guid>
+      <description>Türkiye&amp;rsquo;deki ve çevresindeki koşu etkinliklerinin listelendiği basit takvim uygulamasını sonlandırmaya karar verdim. kosutakvimi.org alanında ilklerden biri olmuştu. Tek Türkçe koşu podcastinde tanıtılmıştı. Aşağıda başarılı bazı alternatiflerini bulabilirsiniz:
+koscora.com/yaris-takvimi
+yaristakvimi.com
+kosukolik.com/etkinlik-takvimi/
+Runnery for Android
+Runnery for iOS</description>
+    </item>
+    
+  </channel>
+</rss>

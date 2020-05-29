@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pull-request on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/pull-request/</link>
+    <description>Recent content in pull-request on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/pull-request/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pull Request Club 2019 Report</title>
+      <link>https://kyzn.org/posts/prc-2019-report/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/prc-2019-report/</guid>
+      <description>CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.
+I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights.</description>
+    </item>
+    
+    <item>
+      <title>CPAN-PRC Report</title>
+      <link>https://kyzn.org/posts/cpan-prc-report/</link>
+      <pubDate>Thu, 27 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/cpan-prc-report/</guid>
+      <description>Neil Bowers had started CPAN Pull Request Challenge in January 2015. Participants received a CPAN module as their assignment each month. The goal was to submit pull requests. I joined the challenge right away. Here&amp;rsquo;s how it went.
+2015: Warming Up My last semester at Bogazici University in Istanbul started February of this year. I moved to California for grad school in September.
+I’ve completed my assignments in January and February before taking a long pause (and a long flight).</description>
+    </item>
+    
+    <item>
+      <title>Two Perl Conferences in One Year</title>
+      <link>https://kyzn.org/posts/two-perl-conferences-in-one-year/</link>
+      <pubDate>Mon, 20 Aug 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/two-perl-conferences-in-one-year/</guid>
+      <description>My very first Perl Conference was the one in Orlando, in 2016. In fact, the only blog I&amp;rsquo;ve written in 2016 was about that very conference. I&amp;rsquo;ve enjoyed it so much, I went again in 2017, this time as a speaker.
+I have attended not one but two Perl Conferences during 2018: One in Salt Lake City (NA), and one in Glasgow (EU). This time I was not only a speaker: I also organized a Birds of Feather (BOF).</description>
+    </item>
+    
+    <item>
+      <title>Setup Your Computer for CPAN-PRC</title>
+      <link>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</link>
+      <pubDate>Wed, 21 Feb 2018 21:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</guid>
+      <description>This blog is originally posted on perl.com, edited by David Farrell.
+Earlier I wrote about why should you join CPAN Pull Request Challenge. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.
+Option 1: The Docker Way By using a Docker image that has everything you need, you can start working in minutes.</description>
+    </item>
+    
+    <item>
+      <title>Why Should You Join CPAN-PRC?</title>
+      <link>https://kyzn.org/posts/why-should-you-join-cpan-prc/</link>
+      <pubDate>Thu, 25 Jan 2018 08:15:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/why-should-you-join-cpan-prc/</guid>
+      <description>This blog is originally posted on perl.com, edited by David Farrell.
+The CPAN Pull Request Challenge (PRC) aims to improve the quality of code on CPAN, the online archive of Perl modules, by having participants submit pull requests to CPAN module authors.
+Every month participants are assigned a new module to improve, and submit pull requests to the module repo on GitHub. Participants are not competing with each other, rather the &amp;ldquo;challenge&amp;rdquo; is to keep up with your monthly assignments.</description>
+    </item>
+    
+    <item>
+      <title>CPAN PR Challenge 01/2015</title>
+      <link>https://kyzn.org/posts/cpan-pr-challenge-012015/</link>
+      <pubDate>Sat, 17 Jan 2015 16:50:08 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/cpan-pr-challenge-012015/</guid>
+      <description>When I was reading through Perl Weekly newsletter the other day, I realized that there is a challenge named &amp;lsquo;CPAN Pull Request Challenge&amp;rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right here.
+The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code.</description>
+    </item>
+    
+  </channel>
+</rss>

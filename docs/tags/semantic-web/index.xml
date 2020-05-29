@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>semantic-web on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/semantic-web/</link>
+    <description>Recent content in semantic-web on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 15 Oct 2014 00:45:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/semantic-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s Next?</title>
+      <link>https://kyzn.org/posts/whats-next/</link>
+      <pubDate>Wed, 15 Oct 2014 00:45:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/whats-next/</guid>
+      <description>&amp;ldquo;There was the PC. Then there was the Web. Then there was the Web 2.0.&amp;rdquo;
+Now, most of the people who regularly use social networks don&amp;rsquo;t know about the history of the web. Ask some non-CS friend, and they&amp;rsquo;ll tell &amp;ldquo;Hey, there is Facebook and Google and what not, so they&amp;rsquo;re called the Internet, right?&amp;rdquo; Well, he/she probably has a point, but still, we have to admit the evolution to see what is coming next.</description>
+    </item>
+    
+  </channel>
+</rss>
