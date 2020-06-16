@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kyzn.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Update GitHub Default Branches</title>
+      <link>https://kyzn.org/posts/update-github-default-branches/</link>
+      <pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/update-github-default-branches/</guid>
+      <description>Each git repository comes with a default branch. Here&amp;rsquo;s a few-steps guide to update all your GitHub repositories&amp;rsquo; default branches.
+1) Communicate Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.
+2) Note that some features may not work For the longest time master has been the default branch name in git and GitHub.</description>
+    </item>
     
     <item>
       <title>Log In to E-Government with Id Card</title>
@@ -102,17 +113,6 @@ I have attended not one but two Perl Conferences during 2018: One in Salt Lake C
       <description>This blog is originally posted on perl.com, edited by David Farrell.
 Earlier I wrote about why should you join CPAN Pull Request Challenge. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.
 Option 1: The Docker Way By using a Docker image that has everything you need, you can start working in minutes.</description>
-    </item>
-    
-    <item>
-      <title>Why Should You Join CPAN-PRC?</title>
-      <link>https://kyzn.org/posts/why-should-you-join-cpan-prc/</link>
-      <pubDate>Thu, 25 Jan 2018 08:15:00 +0000</pubDate>
-      
-      <guid>https://kyzn.org/posts/why-should-you-join-cpan-prc/</guid>
-      <description>This blog is originally posted on perl.com, edited by David Farrell.
-The CPAN Pull Request Challenge (PRC) aims to improve the quality of code on CPAN, the online archive of Perl modules, by having participants submit pull requests to CPAN module authors.
-Every month participants are assigned a new module to improve, and submit pull requests to the module repo on GitHub. Participants are not competing with each other, rather the &amp;ldquo;challenge&amp;rdquo; is to keep up with your monthly assignments.</description>
     </item>
     
   </channel>

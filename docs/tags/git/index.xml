@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Kivanc Yazan</title>
+    <link>https://kyzn.org/tags/git/</link>
+    <description>Recent content in git on Kivanc Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Update GitHub Default Branches</title>
+      <link>https://kyzn.org/posts/update-github-default-branches/</link>
+      <pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/update-github-default-branches/</guid>
+      <description>Each git repository comes with a default branch. Here&amp;rsquo;s a few-steps guide to update all your GitHub repositories&amp;rsquo; default branches.
+1) Communicate Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.
+2) Note that some features may not work For the longest time master has been the default branch name in git and GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

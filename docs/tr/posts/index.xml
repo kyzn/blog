@@ -6,8 +6,66 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>tr-tr</language>
 		<copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-		<lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+		<lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
 		<atom:link href="https://kyzn.org/tr/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>GitHub&#39;da Varsayılan Dal İsmini Değiştirmek</title>
+			<link>https://kyzn.org/tr/posts/update-github-default-branches/</link>
+			<pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+			
+			<guid>https://kyzn.org/tr/posts/update-github-default-branches/</guid>
+			<description>Her git deposunun varsayılan bir dalı vardır. Aşağıda GitHub depolarınızın varsayılan dal ismini nasıl değiştirebileceğinizi görebilirsiniz.
+1) Haber verin Varsayılan dal isminin değiştirilmesi takımlar için büyük bir değişim olabilir. Eğer birçok katkıcısı olan bir deponuz varsa önce onlara haber vermelisiniz. Bir zaman dilimi önerip bekleyebilirsiniz.
+2) Bazı özelliklerin çalışmama ihtimali olduğunu unutmayın Uzunca bir süre master hem git hem de GitHub için varsayılan isimdi. Dolayısıyla bazı GitHub özelliklerinin çalışmadığını görebilirsiniz.</description>
+			<content type="html"><![CDATA[<p>Her git deposunun varsayılan bir dalı vardır. Aşağıda GitHub depolarınızın varsayılan dal ismini nasıl değiştirebileceğinizi görebilirsiniz.</p>
+<h2 id="1-haber-verin">1) Haber verin</h2>
+<p>Varsayılan dal isminin değiştirilmesi takımlar için büyük bir değişim olabilir. Eğer birçok katkıcısı olan bir deponuz varsa önce onlara haber vermelisiniz. Bir zaman dilimi önerip bekleyebilirsiniz.</p>
+<h2 id="2-bazı-özelliklerin-çalışmama-ihtimali-olduğunu-unutmayın">2) Bazı özelliklerin çalışmama ihtimali olduğunu unutmayın</h2>
+<p>Uzunca bir süre master hem git hem de GitHub için varsayılan isimdi. Dolayısıyla bazı GitHub özelliklerinin çalışmadığını görebilirsiniz.</p>
+<p>Mesela GitHub Pages size şu anda iki farklı kaynak seçeneği sunuyor. Her iki seçenek de master dalından veri alıyor. Bunun yakın zamanda değişeceğini tahmin ediyorum. Bu değişiklik olana kadar siz GitHub Pages depolarınızın master dallarını silmemeyi düşünebilirsiniz.</p>
+<p><img src="/images/github-pages-master.png" alt=""></p>
+<h2 id="3-ingydotnetgit-hubı-indirin">3) ingydotnet/git-hub&rsquo;ı indirin</h2>
+<p>GitHub&rsquo;a bağlanan bir komut satırı aracı olan <a href="https://github.com/ingydotnet/git-hub/">git-hub</a>&lsquo;ı kullanacağız. Bu betiği yüklemek için üç yol bulunuyor. Ben burada önerilen yolu anlatacağım.</p>
+<h3 id="31-git-hub-deposunu-klonlayın">3.1) git-hub deposunu klonlayın</h3>
+<p>İlk adım depoyu klonlamak. Bu betik klonlandığı klasörden çalışacak. Ben  <code>/home/kivanc/.git-hub</code>'ı seçtim. Yani kısaca <code>~/.git-hub</code>.</p>
+<pre><code>git clone https://github.com/ingydotnet/git-hub ~/.git-hub
+</code></pre>
+<h3 id="32-başlatma-betiğini-çalıştırın">3.2) Başlatma betiğini çalıştırın</h3>
+<p>Depoyu klonladık fakat <code>git hub</code> komutları henüz gelmedi. Bunun için başlatma betiğini <code>source</code> ile çalıştırmamız gerekiyor.</p>
+<pre><code>source ~/.git-hub/.rc
+</code></pre>
+<h3 id="33-başlatma-betiğini-terminal-başlangıcında-çalıştırın">3.3) Başlatma betiğini terminal başlangıcında çalıştırın</h3>
+<p><code>git hub</code> komutlarına her ihtiyacımız olduğunda <code>source</code> kullanmak yerine bunu başlangıca da ekleyebiliriz. Ben <code>~/.bash_aliases</code>'a ekledim. Eğer sizde bu yoksa  <code>~/.bashrc</code>, <code>~/.bash_profile</code> veya <code>~/.profile</code> dosyalarını deneyebilirsiniz.</p>
+<p>Dosyaya ekleme yapmak için iki tane büyüktür işaretine ihtiyacınız olduğunu unutmayın. Bir tane büyüktür işareti &ldquo;üzerine yaz&rdquo; anlamına geliyor.</p>
+<pre><code>echo 'source ~/.git-hub/.rc' &gt;&gt; ~/.bash_aliases
+</code></pre>
+<h3 id="34-git-hub-setupı-çalıştırın">3.4) git hub setup&rsquo;ı çalıştırın</h3>
+<p>Bazı git-hub komutlarının çalışması için önce aşağıdaki komutu çalıştırmanız gerekiyor. Burada size GitHub kullanıcı adınız, şifreniz ve varsa 2 faktörlü kimlik doğrulama kodunuz sorulacak.</p>
+<pre><code>git hub setup
+</code></pre>
+<p>Bu kurulum aşağıdaki gibi görünecek.</p>
+<center><script id="asciicast-339891" src="https://asciinema.org/a/339891.js" async></script></center>
+<h2 id="4-ditch-mastershı-indirin">4) ditch-master.sh&rsquo;ı indirin</h2>
+<p>fREW bu süreci otomatikleştiren bir betik yazdı. Bu sayede depoları tek tek gezmenize gerek kalmadı. Bu betiği <a href="https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347">https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347</a> adresinde görebilirsiniz.</p>
+<p>Bu betiği yukarıdan indirebileceğiniz gibi, sanki bir git deposuymuş gibi klonlayabilirsiniz de.</p>
+<pre><code>git clone https://gist.github.com/6c259c63dda705f9ef9d030ddb880347.git ~/ditch-master
+</code></pre>
+<p>İndirdiğiniz betiğin yürütülebilir olması gerekiyor.</p>
+<pre><code>cd ~/ditch-master
+chmod a+x ditch-master.sh
+</code></pre>
+<p>Bu betik yeni varsayılan dal ismi olarak &ldquo;main&rdquo; sözcüğünü kullanıyor. Eğer farklı bir kelime kullanmak isterseniz betikteki &ldquo;main&rdquo; kelimelerini istediğiniz bir kelimeyle değiştirebilirsiniz. Mesela &ldquo;trunk&rdquo; kelimesini kullanmak isterseniz, şu komutu kullanabilirsiniz.</p>
+<pre><code>perl -i -pe 's/main/trunk/g' ditch-master.sh
+</code></pre>
+<p>Geriye sadece betiği çalıştırmak kalıyor.</p>
+<pre><code>./ditch-master.sh
+</code></pre>
+<p>Bu betik şu şekilde çalışacak.</p>
+<center><script id="asciicast-EqW4uYlihVExmzb0OiIDA4NUY" src="https://asciinema.org/a/EqW4uYlihVExmzb0OiIDA4NUY.js" async></script></center>
+<p>İşte bu kadar!</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak</title>

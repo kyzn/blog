@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Update GitHub Default Branches">
+<meta itemprop="description" content="Each git repository comes with a default branch. Here&rsquo;s a few-steps guide to update all your GitHub repositories&rsquo; default branches.
+1) Communicate Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.
+2) Note that some features may not work For the longest time master has been the default branch name in git and GitHub.">
+<meta itemprop="datePublished" content="2020-06-15T20:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-06-15T20:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="451">
+
+
+
+<meta itemprop="keywords" content="git,github," /><meta property="og:title" content="Update GitHub Default Branches" />
+<meta property="og:description" content="Each git repository comes with a default branch. Here&rsquo;s a few-steps guide to update all your GitHub repositories&rsquo; default branches.
+1) Communicate Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.
+2) Note that some features may not work For the longest time master has been the default branch name in git and GitHub." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kyzn.org/posts/update-github-default-branches/" />
+<meta property="article:published_time" content="2020-06-15T20:00:00+00:00" />
+<meta property="article:modified_time" content="2020-06-15T20:00:00+00:00" /><meta property="og:site_name" content="Kivanc Yazan" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Update GitHub Default Branches"/>
+<meta name="twitter:description" content="Each git repository comes with a default branch. Here&rsquo;s a few-steps guide to update all your GitHub repositories&rsquo; default branches.
+1) Communicate Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.
+2) Note that some features may not work For the longest time master has been the default branch name in git and GitHub."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Update GitHub Default Branches</title>
+	<link rel="stylesheet" href="https://kyzn.org/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://kyzn.org/posts/">Posts</a>
+				<a href="https://kyzn.org/slides/">Slides</a>
+				<a href="https://pullrequest.club">PR Club</a>
+				<a href="https://kyzn.org/tr/">Türkçe</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="mailto:kyzn@cpan.org" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://twitter.com/kyzn" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/kyzn" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/kivancyazan/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://kyzn.org/posts/">Posts</a></li>
+			<li><a href="https://kyzn.org/slides/">Slides</a></li>
+			<li><a href="https://pullrequest.club">PR Club</a></li>
+			<li><a href="https://kyzn.org/tr/">Türkçe</a></li>
+		</ul>
+	</div>
+
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jun 15, 2020</span></div>
+				<h1>Update GitHub Default Branches</h1>
+			</header>
+			<div class="content">
+				<p>Each git repository comes with a default branch.  Here&rsquo;s a few-steps guide to update all your GitHub repositories&rsquo; default branches.</p>
+<h2 id="1-communicate">1) Communicate<a href="#1-communicate" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.</p>
+<h2 id="2-note-that-some-features-may-not-work">2) Note that some features may not work<a href="#2-note-that-some-features-may-not-work" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>For the longest time master has been the default branch name in git and GitHub. So you may see some GitHub features not working properly.</p>
+<p>One example is GitHub pages. It currently gives you two source options, and both are from the master branch. I think this will change soon. But in the meantime you may want to keep master branches of your GitHub pages repositories.</p>
+<p><img src="/images/github-pages-master.png" alt=""></p>
+<h2 id="3-get-ingydotnetgit-hub">3) Get ingydotnet/git-hub<a href="#3-get-ingydotnetgit-hub" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p><a href="https://github.com/ingydotnet/git-hub/">git-hub</a> is a command line tool that you can use to talk to GitHub. There are three ways to install, all explained in its readme file. I will explain the preferred way here.</p>
+<h3 id="31-clone-git-hub-repository">3.1) Clone git-hub repository<a href="#31-clone-git-hub-repository" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>First step is to clone the repository. It&rsquo;s going to be run from the folder you cloned it to. I picked <code>/home/kivanc/.git-hub</code>, or <code>~/.git-hub</code> in short.</p>
+<pre><code>git clone https://github.com/ingydotnet/git-hub ~/.git-hub
+</code></pre>
+<h3 id="32-run-initialization-script">3.2) Run initialization script<a href="#32-run-initialization-script" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Now we cloned the repository, but we still don&rsquo;t have <code>git hub</code> command available. We need to run <code>source</code> for initialization script.</p>
+<pre><code>source ~/.git-hub/.rc
+</code></pre>
+<h3 id="33-run-initialization-script-at-startup">3.3) Run initialization script at startup<a href="#33-run-initialization-script-at-startup" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Instead of running <code>source</code> every time we need <code>git hub</code>, we can add it to our shell startup. I added it to <code>~/.bash_aliases</code>. If you don&rsquo;t have that, try <code>~/.bashrc</code>, <code>~/.bash_profile</code> or <code>~/.profile</code>. Note that you need two greater-than signs for &ldquo;append&rdquo;. One greater-than means &ldquo;overwrite&rdquo;.</p>
+<pre><code>echo 'source ~/.git-hub/.rc' &gt;&gt; ~/.bash_aliases
+</code></pre>
+<h3 id="34-run-git-hub-setup">3.4) Run git hub setup<a href="#34-run-git-hub-setup" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>For some git-hub commands to work, you need to run the following command. It will ask you for your GitHub username, password, and 2FA code (if any).</p>
+<pre><code>git hub setup
+</code></pre>
+<p>Here&rsquo;s how it looks.</p>
+<center><script id="asciicast-339891" src="https://asciinema.org/a/339891.js" async></script></center>
+<h2 id="4-get-ditch-mastersh">4) Get ditch-master.sh<a href="#4-get-ditch-mastersh" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>fREW wrote a script that automates the whole process. So you don&rsquo;t have to go through repos one by one. You can see the script at <a href="https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347">https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347</a>.</p>
+<p>You can download the script from there, or you can clone it as if it was a repository.</p>
+<pre><code>git clone https://gist.github.com/6c259c63dda705f9ef9d030ddb880347.git ~/ditch-master
+</code></pre>
+<p>After you have the script, make sure it&rsquo;s executable:</p>
+<pre><code>cd ~/ditch-master
+chmod a+x ditch-master.sh
+</code></pre>
+<p>Script will use &ldquo;main&rdquo; as default branch name. If you want to use something else, you should find and replace &ldquo;main&rdquo; with the word of your choosing. So for example, if you want to use &ldquo;trunk&rdquo;, you can run the following.</p>
+<pre><code>perl -i -pe 's/main/trunk/g' ditch-master.sh
+</code></pre>
+<p>All that is left is to run the script.</p>
+<pre><code>./ditch-master.sh
+</code></pre>
+<p>Here&rsquo;s how it looks.</p>
+<center><script id="asciicast-EqW4uYlihVExmzb0OiIDA4NUY" src="https://asciinema.org/a/EqW4uYlihVExmzb0OiIDA4NUY.js" async></script></center>
+<p>That&rsquo;s it!</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>Kivanc Yazan</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://kyzn.org/tags/git">git</a></span><span class="tag"><a href="https://kyzn.org/tags/github">github</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>451 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-15 23:00 &#43;0300</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://kyzn.org/posts/log-in-to-e-government-with-id-card/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Log In to E-Government with Id Card</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://kyzn.org">Kivanc Yazan</a> &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+		<p>
+			<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://kyzn.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://kyzn.org/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+
+<script data-goatcounter="https://kyzn_org.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</body>
+
+</html>

@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kyzn.org/tags/git/</loc>
+    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/git/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tags/github/</loc>
+    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/github/"
+                />
+  </url>
+  
+  <url>
     <loc>https://kyzn.org/</loc>
-    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
+    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -14,6 +44,51 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kyzn.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/posts/</loc>
+    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tags/</loc>
+    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/posts/update-github-default-branches/</loc>
+    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/update-github-default-branches/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/update-github-default-branches/"
                 />
   </url>
   
@@ -33,38 +108,8 @@
   </url>
   
   <url>
-    <loc>https://kyzn.org/posts/</loc>
-    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/posts/"
-                />
-  </url>
-  
-  <url>
     <loc>https://kyzn.org/tags/smart-card/</loc>
     <lastmod>2020-05-16T15:30:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kyzn.org/tags/</loc>
-    <lastmod>2020-05-16T15:30:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/tags/"
-                />
   </url>
   
   <url>

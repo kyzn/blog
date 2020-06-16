@@ -6,8 +6,65 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+		<lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
 		<atom:link href="https://kyzn.org/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Update GitHub Default Branches</title>
+			<link>https://kyzn.org/posts/update-github-default-branches/</link>
+			<pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+			
+			<guid>https://kyzn.org/posts/update-github-default-branches/</guid>
+			<description>Each git repository comes with a default branch. Here&amp;rsquo;s a few-steps guide to update all your GitHub repositories&amp;rsquo; default branches.
+1) Communicate Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.
+2) Note that some features may not work For the longest time master has been the default branch name in git and GitHub.</description>
+			<content type="html"><![CDATA[<p>Each git repository comes with a default branch.  Here&rsquo;s a few-steps guide to update all your GitHub repositories&rsquo; default branches.</p>
+<h2 id="1-communicate">1) Communicate</h2>
+<p>Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.</p>
+<h2 id="2-note-that-some-features-may-not-work">2) Note that some features may not work</h2>
+<p>For the longest time master has been the default branch name in git and GitHub. So you may see some GitHub features not working properly.</p>
+<p>One example is GitHub pages. It currently gives you two source options, and both are from the master branch. I think this will change soon. But in the meantime you may want to keep master branches of your GitHub pages repositories.</p>
+<p><img src="/images/github-pages-master.png" alt=""></p>
+<h2 id="3-get-ingydotnetgit-hub">3) Get ingydotnet/git-hub</h2>
+<p><a href="https://github.com/ingydotnet/git-hub/">git-hub</a> is a command line tool that you can use to talk to GitHub. There are three ways to install, all explained in its readme file. I will explain the preferred way here.</p>
+<h3 id="31-clone-git-hub-repository">3.1) Clone git-hub repository</h3>
+<p>First step is to clone the repository. It&rsquo;s going to be run from the folder you cloned it to. I picked <code>/home/kivanc/.git-hub</code>, or <code>~/.git-hub</code> in short.</p>
+<pre><code>git clone https://github.com/ingydotnet/git-hub ~/.git-hub
+</code></pre>
+<h3 id="32-run-initialization-script">3.2) Run initialization script</h3>
+<p>Now we cloned the repository, but we still don&rsquo;t have <code>git hub</code> command available. We need to run <code>source</code> for initialization script.</p>
+<pre><code>source ~/.git-hub/.rc
+</code></pre>
+<h3 id="33-run-initialization-script-at-startup">3.3) Run initialization script at startup</h3>
+<p>Instead of running <code>source</code> every time we need <code>git hub</code>, we can add it to our shell startup. I added it to <code>~/.bash_aliases</code>. If you don&rsquo;t have that, try <code>~/.bashrc</code>, <code>~/.bash_profile</code> or <code>~/.profile</code>. Note that you need two greater-than signs for &ldquo;append&rdquo;. One greater-than means &ldquo;overwrite&rdquo;.</p>
+<pre><code>echo 'source ~/.git-hub/.rc' &gt;&gt; ~/.bash_aliases
+</code></pre>
+<h3 id="34-run-git-hub-setup">3.4) Run git hub setup</h3>
+<p>For some git-hub commands to work, you need to run the following command. It will ask you for your GitHub username, password, and 2FA code (if any).</p>
+<pre><code>git hub setup
+</code></pre>
+<p>Here&rsquo;s how it looks.</p>
+<center><script id="asciicast-339891" src="https://asciinema.org/a/339891.js" async></script></center>
+<h2 id="4-get-ditch-mastersh">4) Get ditch-master.sh</h2>
+<p>fREW wrote a script that automates the whole process. So you don&rsquo;t have to go through repos one by one. You can see the script at <a href="https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347">https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347</a>.</p>
+<p>You can download the script from there, or you can clone it as if it was a repository.</p>
+<pre><code>git clone https://gist.github.com/6c259c63dda705f9ef9d030ddb880347.git ~/ditch-master
+</code></pre>
+<p>After you have the script, make sure it&rsquo;s executable:</p>
+<pre><code>cd ~/ditch-master
+chmod a+x ditch-master.sh
+</code></pre>
+<p>Script will use &ldquo;main&rdquo; as default branch name. If you want to use something else, you should find and replace &ldquo;main&rdquo; with the word of your choosing. So for example, if you want to use &ldquo;trunk&rdquo;, you can run the following.</p>
+<pre><code>perl -i -pe 's/main/trunk/g' ditch-master.sh
+</code></pre>
+<p>All that is left is to run the script.</p>
+<pre><code>./ditch-master.sh
+</code></pre>
+<p>Here&rsquo;s how it looks.</p>
+<center><script id="asciicast-EqW4uYlihVExmzb0OiIDA4NUY" src="https://asciinema.org/a/EqW4uYlihVExmzb0OiIDA4NUY.js" async></script></center>
+<p>That&rsquo;s it!</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Log In to E-Government with Id Card</title>
@@ -556,7 +613,7 @@ I have attended not one but two Perl Conferences during 2018: One in Salt Lake C
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/ySWez59lhH0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <p>This talk inspired me to build a Dist::Zilla plugin to make it easy to add a Code of Conduct to CPAN modules. The idea was that you could add one line to your dist.ini file, and get a Code of Conduct.</p>
 <p>I gave a lightning talk about this very module in Glasgow. I&rsquo;m glad I did that because it lead to a very constructive discussion. I already have a <a href="https://github.com/kyzn/Dist-Zilla-Plugin-ContributorCovenant/issues/3">plan</a> to improve it. This was another proof for me that keeping in touch with your community matters. Presenting your ideas matters. Providing constructive critisism <em>and</em> listening to it matters.</p>
-<p>There were more great talks given on the topic. Do you want to hear about how to make your application more inclusive? Then you should see Joelle Maslak&rsquo;s talk &ldquo;<a href="https://www.youtube.com/watch?v=ZqpCKisOL5k">You&rsquo;re not wanted here</a>&quot;. Do you want to get some crucial tips on how to make your community more friendly? Then you should also see Ruth Holloway&rsquo;s &ldquo;<a href="https://www.youtube.com/watch?v=-lWnmVm5owQ">Discourse without drama</a>&quot;. Both speakers delivered their talks at both venues.</p>
+<p>There were more great talks given on the topic. Do you want to hear about how to make your application more inclusive? Then you should see Joelle Maslak&rsquo;s talk &ldquo;<a href="https://www.youtube.com/watch?v=ZqpCKisOL5k">You&rsquo;re not wanted here</a>&rdquo;. Do you want to get some crucial tips on how to make your community more friendly? Then you should also see Ruth Holloway&rsquo;s &ldquo;<a href="https://www.youtube.com/watch?v=-lWnmVm5owQ">Discourse without drama</a>&rdquo;. Both speakers delivered their talks at both venues.</p>
 <p>I am also going to recommend &ldquo;<a href="https://youtu.be/RfdOYbyRwB4?t=3h13m40s">Developers, engineers and the downward spiral</a>&rdquo; by Christopher Rasch-Olsen Raa, given in Glasgow. This talk has very important notes about mental health. You will find some crucial tips for employees, managers, and leaders.</p>
 <h2 id="pull-request-challenge">Pull Request Challenge</h2>
 <p>Neil Bowers is organizing Pull Request Challenge for 4 years now. In January 2018, he announced that it is going to <a href="http://neilb.org/2018/01/01/cpan-prc-2018.html">end this year</a>. I&rsquo;m trying to build a successor named <a href="https://pullrequest.club">pullrequest.club</a>.  I&rsquo;ve presented a talk that explained what Pull Request Challenge is in general.</p>
@@ -702,7 +759,7 @@ Every month participants are assigned a new module to improve, and submit pull r
 <li><a href="https://cpants.cpanauthors.org/">CPANTS</a> is a &ldquo;kwalitee&rdquo; assessment tool</li>
 </ul>
 <p>A good place to start is <a href="https://metacpan.org">metacpan</a>, a CPAN search engine which links to all of the above services. Scan through the module documentation and related information, to try and find things that need fixing or enhancing.</p>
-<p>Once you&rsquo;ve identified the changes you&rsquo;d like to make, fork the module on GitHub, commit your changes and open a pull request with the new changes. Then reply to your assignment email saying &ldquo;It&rsquo;s done!&quot;, and link to your pull requests on GitHub:</p>
+<p>Once you&rsquo;ve identified the changes you&rsquo;d like to make, fork the module on GitHub, commit your changes and open a pull request with the new changes. Then reply to your assignment email saying &ldquo;It&rsquo;s done!&rdquo;, and link to your pull requests on GitHub:</p>
 <p><img src="/images/pr-done.png" alt=""></p>
 <p>Although it&rsquo;s better to do your assignments every month, you may not be willing to commit to it, and that is fine! If something comes up, you can skip a month. If you need more time for a module, you can stick to your assignment for longer. There&rsquo;s a solution as long as you want to keep participating.</p>
 <h3 id="why-join">Why join?</h3>
@@ -786,7 +843,7 @@ Where did my test fail? Although I tried to select talks with videos, I had to m
 <p>On Tuesday night, Damian Conway talked about his new modules: <a href="https://metacpan.org/pod/Dios"><code>Dios</code></a> lets you declare classes with Perl 6 syntax, which uses <a href="https://metacpan.org/pod/Keyword::Declare"><code>Keyword::Declare</code></a> to declare a couple new keywords it needs. <a href="https://metacpan.org/pod/Data::Dx"><code>Data::Dx</code></a> and <a href="https://metacpan.org/pod/Test::Expr"><code>Test::Expr</code></a> also utilize &ldquo;adding new keywords&rdquo;. First one is a wrapper around <code>Data::Dumper</code>, and second one is a Test module that prints out source code when an error happens, which apparently was not a thing yet. Pretty awesome, right?</p>
 <p>Luckily, Chad Granum (who is working on Test2) was in audience, and the very next day, he announced <a href="https://metacpan.org/pod/Test2::Plugin::SourceDiag"><code>Test2::Plugin::SourceDiag</code></a> on Lightning Talks, so this is a thing now! Thanks Damian &amp; Chad!</p>
 <h3 id="polyglots">Polyglots!</h3>
-<p>Between the advertisements (&ldquo;Start a Perl Mongers!&quot;, &ldquo;No no, start a Polyglot Group!&quot;, &ldquo;No, start both!&quot;) we did have a couple talks on several languages. Here&rsquo;s a bunch of them, but there are more at YouTube.</p>
+<p>Between the advertisements (&ldquo;Start a Perl Mongers!&rdquo;, &ldquo;No no, start a Polyglot Group!&rdquo;, &ldquo;No, start both!&quot;) we did have a couple talks on several languages. Here&rsquo;s a bunch of them, but there are more at YouTube.</p>
 <p>&ldquo;If you think your one programming language is the best thing ever, you are doing life wrong.&rdquo;</p>
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/n-st1-DpKHI" frameborder="0" allowfullscreen></iframe>
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/VbObDEH-jKY" frameborder="0" allowfullscreen></iframe>
@@ -1384,7 +1441,7 @@ What about, tweeting exactly on 3/14/15 9:26:53? Well, that might be early for a
 <p><img src="/images/votepl-ads.png" alt=""></p>
 <center><h6>People asking their followers to vote for their teams</h6></center>
 <p>We could have performed a basic search on Twitter Web, and then count the votes one by one, but that wouldn&rsquo;t be a smart solution. Hence the script. It was run for 15 minutes, and we captured 275 tweets with event hashtag which is about one tweet per 3 seconds. However, only 179 tweets were counted as &lsquo;valid vote&rsquo;, which is 65% of total tweets. But why did we ignore 96 tweets?</p>
-<p>We&rsquo;ve developed precautive measurements in the script so that no team can abuse the automated vote counting process. We did not count forwarded tweets (that is, a retweet), and there were 22 many. We counted only the first vote of each person. There were 32 tweets that had a note saying &ldquo;This person has voted before!&quot;. We also checked for   age of each account. If the account the vote is casted from is newly created, we did not count the vote. If the tweet is sent from an unofficial application, we ignored. And 41 tweets did not contain any team keyword (or had typos in it).</p>
+<p>We&rsquo;ve developed precautive measurements in the script so that no team can abuse the automated vote counting process. We did not count forwarded tweets (that is, a retweet), and there were 22 many. We counted only the first vote of each person. There were 32 tweets that had a note saying &ldquo;This person has voted before!&rdquo;. We also checked for   age of each account. If the account the vote is casted from is newly created, we did not count the vote. If the tweet is sent from an unofficial application, we ignored. And 41 tweets did not contain any team keyword (or had typos in it).</p>
 <p>Although tested heavily, I was scared that it simply wouldn&rsquo;t work for no obvious reason. But it did! And it did a good job. The script is on <a href="http://github.com/kyzn/twitter-voting">GitHub</a>, you can use it as you wish.</p>
 ]]></content>
 		</item>
@@ -1460,7 +1517,7 @@ The idea was simple: For each month in 2015, each participant will be assigned a
 			<description>I&amp;rsquo;ve recently seen this blog, and thought that was really nice. It was saying that some people buy applications which favourite random tweets on behalf on themselves, leading to an increase in the number of followers. Then I thought, well, this could mean that people who favourites violently could be the spammers we&amp;rsquo;re looking for! I had to see it for myself, so I did.
 I worked on the set we collected during 36th Istanbul Marathon.</description>
 			<content type="html"><![CDATA[<p>I&rsquo;ve recently seen <a href="http://www.qureet.com/blog/twitter-spam-reduction/">this</a> blog, and thought that was really nice. It was saying that some people buy applications which favourite random tweets on behalf on themselves, leading to an increase in the number of followers. Then I thought, well, this could mean that people who favourites violently could be the spammers we&rsquo;re looking for! I had to see it for myself, so I did.</p>
-<p>I worked on the set we collected during 36th Istanbul Marathon. I extracted user ids with number of tweets they favourited. Then I extracted first mentions in tweets. A first mention is not necessarily a retweet, although quite likely it is. It&rsquo;s just the first mention in a tweet. Say Cartman tweets &ldquo;Hey @Kyle, how are you? We&rsquo;re having fun with @Kenny!&quot;, then we would have an edge from Cartman to Kyle only.</p>
+<p>I worked on the set we collected during 36th Istanbul Marathon. I extracted user ids with number of tweets they favourited. Then I extracted first mentions in tweets. A first mention is not necessarily a retweet, although quite likely it is. It&rsquo;s just the first mention in a tweet. Say Cartman tweets &ldquo;Hey @Kyle, how are you? We&rsquo;re having fun with @Kenny!&rdquo;, then we would have an edge from Cartman to Kyle only.</p>
 <p>We had 23499 users and 24401 mentions. No calculations were done, but see graphs for yourselves. Nodes are Twitter users, edges are mentions. From the last example, Cartman and Kyle would be nodes, and there will be an edge from Cartman to Kyle. Kenny does not necessarily exist, not to mean we killed him off.</p>
 <p><img src="/images/spammer-inin.png" alt=""></p>
 <p>First graph is here to show an example of dual circular graph. There are two circles, as the name suggests. You&rsquo;ll see very few nodes in the inner circle, and more on outer. Circles are ordered by in-degree. This means, nodes of inner circle are the top mentioned users and outer circle is sorted as well. Node sizes also represent in-degree, so that the graph is easier to understand. Sorry for the weird shape, I couldn&rsquo;t make it into a real circle.</p>
@@ -1672,7 +1729,7 @@ I&amp;rsquo;m going to introduce an account called @140Journos, which obviously
 <p>And I wanted to investigate the interface those tweets are sent from. To explain it a little more, I was curious about if those tweets are written on twitter.com, which is not likely, or are they being tweeted by some scripts. Until recently, the interface could have been seen on web, but it&rsquo;s not possible anymore. I made use of tweetdeck client to get that information. The result was no surprise.</p>
 <p><img src="/images/twitter-source.png" alt=""></p>
 <center><h6>A bot tweet promoting a hashtag, with a random "rest of tweet"</h6></center>
-<p>So the user has created an application with the same name (except the cedilla), and has been using the application to send his/her tweets. At this point, we can go back to the question &ldquo;What&rsquo;s wrong with that?&quot;, but I&rsquo;m not going to do it here. If you have a doubt about that, I&rsquo;m going to put a link to <a href="https://help.twitter.com/en/rules-and-policies/twitter-rules">Twitter Rules</a>. (But then again, who are the people to set the rules, why the rules are there, and the discussion goes on.) Then I&rsquo;ve come up with a funny price list! Actually, it was not hard to find it at all.</p>
+<p>So the user has created an application with the same name (except the cedilla), and has been using the application to send his/her tweets. At this point, we can go back to the question &ldquo;What&rsquo;s wrong with that?&rdquo;, but I&rsquo;m not going to do it here. If you have a doubt about that, I&rsquo;m going to put a link to <a href="https://help.twitter.com/en/rules-and-policies/twitter-rules">Twitter Rules</a>. (But then again, who are the people to set the rules, why the rules are there, and the discussion goes on.) Then I&rsquo;ve come up with a funny price list! Actually, it was not hard to find it at all.</p>
 <p><img src="/images/twitter-price.png" alt=""></p>
 <center><h6>Follower prices for Twitter, Facebook and Instagram. It's funny prices are higher in Turkey</h6></center>
 <p>And I found out that they started working for different networks as well. Well, I become a bit exhausted at this point, because it already became a creative business model. I&rsquo;m personally following tens of Turkish users too, but I hope I made my reason for not looking at Turkish TTs clear. This is just insane. Trending topic abuse does not seem to be an issue around the world, but according to <a href="http://news.yahoo.com/blogs/profit-minded/10-people-won-t-believe-fake-followers-twitter-215539518.html">this article</a> on Yahoo, some founders and co-founders of huge Silicon Valley companies (including Twitter) have a quite huge percentage of fake followers. I&rsquo;m not saying they&rsquo;re buying it, it might be even the fact that bots are following them as a protective measure. Still, I have no idea if following the CEO of Twitter reduces the possibility of your account being banned.</p>

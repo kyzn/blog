@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-tr</language>
     <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kyzn.org/tr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GitHub&#39;da Varsayılan Dal İsmini Değiştirmek</title>
+      <link>https://kyzn.org/tr/posts/update-github-default-branches/</link>
+      <pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/update-github-default-branches/</guid>
+      <description>Her git deposunun varsayılan bir dalı vardır. Aşağıda GitHub depolarınızın varsayılan dal ismini nasıl değiştirebileceğinizi görebilirsiniz.
+1) Haber verin Varsayılan dal isminin değiştirilmesi takımlar için büyük bir değişim olabilir. Eğer birçok katkıcısı olan bir deponuz varsa önce onlara haber vermelisiniz. Bir zaman dilimi önerip bekleyebilirsiniz.
+2) Bazı özelliklerin çalışmama ihtimali olduğunu unutmayın Uzunca bir süre master hem git hem de GitHub için varsayılan isimdi. Dolayısıyla bazı GitHub özelliklerinin çalışmadığını görebilirsiniz.</description>
+    </item>
     
     <item>
       <title>E-Devlet&#39;e Kimlik Kartı ile Giriş Yapmak</title>
@@ -106,16 +117,6 @@ Toplamda 37 bin tweet topladık. Bunların 3381 tanesinde konum bilgisi vardı.<
       <guid>https://kyzn.org/tr/posts/tracking-istanbul-marathon/</guid>
       <description>Bu Pazar Türkiye&amp;rsquo;deki en büyük spor etkinliği olan Vodafone İstanbul Maratonu 36. kez gerçekleşecek. Bu yarış dünyadaki tek kıtalararası yol yarışı. Bu etkinliğin bir &amp;ldquo;Altın Etiketli Yarış&amp;rdquo; olduğunu not etmeliyim. Tüm dünyada sadece 39 yarışın altın etiketi var.
 Boğaz Köprüsü yayaları sadece yılda bir kez kabul ediyor. Fotoğraf: UN Women/Müslüm Bayburs, CC BY-NC-ND 2.0 lisansı. Bu yıl sosyal ağ analizi üzerine çalıştığımız için bu maratonu başka bir şekilde koşuyoruz.1. Sizi takip ediyoruz!</description>
-    </item>
-    
-    <item>
-      <title>Kitle Kaynaklı Hava Durumu Tahminleri</title>
-      <link>https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/</link>
-      <pubDate>Mon, 03 Nov 2014 23:17:20 +0000</pubDate>
-      
-      <guid>https://kyzn.org/tr/posts/crowdsourcing-weather-forecasts/</guid>
-      <description>Bugün bir mobil uygulamaya denk geldim. Bana yeni gibi göründü ama üç yıldır yayındaymış. Barometre verisini kullanarak &amp;ldquo;yüksek çözünürlüklü basınç haritası&amp;rdquo; oluşturma fikri üzerine kurulmuş. &amp;ldquo;Hava durumunun geleceği&amp;rdquo; diye de anılıyor.
-Telefon üreticileri GPS doğruluğunu arttırmak ve yükseklik tespiti yapabilmek için cihazlara barometre ekliyorlar. Kanadalı bu yazılım geliştiricileri Vaşington Üniversitesi bilim insanları ile birlikte harika bir fikir bulmuşlar. Milyonlarca cihazdaki barometreleri hava durumu tahminlerini yeniden şekillendirmek için kullanabileceklerinin farkına varmışlar.</description>
     </item>
     
   </channel>

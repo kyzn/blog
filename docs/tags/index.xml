@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kyzn.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>git</title>
+      <link>https://kyzn.org/tags/git/</link>
+      <pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://kyzn.org/tags/github/</link>
+      <pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/github/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>smart-card</title>
@@ -81,24 +99,6 @@
       <pubDate>Mon, 07 Aug 2017 22:13:00 +0000</pubDate>
       
       <guid>https://kyzn.org/tags/rpi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>eksisozluk</title>
-      <link>https://kyzn.org/tags/eksisozluk/</link>
-      <pubDate>Wed, 08 Feb 2017 23:24:53 -0700</pubDate>
-      
-      <guid>https://kyzn.org/tags/eksisozluk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>social-networks</title>
-      <link>https://kyzn.org/tags/social-networks/</link>
-      <pubDate>Wed, 08 Feb 2017 23:24:53 -0700</pubDate>
-      
-      <guid>https://kyzn.org/tags/social-networks/</guid>
       <description></description>
     </item>
     

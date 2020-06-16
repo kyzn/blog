@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Kıvanç Yazan</title>
+    <link>https://kyzn.org/tr/tags/git/</link>
+    <description>Recent content in git on Kıvanç Yazan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-tr</language>
+    <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
+    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tr/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub&#39;da Varsayılan Dal İsmini Değiştirmek</title>
+      <link>https://kyzn.org/tr/posts/update-github-default-branches/</link>
+      <pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/update-github-default-branches/</guid>
+      <description>Her git deposunun varsayılan bir dalı vardır. Aşağıda GitHub depolarınızın varsayılan dal ismini nasıl değiştirebileceğinizi görebilirsiniz.
+1) Haber verin Varsayılan dal isminin değiştirilmesi takımlar için büyük bir değişim olabilir. Eğer birçok katkıcısı olan bir deponuz varsa önce onlara haber vermelisiniz. Bir zaman dilimi önerip bekleyebilirsiniz.
+2) Bazı özelliklerin çalışmama ihtimali olduğunu unutmayın Uzunca bir süre master hem git hem de GitHub için varsayılan isimdi. Dolayısıyla bazı GitHub özelliklerinin çalışmadığını görebilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>
