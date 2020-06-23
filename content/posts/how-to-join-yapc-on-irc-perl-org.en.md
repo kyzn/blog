@@ -14,15 +14,13 @@ aliases: [
  - To stay online (to read all messages sent, even the ones sent when you were not around), you can use [IRCCloud](https://www.irccloud.com)
  - You can set up your own bouncer too!
 
-<blockquote class="twitter-tweet" data-lang="en">
-<p dir="ltr" lang="en">And if you are also headed to <a href="https://twitter.com/hashtag/tpc2017dc?src=hash">#tpc2017dc</a>, hop on <a href="https://t.co/2UAyAKRpW3">https://t.co/2UAyAKRpW3</a>#yapc and hang out with the cool kids! <a href="https://twitter.com/hashtag/tpc2017?src=hash">#tpc2017</a> <a href="https://twitter.com/hashtag/perl?src=hash">#perl</a></p>
-— just john @ home. (@genehack) <a href="https://twitter.com/genehack/status/876059761657077760">June 17, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet" data-lang="en">
-<p dir="ltr" lang="en"><a href="https://t.co/ju5k4bqbD1">https://t.co/ju5k4bqbD1</a> channel <a href="https://twitter.com/hashtag/yapc?src=hash">#yapc</a> is a good place to community-coordinate beyond the wiki <a href="https://twitter.com/hashtag/tpc2017dc?src=hash">#tpc2017dc</a> <a href="https://t.co/hHjma16LlQ">https://t.co/hHjma16LlQ</a></p>
-— Perl Conferences (@PerlConferences) <a href="https://twitter.com/PerlConferences/status/876570261444866049">June 18, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<center>
 
+<blockquote class="twitter-tweet" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">And if you are also headed to <a href="https://twitter.com/hashtag/tpc2017dc?src=hash&amp;ref_src=twsrc%5Etfw">#tpc2017dc</a>, hop on <a href="https://t.co/2UAyAKRpW3">https://t.co/2UAyAKRpW3</a>#yapc and hang out with the cool kids! <a href="https://twitter.com/hashtag/tpc2017?src=hash&amp;ref_src=twsrc%5Etfw">#tpc2017</a> <a href="https://twitter.com/hashtag/perl?src=hash&amp;ref_src=twsrc%5Etfw">#perl</a></p>&mdash; just john sez “Black Lives Matter” (@genehack) <a href="https://twitter.com/genehack/status/876059761657077760?ref_src=twsrc%5Etfw">June 17, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr"><a href="https://t.co/ju5k4bqbD1">https://t.co/ju5k4bqbD1</a> channel <a href="https://twitter.com/hashtag/yapc?src=hash&amp;ref_src=twsrc%5Etfw">#yapc</a> is a good place to community-coordinate beyond the wiki <a href="https://twitter.com/hashtag/tpc2017dc?src=hash&amp;ref_src=twsrc%5Etfw">#tpc2017dc</a> <a href="https://t.co/hHjma16LlQ">https://t.co/hHjma16LlQ</a></p>&mdash; The Perl and Raku Conference (@PerlConferences) <a href="https://twitter.com/PerlConferences/status/876570261444866049?ref_src=twsrc%5Etfw">June 18, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
 
 
 ## Introduction
@@ -73,8 +71,9 @@ If you have a machine running 7/24, or willing to fire up a DigitalOcean/Linode 
  - znc won't work under root, so you need to have at least one non-root user. You can add one: `adduser znc && su znc && cd ~ `
  - `znc --makeconf`
     - **Listen on port:** This is tricky. If you are on a public wifi that blocks ports (could be the case for some conference venues) you need to make sure you pick a port that you have access to. Or you can use VPN to avoid that.
+    - **Listen using SSL:** Yes.
     - **Server host:** `ssl.irc.perl.org` (or `irc.perl.org`)
-    - **Server uses SSL:** yes
+    - **Server uses SSL:** Yes.
     - **Server port:** 7062 (or 6667)
     - Server password is empty
     - **Initial channels:** #yapc (yay!)
@@ -85,9 +84,13 @@ If you have a machine running 7/24, or willing to fire up a DigitalOcean/Linode 
 
 Once all is done, it will ask you whether you want to run znc now, which you can say yes. I also recommend setting a cronjob that restarts znc if it's not running for some reason.
 
-    */10 * * * * /usr/local/bin/znc >/dev/null 2>&1
+    */10 * * * * /usr/bin/znc >/dev/null 2>&1
 
 If you want to see the admin panel, you can go to https://host:port. (port that znc listens to). You can login with admin username & password you set during znc configuration setup.
+
+Here's how the entire installation process looks like.
+
+<center><script id="asciicast-342071" src="https://asciinema.org/a/342071.js" async></script></center>
 
 Only thing left is to set up your client just like before.
 
