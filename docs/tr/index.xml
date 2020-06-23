@@ -99,6 +99,16 @@ Runnery for iOS</description>
     </item>
     
     <item>
+      <title>Maraton Retweetlerinde Bir Sosyal Ağ</title>
+      <link>https://kyzn.org/tr/posts/social-network-on-marathon-retweets/</link>
+      <pubDate>Wed, 26 Nov 2014 03:19:20 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/social-network-on-marathon-retweets/</guid>
+      <description>This week, we were to prepare a social network visualization, and I enjoyed it more than I imagined. I got to learn Gephi, which is a fantastic tool. Even simply watching ForceAtlas plugin (that seperates nodes by a certain algorithm) work is entartaining enough.
+What I did was to use the data I already had, although it might have been some kind of cheating. We had over 18k retweets, but I used first 5000.</description>
+    </item>
+    
+    <item>
       <title>İstanbul Maratonu Sonuçları</title>
       <link>https://kyzn.org/tr/posts/results-of-istanbul-marathon/</link>
       <pubDate>Sat, 22 Nov 2014 23:05:48 +0000</pubDate>
@@ -107,16 +117,6 @@ Runnery for iOS</description>
       <description>Maraton tweetlerinin bize verdiği ilk haritayı sizlerle paylaşmaktan heyecan duyuyorum.
 Anahtar kelime seçimimizden dolayı alakasız tweetleri de yakalamış bulunduk. Yine de büyük çoğunluğu maraton ile alakalı. Köprüyü, Anadolu Yakası&amp;rsquo;ndaki başlangıç noktalarını, güzergah üzerindeki Beşiktaş&amp;rsquo;ı ve Karaköy&amp;rsquo;ü, 10 ve 15 kilometre yarışlarının bitiş noktası olan Eminönü&amp;rsquo;nü, ve 42 kilometre yarışının bitiş noktası Sultanahmet&amp;rsquo;i görebilirsiniz. Biraz daha batıya giderseniz havaalanının yakınlarında maraton fuarının kalabalığını da görebilirsiniz.
 Toplamda 37 bin tweet topladık. Bunların 3381 tanesinde konum bilgisi vardı.</description>
-    </item>
-    
-    <item>
-      <title>İstanbul Maratonunu Takip Etmek</title>
-      <link>https://kyzn.org/tr/posts/tracking-istanbul-marathon/</link>
-      <pubDate>Fri, 14 Nov 2014 13:13:17 +0000</pubDate>
-      
-      <guid>https://kyzn.org/tr/posts/tracking-istanbul-marathon/</guid>
-      <description>Bu Pazar Türkiye&amp;rsquo;deki en büyük spor etkinliği olan Vodafone İstanbul Maratonu 36. kez gerçekleşecek. Bu yarış dünyadaki tek kıtalararası yol yarışı. Bu etkinliğin bir &amp;ldquo;Altın Etiketli Yarış&amp;rdquo; olduğunu not etmeliyim. Tüm dünyada sadece 39 yarışın altın etiketi var.
-Boğaz Köprüsü yayaları sadece yılda bir kez kabul ediyor. Fotoğraf: UN Women/Müslüm Bayburs, CC BY-NC-ND 2.0 lisansı. Bu yıl sosyal ağ analizi üzerine çalıştığımız için bu maratonu başka bir şekilde koşuyoruz.1. Sizi takip ediyoruz!</description>
     </item>
     
   </channel>

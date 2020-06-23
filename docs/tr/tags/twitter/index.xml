@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-tr</language>
     <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-    <lastBuildDate>Sat, 22 Nov 2014 23:05:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2014 03:19:20 +0000</lastBuildDate>
     
 	<atom:link href="https://kyzn.org/tr/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Maraton Retweetlerinde Bir Sosyal Ağ</title>
+      <link>https://kyzn.org/tr/posts/social-network-on-marathon-retweets/</link>
+      <pubDate>Wed, 26 Nov 2014 03:19:20 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/social-network-on-marathon-retweets/</guid>
+      <description>This week, we were to prepare a social network visualization, and I enjoyed it more than I imagined. I got to learn Gephi, which is a fantastic tool. Even simply watching ForceAtlas plugin (that seperates nodes by a certain algorithm) work is entartaining enough.
+What I did was to use the data I already had, although it might have been some kind of cheating. We had over 18k retweets, but I used first 5000.</description>
+    </item>
     
     <item>
       <title>İstanbul Maratonu Sonuçları</title>
