@@ -3,6 +3,10 @@ title: "Sunular"
 date: 2019-08-25T12:57:19-07:00
 ---
 
+## 2020, Bulutta Konferans (Bir Perl ve Raku Konferansı), Online
+
+- Pull Request Club'ın Durumu [PDF](/slides/TPC/2020/PRClub.pdf)
+
 ## 2020, Güney Kaliforniya Linux Fuarı, Pasadena
 
 - Açık Kaynak Dünyasına İlk Katkım [PDF](/slides/SCALE/2020/PullRequest.pdf), [YouTube](https://www.youtube.com/watch?v=Ip5x-UtOM6k)
