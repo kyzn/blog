@@ -34,4 +34,4 @@ date: 2019-08-25T12:57:19-07:00
 
 ## 2015, Akademik Bilişim Konferansı, Eskişehir
 
-- Sosyal Ağlar Üzerinden Deprem Tespiti [Slides](/slides/AB/2015/deprem.pdf), [Paper](/papers/AB/2015/deprem.pdf)
+- Earthquake Detection Over Social Networks [Slides](/slides/AB/2015/deprem.pdf), [Paper](/papers/AB/2015/deprem.pdf)
