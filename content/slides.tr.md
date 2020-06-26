@@ -7,7 +7,7 @@ date: 2019-08-25T12:57:19-07:00
 
 - Pull Request Club'ın Durumu (Kısa Sunum) [PDF](/slides/TPC/2020/PRClub.pdf), [YouTube](https://www.youtube.com/watch?v=bDFRqYfD-24)
 
-## 2020, Güney Kaliforniya Linux Fuarı, Pasadena
+## 2020, Güney Kaliforniya Linux Fuarı, Pasadena, Kaliforniya
 
 - Açık Kaynak Dünyasına İlk Katkım [PDF](/slides/SCALE/2020/PullRequest.pdf), [YouTube](https://www.youtube.com/watch?v=Ip5x-UtOM6k)
 

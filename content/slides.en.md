@@ -7,7 +7,7 @@ date: 2019-08-25T12:57:19-07:00
 
 - State of Pull Request Club (LT) [PDF](/slides/TPC/2020/PRClub.pdf), [YouTube](https://www.youtube.com/watch?v=bDFRqYfD-24)
 
-## 2020, Southern California Linux Expo (SCALE), Pasadena
+## 2020, Southern California Linux Expo (SCALE), Pasadena, CA
 
 - My First Pull Request [PDF](/slides/SCALE/2020/PullRequest.pdf), [YouTube](https://www.youtube.com/watch?v=Ip5x-UtOM6k)
 
