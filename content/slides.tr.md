@@ -5,7 +5,7 @@ date: 2019-08-25T12:57:19-07:00
 
 ## 2020, Bulutta Konferans (Bir Perl ve Raku Konferansı), Online
 
-- Pull Request Club'ın Durumu (Kısa Sunum) [PDF](/slides/TPC/2020/PRClub.pdf)
+- Pull Request Club'ın Durumu (Kısa Sunum) [PDF](/slides/TPC/2020/PRClub.pdf), [YouTube](https://www.youtube.com/watch?v=bDFRqYfD-24)
 
 ## 2020, Güney Kaliforniya Linux Fuarı, Pasadena
 
