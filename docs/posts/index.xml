@@ -617,9 +617,9 @@ I have attended not one but two Perl Conferences during 2018: One in Salt Lake C
 <p>I am also going to recommend &ldquo;<a href="https://youtu.be/RfdOYbyRwB4?t=3h13m40s">Developers, engineers and the downward spiral</a>&rdquo; by Christopher Rasch-Olsen Raa, given in Glasgow. This talk has very important notes about mental health. You will find some crucial tips for employees, managers, and leaders.</p>
 <h2 id="pull-request-challenge">Pull Request Challenge</h2>
 <p>Neil Bowers is organizing Pull Request Challenge for 4 years now. In January 2018, he announced that it is going to <a href="http://neilb.org/2018/01/01/cpan-prc-2018.html">end this year</a>. I&rsquo;m trying to build a successor named <a href="https://pullrequest.club">pullrequest.club</a>.  I&rsquo;ve presented a talk that explained what Pull Request Challenge is in general.</p>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/QiZOEIwkuek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/QiZOEIwkuek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <p>Mohammad Anwar gave a great talk on how to become a CPAN contributor. I recommend this talk to everyone, but especially to people who feel that &ldquo;their code is not good enough&rdquo;.  He will tell you why you don&rsquo;t have to be an expert to contribute! If this sounds like a joke to you, it&rsquo;s not. You really don&rsquo;t have to be an expert. He will also tell you about the self-confidence boost you&rsquo;ll get when your PR gets merged.</p>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/QYN1nijo9VY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/QYN1nijo9VY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <h2 id="some-notes">Some Notes</h2>
 <ul>
 <li>You can suppress that long output you get when using <code>reply</code> by adding <code>1</code> to the end. Instead of <code>$schema-&gt;resultset('Child')</code>, do a <code>$schema-&gt;resultset('Child'); 1</code>! (The Perl Advent Calendar 2017 Redux, Mark Fowler, Glasgow)</li>
@@ -845,24 +845,24 @@ Where did my test fail? Although I tried to select talks with videos, I had to m
 <h3 id="polyglots">Polyglots!</h3>
 <p>Between the advertisements (&ldquo;Start a Perl Mongers!&rdquo;, &ldquo;No no, start a Polyglot Group!&rdquo;, &ldquo;No, start both!&quot;) we did have a couple talks on several languages. Here&rsquo;s a bunch of them, but there are more at YouTube.</p>
 <p>&ldquo;If you think your one programming language is the best thing ever, you are doing life wrong.&rdquo;</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/n-st1-DpKHI" frameborder="0" allowfullscreen></iframe>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/VbObDEH-jKY" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/n-st1-DpKHI" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/VbObDEH-jKY" frameborder="0" allowfullscreen></iframe>
 <h3 id="applications">Applications</h3>
 <p>Hear the story of <em>BumpySkies</em>, an application which tells you when to expect turbulance on your flight. It works by looking at flight path <em>and</em> weather conditions.</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/N4JNYCjerNM" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/N4JNYCjerNM" frameborder="0" allowfullscreen></iframe>
 <p>Building a garage-door-controller running on Mojolicious, with Raspberry Pi. There&rsquo;s live demo too!</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/aJc5yYONBBc" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/aJc5yYONBBc" frameborder="0" allowfullscreen></iframe>
 <h2 id="lightning-talks">Lightning Talks</h2>
 <p>This year&rsquo;s lightning talk submission form had an extra item: You had to pick whether your LT is serious or fun. I&rsquo;m going to show one on each end.</p>
 <p><img src="/images/tpc-slide.png" alt="LT Submission Form"></p>
 <h2 id="fun-stuff">Fun Stuff</h2>
 <p>David Farrell talks about his <em>awesome</em> module <a href="https://metacpan.org/pod/Cache::Reddit"><code>Cache::Reddit</code></a>.</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/ZT4BJEIu-SY" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/ZT4BJEIu-SY" frameborder="0" allowfullscreen></iframe>
 <h2 id="serious-business">Serious Business</h2>
 <p>One thing that most attendees must have noticed is the gender ratio in the conference. If you look at <a href="http://yapc-surveys.org/html/yn2016-survey.html">last year&rsquo;s post-conference survey results</a>, this is the gender ratio you will see:</p>
 <p><img src="/images/tpc-survey.png" alt="Gender ratio in TPC 2016"></p>
 <p>It doesn&rsquo;t look good at all, and we have to do something about it. Let&rsquo;s hear it from Deidre Foster.</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/7N3dR2y3Fi8" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/7N3dR2y3Fi8" frameborder="0" allowfullscreen></iframe>
 <p>We <strong>have to</strong> do something about it. We should encourage female coworkers/friends to attend and submit talks. We should <a href="http://www.cbsnews.com/news/where-does-gender-bias-start-in-the-job-ads/">update our job ads to be gender-neutral</a>. We should <a href="https://www.hiremorewomenintech.com/">hire more woman in tech</a>. We should <a href="http://fogknife.com/2017-05-18-i-want-the-perl-conference-to-steal-cons-policies.html">have more policies</a> to make TPC better.</p>
 <h2 id="speaking-of-surveys">Speaking of surveys..</h2>
 <p>If you have attended the conference, survey submissions are due July 7th. Make sure to tell organizers/speakers what you think, make your voice heard. Help people improve what they love to do.</p>
@@ -1301,16 +1301,16 @@ $res[1] = '2'
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/kyzn">@kyzn</a> It’s pronounced “The Perl Conference” now. ? <a href="https://twitter.com/hashtag/yapcna?src=hash">#yapcna</a></p>&mdash; Mark Gardner (@markjgardner) <a href="https://twitter.com/markjgardner/status/744937787535859716">June 20, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>You probably don&rsquo;t need to worry about that because it&rsquo;s no more YAPC. They decided to rename it as The Perl Conference. I&rsquo;m not entirely sure if we are supposed to read it as tapth-zee, but I liked the change. You can take a look at Dan&rsquo;s talk below, where he talks about details. (Obligatory video-webcast praise goes here too. They were awesome!)</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/73e6quzJU9U" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/73e6quzJU9U" frameborder="0" allowfullscreen></iframe>
 <h2 id="3-perl-6-is-pretty-good">3) Perl 6 is pretty good.</h2>
 <p>To be completely honest, I had my prejudice towards Perl 6. But it actually looks super nice! I listened Conway&rsquo;s keynote on Perl 6 very carefully (which you can too), and attended several beginner talks on Perl 6 (beginner track was a great idea). There are many things that changed, but for one, now you can access anything about arrays with @, as opposed to @ for array itself and $ for one particular thing in an array. Many new features can be replicated with several CPAN modules, if you want to have a taste of Perl 6 while still using Perl 5.</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/Nq2HkAYbG5o" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/Nq2HkAYbG5o" frameborder="0" allowfullscreen></iframe>
 <h2 id="4-people-actually-use-irc">4) People actually use IRC.</h2>
 <p>After reading notes for first-timers at YAPC web site, I knew I had to install some sort of IRC client to my computer/smartphone. I truly had no idea how to even start. I basically searched for IRC in application store, installed the very first thing that came up, and I was online! I am glad I was: The chat is amazing. It almost felt like it&rsquo;s subtitles to talks I&rsquo;m listening to. It was very helpful  too: I had problems connecting to projector at testing room, and I couldn&rsquo;t resolve. So I sent a message to #yapc, and thanks to helpful people I was ready to go in just a few minutes. Now I really have to dive into IRC, install it so that I&rsquo;m online all the time as opposed to being online if your phone is connected. There was actually a talk on IRC, but I missed it. I&rsquo;ll see it as soon as possible though, thanks to video streaming!</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/O4T5_KVHL2I" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/O4T5_KVHL2I" frameborder="0" allowfullscreen></iframe>
 <h2 id="5-lightning-talks-are-fun-and-encouraging">5) Lightning talks are fun and encouraging.</h2>
 <p>Another note for first-timers recommend not to miss a single lightning talk, because they were too much fun. I took the advice one step further: I actually had chance to make a lightning talk! I was very excited when I was told my talk idea sounds pretty good. So I spent Monday night preparing slides, rehearsing, and submitting. Next morning I learned I am on the list for the day! My presentation, if you ask me, went very well. I talked about the only CPAN module I&rsquo;ve ever built, which is topic for another blog post. I&rsquo;ve received very encouraging feedback afterwards. I really liked other presentations too! They were fun, and I learned quite a few things.</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/s8BvPwkvBEI?t=7m45s" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/s8BvPwkvBEI?t=7m45s" frameborder="0" allowfullscreen></iframe>
 <p>I suppose the next stop is <a href="http://yapcjapan.org/2016hokkaido/">Hokkaido</a>!</p>
 ]]></content>
 		</item>
@@ -1407,7 +1407,7 @@ Runnery for iOS</description>
 			<description>Yahoo, the number one web-site in Japan, had a nice campaign on fourth anniversary of Eastern Japan Earthquake that happened on 3/11. For each &amp;ldquo;3.11&amp;rdquo; search, they made 10¥ donation to relief efforts. Around 3M people participated in &amp;ldquo;Search for 3.11&amp;rdquo; campaign, and Yahoo is going to donate around $240k. That&amp;rsquo;s pretty nice, not only because they&amp;rsquo;re helping out, but also it&amp;rsquo;s a great way to raise awareness.
  They also shared this beautiful visual on mostly searched terms about the sad event.</description>
 			<content type="html"><![CDATA[<p>Yahoo, the number one web-site in Japan, had a nice campaign on fourth anniversary of Eastern Japan Earthquake that happened on 3/11. For each &ldquo;3.11&rdquo; search, they made 10¥ donation to relief efforts. Around 3M people participated in &ldquo;<a href="http://search.yahoo.co.jp/searchfor311/2015/">Search for 3.11</a>&rdquo; campaign, and Yahoo is going to donate around $240k. That&rsquo;s pretty nice, not only because they&rsquo;re helping out, but also it&rsquo;s a great way to raise awareness.</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/TVEBlhPf0io" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/TVEBlhPf0io" frameborder="0" allowfullscreen></iframe>
 <p>They also shared this beautiful visual on mostly searched terms about the sad event. A dramatic increase in earthquake related words can be seen on 3/11 each year. To give an example, &ldquo;What is meltdown?&rdquo; was one sad query. You can also play with <a href="http://search.yahoo.co.jp/searchfor311_2015_flash.html">this interactive slide</a>.</p>
 ]]></content>
 		</item>
@@ -1644,7 +1644,7 @@ The first thing I have to mention is a community called &amp;ldquo;Oy ve Ötesi&
 <p>But there was another issue even more terrifying than equal-votes. That was the suspicion of fraud in some cities. To make this topic clear I will try to explain how elections work in Turkey. First, people come and vote between specified hours. When the time comes, the ballot box is opened and votes are counted. Anyone from the public can watch (and record) the process of counting. Then, attendants had to fill an official ballot box report with numbers of votes in it. Then, both ballots and the report would be moved to the Supreme Electoral Council. There, reports would be typed into computers, while nobody&rsquo;s watching.</p>
 <p>Anyone could access the results of any given box published by the council. The opposition party had created an internal software to follow up their own counts. The official attendants of the opposition party sent reports to the party center. Party center checked whether numbers match that of the Electoral Council. They were different for some boxes.</p>
 <p>I&rsquo;m not here to discuss politics, so here comes the topic: People went crazy on social media. Twitter, Facebook, Ekşisözlük were full of angry posters questioning what is happening. People were asking for &ldquo;Report #1234 from Ankara, urgent!&rdquo; as if they were calling an ambulance. But this cry for help was not systematic and it did not go well. A lot of people wanted to help, but it seemed to be late.</p>
-<iframe width="100%" height="350" src="//www.youtube.com/embed/A5A9-6-RTJg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="//www.youtube-nocookie.com/embed/A5A9-6-RTJg" frameborder="0" allowfullscreen></iframe>
 <p>I&rsquo;m here to discuss what was done afterwards. A tool called Saydıraç was invented. Anyone could upload images of reports with this app. Of course, it would be impossible for one person to travel through all ballot boxes in a city. They tried it with a limited number of people in March but they couldn&rsquo;t make it in time. Oy ve Ötesi was able to organize 25.000 people, and they used an internal system open only to volunteers. Volunteers were to take photos, upload and count by themselves. It didn&rsquo;t give the complete results, but you could see the big picture. Unfortunately Saydıraç did not become very popular.</p>
 <p>Oy ve Ötesi expanded to the whole country as Türkiye&rsquo;nin Oyları. People signed up to be volunteers, although not as many, watched boxes. There&rsquo;s yet another election coming up in 2015, so we&rsquo;ll get to observe social networks one more time.</p>
 ]]></content>
@@ -1694,7 +1694,7 @@ I&amp;rsquo;m going to introduce an account called @140Journos, which obviously
 <p>If you look at the web, there are not many examples of such reporting. There is Digital Journal from Canada, which looks pretty similar to any other news website, but is edited by its users. There is CitizenTube channel on YouTube, an account which shares videos posted by its subscribers. There are several more examples, but to cut it short I will jump directly to 140journos.</p>
 <p>Yüzkırk (140) journos works in a very, very clever way. Followers who attend events that would qualify as news, or followers who encounter some news material would tweet it with a reference to @140journos. They&rsquo;re also required to add a picture, so that people who administer the account would know they are not being trolled around. People behind 140journos would also check EXIF information of pictures, and do an online search to verify that the image is actually new on the web. Even though they have all protective measures, from time to time they can be deceived. When it happens, some followers would tell it to 140journos and they tweet an apology for that.</p>
 <p>The most beautiful point of 140journos is that you can learn what is happening in detail from the people at the place where it is happening. You don&rsquo;t need to follow the specific person. And it is obviously different from mainstream media because there is no filtering and censoring, which is quite a big issue around here. You can also learn the news as they are happening, an advantage also underlined by Tom Gruber on the article titled Collective Knowledge Systems.</p>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/FgWGoOOaX30" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/FgWGoOOaX30" frameborder="0" allowfullscreen></iframe>
 <p>One of the founders (Cem Aydoğdu) tells their story in detail in a TED Talk. I was unable to find English subtitles, but you might want to give it a try. He talks about why they started doing this (because they realized that there are people who cannot make themselves hearable through mainstream media), and some interesting fluctuations of their followers (people who follow them when their topic is being reported, but unfollows immediately when the account focuses on something else).</p>
 <p>So yes, Twitter can be a decent medium if it is used for good purposes.</p>
 ]]></content>
