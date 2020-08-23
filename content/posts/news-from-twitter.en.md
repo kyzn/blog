@@ -17,7 +17,7 @@ Yüzkırk (140) journos works in a very, very clever way. Followers who attend e
 
 The most beautiful point of 140journos is that you can learn what is happening in detail from the people at the place where it is happening. You don't need to follow the specific person. And it is obviously different from mainstream media because there is no filtering and censoring, which is quite a big issue around here. You can also learn the news as they are happening, an advantage also underlined by Tom Gruber on the article titled Collective Knowledge Systems.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/FgWGoOOaX30" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/FgWGoOOaX30" frameborder="0" allowfullscreen></iframe>
 
 One of the founders (Cem Aydoğdu) tells their story in detail in a TED Talk. I was unable to find English subtitles, but you might want to give it a try. He talks about why they started doing this (because they realized that there are people who cannot make themselves hearable through mainstream media), and some interesting fluctuations of their followers (people who follow them when their topic is being reported, but unfollows immediately when the account focuses on something else).
 

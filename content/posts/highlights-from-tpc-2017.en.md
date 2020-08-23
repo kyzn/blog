@@ -24,19 +24,19 @@ Between the advertisements ("Start a Perl Mongers!", "No no, start a Polyglot Gr
 
 "If you think your one programming language is the best thing ever, you are doing life wrong."
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/n-st1-DpKHI" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/n-st1-DpKHI" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/VbObDEH-jKY" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/VbObDEH-jKY" frameborder="0" allowfullscreen></iframe>
 
 ### Applications
 
 Hear the story of *BumpySkies*, an application which tells you when to expect turbulance on your flight. It works by looking at flight path *and* weather conditions.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/N4JNYCjerNM" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/N4JNYCjerNM" frameborder="0" allowfullscreen></iframe>
 
 Building a garage-door-controller running on Mojolicious, with Raspberry Pi. There's live demo too!
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/aJc5yYONBBc" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/aJc5yYONBBc" frameborder="0" allowfullscreen></iframe>
 
 ## Lightning Talks
 
@@ -48,7 +48,7 @@ This year's lightning talk submission form had an extra item: You had to pick wh
 
 David Farrell talks about his *awesome* module [`Cache::Reddit`](https://metacpan.org/pod/Cache::Reddit).
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/ZT4BJEIu-SY" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/ZT4BJEIu-SY" frameborder="0" allowfullscreen></iframe>
 
 ## Serious Business
 
@@ -58,7 +58,7 @@ One thing that most attendees must have noticed is the gender ratio in the confe
 
 It doesn't look good at all, and we have to do something about it. Let's hear it from Deidre Foster.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/7N3dR2y3Fi8" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/7N3dR2y3Fi8" frameborder="0" allowfullscreen></iframe>
 
 We **have to** do something about it. We should encourage female coworkers/friends to attend and submit talks. We should [update our job ads to be gender-neutral](http://www.cbsnews.com/news/where-does-gender-bias-start-in-the-job-ads/). We should [hire more woman in tech](https://www.hiremorewomenintech.com/). We should [have more policies](http://fogknife.com/2017-05-18-i-want-the-perl-conference-to-steal-cons-policies.html) to make TPC better.
 

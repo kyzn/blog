@@ -18,7 +18,7 @@ Seçimlerde hile ihtimali ise her zamanki gibi bütün seçmenlerin korkusu olmu
 
 Ben bu yazıyı siyaset konuşmak için yazmadım. Şunu anlatmak istiyorum: İnsanlar bunu gördükten sonra sosyal medyaya koştu. Twitter, Facebook, Ekşisözlük bu uyuşmazlığı sorgulayan insanlar ile doldu. "Ankara 1234 numaralı tutanak lazım! Acil!" gibi yazılar her yerdeydi. Fakat bu tutanak arayışı pek de sistematik değildi ve çok da işe yaramadı. Herkes yardım etmek istiyordu, ama biraz da geç kalmışlardı.
 
-<iframe width="100%" height="350" src="//www.youtube.com/embed/A5A9-6-RTJg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="//www.youtube-nocookie.com/embed/A5A9-6-RTJg" frameborder="0" allowfullscreen></iframe>
 
 Ben bu yazıyı ondan sonra ne olduğunu anlatmak için yazdım. Saydıraç isminde bir uygulama üretildi. İsteyen herkes bu uygulama ile tutanak resimleri yükleyip sayıları girebilecekti. Bir kişinin bir şehirdeki bütün sandıkları gezmesi tabii ki mümkün değil. Mart ayında az sayıda kişiyle denediler ancak yeterli olmadı. Oy ve Ötesi ise 25 bin kişiyi organize etti. Onların gönüllüleri de kendi uygulamaları aracılığıyla tutanak fotoğraflarını yüklediler. Bütün sandıklara erişemediler fakat büyük bir kısmını izlediler. Saydıraç ise Oy ve Ötesi kadar tutmadı.
 

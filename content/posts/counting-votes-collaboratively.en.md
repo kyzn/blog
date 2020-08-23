@@ -17,7 +17,7 @@ Anyone could access the results of any given box published by the council. The o
 
 I'm not here to discuss politics, so here comes the topic: People went crazy on social media. Twitter, Facebook, Ekşisözlük were full of angry posters questioning what is happening. People were asking for "Report #1234 from Ankara, urgent!" as if they were calling an ambulance. But this cry for help was not systematic and it did not go well. A lot of people wanted to help, but it seemed to be late.
 
-<iframe width="100%" height="350" src="//www.youtube.com/embed/A5A9-6-RTJg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="//www.youtube-nocookie.com/embed/A5A9-6-RTJg" frameborder="0" allowfullscreen></iframe>
 
 I'm here to discuss what was done afterwards. A tool called Saydıraç was invented. Anyone could upload images of reports with this app. Of course, it would be impossible for one person to travel through all ballot boxes in a city. They tried it with a limited number of people in March but they couldn't make it in time. Oy ve Ötesi was able to organize 25.000 people, and they used an internal system open only to volunteers. Volunteers were to take photos, upload and count by themselves. It didn't give the complete results, but you could see the big picture. Unfortunately Saydıraç did not become very popular.
 

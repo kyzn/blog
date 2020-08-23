@@ -17,7 +17,7 @@ Size [@140Journos](https://www.twitter.com/140journos) isminde bir hesaptan bahs
 
 140 Journos'un güzelliği şurada: Bir olay hakkında neler olduğunu, orada bulunan insanlardan öğreniyorsunuz. Ve bunu yapmak için yüzlerce hesap takip etmeniz gerekmiyor. Filtre ve sansür olmadığı için ana akım medyadan biraz farklı olduğunu da söyleyebiliriz. Bir başka olumlu yanı haberleri olduğu anda öğrenebilmeniz. Hatırlarsanız Tom Gruber de Toplu Bilgi Sistemleri (Collective Knowledge Systems) makalesinde bundan bahsetmişti.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/FgWGoOOaX30" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/FgWGoOOaX30" frameborder="0" allowfullscreen></iframe>
 
 Kurucu Cem Aydoğdu bir TED konuşmasında 140 Journos'un hikayesini anlatıyor. Bu oluşumu ana akım medyada sesini duyuramayan insanların sesi olmak için kurduklarından bahsediyor. Ayrıca takipçi sayılarındaki ilginç oynamalardan da bahsediyor: bazı kullanıcılar haber değişince takip etmeye başlayıp, tekrar değişince takibi bırakıyor.
 
