@@ -62,7 +62,7 @@ const toggleToc = () => {
   document.getElementById('toc').classList.toggle('show-toc');
 }
 
-
+let header = document.getElementById('site-header');
 if (header !== null) {
   listen('#menu-btn', "click", toggleMobileMenu);
   listen('#toc-btn', "click", toggleToc);
