@@ -76,7 +76,6 @@ if (header !== null) {
   });
 
   window.addEventListener('scroll', throttle(() => {
-    autoHideHeader();
 
     if (mobileMenuVisible == true) {
       toggleMobileMenu();
