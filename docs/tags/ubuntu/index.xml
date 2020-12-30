@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate>
-    
-	<atom:link href="https://kyzn.org/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 16 May 2020 15:30:00 +0300</lastBuildDate><atom:link href="https://kyzn.org/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Log In to E-Government with Id Card</title>
       <link>https://kyzn.org/posts/log-in-to-e-government-with-id-card/</link>

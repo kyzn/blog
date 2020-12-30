@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-tr</language>
     <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://kyzn.org/tr/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tr/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub&#39;da Varsayılan Dal İsmini Değiştirmek</title>
       <link>https://kyzn.org/tr/posts/update-github-default-branches/</link>
