@@ -6,6 +6,10 @@ This is hugo repository for [kivanc's blog](https://kyzn.org/). Generated conten
 
       hugo server
 
+- Testing locally with posts with future date
+
+      hugo server --buildFuture
+
 - Then go to
 
       http://localhost:1313/
