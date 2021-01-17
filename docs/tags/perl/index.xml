@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 12:30:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pull Request Club 2020 Report</title>
+      <link>https://kyzn.org/posts/prc-2020-report/</link>
+      <pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/prc-2020-report/</guid>
+      <description>Pull Request Club is a web app matching open source contributors with maintainers. This happens through monthly assignments: Maintainers&#39; repos are assigned to contributors. Assignment is to submit at least one pull request.
+Pull Request Club started as a successor to CPAN Pull Request Challenge. With the end of 2020, Pull Request Club has completed its second year. Here&amp;rsquo;s the second annual report. See the one from last year here.</description>
+    </item>
+    
     <item>
       <title>Pull Request Club 2019 Report</title>
       <link>https://kyzn.org/posts/prc-2019-report/</link>
@@ -98,16 +108,6 @@ Where did my test fail? Although I tried to select talks with videos, I had to m
       <guid>https://kyzn.org/posts/on-parsing-time-zones/</guid>
       <description>I posted this to GitHub first, later edited and moved here.
 Summary This post is about a CPAN module I built, called WWW::Eksi. Module parses posts in a Turkish social network called Eksisozluk. All posts come with an attached &amp;ldquo;creation time&amp;rdquo;, and some also include &amp;ldquo;last update time&amp;rdquo;. I realized DateTime was throwing some errors for some of the posts. It turned out these posts had an attached time that never existed in Turkish time zone.</description>
-    </item>
-    
-    <item>
-      <title>5 Things I Learned at YAPC</title>
-      <link>https://kyzn.org/posts/5-things-i-learned-at-yapc/</link>
-      <pubDate>Sat, 02 Jul 2016 23:46:34 +0000</pubDate>
-      
-      <guid>https://kyzn.org/posts/5-things-i-learned-at-yapc/</guid>
-      <description>Last week, I attended my very first YAPC (Yet Another Perl Conference) at Orlando. While I feel I can write for pages, I want to talk only about several things, following the newest format &amp;ldquo;online newspapers&amp;rdquo; are using.
-1) USA is huge. I remember stories on Quora about tourists who tried to make a day trip to California all the way from New York, and I actually laughed at them too.</description>
     </item>
     
   </channel>

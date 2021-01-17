@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-tr</language>
     <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-    <lastBuildDate>Sat, 28 Dec 2019 19:30:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tr/tags/pull-request/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 12:30:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tr/tags/pull-request/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pull Request Kulübü 2020 Raporu</title>
+      <link>https://kyzn.org/tr/posts/prc-2020-report/</link>
+      <pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/prc-2020-report/</guid>
+      <description>Pull Request Kulübü, açık kaynak geliştiricileri ile katılımcılarını eşleştiren bir web uygulamasıdır. Bu eşleştirme aylık ödevler ile gerçekleşir. Geliştiricilerin kod depoları katılımcılara ödev olarak verilir. Katılımcıdan pull request hazırlaması istenir.
+Pull Request Kulübü CPAN Meydan Okuması&amp;rsquo;nın devamı olarak geliştirildi. 2020 yılının sona ermesiyle Pull Request Kulübü 2. yılını tamamladı. Burada 2. yıllık raporu okuyabilirsiniz. Geçen yılın raporuna buradan erişebilirsiniz.
+Yeni özellikler  Yeni üyelere kayıt olur olmaz bir hoş geldiniz ödevi veriliyor.</description>
+    </item>
+    
     <item>
       <title>Pull Request Kulübü 2019 Raporu</title>
       <link>https://kyzn.org/tr/posts/prc-2019-report/</link>

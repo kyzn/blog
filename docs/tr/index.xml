@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-tr</language>
     <copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 12:30:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pull Request Kulübü 2020 Raporu</title>
+      <link>https://kyzn.org/tr/posts/prc-2020-report/</link>
+      <pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tr/posts/prc-2020-report/</guid>
+      <description>Pull Request Kulübü, açık kaynak geliştiricileri ile katılımcılarını eşleştiren bir web uygulamasıdır. Bu eşleştirme aylık ödevler ile gerçekleşir. Geliştiricilerin kod depoları katılımcılara ödev olarak verilir. Katılımcıdan pull request hazırlaması istenir.
+Pull Request Kulübü CPAN Meydan Okuması&amp;rsquo;nın devamı olarak geliştirildi. 2020 yılının sona ermesiyle Pull Request Kulübü 2. yılını tamamladı. Burada 2. yıllık raporu okuyabilirsiniz. Geçen yılın raporuna buradan erişebilirsiniz.
+Yeni özellikler  Yeni üyelere kayıt olur olmaz bir hoş geldiniz ödevi veriliyor.</description>
+    </item>
+    
     <item>
       <title>GitHub&#39;da Varsayılan Dal İsmini Değiştirmek</title>
       <link>https://kyzn.org/tr/posts/update-github-default-branches/</link>
@@ -103,16 +114,6 @@ Runnery for iOS</description>
       <description>Maraton tweetlerinin bize verdiği ilk haritayı sizlerle paylaşmaktan heyecan duyuyorum.
 Anahtar kelime seçimimizden dolayı alakasız tweetleri de yakalamış bulunduk. Yine de büyük çoğunluğu maraton ile alakalı. Köprüyü, Anadolu Yakası&amp;rsquo;ndaki başlangıç noktalarını, güzergah üzerindeki Beşiktaş&amp;rsquo;ı ve Karaköy&amp;rsquo;ü, 10 ve 15 kilometre yarışlarının bitiş noktası olan Eminönü&amp;rsquo;nü, ve 42 kilometre yarışının bitiş noktası Sultanahmet&amp;rsquo;i görebilirsiniz. Biraz daha batıya giderseniz havaalanının yakınlarında maraton fuarının kalabalığını da görebilirsiniz.
 Toplamda 37 bin tweet topladık. Bunların 3381 tanesinde konum bilgisi vardı.</description>
-    </item>
-    
-    <item>
-      <title>İstanbul Maratonunu Takip Etmek</title>
-      <link>https://kyzn.org/tr/posts/tracking-istanbul-marathon/</link>
-      <pubDate>Fri, 14 Nov 2014 13:13:17 +0000</pubDate>
-      
-      <guid>https://kyzn.org/tr/posts/tracking-istanbul-marathon/</guid>
-      <description>Bu Pazar Türkiye&amp;rsquo;deki en büyük spor etkinliği olan Vodafone İstanbul Maratonu 36. kez gerçekleşecek. Bu yarış dünyadaki tek kıtalararası yol yarışı. Bu etkinliğin bir &amp;ldquo;Altın Etiketli Yarış&amp;rdquo; olduğunu not etmeliyim. Tüm dünyada sadece 39 yarışın altın etiketi var.
-Boğaz Köprüsü yayaları sadece yılda bir kez kabul ediyor. Fotoğraf: UN Women/Müslüm Bayburs, CC BY-NC-ND 2.0 lisansı. Bu yıl sosyal ağ analizi üzerine çalıştığımız için bu maratonu başka bir şekilde koşuyoruz.1. Sizi takip ediyoruz!</description>
     </item>
     
   </channel>

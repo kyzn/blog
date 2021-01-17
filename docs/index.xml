@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 12:30:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pull Request Club 2020 Report</title>
+      <link>https://kyzn.org/posts/prc-2020-report/</link>
+      <pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/posts/prc-2020-report/</guid>
+      <description>Pull Request Club is a web app matching open source contributors with maintainers. This happens through monthly assignments: Maintainers&#39; repos are assigned to contributors. Assignment is to submit at least one pull request.
+Pull Request Club started as a successor to CPAN Pull Request Challenge. With the end of 2020, Pull Request Club has completed its second year. Here&amp;rsquo;s the second annual report. See the one from last year here.</description>
+    </item>
+    
     <item>
       <title>Update GitHub Default Branches</title>
       <link>https://kyzn.org/posts/update-github-default-branches/</link>
@@ -98,17 +108,6 @@ I’ve completed my assignments in January and February before taking a long pau
       <guid>https://kyzn.org/posts/two-perl-conferences-in-one-year/</guid>
       <description>My very first Perl Conference was the one in Orlando, in 2016. In fact, the only blog I&amp;rsquo;ve written in 2016 was about that very conference. I&amp;rsquo;ve enjoyed it so much, I went again in 2017, this time as a speaker.
 I have attended not one but two Perl Conferences during 2018: One in Salt Lake City (NA), and one in Glasgow (EU). This time I was not only a speaker: I also organized a Birds of Feather (BOF).</description>
-    </item>
-    
-    <item>
-      <title>Setup Your Computer for CPAN-PRC</title>
-      <link>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</link>
-      <pubDate>Wed, 21 Feb 2018 21:00:00 +0000</pubDate>
-      
-      <guid>https://kyzn.org/posts/setup-your-computer-for-cpan-prc/</guid>
-      <description>This blog is originally posted on perl.com, edited by David Farrell.
-Earlier I wrote about why should you join CPAN Pull Request Challenge. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.
-Option 1: The Docker Way By using a Docker image that has everything you need, you can start working in minutes.</description>
     </item>
     
   </channel>

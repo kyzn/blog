@@ -3,6 +3,96 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kyzn.org/tr/</loc>
+    <lastmod>2021-01-17T12:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/perl/</loc>
+    <lastmod>2021-01-17T12:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/perl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/perl/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/posts/</loc>
+    <lastmod>2021-01-17T12:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/posts/prc-2020-report/</loc>
+    <lastmod>2021-01-17T12:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/posts/prc-2020-report/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/posts/prc-2020-report/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/pull-request/</loc>
+    <lastmod>2021-01-17T12:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/pull-request/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/pull-request/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kyzn.org/tr/tags/</loc>
+    <lastmod>2021-01-17T12:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kyzn.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kyzn.org/tr/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://kyzn.org/tr/tags/git/</loc>
     <lastmod>2020-06-15T20:00:00+00:00</lastmod>
     <xhtml:link
@@ -48,51 +138,6 @@
   </url>
   
   <url>
-    <loc>https://kyzn.org/tr/</loc>
-    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://kyzn.org/tr/posts/</loc>
-    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://kyzn.org/tr/tags/</loc>
-    <lastmod>2020-06-15T20:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://kyzn.org/tr/tags/ak%C4%B1ll%C4%B1-kart/</loc>
     <lastmod>2020-05-16T15:30:00+03:00</lastmod>
   </url>
@@ -128,21 +173,6 @@
   </url>
   
   <url>
-    <loc>https://kyzn.org/tr/tags/perl/</loc>
-    <lastmod>2019-12-28T19:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/tags/perl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/tags/perl/"
-                />
-  </url>
-  
-  <url>
     <loc>https://kyzn.org/tr/posts/prc-2019-report/</loc>
     <lastmod>2019-12-28T19:30:00+00:00</lastmod>
     <xhtml:link
@@ -154,21 +184,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://kyzn.org/tr/posts/prc-2019-report/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://kyzn.org/tr/tags/pull-request/</loc>
-    <lastmod>2019-12-28T19:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kyzn.org/tags/pull-request/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kyzn.org/tr/tags/pull-request/"
                 />
   </url>
   

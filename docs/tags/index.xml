@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 12:30:00 +0000</lastBuildDate><atom:link href="https://kyzn.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>perl</title>
+      <link>https://kyzn.org/tags/perl/</link>
+      <pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pull-request</title>
+      <link>https://kyzn.org/tags/pull-request/</link>
+      <pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tags/pull-request/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>git</title>
       <link>https://kyzn.org/tags/git/</link>
@@ -41,24 +59,6 @@
       <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
       
       <guid>https://kyzn.org/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>perl</title>
-      <link>https://kyzn.org/tags/perl/</link>
-      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
-      
-      <guid>https://kyzn.org/tags/perl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pull-request</title>
-      <link>https://kyzn.org/tags/pull-request/</link>
-      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
-      
-      <guid>https://kyzn.org/tags/pull-request/</guid>
       <description></description>
     </item>
     

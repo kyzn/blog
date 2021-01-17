@@ -6,8 +6,102 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>tr-tr</language>
 		<copyright>Bu çalışma Creative Commons Atıf 4.0 Uluslararası Lisansı ile lisanslanmıştır.</copyright>
-		<lastBuildDate>Mon, 15 Jun 2020 20:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 17 Jan 2021 12:30:00 +0000</lastBuildDate>
 		<atom:link href="https://kyzn.org/tr/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Pull Request Kulübü 2020 Raporu</title>
+			<link>https://kyzn.org/tr/posts/prc-2020-report/</link>
+			<pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+			
+			<guid>https://kyzn.org/tr/posts/prc-2020-report/</guid>
+			<description>Pull Request Kulübü, açık kaynak geliştiricileri ile katılımcılarını eşleştiren bir web uygulamasıdır. Bu eşleştirme aylık ödevler ile gerçekleşir. Geliştiricilerin kod depoları katılımcılara ödev olarak verilir. Katılımcıdan pull request hazırlaması istenir.
+Pull Request Kulübü CPAN Meydan Okuması&amp;rsquo;nın devamı olarak geliştirildi. 2020 yılının sona ermesiyle Pull Request Kulübü 2. yılını tamamladı. Burada 2. yıllık raporu okuyabilirsiniz. Geçen yılın raporuna buradan erişebilirsiniz.
+Yeni özellikler  Yeni üyelere kayıt olur olmaz bir hoş geldiniz ödevi veriliyor.</description>
+			<content type="html"><![CDATA[<p>Pull Request Kulübü, açık kaynak geliştiricileri ile katılımcılarını eşleştiren bir web uygulamasıdır. Bu eşleştirme aylık ödevler ile gerçekleşir. Geliştiricilerin kod depoları katılımcılara ödev olarak verilir. Katılımcıdan pull request hazırlaması istenir.</p>
+<p>Pull Request Kulübü CPAN Meydan Okuması&rsquo;nın devamı olarak geliştirildi. 2020 yılının sona ermesiyle Pull Request Kulübü 2. yılını tamamladı. Burada 2. yıllık raporu okuyabilirsiniz. Geçen yılın raporuna <a href="/tr/posts/prc-2019-report">buradan</a> erişebilirsiniz.</p>
+<h1 id="yeni-özellikler">Yeni özellikler</h1>
+<ul>
+<li>Yeni üyelere kayıt olur olmaz bir hoş geldiniz ödevi veriliyor. Bu ödev 36 kez verildi ve 9 kez tamamlandı. Hoş geldiniz ödevini tamamlayan 4 kullanıcı başka ödevleri de başarıyla tamamladı.</li>
+<li>Kullanıcılar uygulamadan hangi emailleri alacaklarını seçebiliyorlar.</li>
+<li>Ayarlar sayfasına sekmeler eklendi. Daha önceden bütün ayarlar tek bir sayfada seçiliyordu.</li>
+<li>Çatal yapılarak oluşturulmuş depolar da artık ödev havuzuna eklenebiliyor.</li>
+</ul>
+<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/bDFRqYfD-24" frameborder="0" allowfullscreen></iframe>
+<h1 id="sayılar">Sayılar</h1>
+<table>
+<thead>
+<tr>
+<th>İstatistik</th>
+<th>2019 Sonu</th>
+<th>2020 Sonu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Toplam kullanıcı</td>
+<td>104</td>
+<td>154</td>
+</tr>
+<tr>
+<td>Ödev havuzundaki toplam depo</td>
+<td>226</td>
+<td>250</td>
+</tr>
+<tr>
+<td>En az 1 ödev almış katılımcılar</td>
+<td>70</td>
+<td>123</td>
+</tr>
+<tr>
+<td>En az 1 PR göndermiş katılımcılar</td>
+<td>16</td>
+<td>29</td>
+</tr>
+<tr>
+<td>En az 1 kez eşleşmiş geliştiriciler</td>
+<td>21</td>
+<td>26</td>
+</tr>
+<tr>
+<td>En az 1 PR almış geliştiriciler</td>
+<td>14</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Verilmiş ödevler</td>
+<td>172</td>
+<td>348</td>
+</tr>
+<tr>
+<td>Tamamlanmış ödevler (PR)</td>
+<td>60</td>
+<td>133</td>
+</tr>
+<tr>
+<td>Ödev tamamlama oranı</td>
+<td>%34.88</td>
+<td>%38.22</td>
+</tr>
+</tbody>
+</table>
+<p>İyi haber: Pull Request Kulübü üyeleri <strong>133+ pull request</strong> gönderip aldılar! 🎉 Ödev tamamlama oranı da biraz yükseldi.</p>
+<p>Ödev alan katılımcılar (123) ile PR göndermiş katılımcılar (29) arasındaki farka dikkatinizi çekerim. Kayıt olup, ödev aldıktan sonra siteyi terkeden 94 kişi var. Bu kişileri siteye geri getirmenin yollarını arıyorum.</p>
+<h1 id="en-iyi-üç-kullanıcı">En iyi üç kullanıcı</h1>
+<p>Bazı kullanıcılarımız açık kaynak dünyasına olan sevgileri ile rekorlar kırıyorlar. Burada kısaca onlardan bahsetmek isterim.</p>
+<ul>
+<li><a href="https://github.com/manwar">Mohammad S Anwar</a> - Mohammad 24 defa ödev alıp 24&rsquo;ünü de tamamlayan tek kullanıcı! Müthiş. Önümüzdeki yıllık raporda bu sayının 36 olacağından eminim.</li>
+<li><a href="https://github.com/hakonhagland">Håkon Hægland</a> - Håkon Pull Request Kulübü&rsquo;ne Mart 2019&rsquo;un sonlarında katıldı. Kayıt olduktan sonra 21 ödev alıp hepsini tamamladı! Harika.</li>
+<li><a href="https://github.com/choroba">E. Choroba</a> - Choroba tam 18 ödev tamamladı, harika bir sayı! Ödev tamamlamaya ek olarak Choroba&rsquo;nın depoları da 15 kez diğer kullanıcılara ödev olarak verildi. Kendisi hem harika bir katılımcı hem de harika bir geliştirici.</li>
+</ul>
+<p>Bütün Pull Request Kulübü üyelerine açık kaynağa katkılarından dolayı teşekkür ederim.</p>
+<h1 id="bize-katılın">Bize katılın!</h1>
+<p>Bu yıl açık kaynak projelerine daha çok mu katkı sağlamak istiyorsunuz?</p>
+<p>Açık kaynak kütüphanelerinize yamalar mı gönderilsin istiyorsunuz?</p>
+<p>Siz de bize hemen bugün <a href="https://pullrequest.club">PullRequest.Club</a> adresinde katılabilirsiniz.</p>
+<p><img src="/images/prc-join.jpg" alt=""></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>GitHub&#39;da Varsayılan Dal İsmini Değiştirmek</title>
