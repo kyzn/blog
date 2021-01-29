@@ -6,7 +6,7 @@ tags:
   - pull-request
 ---
 
-_This blog is originally posted on [perl.com](https://www.perl.com/article/why-should-you-join-cpan-prc/), edited by [David Farrell](https://www.perl.com/authors/david-farrell/)._
+_This blog is originally posted on [perl.com](https://perldotcom.perl.org/article/why-should-you-join-cpan-prc/), edited by [David Farrell](https://www.perl.com/authors/david-farrell/)._
 
 The CPAN Pull Request Challenge (PRC) aims to improve the quality of code on [CPAN](https://www.cpan.org/), the online archive of Perl modules, by having participants submit pull requests to CPAN module authors.
 

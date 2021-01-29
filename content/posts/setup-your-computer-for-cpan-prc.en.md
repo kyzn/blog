@@ -7,7 +7,7 @@ tags:
   - guide
 ---
 
-_This blog is originally posted on [perl.com](https://www.perl.com/article/setup-your-computer-for-cpan-prc/), edited by [David Farrell](https://www.perl.com/authors/david-farrell/)._
+_This blog is originally posted on [perl.com](https://perldotcom.perl.org/article/setup-your-computer-for-cpan-prc/), edited by [David Farrell](https://www.perl.com/authors/david-farrell/)._
 
 Earlier I wrote about [why should you join CPAN Pull Request Challenge](/posts/why-should-you-join-cpan-prc/). Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.
 
