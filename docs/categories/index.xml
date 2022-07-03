@@ -1504,11 +1504,11 @@ $res[1] = &#39;2&#39;
     
     
     <item>
-      <title>Yahoo&#39;s Search Campaign on 3/11</title>
-      <link>https://kyzn.org/yahoos-search-campaign-on-3/11/</link>
+      <title>Yahoo&#39;s Search Campaign on Mar 11</title>
+      <link>https://kyzn.org/yahoos-search-campaign-on-mar-11/</link>
       <pubDate>Sat, 14 Mar 2015 00:53:59 +0000</pubDate>
       
-      <guid>https://kyzn.org/yahoos-search-campaign-on-3/11/</guid>
+      <guid>https://kyzn.org/yahoos-search-campaign-on-mar-11/</guid>
       <description>&lt;p&gt;Yahoo, the number one web-site in Japan, had a nice campaign on fourth anniversary of Eastern Japan Earthquake that happened on 3/11. For each &amp;ldquo;3.11&amp;rdquo; search, they made 10¥ donation to relief efforts. Around 3M people participated in &amp;ldquo;&lt;a href=&#34;http://search.yahoo.co.jp/searchfor311/2015/&#34;&gt;Search for 3.11&lt;/a&gt;&amp;rdquo; campaign, and Yahoo is going to donate around $240k. That&amp;rsquo;s pretty nice, not only because they&amp;rsquo;re helping out, but also it&amp;rsquo;s a great way to raise awareness.&lt;/p&gt;
 &lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/TVEBlhPf0io&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;They also shared this beautiful visual on mostly searched terms about the sad event. A dramatic increase in earthquake related words can be seen on 3/11 each year. To give an example, &amp;ldquo;What is meltdown?&amp;rdquo; was one sad query. You can also play with &lt;a href=&#34;http://search.yahoo.co.jp/searchfor311_2015_flash.html&#34;&gt;this interactive slide&lt;/a&gt;.&lt;/p&gt;
@@ -1566,11 +1566,11 @@ $res[1] = &#39;2&#39;
     
     
     <item>
-      <title>CPAN PR Challenge 01/2015</title>
-      <link>https://kyzn.org/cpan-pr-challenge-01/2015/</link>
+      <title>CPAN PR Challenge Jan 2015</title>
+      <link>https://kyzn.org/cpan-pr-challenge-jan-2015/</link>
       <pubDate>Sat, 17 Jan 2015 16:50:08 +0000</pubDate>
       
-      <guid>https://kyzn.org/cpan-pr-challenge-01/2015/</guid>
+      <guid>https://kyzn.org/cpan-pr-challenge-jan-2015/</guid>
       <description>&lt;p&gt;When I was reading through &lt;a href=&#34;http://perlweekly.com/&#34;&gt;Perl Weekly&lt;/a&gt; newsletter the other day, I realized that there is a challenge named &amp;lsquo;CPAN Pull Request Challenge&amp;rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right &lt;a href=&#34;http://neilb.org/2014/11/29/pr-challenge-2015.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code. Be it improving documentation, writing more tests to improve test coverage, fixing a bug or actually implementing a new feature, you were to do something and then submit a pull request on GitHub. As this challenge was open to &amp;lsquo;anyone&amp;rsquo;, there were several documents explaining how GitHub works, and how to submit your first pull request and what not. If you have a look at &lt;a href=&#34;http://blogs.perl.org&#34;&gt;blogs.perl.org&lt;/a&gt;, you&amp;rsquo;ll see several of them. Even if you&amp;rsquo;re not going to participate, they are still pretty decent how-to documents, and having a look will not hurt.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s what I did for January: I was assigned &lt;a href=&#34;https://github.com/exodist/Exporter-Declare&#34;&gt;Exporter::Declare&lt;/a&gt;, a module that is rather decent and in a good shape. First thing I realized was the readme file. It did not contain any markdown elements of GitHub. So I forked the code, renamed README to README.md (to denote markdown, explanation &lt;a href=&#34;http://stackoverflow.com/questions/5922882/what-file-uses-md-extension-and-how-should-i-edit-them&#34;&gt;here&lt;/a&gt;) and changed the file. I added headers, code blocks with syntax highlighting, and sent a &lt;a href=&#34;https://github.com/exodist/Exporter-Declare/pull/9&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
