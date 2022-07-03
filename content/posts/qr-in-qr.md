@@ -4,9 +4,6 @@ date: 2022-04-08T00:00:17+09:00
 tags:
   - qr
   - experiment
-aliases: [
-  "/posts/qr-in-qr.html"
-]
 ---
 
 The other day I got curious about QR codes. While doing some reading, I've come up with some ideas. One of them was QR in QR.
