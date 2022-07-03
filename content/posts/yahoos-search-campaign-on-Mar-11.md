@@ -1,5 +1,5 @@
 ---
-title: "Yahoo's Search Campaign on 3/11"
+title: "Yahoo's Search Campaign on Mar 11"
 date: 2015-03-14T00:53:59Z
 tags:
   - crowdsourcing

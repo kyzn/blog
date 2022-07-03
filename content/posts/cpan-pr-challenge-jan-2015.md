@@ -1,5 +1,5 @@
 ---
-title: "CPAN PR Challenge 01/2015"
+title: "CPAN PR Challenge Jan 2015"
 date: 2015-01-17T16:50:08Z
 tags:
   - perl
