@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Loadable Libraries Mismatched</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Loadable Libraries Mismatched</h1>
+        <div>
+                <time>May 24, 2019</time>
+            </div>
+    </header><p>While working on a Perl project, I have received an error message that I have never seen before. I did take a look at search engines, but no solutions there helped me. In the end I was able to figure out what&rsquo;s wrong, so I thought I should share it here.</p>
+<pre><code>Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc280000, needed 0xc180000)
+</code></pre>
+<p>This is more likely to happen if you are dealing with multiple versions of <code>perl</code> (note the word &ldquo;mismatched&rdquo;). For me though, that&rsquo;s usually not the case: I tend to download latest stable version via perlbrew and use it in all places.</p>
+<p>Two solutions I could find online were:</p>
+<ul>
+<li>Clear <code>PERL5LIB</code> and <code>PERL_LOCAL_LIB_ROOT</code> environment variables</li>
+<li>Reboot your system</li>
+</ul>
+<p>Neither worked for me. Those environment variables were already not set, and a reboot didn&rsquo;t help.</p>
+<p>Turns out my issue was related to <code>carton</code>. See, very recently I reinstalled everything on my machine. And before doing so, I backed up my work folder to an external memory. Once my system was up again, I went to grab latest stable <code>perl</code> from perlbrew. Just before I did that a new version (5.30.0) was released. Do you see where it&rsquo;s going?</p>
+<p>My backed up project included carton&rsquo;s locally installed modules folder: <code>local/</code>. But those modules were installed when latest stable version was 5.28.2, hence the &ldquo;mismatch&rdquo;. Solution was to remove <code>local/</code>, and reinstall modules with <code>carton install</code>.</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

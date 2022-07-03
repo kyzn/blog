@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>CPAN PR Challenge 01/2015</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>CPAN PR Challenge 01/2015</h1>
+        <div>
+                <time>January 17, 2015</time>
+            </div>
+    </header><p>When I was reading through <a href="http://perlweekly.com/">Perl Weekly</a> newsletter the other day, I realized that there is a challenge named &lsquo;CPAN Pull Request Challenge&rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right <a href="http://neilb.org/2014/11/29/pr-challenge-2015.html">here</a>.</p>
+<p>The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code. Be it improving documentation, writing more tests to improve test coverage, fixing a bug or actually implementing a new feature, you were to do something and then submit a pull request on GitHub. As this challenge was open to &lsquo;anyone&rsquo;, there were several documents explaining how GitHub works, and how to submit your first pull request and what not. If you have a look at <a href="http://blogs.perl.org">blogs.perl.org</a>, you&rsquo;ll see several of them. Even if you&rsquo;re not going to participate, they are still pretty decent how-to documents, and having a look will not hurt.</p>
+<p>Here&rsquo;s what I did for January: I was assigned <a href="https://github.com/exodist/Exporter-Declare">Exporter::Declare</a>, a module that is rather decent and in a good shape. First thing I realized was the readme file. It did not contain any markdown elements of GitHub. So I forked the code, renamed README to README.md (to denote markdown, explanation <a href="http://stackoverflow.com/questions/5922882/what-file-uses-md-extension-and-how-should-i-edit-them">here</a>) and changed the file. I added headers, code blocks with syntax highlighting, and sent a <a href="https://github.com/exodist/Exporter-Declare/pull/9">pull request</a>.</p>
+<p><img src="/images/cpanprc-oldreadme.png" alt=""></p>
+<center><h6>Old readme file with no markdown.</h6></center>
+<p><img src="/images/cpanprc-newreadme.png" alt=""></p>
+<center><h6>Modified readme file with markdown.</h6></center>
+<p>This was pretty simple and extremely easy task to complete, but it wasn&rsquo;t the great PR, as the readme file turned out to be auto generated. Then I took a look into <a href="http://blogs.perl.org/users/michal_wojciechowski/2011/11/github-friendly-readme-files-with-extutils-makemaker-and-module-build.html">this post</a>, which described the way to handle auto-generated github-friendly readme files. I ended up creating another pull request for this approach at <a href="https://github.com/exodist/Exporter-Declare/pull/10">here</a>.</p>
+<p><img src="/images/cpanprc-autoreadme.png" alt=""></p>
+<center><h6>Automatically generated readme file with markdown.</h6></center>
+<p>It&rsquo;s a small contribution, but I believe it&rsquo;s still better than giving nothing to the community at all. Plus, this is only the beginning. There will be 11 more tasks assigned to me, and I promise to work harder on upcoming module assignments. For example, I haven&rsquo;t written any tests for my only module on CPAN, as I always found an excuse to skip writing them. As searching for what I can do to improve my assignment, I&rsquo;ve already learned about <a href="http://blogs.perl.org/users/neilb/2014/08/check-your-test-coverage-with-develcover.html">Devel::Cover</a>, <a href="http://cpancover.com">cpancover.com</a>, and <a href="http://www.cpantesters.org/">cpantesters</a>. Test is not the only thing I&rsquo;ve learned about: There is <a href="http://en.wikipedia.org/wiki/Perl::Critic">Perl::Critic</a> that evaluates your code. There is also a way to <a href="http://perlmaven.com/how-to-add-link-to-version-control-system-of-a-cpan-distributions">add your github link to the meta file</a>.</p>
+<p>I&rsquo;ll finish with two quotes: One is about pull requests. They say that the &rsquo;true&rsquo; way of submitting a PR is by <a href="http://neilb.org/2015/01/10/pr-in-branch.html">creating a new branch</a>. This was something I was not aware of. The other one comes from the mail-list of CPAN-PR: They say &ldquo;Code can almost always use more comments: this is no exception.&rdquo;</p>
+<p>If you want to join in, I suppose you&rsquo;re not late. Try to e-mail Neil Bowers and he&rsquo;ll most probably assign you a module. See January assignments <a href="http://cpan-prc.org/2015/january.html">here</a> (not all of them are public, so the number is higher than what you see.)</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

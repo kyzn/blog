@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>time-zone on kyzn</title>
+    <link>https://kyzn.org/tags/time-zone/</link>
+    <description>Recent content in time-zone on kyzn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 08 Feb 2017 23:24:53 -0700</lastBuildDate>
+    
+	<atom:link href="https://kyzn.org/tags/time-zone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>QR in QR</title>
+      <link>https://kyzn.org/qr-in-qr/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:17 +0900</pubDate>
+      
+      <guid>https://kyzn.org/qr-in-qr/</guid>
+      <description>&lt;p&gt;The other day I got curious about QR codes. While doing some reading, I&amp;rsquo;ve come up with some ideas. One of them was QR in QR.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve seen some QR codes that have an image in the middle, and even though the code is partially blocked it still scans thanks to the error correction. I wanted to try adding another QR code in place of this image, to see if I can scan both bigger code and smaller code. I looked up but couldn&amp;rsquo;t find any QR codes within QR codes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/qr-in-qr.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can try scanning the whole QR code to get text &amp;ldquo;big&amp;rdquo;, and focus on the inner QR code to get text &amp;ldquo;small&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Pull Request Club 2020 Report</title>
+      <link>https://kyzn.org/pull-request-club-2020-report/</link>
+      <pubDate>Sun, 17 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/pull-request-club-2020-report/</guid>
+      <description>&lt;p&gt;Pull Request Club is a web app matching open source contributors with maintainers. This happens through monthly assignments: Maintainers&amp;rsquo; repos are assigned to contributors. Assignment is to submit at least one pull request.&lt;/p&gt;
+&lt;p&gt;Pull Request Club started as a successor to CPAN Pull Request Challenge. With the end of 2020, Pull Request Club has completed its second year. Here&amp;rsquo;s the second annual report. See the one from last year &lt;a href=&#34;https://kyzn.org/posts/prc-2019-report&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;new-features&#34;&gt;New Features&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Newcomers get a special &lt;a href=&#34;http://github.com/kyzn/welcome-to-prc/&#34;&gt;welcome assignment&lt;/a&gt; as soon as they sign up. This assignment is given 36 times and completed 9 times. 4 users who have completed the welcome assignment ended up doing more assignments.&lt;/li&gt;
+&lt;li&gt;Users can subscribe to (or opt out from) different types of emails.&lt;/li&gt;
+&lt;li&gt;Settings page got tabs. It used to list all settings in one page.&lt;/li&gt;
+&lt;li&gt;Forked repos are now allowed as assignments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/bDFRqYfD-24&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1 id=&#34;numbers&#34;&gt;Numbers&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Statistic&lt;/th&gt;
+&lt;th&gt;End of 2019&lt;/th&gt;
+&lt;th&gt;End of 2020&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Total users&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;154&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total repos in assignment pool&lt;/td&gt;
+&lt;td&gt;226&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Contributors who got at least 1 assignment&lt;/td&gt;
+&lt;td&gt;70&lt;/td&gt;
+&lt;td&gt;123&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Contributors who submitted at least 1 PR&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Maintainers who got at least 1 assignee&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Maintainers who received at least 1 PR&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Assignments given&lt;/td&gt;
+&lt;td&gt;172&lt;/td&gt;
+&lt;td&gt;348&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Assignments completed (PR)&lt;/td&gt;
+&lt;td&gt;60&lt;/td&gt;
+&lt;td&gt;133&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Assignment completion ratio&lt;/td&gt;
+&lt;td&gt;34.88%&lt;/td&gt;
+&lt;td&gt;38.22%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Here&amp;rsquo;s the good news: Pull Request Club users have exchanged &lt;strong&gt;133+ pull requests&lt;/strong&gt;! 🎉 And assignment completion ratio went a bit up.&lt;/p&gt;
+&lt;p&gt;I should also note the difference between assignment-getters (123) vs pr-submitters (29). We have 94 people who signed up, received an assignment and left the site. I am looking for ways to bring them back.&lt;/p&gt;
+&lt;h1 id=&#34;top-three-users&#34;&gt;Top Three Users&lt;/h1&gt;
+&lt;p&gt;Some of our users are breaking records with their love for open source. I&amp;rsquo;d like to give them a shout out here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/manwar&#34;&gt;Mohammad S Anwar&lt;/a&gt; - Mohammad is the only user who has received and completed 24 assignments! Great job. I&amp;rsquo;m sure in the next annual report this number will be 36.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakonhagland&#34;&gt;Håkon Hægland&lt;/a&gt; - Håkon has joined Pull Request Club in late March of 2019. Since signing up he has received and completed all 21 assignments! Just wonderful.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/choroba&#34;&gt;E. Choroba&lt;/a&gt; - Choroba has completed 18 assignments, which is a great number! In addition to completing assignments, Choroba&amp;rsquo;s repositories are assigned to other people 15 times. He&amp;rsquo;s both a great contributor and a great maintainer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I thank all users of Pull Request Club for contributing to open source.&lt;/p&gt;
+&lt;h1 id=&#34;join-us&#34;&gt;Join us!&lt;/h1&gt;
+&lt;p&gt;Are you looking to contribute to open source more this year?&lt;/p&gt;
+&lt;p&gt;Are you looking for patches for your open source libraries?&lt;/p&gt;
+&lt;p&gt;You can join us at &lt;a href=&#34;https://pullrequest.club&#34;&gt;PullRequest.Club&lt;/a&gt; today.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/prc-join.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Update GitHub Default Branches</title>
+      <link>https://kyzn.org/update-github-default-branches/</link>
+      <pubDate>Mon, 15 Jun 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/update-github-default-branches/</guid>
+      <description>&lt;p&gt;Each git repository comes with a default branch.  Here&amp;rsquo;s a few-steps guide to update all your GitHub repositories&amp;rsquo; default branches.&lt;/p&gt;
+&lt;h2 id=&#34;1-communicate&#34;&gt;1) Communicate&lt;/h2&gt;
+&lt;p&gt;Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.&lt;/p&gt;
+&lt;h2 id=&#34;2-note-that-some-features-may-not-work&#34;&gt;2) Note that some features may not work&lt;/h2&gt;
+&lt;p&gt;For the longest time master has been the default branch name in git and GitHub. So you may see some GitHub features not working properly.&lt;/p&gt;
+&lt;p&gt;One example is GitHub pages. It currently gives you two source options, and both are from the master branch. I think this will change soon. But in the meantime you may want to keep master branches of your GitHub pages repositories.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/github-pages-master.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-get-ingydotnetgit-hub&#34;&gt;3) Get ingydotnet/git-hub&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ingydotnet/git-hub/&#34;&gt;git-hub&lt;/a&gt; is a command line tool that you can use to talk to GitHub. There are three ways to install, all explained in its readme file. I will explain the preferred way here.&lt;/p&gt;
+&lt;h3 id=&#34;31-clone-git-hub-repository&#34;&gt;3.1) Clone git-hub repository&lt;/h3&gt;
+&lt;p&gt;First step is to clone the repository. It&amp;rsquo;s going to be run from the folder you cloned it to. I picked &lt;code&gt;/home/kivanc/.git-hub&lt;/code&gt;, or &lt;code&gt;~/.git-hub&lt;/code&gt; in short.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ingydotnet/git-hub ~/.git-hub
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;32-run-initialization-script&#34;&gt;3.2) Run initialization script&lt;/h3&gt;
+&lt;p&gt;Now we cloned the repository, but we still don&amp;rsquo;t have &lt;code&gt;git hub&lt;/code&gt; command available. We need to run &lt;code&gt;source&lt;/code&gt; for initialization script.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;source ~/.git-hub/.rc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;33-run-initialization-script-at-startup&#34;&gt;3.3) Run initialization script at startup&lt;/h3&gt;
+&lt;p&gt;Instead of running &lt;code&gt;source&lt;/code&gt; every time we need &lt;code&gt;git hub&lt;/code&gt;, we can add it to our shell startup. I added it to &lt;code&gt;~/.bash_aliases&lt;/code&gt;. If you don&amp;rsquo;t have that, try &lt;code&gt;~/.bashrc&lt;/code&gt;, &lt;code&gt;~/.bash_profile&lt;/code&gt; or &lt;code&gt;~/.profile&lt;/code&gt;. Note that you need two greater-than signs for &amp;ldquo;append&amp;rdquo;. One greater-than means &amp;ldquo;overwrite&amp;rdquo;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;echo &#39;source ~/.git-hub/.rc&#39; &amp;gt;&amp;gt; ~/.bash_aliases
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;34-run-git-hub-setup&#34;&gt;3.4) Run git hub setup&lt;/h3&gt;
+&lt;p&gt;For some git-hub commands to work, you need to run the following command. It will ask you for your GitHub username, password, and 2FA code (if any).&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git hub setup
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here&amp;rsquo;s how it looks.&lt;/p&gt;
+&lt;center&gt;&lt;script id=&#34;asciicast-339891&#34; src=&#34;https://asciinema.org/a/339891.js&#34; async&gt;&lt;/script&gt;&lt;/center&gt;
+&lt;h2 id=&#34;4-get-ditch-mastersh&#34;&gt;4) Get ditch-master.sh&lt;/h2&gt;
+&lt;p&gt;fREW wrote a script that automates the whole process. So you don&amp;rsquo;t have to go through repos one by one. You can see the script at &lt;a href=&#34;https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347&#34;&gt;https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can download the script from there, or you can clone it as if it was a repository.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://gist.github.com/6c259c63dda705f9ef9d030ddb880347.git ~/ditch-master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After you have the script, make sure it&amp;rsquo;s executable:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd ~/ditch-master
+chmod a+x ditch-master.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Script will use &amp;ldquo;main&amp;rdquo; as default branch name. If you want to use something else, you should find and replace &amp;ldquo;main&amp;rdquo; with the word of your choosing. So for example, if you want to use &amp;ldquo;trunk&amp;rdquo;, you can run the following.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;perl -i -pe &#39;s/main/trunk/g&#39; ditch-master.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All that is left is to run the script.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./ditch-master.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here&amp;rsquo;s how it looks.&lt;/p&gt;
+&lt;center&gt;&lt;script id=&#34;asciicast-EqW4uYlihVExmzb0OiIDA4NUY&#34; src=&#34;https://asciinema.org/a/EqW4uYlihVExmzb0OiIDA4NUY.js&#34; async&gt;&lt;/script&gt;&lt;/center&gt;
+&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Log In to E-Government with Id Card</title>
+      <link>https://kyzn.org/log-in-to-e-government-with-id-card/</link>
+      <pubDate>Sat, 16 May 2020 15:30:00 +0300</pubDate>
+      
+      <guid>https://kyzn.org/log-in-to-e-government-with-id-card/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/edevlet-menu.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Turkish E-Government is a great web application with quite a number of features. There&amp;rsquo;s many ways to login, one of which involves using a card reader. I have a mini card reader at home that I got from Estonian E-Residency.&lt;/p&gt;
+&lt;p&gt;Things I used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 19.10&lt;/li&gt;
+&lt;li&gt;Estonia E-Residency USB card reader&lt;/li&gt;
+&lt;li&gt;Turkish ID card&lt;/li&gt;
+&lt;li&gt;and its PIN number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;step-1&#34;&gt;Step 1&lt;/h1&gt;
+&lt;p&gt;See if the card reader shows up in &lt;code&gt;lsusb&lt;/code&gt;. Run &lt;code&gt;lsusb&lt;/code&gt; before plugging the card reader in. And then re-run it after plugging in. You should notice an extra item in the list.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Advanced Card Systems, Ltd ACR38 SmartCard Reader
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Another fun way to do this: Run &lt;code&gt;watch lsusb&lt;/code&gt; and watch the screen as you plug/unplug your card reader.&lt;/p&gt;
+&lt;h1 id=&#34;step-2&#34;&gt;Step 2&lt;/h1&gt;
+&lt;p&gt;You need to download the E-ID application from &lt;a href=&#34;https://cdn.e-devlet.gov.tr/downloads/e-kimlik/edevlet-ekimlik.jnlp&#34;&gt;https://cdn.e-devlet.gov.tr/downloads/e-kimlik/edevlet-ekimlik.jnlp&lt;/a&gt;. That&amp;rsquo;s going to be a JNLP file, and you will need &lt;code&gt;icedtea-netx&lt;/code&gt; to open it in Ubuntu. Get it with:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install icedtea-netx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;step-3&#34;&gt;Step 3&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;lsusb&lt;/code&gt; recognizing the card reader doesn&amp;rsquo;t mean the E-ID application can read from it. So we need some more libraries.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install pcscd pcsc-tools
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This brings in a useful command called &lt;code&gt;pcsc_scan&lt;/code&gt;. You can use it to see if your card reader actually works. So go ahead, remove your card reader if connected and run the following. If you don&amp;rsquo;t want to play around, &lt;strong&gt;feel free to &lt;a href=&#34;#step-4&#34;&gt;skip to Step 4&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ pcsc_scan
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The app will keep running until you send a &lt;code&gt;^C&lt;/code&gt;. First you should see something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Scanning present readers...
+Waiting for the first reader...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When you plug your card reader in, it should update the last line as:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Waiting for the first reader...found one
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If it had no cards in the reader, you should see:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Card state: Card removed,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And when you insert a card,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Card state: Card inserted,
+ATR: 01 23 45 67 89 AB CD EF .. .. .. ..
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I actually got an error when I inserted my card.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Can&#39;t locate Chipcard/PCSC/Card.pm in @INC
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And that happened because I was using &lt;code&gt;perlbrew&lt;/code&gt; instead of system Perl. So &lt;code&gt;libpcsc-perl&lt;/code&gt; was installed, but my Perl installation was not pointing to it. So all I had to do was to run &lt;code&gt;perlbrew switch-off&lt;/code&gt; and restart &lt;code&gt;pcsc_scan&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ which perl
+/home/kivanc/perl5/perlbrew/perls/perl-5.30.2/bin/perl
+$ perlbrew switch-off
+perlbrew is switched off.
+$ which perl
+/usr/bin/perl
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Don&amp;rsquo;t forget to &lt;code&gt;perlbrew switch&lt;/code&gt; back on once you are done.&lt;/p&gt;
+&lt;h1 id=&#34;step-4&#34;&gt;Step 4&lt;/h1&gt;
+&lt;p&gt;Go to &lt;a href=&#34;https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti&#34;&gt;https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti&lt;/a&gt; and enter your ID number. This will print a transaction code. Copy the code and keep the browser tab open.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/edevlet-giris.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Left: Input ID number and click continue. Right: You will see a transaction code.&lt;/h6&gt;&lt;/center&gt;
+&lt;h1 id=&#34;step-5&#34;&gt;Step 5&lt;/h1&gt;
+&lt;p&gt;Plug in the card and card reader, and launch the JNLP file. You can do so by double clicking the file, or running this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ javaws edevlet-ekimlik.jnlp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If it&amp;rsquo;s the first time you are running this app, it may ask you about permissions and shortcuts. I chose not to create a desktop shortcut.&lt;/p&gt;
+&lt;h1 id=&#34;step-6&#34;&gt;Step 6&lt;/h1&gt;
+&lt;p&gt;Enter the transaction code from Step 4 into the app. Click &amp;ldquo;login with standard card reader&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/edevlet-jnlp-menu.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;step-7&#34;&gt;Step 7&lt;/h1&gt;
+&lt;p&gt;Now it will ask you to enter the PIN code of your ID card. Remember the envelope you got when you applied for the card? This number should be in there.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/edevlet-jnlp-pin.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;step-8&#34;&gt;Step 8&lt;/h1&gt;
+&lt;p&gt;You will see a message saying it&amp;rsquo;s done. Check your browser to see if it actually worked. You can close the app and unplug the card reader.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/edevlet-jnlp-done.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Pull Request Club 2019 Report</title>
+      <link>https://kyzn.org/pull-request-club-2019-report/</link>
+      <pubDate>Sat, 28 Dec 2019 19:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/pull-request-club-2019-report/</guid>
+      <description>&lt;p&gt;CPAN Pull Request Challenge used to match CPAN maintainers to contributors. Contributors would sign up to receive monthly assignments. The goal was to submit at least one pull request. It was fun, but it came to an end at the end of 2018.&lt;/p&gt;
+&lt;p&gt;I wanted this challenge to go on, so I created Pull Request Club. It has been a whole year since it started, so here’s the annual report with some insights.&lt;/p&gt;
+&lt;h1 id=&#34;new-features&#34;&gt;New features&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;While Pull Request Club took its basics from CPAN-PRC, I wanted to make it more self-served. Users can take various actions such as signing up or skipping an assignment with a few clicks.&lt;/li&gt;
+&lt;li&gt;Users sign up to the site with their GitHub accounts. This lets them add their repositories to the assignment pool without hassle.&lt;/li&gt;
+&lt;li&gt;Users can see both their “assignment history” and “assignee history”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/prc-home-2019-12.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;numbers&#34;&gt;Numbers&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;We have reached 100+ users and 200+ repositories in the pool.&lt;/li&gt;
+&lt;li&gt;70 users have received at least 1 assignment.&lt;/li&gt;
+&lt;li&gt;16 of them have completed at least 1 assignment.&lt;/li&gt;
+&lt;li&gt;Only 1 user has completed all 12 assignments.&lt;/li&gt;
+&lt;li&gt;October was the month with most assignments completed (8), followed by January and March (7).&lt;/li&gt;
+&lt;li&gt;21 users have received at least 1 assignee.&lt;/li&gt;
+&lt;li&gt;14 of them have received at least 1 pull request.&lt;/li&gt;
+&lt;li&gt;170+ assignments were out this year.&lt;/li&gt;
+&lt;li&gt;60 of those were completed, meaning &lt;strong&gt;users have submitted 60 pull requests&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34; data-theme=&#34;light&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I joined &lt;a href=&#34;https://twitter.com/PullRequestClub?ref_src=twsrc%5Etfw&#34;&gt;@PullRequestClub&lt;/a&gt; yesterday. Today I got my first Pull Request and it was from &lt;a href=&#34;https://twitter.com/cpan_author?ref_src=twsrc%5Etfw&#34;&gt;@cpan_author&lt;/a&gt; himself. This thing works!!!&lt;br&gt;&lt;br&gt;Also, thanks &lt;a href=&#34;https://twitter.com/cpan_author?ref_src=twsrc%5Etfw&#34;&gt;@cpan_author&lt;/a&gt;. I need to buy you lunch sometime. &lt;a href=&#34;https://t.co/Bk3iTFJzUu&#34;&gt;https://t.co/Bk3iTFJzUu&lt;/a&gt;&lt;/p&gt;&amp;mdash; Olaf Alders (@olafalders) &lt;a href=&#34;https://twitter.com/olafalders/status/1179083495177629696?ref_src=twsrc%5Etfw&#34;&gt;October 1, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;h1 id=&#34;join-us&#34;&gt;Join us!&lt;/h1&gt;
+&lt;p&gt;Does this sound interesting to you? Do you want to contribute to open source more in the new year? You can join us at &lt;a href=&#34;https://pullrequest.club&#34;&gt;PullRequest.Club&lt;/a&gt; today.&lt;/p&gt;
+&lt;p&gt;Feel free to sign up if you are only interested in getting more pull requests too. You can opt out of assignments while keeping your repositories in the pool.&lt;/p&gt;
+&lt;p&gt;If you sign up before the new year (and opt into receiving assignments), you will get an assignment on January 1st.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/prc-card.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Welcome Hugo</title>
+      <link>https://kyzn.org/welcome-hugo/</link>
+      <pubDate>Mon, 26 Aug 2019 20:09:05 -0700</pubDate>
+      
+      <guid>https://kyzn.org/welcome-hugo/</guid>
+      <description>&lt;p&gt;I’ve moved my blog from one static site generator to another. I used to use a &lt;a href=&#34;https://github.com/kyzn/mini-plerd&#34;&gt;stripped clone&lt;/a&gt; of &lt;a href=&#34;https://github.com/jmacdotorg/plerd&#34;&gt;Plerd&lt;/a&gt; to generate html files. To be clear, that was a nice setup! Now I’m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; to generate static content, from the very same markdown files.&lt;/p&gt;
+&lt;p&gt;I never was able to maintain mini-plerd (the stripped Plerd clone I mentioned above) as I hoped. Plerd upstream got updates, and I missed it. I didn’t even have markdown tables until very recently! I should have used the original Plerd.&lt;/p&gt;
+&lt;p&gt;Hugo comes with &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;many theme choices&lt;/a&gt;. You need to pick one and go. Themes are easy enough to configure, and looks like easy enough to switch as well.&lt;/p&gt;
+&lt;p&gt;Another change I made was the way I deploy the blog. I used to upload my files to a DigitalOcean droplet, and serve my blog via nginx. That alone cost me $5/month. I could have used a storage like AWS S3 or DigitalOcean Spaces too. I’m now using &lt;a href=&#34;https://pages.github.com&#34;&gt;GitHub pages&lt;/a&gt;, where you put your files into a repository and GitHub serves it for free. It works with custom domains too, so that’s great.&lt;/p&gt;
+&lt;p&gt;So far I love Hugo. It&amp;rsquo;s very easy to write new posts in local development environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Loadable Libraries Mismatched</title>
+      <link>https://kyzn.org/loadable-libraries-mismatched/</link>
+      <pubDate>Fri, 24 May 2019 00:03:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/loadable-libraries-mismatched/</guid>
+      <description>&lt;p&gt;While working on a Perl project, I have received an error message that I have never seen before. I did take a look at search engines, but no solutions there helped me. In the end I was able to figure out what&amp;rsquo;s wrong, so I thought I should share it here.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Util.c: loadable library and perl binaries are mismatched (got handshake key 0xc280000, needed 0xc180000)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is more likely to happen if you are dealing with multiple versions of &lt;code&gt;perl&lt;/code&gt; (note the word &amp;ldquo;mismatched&amp;rdquo;). For me though, that&amp;rsquo;s usually not the case: I tend to download latest stable version via perlbrew and use it in all places.&lt;/p&gt;
+&lt;p&gt;Two solutions I could find online were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clear &lt;code&gt;PERL5LIB&lt;/code&gt; and &lt;code&gt;PERL_LOCAL_LIB_ROOT&lt;/code&gt; environment variables&lt;/li&gt;
+&lt;li&gt;Reboot your system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Neither worked for me. Those environment variables were already not set, and a reboot didn&amp;rsquo;t help.&lt;/p&gt;
+&lt;p&gt;Turns out my issue was related to &lt;code&gt;carton&lt;/code&gt;. See, very recently I reinstalled everything on my machine. And before doing so, I backed up my work folder to an external memory. Once my system was up again, I went to grab latest stable &lt;code&gt;perl&lt;/code&gt; from perlbrew. Just before I did that a new version (5.30.0) was released. Do you see where it&amp;rsquo;s going?&lt;/p&gt;
+&lt;p&gt;My backed up project included carton&amp;rsquo;s locally installed modules folder: &lt;code&gt;local/&lt;/code&gt;. But those modules were installed when latest stable version was 5.28.2, hence the &amp;ldquo;mismatch&amp;rdquo;. Solution was to remove &lt;code&gt;local/&lt;/code&gt;, and reinstall modules with &lt;code&gt;carton install&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>CPAN-PRC Report</title>
+      <link>https://kyzn.org/cpan-prc-report/</link>
+      <pubDate>Thu, 27 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/cpan-prc-report/</guid>
+      <description>&lt;p&gt;Neil Bowers had started CPAN Pull Request Challenge in January 2015. Participants received a CPAN module as their assignment each month. The goal was to submit pull requests. I joined the challenge right away. Here&amp;rsquo;s how it went.&lt;/p&gt;
+&lt;h2 id=&#34;2015-warming-up&#34;&gt;2015: Warming Up&lt;/h2&gt;
+&lt;p&gt;My last semester at Bogazici University in Istanbul started February of this year. I moved to California for grad school in September.&lt;/p&gt;
+&lt;p&gt;I’ve completed my assignments in January and February before taking a long pause (and a long flight). I’ve joined back for October and November. 6 PRs for 4 repos, only 1 merged. All were either documentation updates or configuration changes.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Y&lt;/th&gt;
+&lt;th&gt;M&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;CLOSED&lt;/td&gt;
+&lt;td&gt;Exporter-Declare&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Exporter-Declare&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;Feb&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;Dancer-Plugin-Auth-Basic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;Oct&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;HTML-FormHandler-Model-DBIC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;Oct&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;HTML-FormHandler-Model-DBIC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;Nov&lt;/td&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;HTML-StickyQuery-DoCoMoGUID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2016-see-if-i-can-fix-this&#34;&gt;2016: See if I can fix this&lt;/h2&gt;
+&lt;p&gt;I graduated from Santa Cruz and relocated to Santa Monica for ZipRecruiter. This was my first job, excluding some internships I did back at Istanbul. Attended my first Perl Conference in June in Orlando.&lt;/p&gt;
+&lt;p&gt;Like in 2015, I did my assignments only for 4 months. This time I tried to fix some failing tests too. Results were great: 4 PRs, 4 merged!&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Y&lt;/th&gt;
+&lt;th&gt;M&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2016&lt;/td&gt;
+&lt;td&gt;Jun&lt;/td&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;HiD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2016&lt;/td&gt;
+&lt;td&gt;Oct&lt;/td&gt;
+&lt;td&gt;Test&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Catalyst-Controller-Validation-DFV&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2016&lt;/td&gt;
+&lt;td&gt;Nov&lt;/td&gt;
+&lt;td&gt;Test&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;BenchmarkAnything-Storage-Frontend-Lib&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2016&lt;/td&gt;
+&lt;td&gt;Dec&lt;/td&gt;
+&lt;td&gt;Test&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Monitoring-Livestatus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2017-more-pull-requests&#34;&gt;2017: More Pull Requests&lt;/h2&gt;
+&lt;p&gt;This year was fun: I completed 8 assignments with 13 PRs with 7 merged. It was a mix of documentation, configuration, test fixes and new functions. We have started to get “team assignments” for ZipRecruiter as well, which is not included in this post.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Y&lt;/th&gt;
+&lt;th&gt;M&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Devel-ebug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Feb&lt;/td&gt;
+&lt;td&gt;Function&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Log-Dispatch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Mar&lt;/td&gt;
+&lt;td&gt;Function&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Mail-Builder&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Mar&lt;/td&gt;
+&lt;td&gt;Test&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Mail-Builder&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;Function&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;AnyEvent-WebSocket-Client&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Jun&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;Net-Proxy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Jul&lt;/td&gt;
+&lt;td&gt;Test&lt;/td&gt;
+&lt;td&gt;CLOSED&lt;/td&gt;
+&lt;td&gt;Class-Inspector&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Jul&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Class-Inspector&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Aug&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;App-p&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Aug&lt;/td&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;App-p&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Aug&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;App-p&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Aug&lt;/td&gt;
+&lt;td&gt;Function&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;App-p&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;Oct&lt;/td&gt;
+&lt;td&gt;Function&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;AnyEvent-Filesys-Notify&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2018-this-is-the-end&#34;&gt;2018: This is the end&lt;/h2&gt;
+&lt;p&gt;Neil let us know that this will be the end of CPAN Pull Request Challenge. I was able to complete my assignment only for 5 months with 6 PRs and 4 merged.&lt;/p&gt;
+&lt;p&gt;I gave talks about CPAN Pull Request Challenge &amp;amp; &lt;a href=&#34;https://pullrequest.club&#34;&gt;Pull Request Club&lt;/a&gt; in two conferences. Salt Lake City (Perl Conference in NA) and Glasgow (Perl Conference in EU). We also had BOF (Birds of Feather) events for pull requests in both venues. Many people, whom I am thankful for, had showed up and contributed to open source. Some people submitted their first public PR, which made it a magical moment.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Y&lt;/th&gt;
+&lt;th&gt;M&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2018&lt;/td&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Net-DHCP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2018&lt;/td&gt;
+&lt;td&gt;Feb&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Alien-LibGumbo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2018&lt;/td&gt;
+&lt;td&gt;Aug&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Text-CSV&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2018&lt;/td&gt;
+&lt;td&gt;Oct&lt;/td&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;CLOSED&lt;/td&gt;
+&lt;td&gt;Data-DPath&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2018&lt;/td&gt;
+&lt;td&gt;Nov&lt;/td&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+&lt;td&gt;OPEN&lt;/td&gt;
+&lt;td&gt;Vim-Debug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2018&lt;/td&gt;
+&lt;td&gt;Nov&lt;/td&gt;
+&lt;td&gt;Config&lt;/td&gt;
+&lt;td&gt;MERGED&lt;/td&gt;
+&lt;td&gt;Text-MediawikiFormat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Did you see a pattern? I never missed any October! This is all thanks to Hacktoberfest.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/hacktoberfest.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;total-stats&#34;&gt;Total Stats&lt;/h2&gt;
+&lt;p&gt;I played with this data a little, and out came an interesting result: I&amp;rsquo;ve got 56% merge rate. This goes way up to 80% for function/test changes, and down to 29% for documentation. Here&amp;rsquo;s all numbers.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Config&lt;/th&gt;
+&lt;th&gt;Doc&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Test&lt;/th&gt;
+&lt;th&gt;TOTAL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Open&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Closed&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Merged&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TOTAL&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;12&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;7&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;5&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;5&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;29&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;And here is a breakdown by status (open, closed or merged), for each type (config, doc, etc). Each column adds up to 100%.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Config&lt;/th&gt;
+&lt;th&gt;Doc&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Test&lt;/th&gt;
+&lt;th&gt;All Types&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Open&lt;/td&gt;
+&lt;td&gt;50%&lt;/td&gt;
+&lt;td&gt;42%&lt;/td&gt;
+&lt;td&gt;20%&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;34%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Closed&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;29%&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;20%&lt;/td&gt;
+&lt;td&gt;10%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Merged&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;50%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;29%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;80%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;80%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;56%&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;thanks&#34;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Thanks a lot to Neil Bowers for organizing the challenge and inspiring many people. Thanks a lot to all participants for keeping it alive. Thank you for reading!&lt;/p&gt;
+&lt;p&gt;If you were a participant of CPAN-PRC and want to keep going, give &lt;a href=&#34;https://pullrequest.club&#34;&gt;Pull Request Club&lt;/a&gt; a try. We currently have 14 participants and 120 repos ready for a match.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Two Perl Conferences in One Year</title>
+      <link>https://kyzn.org/two-perl-conferences-in-one-year/</link>
+      <pubDate>Mon, 20 Aug 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/two-perl-conferences-in-one-year/</guid>
+      <description>&lt;p&gt;My very first Perl Conference was the one in Orlando, in 2016. In fact, the only blog I&amp;rsquo;ve written in 2016 was about that very conference. I&amp;rsquo;ve enjoyed it so much, I went again in 2017, this time as a speaker.&lt;/p&gt;
+&lt;p&gt;I have attended not one but two Perl Conferences during 2018: One in Salt Lake City (NA), and one in Glasgow (EU). This time I was not only a speaker: I also organized a Birds of Feather (BOF). My talks and BOFs were about CPAN Pull Request Challenge.&lt;/p&gt;
+&lt;p&gt;How many Perl Conferences is too many Perl Conferences, that I still don&amp;rsquo;t know. But I can say I enjoyed both conferences a lot. Here&amp;rsquo;s some takeaways, with a focus on talks I did.&lt;/p&gt;
+&lt;h2 id=&#34;importance-of-ecosystem&#34;&gt;Importance of Ecosystem&lt;/h2&gt;
+&lt;p&gt;VM Brasseur gave a keynote on a very serious topic in Salt Lake City. It was about being inclusive and not being harmful. I recommend everyone to watch it, and think about their environment while doing so.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ySWez59lhH0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;This talk inspired me to build a Dist::Zilla plugin to make it easy to add a Code of Conduct to CPAN modules. The idea was that you could add one line to your dist.ini file, and get a Code of Conduct.&lt;/p&gt;
+&lt;p&gt;I gave a lightning talk about this very module in Glasgow. I&amp;rsquo;m glad I did that because it lead to a very constructive discussion. I already have a &lt;a href=&#34;https://github.com/kyzn/Dist-Zilla-Plugin-ContributorCovenant/issues/3&#34;&gt;plan&lt;/a&gt; to improve it. This was another proof for me that keeping in touch with your community matters. Presenting your ideas matters. Providing constructive critisism &lt;em&gt;and&lt;/em&gt; listening to it matters.&lt;/p&gt;
+&lt;p&gt;There were more great talks given on the topic. Do you want to hear about how to make your application more inclusive? Then you should see Joelle Maslak&amp;rsquo;s talk &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=ZqpCKisOL5k&#34;&gt;You&amp;rsquo;re not wanted here&lt;/a&gt;&amp;rdquo;. Do you want to get some crucial tips on how to make your community more friendly? Then you should also see Ruth Holloway&amp;rsquo;s &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=-lWnmVm5owQ&#34;&gt;Discourse without drama&lt;/a&gt;&amp;rdquo;. Both speakers delivered their talks at both venues.&lt;/p&gt;
+&lt;p&gt;I am also going to recommend &amp;ldquo;&lt;a href=&#34;https://youtu.be/RfdOYbyRwB4?t=3h13m40s&#34;&gt;Developers, engineers and the downward spiral&lt;/a&gt;&amp;rdquo; by Christopher Rasch-Olsen Raa, given in Glasgow. This talk has very important notes about mental health. You will find some crucial tips for employees, managers, and leaders.&lt;/p&gt;
+&lt;h2 id=&#34;pull-request-challenge&#34;&gt;Pull Request Challenge&lt;/h2&gt;
+&lt;p&gt;Neil Bowers is organizing Pull Request Challenge for 4 years now. In January 2018, he announced that it is going to &lt;a href=&#34;http://neilb.org/2018/01/01/cpan-prc-2018.html&#34;&gt;end this year&lt;/a&gt;. I&amp;rsquo;m trying to build a successor named &lt;a href=&#34;https://pullrequest.club&#34;&gt;pullrequest.club&lt;/a&gt;.  I&amp;rsquo;ve presented a talk that explained what Pull Request Challenge is in general.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/QiZOEIwkuek&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Mohammad Anwar gave a great talk on how to become a CPAN contributor. I recommend this talk to everyone, but especially to people who feel that &amp;ldquo;their code is not good enough&amp;rdquo;.  He will tell you why you don&amp;rsquo;t have to be an expert to contribute! If this sounds like a joke to you, it&amp;rsquo;s not. You really don&amp;rsquo;t have to be an expert. He will also tell you about the self-confidence boost you&amp;rsquo;ll get when your PR gets merged.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/QYN1nijo9VY&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;some-notes&#34;&gt;Some Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You can suppress that long output you get when using &lt;code&gt;reply&lt;/code&gt; by adding &lt;code&gt;1&lt;/code&gt; to the end. Instead of &lt;code&gt;$schema-&amp;gt;resultset(&#39;Child&#39;)&lt;/code&gt;, do a &lt;code&gt;$schema-&amp;gt;resultset(&#39;Child&#39;); 1&lt;/code&gt;! (The Perl Advent Calendar 2017 Redux, Mark Fowler, Glasgow)&lt;/li&gt;
+&lt;li&gt;Term::Choose is a cool alternative to Getopt::Args. It prints options to terminal, through which user navigates with arrow keys. (The Perl Advent Calendar 2017 Redux, Mark Fowler, Glasgow)&lt;/li&gt;
+&lt;li&gt;The Perl Advent Calendar is accepting submissions for 2018 edition! Go to &lt;a href=&#34;http://cfp.perladvent.org/&#34;&gt;cfp.perladvent.org&lt;/a&gt; if interested. (LT Advertisement, Mark Fowler, Glasgow)&lt;/li&gt;
+&lt;li&gt;101 year old people use computers too! (Joelle Maslak, You&amp;rsquo;re Not Wanted Here, Salt Lake City)&lt;/li&gt;
+&lt;li&gt;When writing tests, make sure it fails first. Tests are code too, so don&amp;rsquo;t ignore the fact that they might contain bugs. (Scott Lee, Writing Testable Code, Salt Lake City)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.dockerignore&lt;/code&gt; is much like &lt;code&gt;.gitignore&lt;/code&gt;. It ignores files listed in it when doing a copy command for docker. (Wesley Schwengle, Docker for Perl Developers, Glasgow)&lt;/li&gt;
+&lt;li&gt;There is an open source network vulnerability scanner named &lt;a href=&#34;https://github.com/Arachni/arachni&#34;&gt;Arachni&lt;/a&gt; and it&amp;rsquo;s pretty good. (Lee Johnson, Find and fix your web security vulnerabilities with Burp Scanner, Glasgow)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s all for now! See you all next time.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Setup Your Computer for CPAN-PRC</title>
+      <link>https://kyzn.org/setup-your-computer-for-cpan-prc/</link>
+      <pubDate>Wed, 21 Feb 2018 21:00:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/setup-your-computer-for-cpan-prc/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This blog is originally posted on &lt;a href=&#34;https://perldotcom.perl.org/article/setup-your-computer-for-cpan-prc/&#34;&gt;perl.com&lt;/a&gt;, edited by &lt;a href=&#34;https://www.perl.com/authors/david-farrell/&#34;&gt;David Farrell&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Earlier I wrote about &lt;a href=&#34;https://kyzn.org/posts/why-should-you-join-cpan-prc/&#34;&gt;why should you join CPAN Pull Request Challenge&lt;/a&gt;. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.&lt;/p&gt;
+&lt;h2 id=&#34;option-1-the-docker-way&#34;&gt;Option 1: The Docker Way&lt;/h2&gt;
+&lt;p&gt;By using a Docker image that has everything you need, you can start working in minutes.&lt;/p&gt;
+&lt;h3 id=&#34;1-install-docker&#34;&gt;1: Install Docker&lt;/h3&gt;
+&lt;p&gt;On Ubuntu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install docker.io
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Alternatively, see the instructions for &lt;a href=&#34;https://docs.docker.com/docker-for-mac/install/&#34;&gt;macOS&lt;/a&gt; and &lt;a href=&#34;https://docs.docker.com/docker-for-windows/install/&#34;&gt;Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;2-fork--clone-the-repo&#34;&gt;2: Fork &amp;amp; clone the repo&lt;/h3&gt;
+&lt;p&gt;Now you need to fork and clone the Github repository you were assigned for the PRC. For example, I created this &lt;a href=&#34;https://github.com/kyzn/App-p&#34;&gt;fork&lt;/a&gt;, and can clone it with:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/kyzn/App-p ~/Desktop/App-p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;3-run-docker&#34;&gt;3: Run Docker&lt;/h3&gt;
+&lt;p&gt;I have prepared a docker &lt;a href=&#34;https://github.com/kyzn/perlbrew-prc-dockerimage&#34;&gt;image&lt;/a&gt; which comes with a stable version of Perl, &lt;a href=&#34;https://metacpan.org/pod/App::perlbrew&#34;&gt;perlbrew&lt;/a&gt;, &lt;a href=&#34;https://metacpan.org/pod/App::cpanminus&#34;&gt;cpanm&lt;/a&gt; and &lt;a href=&#34;https://metacpan.org/pod/Dist::Zilla&#34;&gt;dzil&lt;/a&gt;, all pre-installed.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how I would run docker on the repo I cloned in step 3:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker run -v ~/Desktop/App-p:/App-p -it kyzn/perlbrew-prc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;~/Desktop/App-p&lt;/code&gt; is the local path to the repo&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/App-p&lt;/code&gt; is the path of the directory inside the Docker image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This will launch an Ubuntu image as root user, mounting the repository to &lt;code&gt;/App-p&lt;/code&gt;. Git is installed, but you need to use your local (non-Docker) terminal to pull/push. The text editors nano, vim, and emacs are installed in the image as well. You can also use your local text editor.&lt;/p&gt;
+&lt;h3 id=&#34;building-a-docker-image&#34;&gt;Building a Docker Image&lt;/h3&gt;
+&lt;p&gt;Alternatively, you can build the docker image by hand. Note that this will take some time:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/kyzn/perlbrew-prc-dockerimage
+$ cd perlbrew-prc-dockerimage
+$ docker build -t kyzn/perlbrew-prc:my_build .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then use the same &lt;code&gt;docker run&lt;/code&gt; command with your own &lt;code&gt;my_build&lt;/code&gt; tag.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;option-2-the-local-way&#34;&gt;Option 2: The Local Way&lt;/h2&gt;
+&lt;p&gt;You can install the same tools to your computer; I&amp;rsquo;ve prepared instructions for macOS and Ubuntu. This usually takes about one to two hours.&lt;/p&gt;
+&lt;h3 id=&#34;notes-for-macos-users&#34;&gt;Notes for macOS users&lt;/h3&gt;
+&lt;p&gt;Perl, during its installation, will ask for permission for incoming network connections. Denying that request doesn&amp;rsquo;t break anything for CPAN-PRC purposes.&lt;/p&gt;
+&lt;p&gt;Installing modules via &lt;code&gt;cpanm&lt;/code&gt; might give you a permission error. In the terminal, run:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo chown -R $USER:staff ~/.cpanm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This command changes the owner of the cpanm folder, which usually fixes the issue.&lt;/p&gt;
+&lt;p&gt;You need to install homebrew:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;1-install-perlbrew&#34;&gt;1: Install Perlbrew&lt;/h3&gt;
+&lt;p&gt;Most systems come with a certain version of Perl installed. Yet it is often recommended not to tamper system Perl, as applications depend on its state. That&amp;rsquo;s why we want to install a separate Perl for development purposes.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ curl -L https://install.perlbrew.pl | bash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once it&amp;rsquo;s done, it will ask you to add &lt;code&gt;source ~/perl5/perlbrew/etc/bashrc&lt;/code&gt; to your &lt;code&gt;~/.bashrc&lt;/code&gt;. You should do as instructed right away.&lt;/p&gt;
+&lt;h3 id=&#34;2-install-perl&#34;&gt;2: Install Perl&lt;/h3&gt;
+&lt;p&gt;Now that we have Perlbrew in place, we can go ahead and install a Perl on our own, keeping system Perl alone. I am going to suggest installing latest stable-version. You may run &lt;code&gt;perlbrew available&lt;/code&gt; to see most common versions. Note that this will take a while.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ perlbrew install -j 4 stable
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are two ways to use a Perl version with Perlbrew: &lt;code&gt;use&lt;/code&gt; and &lt;code&gt;switch&lt;/code&gt;. &lt;code&gt;use&lt;/code&gt; is temporary, it goes away once you close the terminal. That&amp;rsquo;s why I recommend &lt;code&gt;switch&lt;/code&gt;, which will make it permanent. Change the version to the one you just installed. You can run &lt;code&gt;perlbrew list&lt;/code&gt; to see installed versions.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ perlbrew switch $(perlbrew list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To make sure switch worked, check your Perl version in the terminal:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ perl -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;3-install-cpanm&#34;&gt;3: Install cpanm&lt;/h3&gt;
+&lt;p&gt;This is a &lt;a href=&#34;https://metacpan.org/pod/App::cpanminus&#34;&gt;script&lt;/a&gt; that will help you install CPAN modules. There already is a client installed, called &lt;code&gt;cpan&lt;/code&gt;. But, &lt;code&gt;cpan&lt;/code&gt; requires configuration and is more verbose and slower than &lt;code&gt;cpanm&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ perlbrew install-cpanm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To be sure you&amp;rsquo;re using the perlbrew installed cpanm, run this command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ which cpanm | grep perlbrew
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the terminal displays any matching output, it worked.&lt;/p&gt;
+&lt;h3 id=&#34;4-install-dzil&#34;&gt;4: Install dzil&lt;/h3&gt;
+&lt;p&gt;Many CPAN authors use &lt;a href=&#34;https://metacpan.org/pod/Dist::Zilla&#34;&gt;dzil&lt;/a&gt; to build and release their modules. The chances of your PRC assignment having a dist.ini file (dzil configuration) are high.&lt;/p&gt;
+&lt;p&gt;First you need to install a non-Perl dependency, openssl. On macOS:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ brew install openssl
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And on Ubuntu:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install libssl-dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then install Dist::Zilla with cpanm. Note that this will take a while, as it has a lot of dependencies.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cpanm Dist::Zilla
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;5-install-reply-optional&#34;&gt;5: Install reply (optional)&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;reply&lt;/code&gt; is a nice interactive shell that lets you play around.&lt;/p&gt;
+&lt;p&gt;Ubuntu users will need to install these missing dependencies:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install libncurses5-dev libreadline-dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now install &lt;code&gt;reply&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cpanm Term::ReadLine::Gnu Reply
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;Now you are ready to work on your assignment! Good luck!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Why Should You Join CPAN-PRC?</title>
+      <link>https://kyzn.org/why-should-you-join-cpan-prc/</link>
+      <pubDate>Thu, 25 Jan 2018 08:15:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/why-should-you-join-cpan-prc/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This blog is originally posted on &lt;a href=&#34;https://perldotcom.perl.org/article/why-should-you-join-cpan-prc/&#34;&gt;perl.com&lt;/a&gt;, edited by &lt;a href=&#34;https://www.perl.com/authors/david-farrell/&#34;&gt;David Farrell&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The CPAN Pull Request Challenge (PRC) aims to improve the quality of code on &lt;a href=&#34;https://www.cpan.org/&#34;&gt;CPAN&lt;/a&gt;, the online archive of Perl modules, by having participants submit pull requests to CPAN module authors.&lt;/p&gt;
+&lt;p&gt;Every month participants are assigned a new module to improve, and submit &lt;a href=&#34;https://help.github.com/articles/about-pull-requests/&#34;&gt;pull requests&lt;/a&gt; to the module repo on GitHub. Participants are not competing with each other, rather the &amp;ldquo;challenge&amp;rdquo; is to keep up with your monthly assignments.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-sign-up&#34;&gt;How to sign up&lt;/h3&gt;
+&lt;p&gt;You can join as an individual or as a team. A team could be your company, you and a few friends, or your local Perl Mongers group.&lt;/p&gt;
+&lt;p&gt;Simply email Neil Bowers (&amp;ldquo;neil at bowers dot com&amp;rdquo;) your GitHub username and PAUSE ID if you have one, or if joining as a group, your GitHub organization name. Tell him you want to join the challenge, and you are in!&lt;/p&gt;
+&lt;h3 id=&#34;how-it-works&#34;&gt;How it works&lt;/h3&gt;
+&lt;p&gt;Once per month, you will receive an email noting your assigned distribution:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/pr-assignment.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can fix a failing test, fix an issue, correct a typo, any kind of improvement. If you&amp;rsquo;re not sure where to start, there are services on top of CPAN that can help identify issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cpantesters.org/&#34;&gt;CPAN Testers&lt;/a&gt; is a Continuous Integration service that often identifies issues with failing tests and/or platform specific bugs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rt.cpan.org/&#34;&gt;Request Tracker&lt;/a&gt; is the default bug tracker for CPAN modules (issues may also be listed on GitHub)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cpancover.com&#34;&gt;CPAN Cover&lt;/a&gt; reports on code coverage for tests&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cpants.cpanauthors.org/&#34;&gt;CPANTS&lt;/a&gt; is a &amp;ldquo;kwalitee&amp;rdquo; assessment tool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A good place to start is &lt;a href=&#34;https://metacpan.org&#34;&gt;metacpan&lt;/a&gt;, a CPAN search engine which links to all of the above services. Scan through the module documentation and related information, to try and find things that need fixing or enhancing.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve identified the changes you&amp;rsquo;d like to make, fork the module on GitHub, commit your changes and open a pull request with the new changes. Then reply to your assignment email saying &amp;ldquo;It&amp;rsquo;s done!&amp;rdquo;, and link to your pull requests on GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/pr-done.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Although it&amp;rsquo;s better to do your assignments every month, you may not be willing to commit to it, and that is fine! If something comes up, you can skip a month. If you need more time for a module, you can stick to your assignment for longer. There&amp;rsquo;s a solution as long as you want to keep participating.&lt;/p&gt;
+&lt;h3 id=&#34;why-join&#34;&gt;Why join?&lt;/h3&gt;
+&lt;p&gt;One reason is that this year might be your &lt;a href=&#34;http://neilb.org/2018/01/01/cpan-prc-2018.html&#34;&gt;last chance!&lt;/a&gt; It may &lt;a href=&#34;http://neilb.org/2018/01/06/what-after-prc.html&#34;&gt;evolve&lt;/a&gt;, but this will most likely be the &lt;strong&gt;last year&lt;/strong&gt; you can get a CPAN module assignment.&lt;/p&gt;
+&lt;p&gt;I joined this challenge &lt;a href=&#34;https://kyzn.org/posts/cpan-pr-challenge-012015/&#34;&gt;in 2015&lt;/a&gt; when I was still at college. It motivated me to read other people&amp;rsquo;s code, even though I had a hard time understanding it. It also taught me a lot about the Open Source ecosystem. I did 4 assignments in 2015, another 4 in 2016, and doubled to 8 in 2017. I am also part of &lt;a href=&#34;https://github.com/ziprecruiter&#34;&gt;Team-ZipRecruiter&lt;/a&gt;, which has been participating since April 2017. It really is fun!&lt;/p&gt;
+&lt;p&gt;If you are looking for more reasons, here are few:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a great way to study &amp;ldquo;production ready&amp;rdquo; code and communicate with fellow programmers&lt;/li&gt;
+&lt;li&gt;You can contribute to open source code, support Perl and build your resume&lt;/li&gt;
+&lt;li&gt;Assignments introduce you to code on CPAN that you otherwise might have missed&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;re part of a group it could be a fun team-building event&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sounds interesting? Then send an email to Neil (&amp;ldquo;neil at bowers dot com&amp;rdquo;) with your GitHub username!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/pr-merged.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>How to Setup Headless Raspberry Pi</title>
+      <link>https://kyzn.org/how-to-setup-headless-raspberry-pi/</link>
+      <pubDate>Mon, 07 Aug 2017 22:13:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/how-to-setup-headless-raspberry-pi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/pi-zero.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Quarter to scale&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;&amp;ldquo;I had no ideas for projects&amp;rdquo; was the reason I waited so long before finally buying a Raspberry Pi. I got tired of waiting for a light bulb to appear, and ordered a model Zero W. It&amp;rsquo;s the smallest one, and it can connect to wireless networks. Only later I found out that this model was not recommended for beginners. One of the reasons might be that there is no soldered general purpose pins. Which means you need some soldering to do if you want to connect any low-level peripherals.&lt;/p&gt;
+&lt;p&gt;The set I bought had a preloaded SD card too, and I started from there. The very first problem I had was about powering the device. For a moment, I couldn&amp;rsquo;t figure out how to turn it on. As it turns out, it powers on as soon as you connect the power cable, that is, there is no power switch. And there&amp;rsquo;s a LED that blinks if something is wrong.&lt;/p&gt;
+&lt;p&gt;Noobs was the preloaded system in card, which I played with for a couple hours. It welcomes you with a menu, listing several operating systems for you to choose. Then it downloads &amp;amp; installs what you select, while reserving some space for recovery. This makes it easy to get a taste of how each Pi-compatible OS looks like.&lt;/p&gt;
+&lt;p&gt;In the end, I decided I did not want Noobs. I wanted to have &amp;ldquo;something like Ubuntu&amp;rdquo;, and with no Desktop. My goal was to have my Pi running, using only power cable and WiFi. I ended up installing &amp;ldquo;Raspbian Lite&amp;rdquo;, which is a Debian.&lt;/p&gt;
+&lt;p&gt;I did manage to get a headless-Pi running on Debian, without ever connecting a keyboard or screen to it. I kept some notes so that I don&amp;rsquo;t forget how I did that, and what you are reading are exactly those notes.&lt;/p&gt;
+&lt;h2 id=&#34;step-1-flash-raspbian-lite-into-card&#34;&gt;Step 1: Flash Raspbian-Lite into card&lt;/h2&gt;
+&lt;p&gt;First step is to download and flash the OS. Download &lt;a href=&#34;https://www.raspberrypi.org/downloads/raspbian/&#34;&gt;Raspbian Lite on right&lt;/a&gt;. It&amp;rsquo;s an archive that has a single image file in it, and that&amp;rsquo;s what we need. You also need &lt;a href=&#34;https://etcher.io/&#34;&gt;Etcher&lt;/a&gt;, a tool for flashing images into SD-cards. It makes the process easier. Insert your SD card, and point to image file in archive. Don&amp;rsquo;t remove your card yet.&lt;/p&gt;
+&lt;h2 id=&#34;step-2-enable-ssh&#34;&gt;Step 2: Enable SSH&lt;/h2&gt;
+&lt;p&gt;I appreciated how Raspbian comes with SSH-disabled by default. It&amp;rsquo;s to prevent someone else from trying default password to reach your Pi. But here, we want to turn it back on. If you already connected a keyboard and screen, you can use &lt;code&gt;raspi-config&lt;/code&gt; to turn it on. If you want to start headless, there&amp;rsquo;s another way. You will notice there are two partitions in card. Go into &amp;ldquo;boot&amp;rdquo; partition, and create an empty file named ssh: &lt;code&gt;touch ssh&lt;/code&gt;. Raspbian will remove this file and enable ssh. It will also print a warning that says &amp;ldquo;Change your password you fool&amp;rdquo; when you login.&lt;/p&gt;
+&lt;h2 id=&#34;step-3-connect-to-wireless-network&#34;&gt;Step 3: Connect to Wireless Network&lt;/h2&gt;
+&lt;p&gt;I have a network protected with a WPA2 password. You might need to do some extra research if you want to connect to, say, an enterprise WiFi.&lt;/p&gt;
+&lt;p&gt;Just like the file created for enabling ssh, we will create another one for WiFi in the very same &amp;ldquo;boot&amp;rdquo; partition, this time with the name &lt;code&gt;wpa_supplicant.conf&lt;/code&gt;. This file will contain our password. Here&amp;rsquo;s how it should look like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+network={
+ ssid=&amp;quot;my_network&amp;quot;
+ psk=&amp;quot;my_password&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Make sure NOT to remove quotes. There&amp;rsquo;s one problem with this approach: your password is visible to anyone who has access to the file. It&amp;rsquo;s a better idea to not have it this way. If you are using Ubuntu/Debian, run the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wpa_passphrase &amp;quot;my_network&amp;quot; &amp;quot;my_password&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here&amp;rsquo;s another quick tip: If you don&amp;rsquo;t want your password to show up in your bash history, put a space before command above. This command will output a text like below:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;network={
+ ssid=&amp;quot;my_network&amp;quot;
+ #psk=&amp;quot;my_password&amp;quot;
+ psk=a4ea383f2d8e77c45ec859de70b9ea37b30d79153d049cbc88fe6bc86d2cba3d
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can take uncommented &lt;code&gt;psk&lt;/code&gt; line and replace it with plaintext password. Make sure not to forget &lt;code&gt;ctrl_interface&lt;/code&gt;, otherwise you might not be able to connect to WiFi.&lt;/p&gt;
+&lt;h2 id=&#34;step-4-power-on&#34;&gt;Step 4: Power on!&lt;/h2&gt;
+&lt;p&gt;Before connecting Pi to power, run following command on your machine.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nmap -sP 192.168.0.1/24
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will list devices/hosts connected to your network. Note that your network may be on a different address, so try &lt;code&gt;192.168.1.1&lt;/code&gt; or &lt;code&gt;192.168.2.1&lt;/code&gt; if above doesn&amp;rsquo;t list anything.&lt;/p&gt;
+&lt;p&gt;Note the number of hosts that are up. Then turn your Pi on, and wait for 15 seconds. Run the command again, and you will see a new host (Pi) on you network. Assume its IP address is 192.168.0.13. You can use following command to ssh:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ssh pi@192.168.0.13
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It will ask for a password, the default password is &lt;code&gt;raspberry&lt;/code&gt;. Once logged in, first thing you should do is to run &lt;code&gt;passwd&lt;/code&gt; and pick yourself a new password.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s pretty much how far I could get so far! I will write more blogs about Pi as I go forward.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Highlights From TPC 2017</title>
+      <link>https://kyzn.org/highlights-from-tpc-2017/</link>
+      <pubDate>Sun, 25 Jun 2017 12:30:00 +0000</pubDate>
+      
+      <guid>https://kyzn.org/highlights-from-tpc-2017/</guid>
+      <description>&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+&lt;p&gt;This list contains just a small number of talks that I personally thought are important/enjoyable for the most readers. This is by no means an official list curated by an organization. See the &lt;a href=&#34;https://www.youtube.com/playlist?list=PLA9_Hq3zhoFxdSVDA4v9Af3iutQxLI14m&#34;&gt;YouTube playlist&lt;/a&gt; for all awesome talks. I also encourage you to write your own blog about TPC. And yes, it&amp;rsquo;s officially called &amp;ldquo;Tipsy&amp;rdquo; now!&lt;/p&gt;
+&lt;h3 id=&#34;where-did-my-test-fail&#34;&gt;Where did my test fail?&lt;/h3&gt;
+&lt;p&gt;Although I tried to select talks with videos, I had to make an exception for this one. I wasn&amp;rsquo;t able to locate neither videos mentioned in this section.&lt;/p&gt;
+&lt;p&gt;On Tuesday night, Damian Conway talked about his new modules: &lt;a href=&#34;https://metacpan.org/pod/Dios&#34;&gt;&lt;code&gt;Dios&lt;/code&gt;&lt;/a&gt; lets you declare classes with Perl 6 syntax, which uses &lt;a href=&#34;https://metacpan.org/pod/Keyword::Declare&#34;&gt;&lt;code&gt;Keyword::Declare&lt;/code&gt;&lt;/a&gt; to declare a couple new keywords it needs. &lt;a href=&#34;https://metacpan.org/pod/Data::Dx&#34;&gt;&lt;code&gt;Data::Dx&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://metacpan.org/pod/Test::Expr&#34;&gt;&lt;code&gt;Test::Expr&lt;/code&gt;&lt;/a&gt; also utilize &amp;ldquo;adding new keywords&amp;rdquo;. First one is a wrapper around &lt;code&gt;Data::Dumper&lt;/code&gt;, and second one is a Test module that prints out source code when an error happens, which apparently was not a thing yet. Pretty awesome, right?&lt;/p&gt;
+&lt;p&gt;Luckily, Chad Granum (who is working on Test2) was in audience, and the very next day, he announced &lt;a href=&#34;https://metacpan.org/pod/Test2::Plugin::SourceDiag&#34;&gt;&lt;code&gt;Test2::Plugin::SourceDiag&lt;/code&gt;&lt;/a&gt; on Lightning Talks, so this is a thing now! Thanks Damian &amp;amp; Chad!&lt;/p&gt;
+&lt;h3 id=&#34;polyglots&#34;&gt;Polyglots!&lt;/h3&gt;
+&lt;p&gt;Between the advertisements (&amp;ldquo;Start a Perl Mongers!&amp;rdquo;, &amp;ldquo;No no, start a Polyglot Group!&amp;rdquo;, &amp;ldquo;No, start both!&amp;rdquo;) we did have a couple talks on several languages. Here&amp;rsquo;s a bunch of them, but there are more at YouTube.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;If you think your one programming language is the best thing ever, you are doing life wrong.&amp;rdquo;&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/n-st1-DpKHI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/VbObDEH-jKY&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;applications&#34;&gt;Applications&lt;/h3&gt;
+&lt;p&gt;Hear the story of &lt;em&gt;BumpySkies&lt;/em&gt;, an application which tells you when to expect turbulance on your flight. It works by looking at flight path &lt;em&gt;and&lt;/em&gt; weather conditions.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/N4JNYCjerNM&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Building a garage-door-controller running on Mojolicious, with Raspberry Pi. There&amp;rsquo;s live demo too!&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/aJc5yYONBBc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;lightning-talks&#34;&gt;Lightning Talks&lt;/h2&gt;
+&lt;p&gt;This year&amp;rsquo;s lightning talk submission form had an extra item: You had to pick whether your LT is serious or fun. I&amp;rsquo;m going to show one on each end.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/tpc-slide.png&#34; alt=&#34;LT Submission Form&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fun-stuff&#34;&gt;Fun Stuff&lt;/h2&gt;
+&lt;p&gt;David Farrell talks about his &lt;em&gt;awesome&lt;/em&gt; module &lt;a href=&#34;https://metacpan.org/pod/Cache::Reddit&#34;&gt;&lt;code&gt;Cache::Reddit&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/ZT4BJEIu-SY&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;serious-business&#34;&gt;Serious Business&lt;/h2&gt;
+&lt;p&gt;One thing that most attendees must have noticed is the gender ratio in the conference. If you look at &lt;a href=&#34;http://yapc-surveys.org/html/yn2016-survey.html&#34;&gt;last year&amp;rsquo;s post-conference survey results&lt;/a&gt;, this is the gender ratio you will see:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/tpc-survey.png&#34; alt=&#34;Gender ratio in TPC 2016&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It doesn&amp;rsquo;t look good at all, and we have to do something about it. Let&amp;rsquo;s hear it from Deidre Foster.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/7N3dR2y3Fi8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;We &lt;strong&gt;have to&lt;/strong&gt; do something about it. We should encourage female coworkers/friends to attend and submit talks. We should &lt;a href=&#34;http://www.cbsnews.com/news/where-does-gender-bias-start-in-the-job-ads/&#34;&gt;update our job ads to be gender-neutral&lt;/a&gt;. We should &lt;a href=&#34;https://www.hiremorewomenintech.com/&#34;&gt;hire more woman in tech&lt;/a&gt;. We should &lt;a href=&#34;http://fogknife.com/2017-05-18-i-want-the-perl-conference-to-steal-cons-policies.html&#34;&gt;have more policies&lt;/a&gt; to make TPC better.&lt;/p&gt;
+&lt;h2 id=&#34;speaking-of-surveys&#34;&gt;Speaking of surveys..&lt;/h2&gt;
+&lt;p&gt;If you have attended the conference, survey submissions are due July 7th. Make sure to tell organizers/speakers what you think, make your voice heard. Help people improve what they love to do.&lt;/p&gt;
+&lt;h2 id=&#34;you-should-submit-a-talk-too&#34;&gt;You &lt;strong&gt;should&lt;/strong&gt; submit a talk too!&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s a whole year until the next TPC::NA, but don&amp;rsquo;t be afraid to submit a talk - or multiple talks. Start thinking now. From now on, when you do something interesting, ask yourself if people would like to hear about that. (Spoiler alert: Yes they do!) Take notes, create a very brief outline of your ideas. Keep shaping it, then just submit it. Look for other conferences too!&lt;/p&gt;
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>How to Join yapc on irc.perl.org</title>
+      <link>https://kyzn.org/how-to-join-yapc-on-irc.perl.org/</link>
+      <pubDate>Mon, 19 Jun 2017 03:18:10 +0000</pubDate>
+      
+      <guid>https://kyzn.org/how-to-join-yapc-on-irc.perl.org/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;IRC is used A LOT during The Perl Conference&lt;/li&gt;
+&lt;li&gt;To go online instantly in a browser, you can use &lt;a href=&#34;https://chat.mibbit.com/#yapc@irc.perl.org&#34;&gt;Mibbit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;To stay online (to read all messages sent, even the ones sent when you were not around), you can use &lt;a href=&#34;https://www.irccloud.com&#34;&gt;IRCCloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can set up your own bouncer too!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34; data-dnt=&#34;true&#34; data-theme=&#34;light&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;And if you are also headed to &lt;a href=&#34;https://twitter.com/hashtag/tpc2017dc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#tpc2017dc&lt;/a&gt;, hop on &lt;a href=&#34;https://t.co/2UAyAKRpW3&#34;&gt;https://t.co/2UAyAKRpW3&lt;/a&gt;#yapc and hang out with the cool kids! &lt;a href=&#34;https://twitter.com/hashtag/tpc2017?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#tpc2017&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/perl?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#perl&lt;/a&gt;&lt;/p&gt;&amp;mdash; just john sez “Black Lives Matter” (@genehack) &lt;a href=&#34;https://twitter.com/genehack/status/876059761657077760?ref_src=twsrc%5Etfw&#34;&gt;June 17, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://t.co/ju5k4bqbD1&#34;&gt;https://t.co/ju5k4bqbD1&lt;/a&gt; channel &lt;a href=&#34;https://twitter.com/hashtag/yapc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#yapc&lt;/a&gt; is a good place to community-coordinate beyond the wiki &lt;a href=&#34;https://twitter.com/hashtag/tpc2017dc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#tpc2017dc&lt;/a&gt; &lt;a href=&#34;https://t.co/hHjma16LlQ&#34;&gt;https://t.co/hHjma16LlQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; The Perl and Raku Conference (@PerlConferences) &lt;a href=&#34;https://twitter.com/PerlConferences/status/876570261444866049?ref_src=twsrc%5Etfw&#34;&gt;June 18, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Last year&amp;rsquo;s The Perl Conference at Orlando was my first one. I had a lot of fun, met with brilliant people and learned numerous things about Perl.&lt;/p&gt;
+&lt;p&gt;There was one thing that I didn&amp;rsquo;t expect: People actually use IRC! Wiki for YAPC 2016 has a page named &lt;a href=&#34;http://www.yapcna.org/yn2016/wiki?node=FirstTimers&#34;&gt;Tips for First Timers&lt;/a&gt; which includes a note saying &amp;ldquo;Not All the Fun Happens in Meatspace&amp;rdquo;. Indeed, IRC serves as a perfect medium for people to communicate, comment (on talks), ask for help, and so on.&lt;/p&gt;
+&lt;p&gt;If you are attending YAPC, and not reading #yapc, you are missing &lt;strong&gt;a lot&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-irc-anyway&#34;&gt;What is IRC anyway?&lt;/h2&gt;
+&lt;p&gt;IRC stands for Internet Relay Chat.. and it&amp;rsquo;s been around since 1988! It lets people communicate in real time (think ancestor of Slack). There are channels like #yapc in servers like irc.perl.org. &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_Relay_Chat&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt; has a lot more details if you want to take a look.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-i-get-online-now&#34;&gt;How do I get online now?&lt;/h2&gt;
+&lt;p&gt;The fastest way to do it would be to use a service like &lt;a href=&#34;https://chat.mibbit.com/#yapc@irc.perl.org&#34;&gt;Mibbit&lt;/a&gt;. You only need to pick a nickname, and you are online!&lt;/p&gt;
+&lt;p&gt;There are a ton of applications available. Take a look at &lt;a href=&#34;http://www.yapcna.org/yn2016/wiki?node=IRC&#34;&gt;last year&amp;rsquo;s wiki&lt;/a&gt; to find what&amp;rsquo;s best for you.&lt;/p&gt;
+&lt;p&gt;If you decide to connect through an app, you might need to set up a few more things. Here&amp;rsquo;s a screenshot from HexChat:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/irc-hexchat-1.png&#34; alt=&#34;HexChat Configuration without bouncer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Make sure address is &lt;code&gt;ssl.irc.perl.org/7062&lt;/code&gt; (&lt;code&gt;irc.perl.org/6667&lt;/code&gt; works too), enable SSL, pick a nickname and leave password blank. That&amp;rsquo;s pretty much it!&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a caveat though: You will be missing any messages sent when you are offline.&lt;/p&gt;
+&lt;h2 id=&#34;so-how-do-i-stay-online-all-the-time&#34;&gt;So how do I stay online all the time?&lt;/h2&gt;
+&lt;p&gt;You need a bouncer. Think of it as a middle-man: Bouncer connects to irc.perl.org on behalf of you, then you connect to your bouncer through your IRC client. Since the bouncer is always connected, you won&amp;rsquo;t be missing any messages.&lt;/p&gt;
+&lt;p&gt;There is a service for that too, called &lt;a href=&#34;https://www.irccloud.com&#34;&gt;IRCCloud&lt;/a&gt;. It has a free plan which is good for a week, except you still have to login every two hours or so. They also have Android and iOS apps.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-i-set-up-my-own-bouncer&#34;&gt;How do I set up my own bouncer?&lt;/h2&gt;
+&lt;p&gt;If you have a machine running 7/24, or willing to fire up a DigitalOcean/Linode box, here&amp;rsquo;s what you need to do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo apt-get install znc&lt;/code&gt; (&lt;a href=&#34;http://wiki.znc.in/Installation&#34;&gt;more ways to install znc&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;znc won&amp;rsquo;t work under root, so you need to have at least one non-root user. You can add one: &lt;code&gt;adduser znc &amp;amp;&amp;amp; su znc &amp;amp;&amp;amp; cd ~ &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;znc --makeconf&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Listen on port:&lt;/strong&gt; This is tricky. If you are on a public wifi that blocks ports (could be the case for some conference venues) you need to make sure you pick a port that you have access to. Or you can use VPN to avoid that.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Listen using SSL:&lt;/strong&gt; Yes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server host:&lt;/strong&gt; &lt;code&gt;ssl.irc.perl.org&lt;/code&gt; (or &lt;code&gt;irc.perl.org&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server uses SSL:&lt;/strong&gt; Yes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server port:&lt;/strong&gt; 7062 (or 6667)&lt;/li&gt;
+&lt;li&gt;Server password is empty&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Initial channels:&lt;/strong&gt; #yapc (yay!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/irc-znc-1.png&#34; alt=&#34;First part of znc setup&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/irc-znc-2.png&#34; alt=&#34;Second part of znc setup&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Once all is done, it will ask you whether you want to run znc now, which you can say yes. I also recommend setting a cronjob that restarts znc if it&amp;rsquo;s not running for some reason.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*/10 * * * * /usr/bin/znc &amp;gt;/dev/null 2&amp;gt;&amp;amp;1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to see the admin panel, you can go to https://host:port. (port that znc listens to). You can login with admin username &amp;amp; password you set during znc configuration setup.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how the entire installation process looks like.&lt;/p&gt;
+&lt;center&gt;&lt;script id=&#34;asciicast-342071&#34; src=&#34;https://asciinema.org/a/342071.js&#34; async&gt;&lt;/script&gt;&lt;/center&gt;
+&lt;p&gt;Only thing left is to set up your client just like before.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/irc-hexchat-2.png&#34; alt=&#34;Hexchat configuration with bouncer&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Address is host/port&lt;/li&gt;
+&lt;li&gt;SSL is enabled&lt;/li&gt;
+&lt;li&gt;Username is admin_username/network_name (both set at znc config setup)&lt;/li&gt;
+&lt;li&gt;Login method is Server Password, and the password is admin password.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s it! See you at #yapc!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>On Parsing Time Zones</title>
+      <link>https://kyzn.org/on-parsing-time-zones/</link>
+      <pubDate>Wed, 08 Feb 2017 23:24:53 -0700</pubDate>
+      
+      <guid>https://kyzn.org/on-parsing-time-zones/</guid>
+      <description>&lt;p&gt;&lt;em&gt;I posted this to &lt;a href=&#34;https://github.com/kyzn/WWW-Eksi/commit/667882c7&#34;&gt;GitHub&lt;/a&gt; first, later edited and moved here.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;This post is about a CPAN module I built, called &lt;a href=&#34;https://metacpan.org/pod/WWW::Eksi&#34;&gt;WWW::Eksi&lt;/a&gt;. Module parses posts in a Turkish social network called &lt;a href=&#34;https://eksisozluk.com&#34;&gt;Eksisozluk&lt;/a&gt;. All posts come with an attached &amp;ldquo;creation time&amp;rdquo;, and some also include &amp;ldquo;last update time&amp;rdquo;. I realized &lt;a href=&#34;https://metacpan.org/pod/DateTime&#34;&gt;DateTime&lt;/a&gt; was throwing some errors for some of the posts. It turned out these posts had an attached time that never existed in Turkish time zone.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This social network do not reveal time zone information to its users.&lt;/li&gt;
+&lt;li&gt;Their daylight saving time (DST) changes were out of sync with reality of the country.&lt;/li&gt;
+&lt;li&gt;In some cases, we can use some workarounds to figure out the correct time zone.&lt;/li&gt;
+&lt;li&gt;But this is not true for all cases.&lt;/li&gt;
+&lt;li&gt;This is why I stopped including time zone information in my module&amp;rsquo;s output.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Turkey had daylight saving time since the 1940s. This means we had a &amp;ldquo;spring forward&amp;rdquo; day in March, and a &amp;ldquo;fall back&amp;rdquo; day in October.&lt;/p&gt;
+&lt;p&gt;Spring forward day is 23 hours. Clocks go from &lt;code&gt;00:59:59&lt;/code&gt; to &lt;code&gt;02:00:00&lt;/code&gt;. There is no &lt;code&gt;01:30:00&lt;/code&gt; on that day. This means if you find a post in this social network that has a timestamp of &lt;code&gt;01:30:00&lt;/code&gt;, then you are in trouble. I would like to call this nonexisting hour &amp;ldquo;NEVER-ZONE&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Fall back day is 25 hours. Clocks go from &lt;code&gt;01:59:59&lt;/code&gt; to &lt;code&gt;01:00:00&lt;/code&gt;. There are two &lt;code&gt;01:30:00&lt;/code&gt;s on that day. If you find a post with this time, you need to figure out whether it&amp;rsquo;s &lt;code&gt;01:30:00 (+3)&lt;/code&gt; or &lt;code&gt;01:30:00 (+2)&lt;/code&gt;. Let&amp;rsquo;s call this interval &amp;ldquo;AMBIGUOUS-ZONE&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s look at what we can do to fix this problem.&lt;/p&gt;
+&lt;h2 id=&#34;fixing-spring-forward-with-try-catch&#34;&gt;Fixing Spring Forward with Try-Catch&lt;/h2&gt;
+&lt;p&gt;If daylight saving rules were in sync, we wouldn&amp;rsquo;t have any problem figuring out time zone.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Post ID&lt;/th&gt;
+&lt;th&gt;Turkey Time&lt;/th&gt;
+&lt;th&gt;Eksisozluk Time&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;101&lt;/td&gt;
+&lt;td&gt;00:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;00:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;Both change TZ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;102&lt;/td&gt;
+&lt;td&gt;02:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;02:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;at the same time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;111&lt;/td&gt;
+&lt;td&gt;02:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;02:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;They are in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;112&lt;/td&gt;
+&lt;td&gt;03:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;03:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;sync all the time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;But we know that these rules were out of sync for 2001 through 2006. Turkey had observed daylight saving at &lt;code&gt;01:00:00&lt;/code&gt;, whereas Eksisozluk had it at &lt;code&gt;02:00:00&lt;/code&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Post ID&lt;/th&gt;
+&lt;th&gt;Turkey Time&lt;/th&gt;
+&lt;th&gt;Eksisozluk Time&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;201&lt;/td&gt;
+&lt;td&gt;00:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;00:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;In sync up to here&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;202&lt;/td&gt;
+&lt;td&gt;02:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;01:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;NEVER-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;NEVER-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;211&lt;/td&gt;
+&lt;td&gt;02:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;01:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;NEVER-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;212&lt;/td&gt;
+&lt;td&gt;03:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;03:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;In sync again&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you try to create a &lt;code&gt;DateTime&lt;/code&gt; object in Never-Zone, it will throw an error.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ reply
+0&amp;gt; use DateTime;
+1&amp;gt; my $dt = DateTime-&amp;gt;new(year=&amp;gt;2003, month=&amp;gt;3, day=&amp;gt;30, hour=&amp;gt;1, minute=&amp;gt;30, time_zone=&amp;gt;&#39;Europe/Istanbul&#39;);
+Invalid local time for date in time zone: Europe/Istanbul
+2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here&amp;rsquo;s the solution: We can &lt;code&gt;catch&lt;/code&gt; that error, increment &lt;code&gt;hour&lt;/code&gt; by one, and create &lt;code&gt;DateTime&lt;/code&gt; object again. By doing so we will have the correct time zone data, even though that was not what Eksisozluk displayed to us.&lt;/p&gt;
+&lt;p&gt;I mentioned some posts have two times: One for creation, and another one for update. This solution works for both, so we are good here.&lt;/p&gt;
+&lt;h2 id=&#34;fixing-fall-back-with-post-ids&#34;&gt;Fixing Fall Back with Post IDs&lt;/h2&gt;
+&lt;p&gt;Even if daylight saving rules were in sync, we still end up with an Ambiguous-Zone. This is because Eksisozluk does not show us time zone alongside with time.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Post ID&lt;/th&gt;
+&lt;th&gt;Turkey Time&lt;/th&gt;
+&lt;th&gt;Eksisozluk Time&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;301&lt;/td&gt;
+&lt;td&gt;00:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;00:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;302&lt;/td&gt;
+&lt;td&gt;01:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;01:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;311&lt;/td&gt;
+&lt;td&gt;01:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;01:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;312&lt;/td&gt;
+&lt;td&gt;01:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;01:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;321&lt;/td&gt;
+&lt;td&gt;01:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;01:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;322&lt;/td&gt;
+&lt;td&gt;02:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;02:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you try to create a &lt;code&gt;DateTime&lt;/code&gt; object in Ambiguous-Zone, it will use latest possible time zone.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ reply
+0&amp;gt; use DateTime;
+1&amp;gt; my $dt = DateTime-&amp;gt;new(year=&amp;gt;2003, month=&amp;gt;10, day=&amp;gt;26, hour=&amp;gt;1, minute=&amp;gt;30, time_zone=&amp;gt;&#39;Europe/Istanbul&#39;); 1
+$res[0] = 1
+
+2&amp;gt; $dt-&amp;gt;offset / 3600 # offset is in seconds, divide to get hours (+2)
+$res[1] = &#39;2&#39;
+
+3&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you parse post #302 and post #312, both of them will have the same time zone, +2. But we do know posts up to #311 are in +3. We can use these IDs to decide time zone of the post. Problem solved for creation time, but this doesn&amp;rsquo;t work for update time. If a post has an update time in Ambiguous-Zone, there is no way for us to know its time zone.&lt;/p&gt;
+&lt;p&gt;But we know daylight saving rules were not in sync.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Post ID&lt;/th&gt;
+&lt;th&gt;Turkey Time&lt;/th&gt;
+&lt;th&gt;Eksisozluk Time&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;401&lt;/td&gt;
+&lt;td&gt;00:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;00:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;402&lt;/td&gt;
+&lt;td&gt;01:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;01:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;411&lt;/td&gt;
+&lt;td&gt;01:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;01:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;412&lt;/td&gt;
+&lt;td&gt;01:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;02:00:00 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;421&lt;/td&gt;
+&lt;td&gt;01:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;02:59:59 (+3)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;422&lt;/td&gt;
+&lt;td&gt;02:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;02:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;431&lt;/td&gt;
+&lt;td&gt;02:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;02:59:59 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;AMBIGUOUS-ZONE&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;432&lt;/td&gt;
+&lt;td&gt;03:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;03:00:00 (+2)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Turkey time has two &lt;code&gt;01:30:00&lt;/code&gt;s, and Eksisozluk time has two &lt;code&gt;02:30:00&lt;/code&gt;s. Since our goal is to parse Eksisozluk, I&amp;rsquo;ve marked Eksisozluk&amp;rsquo;s Ambiguous-Zone in table.&lt;/p&gt;
+&lt;p&gt;If we are seeing &lt;code&gt;01:30:00&lt;/code&gt; in a post, this can only mean +3. DateTime will assume it&amp;rsquo;s +2, but we can subtract one hour to fix. This works both for creation time and update time.&lt;/p&gt;
+&lt;p&gt;If we are seeing &lt;code&gt;02:30:00&lt;/code&gt; in a post, this is the Ambiguous-Zone of Eksisozluk time. DateTime will assume it&amp;rsquo;s +2, because there is only one &lt;code&gt;02:30:00&lt;/code&gt; in Turkey time. We can get rid of ambiguity by looking at post IDs. If it&amp;rsquo;s between #412 and #421, we know it is &lt;code&gt;01:30:00 (+2)&lt;/code&gt;, even though that is not the time displayed on Eksisozluk. Otherwise, we can leave it as &lt;code&gt;02:30:00 (+2)&lt;/code&gt;. This solves the problem for creation time, but not for update time.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We can solve spring forward problem with try-catch. This works for both creation and update time.&lt;/li&gt;
+&lt;li&gt;We can solve part of fall back problem by adding one hour. This also works for both creation and update time.&lt;/li&gt;
+&lt;li&gt;We can solve another part of fall back problem by hardcoding some post IDs into module. This works only for creation time. There is no way to fix this for update time.&lt;/li&gt;
+&lt;li&gt;This problem applies only to a very small subset of posts. This gave me three options.
+&lt;ul&gt;
+&lt;li&gt;Hardcode post IDs into the module to fix creation time.&lt;/li&gt;
+&lt;li&gt;Drop time zone support for the affected time intervals.&lt;/li&gt;
+&lt;li&gt;Drop time zone support completely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I picked the last one.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>5 Things I Learned at YAPC</title>
+      <link>https://kyzn.org/5-things-i-learned-at-yapc/</link>
+      <pubDate>Sat, 02 Jul 2016 23:46:34 +0000</pubDate>
+      
+      <guid>https://kyzn.org/5-things-i-learned-at-yapc/</guid>
+      <description>&lt;p&gt;Last week, I attended my very first YAPC (Yet Another Perl Conference) at Orlando. While I feel I can write for pages, I want to talk only about several things, following the newest format &amp;ldquo;online newspapers&amp;rdquo; are using.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/yapc-card.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-usa-is-huge&#34;&gt;1) USA is huge.&lt;/h2&gt;
+&lt;p&gt;I remember stories on Quora about tourists who tried to make a day trip to California all the way from New York, and I actually laughed at them too. So I knew the continent is big, I guess I never realized it is &amp;ldquo;that&amp;rdquo; big. I was at San Jose, California. I took a flight to Orlando with a stop at Dallas. These were almost 3 hours each. To top it all, Orlando is 3 hours ahead of California, so I also experienced a slight jetlag (not being able to fall asleep even if it&amp;rsquo;s pretty late etc). But we made it safe and sound, so it was fine.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/map-usa.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Photo by Chris Lawton on Unsplash.&lt;/h6&gt;&lt;/center&gt;
+&lt;h2 id=&#34;2-yapc-is-not-pronounced-as-y-a-p-c&#34;&gt;2) YAPC is not pronounced as Y-A-P-C.&lt;/h2&gt;
+&lt;p&gt;My life has been a lie. Well, it&amp;rsquo;s not that bad, but I was very surprised to learn that &amp;ldquo;YAPC&amp;rdquo; is pronounced as yapth-zee instead of reading every single letter out loud.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/kyzn&#34;&gt;@kyzn&lt;/a&gt; It’s pronounced “The Perl Conference” now. ? &lt;a href=&#34;https://twitter.com/hashtag/yapcna?src=hash&#34;&gt;#yapcna&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mark Gardner (@markjgardner) &lt;a href=&#34;https://twitter.com/markjgardner/status/744937787535859716&#34;&gt;June 20, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;You probably don&amp;rsquo;t need to worry about that because it&amp;rsquo;s no more YAPC. They decided to rename it as The Perl Conference. I&amp;rsquo;m not entirely sure if we are supposed to read it as tapth-zee, but I liked the change. You can take a look at Dan&amp;rsquo;s talk below, where he talks about details. (Obligatory video-webcast praise goes here too. They were awesome!)&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/73e6quzJU9U&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;3-perl-6-is-pretty-good&#34;&gt;3) Perl 6 is pretty good.&lt;/h2&gt;
+&lt;p&gt;To be completely honest, I had my prejudice towards Perl 6. But it actually looks super nice! I listened Conway&amp;rsquo;s keynote on Perl 6 very carefully (which you can too), and attended several beginner talks on Perl 6 (beginner track was a great idea). There are many things that changed, but for one, now you can access anything about arrays with @, as opposed to @ for array itself and $ for one particular thing in an array. Many new features can be replicated with several CPAN modules, if you want to have a taste of Perl 6 while still using Perl 5.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/Nq2HkAYbG5o&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;4-people-actually-use-irc&#34;&gt;4) People actually use IRC.&lt;/h2&gt;
+&lt;p&gt;After reading notes for first-timers at YAPC web site, I knew I had to install some sort of IRC client to my computer/smartphone. I truly had no idea how to even start. I basically searched for IRC in application store, installed the very first thing that came up, and I was online! I am glad I was: The chat is amazing. It almost felt like it&amp;rsquo;s subtitles to talks I&amp;rsquo;m listening to. It was very helpful  too: I had problems connecting to projector at testing room, and I couldn&amp;rsquo;t resolve. So I sent a message to #yapc, and thanks to helpful people I was ready to go in just a few minutes. Now I really have to dive into IRC, install it so that I&amp;rsquo;m online all the time as opposed to being online if your phone is connected. There was actually a talk on IRC, but I missed it. I&amp;rsquo;ll see it as soon as possible though, thanks to video streaming!&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/O4T5_KVHL2I&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;5-lightning-talks-are-fun-and-encouraging&#34;&gt;5) Lightning talks are fun and encouraging.&lt;/h2&gt;
+&lt;p&gt;Another note for first-timers recommend not to miss a single lightning talk, because they were too much fun. I took the advice one step further: I actually had chance to make a lightning talk! I was very excited when I was told my talk idea sounds pretty good. So I spent Monday night preparing slides, rehearsing, and submitting. Next morning I learned I am on the list for the day! My presentation, if you ask me, went very well. I talked about the only CPAN module I&amp;rsquo;ve ever built, which is topic for another blog post. I&amp;rsquo;ve received very encouraging feedback afterwards. I really liked other presentations too! They were fun, and I learned quite a few things.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/s8BvPwkvBEI?t=7m45s&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;I suppose the next stop is &lt;a href=&#34;http://yapcjapan.org/2016hokkaido/&#34;&gt;Hokkaido&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Farewell to Google Code</title>
+      <link>https://kyzn.org/farewell-to-google-code/</link>
+      <pubDate>Tue, 17 Nov 2015 09:28:48 +0000</pubDate>
+      
+      <guid>https://kyzn.org/farewell-to-google-code/</guid>
+      <description>&lt;p&gt;A while ago, Google decided to shut down Google Code, which &lt;a href=&#34;http://stackoverflow.com/a/8306775/1245539&#34;&gt;hosts over 200k projects&lt;/a&gt;. It is in read-only status as of now. You cannot update your code any more. No more wiki updates or issues, it&amp;rsquo;s gone. But, you can still reach the repositories and all pages, that&amp;rsquo;s what they mean by read only. It is also noted that Google is &lt;a href=&#34;https://code.google.com/p/support/wiki/ReadOnlyTransition&#34;&gt;not going to delete your data&lt;/a&gt;, just move it to &lt;a href=&#34;https://code.google.com/archive/&#34;&gt;&amp;ldquo;Google Code Archive&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you decide to maintain your project, you should probably move your code, wiki and issues somewhere else. You might have already done this before, but here we go:&lt;/p&gt;
+&lt;h2 id=&#34;step-1-export-to-github&#34;&gt;Step 1: Export to GitHub&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a GitHub account if you don&amp;rsquo;t have any.&lt;/li&gt;
+&lt;li&gt;Go to your Google Code or Google Code Archive page, click the button &amp;ldquo;Export to GitHub&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Authorize with your GitHub account, and it will do the magic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/google-code.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;See the button at right top?&lt;/h6&gt;&lt;/center&gt;
+&lt;h2 id=&#34;step-2-where-did-my-wiki-go&#34;&gt;Step 2: Where did my wiki go?&lt;/h2&gt;
+&lt;p&gt;Now you&amp;rsquo;ll see a new repository on your GitHub account named exactly the same with your Google Code project. You&amp;rsquo;ll see your code, your issues, but where is your wiki? Well, it exports your wiki as a new branch, not as a GitHub wiki. But that&amp;rsquo;s not what you want? Don&amp;rsquo;t worry, there&amp;rsquo;s a quick fix for that: morgant@GitHub had written a script to convert that branch into an actual wiki. (It&amp;rsquo;s actually one of the frequently asked questions, you can see all of them &lt;a href=&#34;https://code.google.com/p/support-tools/wiki/GitHubExporterFAQ&#34;&gt;here&lt;/a&gt;, in case you have some other problem.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download the script &lt;a href=&#34;https://raw.githubusercontent.com/morgant/finishGoogleCodeGitHubWikiMigration/master/finishGoogleCodeGitHubWikiMigration&#34;&gt;for OSX&lt;/a&gt; and &lt;a href=&#34;https://raw.githubusercontent.com/seraasch/finishGoogleCodeGitHubWikiMigration/master/finishGoogleCodeGitHubWikiMigration&#34;&gt;for Linux&lt;/a&gt;. See &lt;a href=&#34;https://github.com/morgant/finishGoogleCodeGitHubWikiMigration&#34;&gt;readme&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chmod a+x finishGoogleCodeGitHubWikiMigration&lt;/code&gt; (make it executable)&lt;/li&gt;
+&lt;li&gt;At GitHub repository, go to your project settings, mark the checkbox that says &amp;ldquo;Wikis&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Actually go to the wiki and create a page, usually done with few clicks.&lt;/li&gt;
+&lt;li&gt;Now run the script: &lt;code&gt;finishGoogleCodeGitHubWikiMigration https://github.com/&amp;lt;user&amp;gt;/&amp;lt;project&amp;gt;.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Review its commits. Only &lt;code&gt;git push&lt;/code&gt; if you like the changes.&lt;/li&gt;
+&lt;li&gt;If you don&amp;rsquo;t want to keep wiki branch: &lt;code&gt;git push origin :wiki&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Just as a note, I think it somehow exposes your html style comments if you had any. So you might want to remove them. Also, your sidebar might not show up. To solve this, I went to Google Code wiki, copied html source for the sidebar, replaced code google links with just the name of wiki page.&lt;/p&gt;
+&lt;p&gt;I think that&amp;rsquo;s all! If you haven&amp;rsquo;t moved your Google Code project yet, today&amp;rsquo;s the day.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Koşutakvimi Going Down</title>
+      <link>https://kyzn.org/ko%C5%9Futakvimi-going-down/</link>
+      <pubDate>Tue, 21 Jul 2015 21:51:37 +0000</pubDate>
+      
+      <guid>https://kyzn.org/ko%C5%9Futakvimi-going-down/</guid>
+      <description>&lt;p&gt;This is to note that simple calendar I created to list all running events in and around Turkey is no more being maintained. kosutakvimi.org was one of the first neat lists to do its task. It was &lt;a href=&#34;https://kosturmaca.wordpress.com/2014/09/26/bolum-47-spartatlon-ve-yakin-tarihli-kosu-yarislari/&#34;&gt;introduced&lt;/a&gt; in the only Turkish running podcast. Here are several good alternatives if you want to give it a try:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://koscora.com/yaris-takvimi/&#34;&gt;koscora.com/yaris-takvimi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yaristakvimi.com/&#34;&gt;yaristakvimi.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.kosukolik.com/#!etkinlik-takvimi/c1i52&#34;&gt;kosukolik.com/etkinlik-takvimi/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.imaginor.runnery&#34;&gt;Runnery for Android&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/tr/app/runnery/id911690713?mt=8&#34;&gt;Runnery for iOS&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Strange Experiment with Single Button</title>
+      <link>https://kyzn.org/strange-experiment-with-single-button/</link>
+      <pubDate>Sun, 05 Apr 2015 22:55:25 +0000</pubDate>
+      
+      <guid>https://kyzn.org/strange-experiment-with-single-button/</guid>
+      <description>&lt;p&gt;A few days ago (on april fools to be exact) admins of Reddit had posted a &lt;a href=&#34;http://www.redditblog.com/2015/04/the-button.html&#34;&gt;blog&lt;/a&gt; describing a &amp;ldquo;button&amp;rdquo;. Rules were pretty simple, there will be a button next to a timer. Timer would count down from 60 seconds, only to be reset globally when a user presses it. Each user has one chance to click, and new users are not allowed. What would happen when timer reaches zero was not revealed, making it even more attractive. So how long do you think it took for timer to reach 0? Answer: It still did not reach 0, and it&amp;rsquo;s day 5. Around 600k accounts, which is almost the population for a small-sized country, had clicked the button. What&amp;rsquo;s so appealing about it, and how &amp;ldquo;the button&amp;rdquo; survives? The answer, I believe, lies between cooperation and gamification.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/button-countdown.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Going for 600k participants..&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;Most of us remember the old flash animation with a single big red button. The button which talks to you all the time, trying to convince you to not to press it. It was even changing shapes and colours from time to time. I have no idea whether the above mentioned the-button was inspired by this, but they&amp;rsquo;re quite similar to each other. You wouldn&amp;rsquo;t expect an application as simple as a button and a text to be so entertaining, but it turns out it&amp;rsquo;s quite possible. A very similar approach is employed in Reddit&amp;rsquo;s take on button as well. There&amp;rsquo;s only a button with a timer, hence you don&amp;rsquo;t see the point.. But given the community of Reddit is as populated as 150M, and there are a ton of creative people uploading content to the platform all the time, you can actually see why it exploded.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/button-bigred-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Spoiler alert: It&#39;s lying, it actually cares&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;When I saw the blog post, at first I thought this is an experiment to see how long would it take for timer to be reset, hence the title. In other words, I was expecting half of users to wait patiently for timer to run off, and other half trolling them by clicking. I had the image of people who are trying to convince clickers to stop in my mind, as a call for cooperation. I would have guessed that it wouldn&amp;rsquo;t reach zero at least not for the first 24 hours, but I couldn&amp;rsquo;t imagine it being alive so long. And that&amp;rsquo;s mostly because I didn&amp;rsquo;t read the rules &lt;em&gt;before&lt;/em&gt; clicking the button.&lt;/p&gt;
+&lt;p&gt;As mentioned above, rules were pretty simple. You have one click, and that&amp;rsquo;s all. Once you click, you can only watch what&amp;rsquo;s going on. And there&amp;rsquo;s more: Reddit users can gain &amp;ldquo;flairs&amp;rdquo; for each sub-community (sub reddit) through some ways. You guessed it, the flair for the-button sub community is the remaining time on the timer when you click. Even more: There were 6 flair colours predefined. For example, you would be purple if you click when the timer is between 60-52s. Next is blue, for which you have to click at 51-42s. Then comes the green with 41-32s. It&amp;rsquo;s followed by yellow, orange and lastly red. As of today, there are few people with green flairs, and more with blue. Most people are purples, as they just click right away with an instinct. Non-pressers are grey, but they tend do call it &amp;lsquo;shade&amp;rsquo;. Assigning people to groups through an algorithm has caused something we all know pretty well: Grouping. Accounts with same coloured flairs began cooperating, and it ended up with more conflict than I expected. (It&amp;rsquo;s not an actual conflict, but a funny one, I have to note.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/button-morals.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;A purple was surprised because the poster was &#34;hiding his/her flair&#34;, when a grey came and things went bad. I don&#39;t even know such discussions were expected by creators of the application.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;The grouping went so mad, users invented what they want to call &lt;a href=&#34;http://www.reddit.com/r/thebutton/comments/31709l/official_survey_of_the_buttons_religions_record/&#34;&gt;&amp;ldquo;religions&amp;rdquo;&lt;/a&gt;. And there are more than 20 major groups already. (Remember all of these had happened in just five days.) &amp;ldquo;The followers of the shade&amp;rdquo;, for example is a group where followers are decided to &amp;ldquo;stay grey&amp;rdquo; until the very end. Opposing them, &amp;ldquo;Knights of the button (aka. Redguards)&amp;rdquo; have a goal of not letting button reach zero. There are also some groups who like to take a philosophical approach at the whole thing. Motto of &amp;ldquo;The Free&amp;rdquo; is &amp;ldquo;a button is nothing without someone to press it&amp;rdquo;. You won&amp;rsquo;t expect a simple button to be taken that seriously, but somehow we ended up right here.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/button-shaders.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Note the grey flairs next to usernames. They&#39;re just some circles with colours, but they mean more than you can guess to some participants.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;The button and the story of it somehow went popular around the globe in just a few hours. People made t-shirts, &lt;a href=&#34;http://imgur.com/a/sz8pf#1fSNiA9&#34;&gt;coats of arms&lt;/a&gt;, &lt;a href=&#34;http://i.imgur.com/PTTpmBK.png&#34;&gt;comics&lt;/a&gt;, and even &lt;a href=&#34;https://clyp.it/4m5sfxd5&#34;&gt;songs&lt;/a&gt;! It&amp;rsquo;s amazing how people can come up with such things in a blink of an eye.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/button-59s.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;A proud early-presser&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;There are a few third party applications developed just for the button as well. As one interesting result will obviously be the &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1U7L8rNV38KHx81LWkvr7GwndrlOFvf1pnTgkqAXgfgE/htmlview?sle=true#gid=1147869037&#34;&gt;data collected&lt;/a&gt; during the play-time, one user has come up with &lt;a href=&#34;http://46.101.29.145/&#34;&gt;this page&lt;/a&gt; to show a summary of statistics for the button. You can also watch the button in a very different way on &lt;a href=&#34;http://jamesrom.github.io/&#34;&gt;this page&lt;/a&gt;. Another thing you can do is to follow &lt;a href=&#34;https://twitter.com/buttonchecker&#34;&gt;this Twitter account&lt;/a&gt; which tweets automatically whenever a new record is broken. There&amp;rsquo;s even a catalogue for &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1v7RV0R9Q133W2QAJSAEqAFrf5v-ACukyQ4py-iWl0jQ/htmlview?sle=true#&#34;&gt;all &amp;ldquo;rare and exotic&amp;rdquo; button pushers.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No one knows what will happen once it&amp;rsquo;s 0, although there are theories: This is countdown to a long-expected Half Life 3 game, last person to press gets a special treat, all non-pressers would get something special, and so on. Currently it&amp;rsquo;s a mystery, and seemingly it will stay as a mystery for a few more days. All people who are spending too much time on the button (which might include me) should recall what the old button says:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/button-bigred-2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Yahoo&#39;s Search Campaign on 3/11</title>
+      <link>https://kyzn.org/yahoos-search-campaign-on-3/11/</link>
+      <pubDate>Sat, 14 Mar 2015 00:53:59 +0000</pubDate>
+      
+      <guid>https://kyzn.org/yahoos-search-campaign-on-3/11/</guid>
+      <description>&lt;p&gt;Yahoo, the number one web-site in Japan, had a nice campaign on fourth anniversary of Eastern Japan Earthquake that happened on 3/11. For each &amp;ldquo;3.11&amp;rdquo; search, they made 10¥ donation to relief efforts. Around 3M people participated in &amp;ldquo;&lt;a href=&#34;http://search.yahoo.co.jp/searchfor311/2015/&#34;&gt;Search for 3.11&lt;/a&gt;&amp;rdquo; campaign, and Yahoo is going to donate around $240k. That&amp;rsquo;s pretty nice, not only because they&amp;rsquo;re helping out, but also it&amp;rsquo;s a great way to raise awareness.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/TVEBlhPf0io&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;They also shared this beautiful visual on mostly searched terms about the sad event. A dramatic increase in earthquake related words can be seen on 3/11 each year. To give an example, &amp;ldquo;What is meltdown?&amp;rdquo; was one sad query. You can also play with &lt;a href=&#34;http://search.yahoo.co.jp/searchfor311_2015_flash.html&#34;&gt;this interactive slide&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Celebrate Upcoming Pi Day!</title>
+      <link>https://kyzn.org/celebrate-upcoming-pi-day/</link>
+      <pubDate>Sat, 07 Mar 2015 21:33:53 +0000</pubDate>
+      
+      <guid>https://kyzn.org/celebrate-upcoming-pi-day/</guid>
+      <description>&lt;p&gt;3/14 is usually celebrated as pi-day, although it is not recognized as a public holiday (yet). This year, things get a little bit more interesting, as we get two more digits. This happens only once in a century: 3/14/15. Hence, we &lt;em&gt;must&lt;/em&gt; celebrate it somehow.&lt;/p&gt;
+&lt;p&gt;What about, tweeting exactly on 3/14/15 9:26:53? Well, that might be early for a saturday morning (for some), and you might miss the exact second even if you&amp;rsquo;re online. What if we delegate this celebration to an automated script? That sounds like an idea!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kyzn/Auto-Tweet-on-piday&#34;&gt;This is the link&lt;/a&gt; you should see to learn how to do it. Of all the geeky things you could do, leaving a mark at 10-digits-of-pi-date-time sounds pretty cool, or at least I thought so. &amp;ldquo;Did you miss the chance to tweet on 11/11/11 11:11:11? Now here&amp;rsquo;s something new you can&amp;rsquo;t miss!&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Public Voting Through Twitter</title>
+      <link>https://kyzn.org/public-voting-through-twitter/</link>
+      <pubDate>Tue, 24 Feb 2015 12:50:01 +0000</pubDate>
+      
+      <guid>https://kyzn.org/public-voting-through-twitter/</guid>
+      <description>&lt;p&gt;Last week, we organized a charity party. It was more like a contest, or a show, in which 10 teams participated. Each team was supposed to perform a show on their choice: dance, music, or even a play. We also had a judge of 5 people to grade performances. These people were not the only ones to decide who wins the night, though. There was going to be a public voting, that anyone can participate.&lt;/p&gt;
+&lt;p&gt;So I wrote a Perl script for the party. We picked an event keyword starting with a # character, and listened Twitter for tweets including that word. Then, we had different keywords for each team. Anyone who wanted to cast their vote would just tweet with event keyword + team keyword, and that would be it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/votepl-ads.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;People asking their followers to vote for their teams&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;We could have performed a basic search on Twitter Web, and then count the votes one by one, but that wouldn&amp;rsquo;t be a smart solution. Hence the script. It was run for 15 minutes, and we captured 275 tweets with event hashtag which is about one tweet per 3 seconds. However, only 179 tweets were counted as &amp;lsquo;valid vote&amp;rsquo;, which is 65% of total tweets. But why did we ignore 96 tweets?&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve developed precautive measurements in the script so that no team can abuse the automated vote counting process. We did not count forwarded tweets (that is, a retweet), and there were 22 many. We counted only the first vote of each person. There were 32 tweets that had a note saying &amp;ldquo;This person has voted before!&amp;rdquo;. We also checked for   age of each account. If the account the vote is casted from is newly created, we did not count the vote. If the tweet is sent from an unofficial application, we ignored. And 41 tweets did not contain any team keyword (or had typos in it).&lt;/p&gt;
+&lt;p&gt;Although tested heavily, I was scared that it simply wouldn&amp;rsquo;t work for no obvious reason. But it did! And it did a good job. The script is on &lt;a href=&#34;http://github.com/kyzn/twitter-voting&#34;&gt;GitHub&lt;/a&gt;, you can use it as you wish.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>New Type of Network in Ekşisözlük</title>
+      <link>https://kyzn.org/new-type-of-network-in-ek%C5%9Fis%C3%B6zl%C3%BCk/</link>
+      <pubDate>Mon, 16 Feb 2015 21:58:04 +0000</pubDate>
+      
+      <guid>https://kyzn.org/new-type-of-network-in-ek%C5%9Fis%C3%B6zl%C3%BCk/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t written much about Ekşi Sözlük on the blog, the 1999-born Turkish social-network, but I have to confess I visit the site almost daily. There is also a CPAN module named WWW::Eksisozluk that I developed, as I think data on the site is very valuable. I&amp;rsquo;ve also witnessed several changes the platform went through, including the latest one I&amp;rsquo;m about the write on.&lt;/p&gt;
+&lt;p&gt;As a quick explanation, the site is formatted as a user-based dictionary. Users can create topics, or add definitions (entries) to topics. Users are able to upvote &amp;amp; downvote entries for years now. A rather new feature allowed users to mark entries they like as &amp;lsquo;favourites&amp;rsquo;, just as in Twitter.&lt;/p&gt;
+&lt;p&gt;The latest change? There are now two new tabs on profile page: First one is to show authors whose entries are marked as favourite by the user. Second one is the same, except it works the other way: It shows the list of authors who marked user&amp;rsquo;s entries as favourite. Both lists are short: They only show latest several authors, although how the list is ranked is unknown to anyone but developers. And these lists are dynamic, they come with a note saying &amp;rsquo;last month only&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/eksi-network.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There is still one week for us to experiment with a social network as a homework for cooperation technologies class, but I guess I&amp;rsquo;ve decided what to work on. We can even build a tool that would allow authors to see their dynamic networks to a number of degrees, that could be fun.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>CPAN PR Challenge 01/2015</title>
+      <link>https://kyzn.org/cpan-pr-challenge-01/2015/</link>
+      <pubDate>Sat, 17 Jan 2015 16:50:08 +0000</pubDate>
+      
+      <guid>https://kyzn.org/cpan-pr-challenge-01/2015/</guid>
+      <description>&lt;p&gt;When I was reading through &lt;a href=&#34;http://perlweekly.com/&#34;&gt;Perl Weekly&lt;/a&gt; newsletter the other day, I realized that there is a challenge named &amp;lsquo;CPAN Pull Request Challenge&amp;rsquo;. Everyone was invited to join, and I decided to give it a go. It was organized by Neil Bowers, who explained the details right &lt;a href=&#34;http://neilb.org/2014/11/29/pr-challenge-2015.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The idea was simple: For each month in 2015, each participant will be assigned a CPAN module. Then they will be asked to contribute to the code. Be it improving documentation, writing more tests to improve test coverage, fixing a bug or actually implementing a new feature, you were to do something and then submit a pull request on GitHub. As this challenge was open to &amp;lsquo;anyone&amp;rsquo;, there were several documents explaining how GitHub works, and how to submit your first pull request and what not. If you have a look at &lt;a href=&#34;http://blogs.perl.org&#34;&gt;blogs.perl.org&lt;/a&gt;, you&amp;rsquo;ll see several of them. Even if you&amp;rsquo;re not going to participate, they are still pretty decent how-to documents, and having a look will not hurt.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I did for January: I was assigned &lt;a href=&#34;https://github.com/exodist/Exporter-Declare&#34;&gt;Exporter::Declare&lt;/a&gt;, a module that is rather decent and in a good shape. First thing I realized was the readme file. It did not contain any markdown elements of GitHub. So I forked the code, renamed README to README.md (to denote markdown, explanation &lt;a href=&#34;http://stackoverflow.com/questions/5922882/what-file-uses-md-extension-and-how-should-i-edit-them&#34;&gt;here&lt;/a&gt;) and changed the file. I added headers, code blocks with syntax highlighting, and sent a &lt;a href=&#34;https://github.com/exodist/Exporter-Declare/pull/9&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/cpanprc-oldreadme.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Old readme file with no markdown.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/cpanprc-newreadme.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Modified readme file with markdown.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;This was pretty simple and extremely easy task to complete, but it wasn&amp;rsquo;t the great PR, as the readme file turned out to be auto generated. Then I took a look into &lt;a href=&#34;http://blogs.perl.org/users/michal_wojciechowski/2011/11/github-friendly-readme-files-with-extutils-makemaker-and-module-build.html&#34;&gt;this post&lt;/a&gt;, which described the way to handle auto-generated github-friendly readme files. I ended up creating another pull request for this approach at &lt;a href=&#34;https://github.com/exodist/Exporter-Declare/pull/10&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/cpanprc-autoreadme.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Automatically generated readme file with markdown.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;It&amp;rsquo;s a small contribution, but I believe it&amp;rsquo;s still better than giving nothing to the community at all. Plus, this is only the beginning. There will be 11 more tasks assigned to me, and I promise to work harder on upcoming module assignments. For example, I haven&amp;rsquo;t written any tests for my only module on CPAN, as I always found an excuse to skip writing them. As searching for what I can do to improve my assignment, I&amp;rsquo;ve already learned about &lt;a href=&#34;http://blogs.perl.org/users/neilb/2014/08/check-your-test-coverage-with-develcover.html&#34;&gt;Devel::Cover&lt;/a&gt;, &lt;a href=&#34;http://cpancover.com&#34;&gt;cpancover.com&lt;/a&gt;, and &lt;a href=&#34;http://www.cpantesters.org/&#34;&gt;cpantesters&lt;/a&gt;. Test is not the only thing I&amp;rsquo;ve learned about: There is &lt;a href=&#34;http://en.wikipedia.org/wiki/Perl::Critic&#34;&gt;Perl::Critic&lt;/a&gt; that evaluates your code. There is also a way to &lt;a href=&#34;http://perlmaven.com/how-to-add-link-to-version-control-system-of-a-cpan-distributions&#34;&gt;add your github link to the meta file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll finish with two quotes: One is about pull requests. They say that the &amp;rsquo;true&amp;rsquo; way of submitting a PR is by &lt;a href=&#34;http://neilb.org/2015/01/10/pr-in-branch.html&#34;&gt;creating a new branch&lt;/a&gt;. This was something I was not aware of. The other one comes from the mail-list of CPAN-PR: They say &amp;ldquo;Code can almost always use more comments: this is no exception.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;If you want to join in, I suppose you&amp;rsquo;re not late. Try to e-mail Neil Bowers and he&amp;rsquo;ll most probably assign you a module. See January assignments &lt;a href=&#34;http://cpan-prc.org/2015/january.html&#34;&gt;here&lt;/a&gt; (not all of them are public, so the number is higher than what you see.)&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Uncyclopedia to Detect Sarcasm?</title>
+      <link>https://kyzn.org/uncyclopedia-to-detect-sarcasm/</link>
+      <pubDate>Thu, 18 Dec 2014 02:49:19 +0000</pubDate>
+      
+      <guid>https://kyzn.org/uncyclopedia-to-detect-sarcasm/</guid>
+      <description>&lt;p&gt;As there&amp;rsquo;s The Onion (and Zaytung) for news, I want to introduce yet another humorous web project called &lt;a href=&#34;https://en.uncyclopedia.co/&#34;&gt;Uncyclopedia&lt;/a&gt;. My bringing it up does not mean it&amp;rsquo;s new, it&amp;rsquo;s actually almost 10 years old. Instead of explaining what it is in detail, here&amp;rsquo;s some little quote from the anti-wiki&amp;rsquo;s article for Facebook:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Some regard Facebook as the pinnacle of human evolution, and in February of 2011, an Egyptian couple named their daughter after the site. In May of the same year, an Israeli couple named their daughter after Facebook&amp;rsquo;s &amp;ldquo;like&amp;rdquo; feature.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Not funny? Check this for Apple Inc, which obviously stands for Apple Incorporetarded on un-land.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The real Steve Jobs died of a fatal heroin overdose in 2004. Distraught at losing their beloved leader, Tim Cook and the rest of Apple&amp;rsquo;s board of directors built the iSteve.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What&amp;rsquo;s the point? Do you remember that the discussion we had last week about irony on social networks? I had an idea that maybe, we can use what Uncyclopedia authors publicly share to train several classifiers to detect irony. Almost everything on the page is about sarcasm! We may use The Onion as well. And the Zaytung too, for Turkish corpus. What do you think?&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the &lt;a href=&#34;http://en.wikipedia.org/wiki/Uncyclopedia&#34;&gt;wikipedia article for uncyclopedia&lt;/a&gt;, and here&amp;rsquo;s the &lt;a href=&#34;https://en.uncyclopedia.co/wiki/Wikipedia&#34;&gt;uncyclopedia article for wikipedia&lt;/a&gt;, just in case I couldn&amp;rsquo;t make you confused enough.&lt;/p&gt;
+&lt;p&gt;And also, one of Istanbul&amp;rsquo;s sister cities is Matt Damon. That&amp;rsquo;s the end.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Spammers and Their Favourite Tweets</title>
+      <link>https://kyzn.org/spammers-and-their-favourite-tweets/</link>
+      <pubDate>Wed, 03 Dec 2014 19:38:14 +0000</pubDate>
+      
+      <guid>https://kyzn.org/spammers-and-their-favourite-tweets/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently seen &lt;a href=&#34;http://www.qureet.com/blog/twitter-spam-reduction/&#34;&gt;this&lt;/a&gt; blog, and thought that was really nice. It was saying that some people buy applications which favourite random tweets on behalf on themselves, leading to an increase in the number of followers. Then I thought, well, this could mean that people who favourites violently could be the spammers we&amp;rsquo;re looking for! I had to see it for myself, so I did.&lt;/p&gt;
+&lt;p&gt;I worked on the set we collected during 36th Istanbul Marathon. I extracted user ids with number of tweets they favourited. Then I extracted first mentions in tweets. A first mention is not necessarily a retweet, although quite likely it is. It&amp;rsquo;s just the first mention in a tweet. Say Cartman tweets &amp;ldquo;Hey @Kyle, how are you? We&amp;rsquo;re having fun with @Kenny!&amp;rdquo;, then we would have an edge from Cartman to Kyle only.&lt;/p&gt;
+&lt;p&gt;We had 23499 users and 24401 mentions. No calculations were done, but see graphs for yourselves. Nodes are Twitter users, edges are mentions. From the last example, Cartman and Kyle would be nodes, and there will be an edge from Cartman to Kyle. Kenny does not necessarily exist, not to mean we killed him off.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/spammer-inin.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;First graph is here to show an example of dual circular graph. There are two circles, as the name suggests. You&amp;rsquo;ll see very few nodes in the inner circle, and more on outer. Circles are ordered by in-degree. This means, nodes of inner circle are the top mentioned users and outer circle is sorted as well. Node sizes also represent in-degree, so that the graph is easier to understand. Sorry for the weird shape, I couldn&amp;rsquo;t make it into a real circle.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/spammer-favfav.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is very similar to the previous one, except the parameter we use is different. Size means favourite count: The more tweets a user favourited, the bigger its node. The circles are ordered according to the same parameter, favourite count. Circle ordering, hence places of nodes will stay the same in the following graph.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/spammer-favout.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Can you see what we did here? The only change is the sizes of nodes, no change whatsoever is made to the places of nodes. Size here implies out-degree, i.e. the more mentions a user makes in the tweet set, the bigger its node. &amp;ldquo;But wait, you implied out-degree was going to be correlated with fav-count? I can barely see the inner circle!&amp;rdquo; Exactly. I&amp;rsquo;m surprised as well. What exactly happened there? I have four different answers.&lt;/p&gt;
+&lt;h2 id=&#34;there-is-actually-no-correlation-at-all&#34;&gt;There is actually no correlation at all&lt;/h2&gt;
+&lt;p&gt;Well, at least we tried. We thought that someone with aggressive favourite behaviour would write more mentions in a given set, but it doesn&amp;rsquo;t look like it. We can try with more parameters in future, and see what is going on.&lt;/p&gt;
+&lt;h2 id=&#34;or-there-is-some-correlation&#34;&gt;Or, there is some correlation&lt;/h2&gt;
+&lt;p&gt;It is also possible that there is an actual correlation, but we can&amp;rsquo;t infer to it by just looking at the graph. We might need to get our hands dirty, and do some calculation to see it for real.&lt;/p&gt;
+&lt;h2 id=&#34;marathons-are-no-cool&#34;&gt;Marathons are no cool&lt;/h2&gt;
+&lt;p&gt;Maybe we have some spammers in our list, but they didn&amp;rsquo;t reveal themselves because running is new in Turkey. We should do the very same experiment with another topic. If we want to stick to sports theme, we may check a soccer game.&lt;/p&gt;
+&lt;h2 id=&#34;we-failed-for-constraints&#34;&gt;We failed for constraints&lt;/h2&gt;
+&lt;p&gt;We had the data, but we did not actually work on it in detail. We might have been more picky in selecting what to graph. These graphs includes every single user! We might have applied some enforcements. &amp;ldquo;Don&amp;rsquo;t include anyone with more than x and less than y number of followers&amp;rdquo; or &amp;ldquo;don&amp;rsquo;t include accounts that were created in a week before the race&amp;rdquo; are just two examples. We need to think carefully.&lt;/p&gt;
+&lt;p&gt;I have learned my lesson, and I&amp;rsquo;ll not stop here. I&amp;rsquo;ll continue to try, and will update the blog. What do you think? Make sure to comment below, it&amp;rsquo;s a brand new feature!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Social Network on Marathon Retweets</title>
+      <link>https://kyzn.org/social-network-on-marathon-retweets/</link>
+      <pubDate>Wed, 26 Nov 2014 03:19:20 +0000</pubDate>
+      
+      <guid>https://kyzn.org/social-network-on-marathon-retweets/</guid>
+      <description>&lt;p&gt;This week, we were to prepare a social network visualization, and I enjoyed it more than I imagined. I got to learn Gephi, which is a fantastic tool. Even simply watching ForceAtlas plugin (that seperates nodes by a certain algorithm) work is entartaining enough.&lt;/p&gt;
+&lt;p&gt;What I did was to use the data I already had, although it might have been some kind of cheating. We had over 18k retweets, but I used first 5000. Most (almost all) of these tweets were posted before the race, so you can imagine it being mostly related to the expo. Here are the results:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/marathon-retweet.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;All nodes are people, and directed edges represent retweets. An edge from node A to B means person A retweeted what person B wrote. Red and big nodes are influencers, posters whose tweets were forwarded most. You&amp;rsquo;ll see shades of oranges, people who also got retweeted, but not as many as red ones. Then the yellow, the forwarders, if we were to call.&lt;/p&gt;
+&lt;p&gt;Outside the circle, you can see seperated groups. One example might be a tweet being retweeted by three people and that&amp;rsquo;s all. That is, people who retweet that certain tweet did not retweet anything else, or anything they wrote about the topic had no retweets. And the same for the original poster, too. It&amp;rsquo;s even hard to imagine that, but here they are, all around the place! I found it quite funny that one of these cliques looks really like a water molecule on the very left.&lt;/p&gt;
+&lt;p&gt;You might ask, who are those red people? Well, due to terms and conditions, I cannot reveal that information. But I believe you can imagine, or at least have an idea about that information. It&amp;rsquo;s actually some kind of dilemma about Twitter: Brilliant information posted by people with less number of followers gets forwarded much less than useless information posted by people with huge number of followers, but that&amp;rsquo;s for another blog post.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Results of Istanbul Marathon</title>
+      <link>https://kyzn.org/results-of-istanbul-marathon/</link>
+      <pubDate>Sat, 22 Nov 2014 23:05:48 +0000</pubDate>
+      
+      <guid>https://kyzn.org/results-of-istanbul-marathon/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to share the very first map that tweets on Marathon gave us. Take a look.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/marathon-map.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Because of our keyword selection, there are unrelated tweets too. But most of them are about the marathon. You can see the bridge, starting points at the Asian Side, course along Beşiktaş to Karaköy, 10k&amp;amp;15k finishes at Eminönü and 42k finish at Sultanahmet. If you go west enough, you&amp;rsquo;ll see an accumulation right next to the airport, and that is where the expo happened.&lt;/p&gt;
+&lt;p&gt;Overall, there were around 37k tweets, in which only 3381 had location information. Obviously enough, race did not get much attention. We might try this experiment for any soccer game and probably get more dots on the map.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/marathon-hashtag-nort-web.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On another work, I tried to generate word-clouds of hashtags that were commonly used. The one on top is the result of unique tweets only, that is, we didn&amp;rsquo;t count hashtags used in retweets. On the bottom, however, all tweets were in the set, revealing possible manipulations.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/marathon-hashtags-web.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And here&amp;rsquo;s a fancy looking cloud that was not limited to hashtags. That is, this time we processed all words. We, again, excluded retweets.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/marathon-allnort.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Tracking Istanbul Marathon</title>
+      <link>https://kyzn.org/tracking-istanbul-marathon/</link>
+      <pubDate>Fri, 14 Nov 2014 13:13:17 +0000</pubDate>
+      
+      <guid>https://kyzn.org/tracking-istanbul-marathon/</guid>
+      <description>&lt;p&gt;This Sunday is the day for the biggest sporting event in Turkey! You guessed it right, it’s the Vodafone Istanbul Marathon. 2014 will be the 36th year for the only intercontinental road race that ever happens. I have to note that it is in the &amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/IAAF_Road_Race_Label_Events&#34;&gt;Gold Label&lt;/a&gt;&amp;rdquo; category of IAAF, a label which only 39 races throughout the world hold.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/marathon-bridge.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;The Bosphorus Bridge accepts pedestrians only once a year. Photo by &lt;a href=&#34;https://www.flickr.com/photos/unwomen/22792368089/&#34; target=&#34;_blank&#34;&gt;UN Women/Müslüm Bayburs&lt;/a&gt;, licensed with &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/2.0/&#34; target=&#34;_blank&#34;&gt;CC BY-NC-ND 2.0&lt;/a&gt;.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;This year, as we&amp;rsquo;re interested in Social Network Analysis, we&amp;rsquo;re &amp;ldquo;running&amp;rdquo; this marathon in some other ways&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. We&amp;rsquo;re tracking you! We&amp;rsquo;re tracking Twitter, to put it better. We actually started doing that on Wednesday night, the night before the marathon expo started. So far, we can hardly stop ourselves from what you folks have been tweeting. Keep posting, we&amp;rsquo;re on it! We&amp;rsquo;re expecting more tweets on Sunday. We assume every single one of you on the bridge would like to share the feeling, right? Do it!&lt;/p&gt;
+&lt;center&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;The Vodafone Istanbul Eurasia Marathon = ABSOLUTELY AMAZING - Asia &amp;amp; Europe, a giant celebration of connectedness! &lt;a href=&#34;http://t.co/Cijk4Okx&#34;&gt;pic.twitter.com/Cijk4Okx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Barefoot Ted (@BarefootTed) &lt;a href=&#34;https://twitter.com/BarefootTed/status/269715399224991744&#34;&gt;November 17, 2012&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/center&gt;
+&lt;p&gt;So what will we do with the data we collect? We&amp;rsquo;ll count your tweets. We&amp;rsquo;ll give your tweets to SentiStrength to see your emotions. We&amp;rsquo;ll see whether the number of happy participants will exceed the number of angry drivers this year. We&amp;rsquo;ll see which city tweets most about the event (Istanbul?) We&amp;rsquo;ll also take a deep look into the geolocations. We&amp;rsquo;ll try to see the race course from your tweets. We&amp;rsquo;re pretty excited on the topic, and we are curious to see the results. I&amp;rsquo;ll be sharing the results next week, on the very same blog.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;We’re also running the marathon in the usual way. I am going for the 15k. I am also doing a fundraising for &lt;a href=&#34;http://bugday.org/&#34;&gt;Buğday Association&lt;/a&gt;, an organization that supports ecological living. You can see my campaign right &lt;a href=&#34;https://us6.campaign-archive.com/home/?u=79faeb89baedd16df204f18d6&amp;amp;id=a5c3672128&#34;&gt;here&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Crowdsourcing Weather Forecasts</title>
+      <link>https://kyzn.org/crowdsourcing-weather-forecasts/</link>
+      <pubDate>Mon, 03 Nov 2014 23:17:20 +0000</pubDate>
+      
+      <guid>https://kyzn.org/crowdsourcing-weather-forecasts/</guid>
+      <description>&lt;p&gt;Today, I came across a mobile application. It seemed rather new to me, but it turns out they&amp;rsquo;re leaving their third year behind. The idea is to collect barometer data, creating a &amp;ldquo;high resolution pressure map&amp;rdquo;. It goes with the title &amp;ldquo;The weather&amp;rsquo;s future.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Manufacturers started adding barometers to their devices to improve GPS accuracy and altitude detection. These Canadian Developers, alongside scientists from University of Washington, came up with a great idea. They realized they can use barometer data from millions of devices to reshape weather forecasting.&lt;/p&gt;
+&lt;p&gt;Currently, they get 4 million reads in one day. Only a few specific devices have the barometer. For example, Apple smartphones did not have the equipment until iPhone 6. Having said that, you can install the app to devices without barometers. You can read the pressure data,. You can also share the actual weather: that&amp;rsquo;s another part of the application. Users can share current weather status (windy, cloudy, rainy) to the others.&lt;/p&gt;
+&lt;p&gt;Installing a new weather station is very expensive, and the data a station reads is only local. This app is indeed one good solution to this problem. It can be used to produce better forecasts. People with chronic migraine can use the app to be notified about sudden drops in the pressure. Another possible use is thunderstorm prediction, which heavily depends on pressure data. Scientists at Washington University recently published a &lt;a href=&#34;http://journals.ametsoc.org/doi/full/10.1175/BAMS-D-13-00188.1&#34;&gt;paper&lt;/a&gt; the way they used PressureNet data to predict the weather.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/weather-app.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Left: Barometer reads. Only 4 data present in Istanbul (the one near school is me!) Right: Weather shares. Only 1 is present in Turkey, and that&#39;s the city of Antalya. Maybe someone wanted to promote how clear the weather is around South.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;It&amp;rsquo;s not available for iOS devices yet, but they must be developing one as Apple started putting barometers. If you have one of the following devices, or their respective upgraded models, you can contribute to science! See the app right &lt;a href=&#34;https://web.archive.org/web/20141112173825/https://play.google.com/store/apps/details?id=ca.cumulonimbus.barometernetwork&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Galaxy S3, S4, S5&lt;/li&gt;
+&lt;li&gt;Galaxy Nexus&lt;/li&gt;
+&lt;li&gt;Galaxy Note, 2, 3&lt;/li&gt;
+&lt;li&gt;Nexus 4, 5, 6, 9, 10&lt;/li&gt;
+&lt;li&gt;Xoom&lt;/li&gt;
+&lt;li&gt;RAZR MAXX HD&lt;/li&gt;
+&lt;li&gt;Xiaomi MI-2, MI-3&lt;/li&gt;
+&lt;li&gt;Droid Ultra&lt;/li&gt;
+&lt;li&gt;Moto X&lt;/li&gt;
+&lt;li&gt;HTC One (M8)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let&amp;rsquo;s see how all this, and similar crowdsourcing applications, will change the way we live.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Counting Votes Collaboratively</title>
+      <link>https://kyzn.org/counting-votes-collaboratively/</link>
+      <pubDate>Wed, 22 Oct 2014 21:49:22 +0000</pubDate>
+      
+      <guid>https://kyzn.org/counting-votes-collaboratively/</guid>
+      <description>&lt;p&gt;2014 was a year full of elections in Turkey. There was the local elections in March, which was repeated for some cities in June. Presidential elections took place in August. Prior to elections, protests and scandals were on the news. People think that might have caused an increased voter turnout. Also, something interesting has awakened a collaborative soul in these elections.&lt;/p&gt;
+&lt;p&gt;The first thing I have to mention is a community called &amp;ldquo;Oy ve Ötesi&amp;rdquo;. They were founded before the elections in March. What they did was somewhat interesting. They were looking for 33.000 volunteers to watchdog ballot boxes. They had several training videos about voters&amp;rsquo; rights and more on YouTube. It may seem unrelated to social media, but it got viral THROUGH social media. There were all kinds of posts about them on almost all kinds of platforms before the elections. And they did succeed in organizing as many as 25k people. And it turned out that most of the Oy ve Ötesi folks mastered the rules.&lt;/p&gt;
+&lt;p&gt;What happened next made the tension climb even more. In some cities, the number of votes for two leading parties was so close that they had to recount bags of ballots over and over again. The result? They are to be repeated. And Oy ve Ötesi volunteers were there when they were repeated.&lt;/p&gt;
+&lt;p&gt;But there was another issue even more terrifying than equal-votes. That was the suspicion of fraud in some cities. To make this topic clear I will try to explain how elections work in Turkey. First, people come and vote between specified hours. When the time comes, the ballot box is opened and votes are counted. Anyone from the public can watch (and record) the process of counting. Then, attendants had to fill an official ballot box report with numbers of votes in it. Then, both ballots and the report would be moved to the Supreme Electoral Council. There, reports would be typed into computers, while nobody&amp;rsquo;s watching.&lt;/p&gt;
+&lt;p&gt;Anyone could access the results of any given box published by the council. The opposition party had created an internal software to follow up their own counts. The official attendants of the opposition party sent reports to the party center. Party center checked whether numbers match that of the Electoral Council. They were different for some boxes.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not here to discuss politics, so here comes the topic: People went crazy on social media. Twitter, Facebook, Ekşisözlük were full of angry posters questioning what is happening. People were asking for &amp;ldquo;Report #1234 from Ankara, urgent!&amp;rdquo; as if they were calling an ambulance. But this cry for help was not systematic and it did not go well. A lot of people wanted to help, but it seemed to be late.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;//www.youtube-nocookie.com/embed/A5A9-6-RTJg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;I&amp;rsquo;m here to discuss what was done afterwards. A tool called Saydıraç was invented. Anyone could upload images of reports with this app. Of course, it would be impossible for one person to travel through all ballot boxes in a city. They tried it with a limited number of people in March but they couldn&amp;rsquo;t make it in time. Oy ve Ötesi was able to organize 25.000 people, and they used an internal system open only to volunteers. Volunteers were to take photos, upload and count by themselves. It didn&amp;rsquo;t give the complete results, but you could see the big picture. Unfortunately Saydıraç did not become very popular.&lt;/p&gt;
+&lt;p&gt;Oy ve Ötesi expanded to the whole country as Türkiye&amp;rsquo;nin Oyları. People signed up to be volunteers, although not as many, watched boxes. There&amp;rsquo;s yet another election coming up in 2015, so we&amp;rsquo;ll get to observe social networks one more time.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>What&#39;s Next?</title>
+      <link>https://kyzn.org/whats-next/</link>
+      <pubDate>Wed, 15 Oct 2014 00:45:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/whats-next/</guid>
+      <description>&lt;p&gt;&amp;ldquo;There was the PC. Then there was the Web. Then there was the Web 2.0.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Now, most of the people who regularly use social networks don&amp;rsquo;t know about the history of the web. Ask some non-CS friend, and they&amp;rsquo;ll tell &amp;ldquo;Hey, there is Facebook and Google and what not, so they&amp;rsquo;re called the Internet, right?&amp;rdquo; Well, he/she probably has a point, but still, we have to admit the evolution to see what is coming next. We, regular users of Web 2.0 sometimes do wonder: What can be built upon what we have right now? Well, there is the obvious Semantic Web, which people are expecting to arrive almost for two decades now. I&amp;rsquo;ll ask you more: what about 4.0? What will be next and when will it arrive?&lt;/p&gt;
+&lt;p&gt;Although &lt;a href=&#34;http://online.wsj.com/news/articles/SB116679843912957776&#34;&gt;some economists are expecting the next dot-com bubble&lt;/a&gt; (that is, the bubble that you can share on facebook, if it&amp;rsquo;s still up), there are 267,000 results that scholar.google.com returns for the query &amp;ldquo;semantic web&amp;rdquo;. This means that there are thousands of people working on evolution of what we use as the web today. But what I believe is we will not have a public event that announces the next big web. Rather, it looks like we will move to what is defined as the meaningful data smoothly. So one day we would realise, &amp;ldquo;Hey, we’ve been using what you call Web 6.0 for years!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I performed a Google Trends search and an n-gram search, because the numbering system of the web seemed so interesting. There were only webs ending with point oh. For example, Web 2.5 was not a common topic. Even on wikipedia, there is a web 2.5 article &lt;em&gt;only&lt;/em&gt; in Spanish. I also wanted to see general trends about this numerization. Please have a look at the results.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/next-trends-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;The decline in the Web 2.0 related news is quite obvious through years. In the next search I dropped Web 2.0.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/next-trends-2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Web 7.0 had a peak in April 2005, and that is related to a java library named something-web-7.0. Other than that, Web 3.0 is clearly visible after 2007 and the same thing goes for 4.0 after 2011.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;It looks like this: While we were already talking about Web 3.0 for a while, in 2007 we started talking much more about it. Same thing goes for Web 4.0 in 2011. Can we say that when we realize that &amp;ldquo;we&amp;rsquo;re using Web 2.0 for x many years&amp;rdquo; we start talking about Web 3.0? And maybe the same for the 4.0 as well? Well, as I argued above, I do not believe it will arrive like a train arriving at the station. I believe some applications will start to make use of new things, then we&amp;rsquo;ll realise and talk more about it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/next-ngram.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Unfortunately, there was not much information coming out of the n-gram database.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;So what is the definition of the Web 4.0? I came across a paper written by CmpE Faculty of University of Isfahan, which mentioned Web 4.0 for three consecutive paragraphs. It ended by saying that there is no exact idea about what we want to call Web 4.0, but it will likely use AI. It gives more clues by saying that it is to be called &amp;ldquo;Symbiotic Web.&amp;rdquo; So the machines will be co-operating with humans. This sounds pretty cool, except, I thought there are several examples where machines are already co-operating with humans. It might not be as futuristic as authors had in their minds, but it brings me back to the point: transition is a smooth process. We&amp;rsquo;re at the transition period, and there are some applications that fit the common definitions, even partly. I&amp;rsquo;ll try to throw in some examples.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/next-car.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Photo by &lt;a href=&#34;https://unsplash.com/photos/qAc3UNF8Hm4&#34; target=&#34;_blank&#34;&gt;Samuele Errico Piccarini on Unsplash&lt;/a&gt;.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;Autonomous cars may seem like a new concept, but they have been researched on since the 1920s. Google already has &lt;a href=&#34;https://www.youtube.com/watch?v=CqSDWoAhvLU&#34;&gt;a working prototype&lt;/a&gt; and most car companies are working on the topic. The concept is simple (from the viewpoint of the end-user), you just tell it where you want to go, and the machine takes you there. It makes use of, you guessed it right, the data. The big data. Maps, traffic, camera, lasers, heat sensors and more. Data -which has a meaning and a lot of connections- is brought together to arrive at some decisions. So we can say that data has a sense, and it&amp;rsquo;s being used to produce an action.&lt;/p&gt;
+&lt;p&gt;Building on the examples mentioned on &lt;a href=&#34;http://sethgodin.typepad.com/seths_blog/2007/01/web4.html&#34;&gt;this blog&lt;/a&gt;, we can think of the Web 4.0 working on an agent (without specifying the agent, might not be a computer, might not be a smartphone as well) that can tell you &amp;ldquo;Your plane is cancelled, but don&amp;rsquo;t worry, I booked you a seat from the next plane and told the people (or their respective agents) that you&amp;rsquo;ll be late. You have one more hour to leave home, then we should be on our way.&amp;rdquo; This might seem like a dream right now, but it&amp;rsquo;s not that far.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/next-google.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t want to sound like an advertiser, but Google (again) has an app for that, called Google Now. It tells you when to leave, by looking at the traffic data and flight status. This looks like the definition above. It shouldn&amp;rsquo;t be too hard to update this application to say that &amp;ldquo;Hey, your self driving car will be waiting for you at your door in one hour, be prepared.&amp;rdquo; The same application can remind you of your bills, events, or even shippings right now. Imagine what similar applications can do just a few years later on.&lt;/p&gt;
+&lt;p&gt;We don&amp;rsquo;t know what that agent will be, but Toshiba has developed a glass that works in a way that a supposed agent would. (Obligatory &amp;ldquo;Google Glass&amp;rdquo; mention goes here.) But as I mentioned above, it seems like it wouldn&amp;rsquo;t be good to wait for that &amp;ldquo;uh-huh moment&amp;rdquo;. It looks like the process of transition has already started. Let&amp;rsquo;s just hope that their bubbles do not come soon.&lt;/p&gt;
+&lt;p&gt;Before leaving, I strongly recommend that you have a look at the &lt;a href=&#34;https://github.com/google/physical-web/blob/master/documentation/introduction.md&#34;&gt;Physical Web&lt;/a&gt; project.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>News from Twitter</title>
+      <link>https://kyzn.org/news-from-twitter/</link>
+      <pubDate>Thu, 09 Oct 2014 00:50:55 +0000</pubDate>
+      
+      <guid>https://kyzn.org/news-from-twitter/</guid>
+      <description>&lt;p&gt;Last week, I wrote a blog about the dark side of Twitter. Not surprisingly, it&amp;rsquo;s not all that bad. Today I&amp;rsquo;ll be talking about something good that is happening on the most popular microblog site.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to introduce an account called &lt;a href=&#34;https://www.twitter.com/140journos&#34;&gt;@140Journos&lt;/a&gt;, which obviously refers to the character limit of twitter, and is actively doing the job called &amp;ldquo;citizen journalism.&amp;rdquo; Citizen journalism is where the people report the news instead of the professional. You don&amp;rsquo;t need to have a Bachelor&amp;rsquo;s Degree in Journalism, or you are not required to work for a newspaper. You just need to be at the place where the event is happening.&lt;/p&gt;
+&lt;p&gt;If you look at the web, there are not many examples of such reporting. There is Digital Journal from Canada, which looks pretty similar to any other news website, but is edited by its users. There is CitizenTube channel on YouTube, an account which shares videos posted by its subscribers. There are several more examples, but to cut it short I will jump directly to 140journos.&lt;/p&gt;
+&lt;p&gt;Yüzkırk (140) journos works in a very, very clever way. Followers who attend events that would qualify as news, or followers who encounter some news material would tweet it with a reference to @140journos. They&amp;rsquo;re also required to add a picture, so that people who administer the account would know they are not being trolled around. People behind 140journos would also check EXIF information of pictures, and do an online search to verify that the image is actually new on the web. Even though they have all protective measures, from time to time they can be deceived. When it happens, some followers would tell it to 140journos and they tweet an apology for that.&lt;/p&gt;
+&lt;p&gt;The most beautiful point of 140journos is that you can learn what is happening in detail from the people at the place where it is happening. You don&amp;rsquo;t need to follow the specific person. And it is obviously different from mainstream media because there is no filtering and censoring, which is quite a big issue around here. You can also learn the news as they are happening, an advantage also underlined by Tom Gruber on the article titled Collective Knowledge Systems.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;350&#34; src=&#34;https://www.youtube-nocookie.com/embed/FgWGoOOaX30&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;One of the founders (Cem Aydoğdu) tells their story in detail in a TED Talk. I was unable to find English subtitles, but you might want to give it a try. He talks about why they started doing this (because they realized that there are people who cannot make themselves hearable through mainstream media), and some interesting fluctuations of their followers (people who follow them when their topic is being reported, but unfollows immediately when the account focuses on something else).&lt;/p&gt;
+&lt;p&gt;So yes, Twitter can be a decent medium if it is used for good purposes.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Trending Topics for Sale</title>
+      <link>https://kyzn.org/trending-topics-for-sale/</link>
+      <pubDate>Tue, 30 Sep 2014 23:30:34 +0000</pubDate>
+      
+      <guid>https://kyzn.org/trending-topics-for-sale/</guid>
+      <description>&lt;p&gt;On Twitter, a microblog where users post tweets with 140 characters, there is usually an untold competition going on for followers. Twitter uses bidirectional connections, so a user can follow anyone unless it&amp;rsquo;s protected. This system allows public figures to have tens of thousands of followers with ease. Some reach millions. Although it&amp;rsquo;s not a true indicator for a &amp;ldquo;good account&amp;rdquo;, it&amp;rsquo;s one of three numbers that twitter uses to introduce the user. Hence, it&amp;rsquo;s one of the statistics that users look at.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-obama.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Number of followers is used to introduce the user by Twitter.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;So to increase the number of followers, some people get close to the underground markets and pay someone with thousands of twitter bots to follow his/her account from the bots. &lt;a href=&#34;http://venturebeat.com/2012/08/11/the-twitter-black-market-barracuda-on-dealers-abusers-and-fake-accounts/&#34;&gt;According to a research conducted by Barracuda Labs&lt;/a&gt;, Mitt Romney seemed to have thousands of fake followers. It was noted that these fake followers are not necessarily paid by himself, but still the blackmarket clearly exists. A similar issue exists in Turkey as well, where &lt;a href=&#34;https://web.archive.org/web/20141003145357/http://www.alexa.com/topsites/countries/TR&#34;&gt;Twitter is 8th most visited web site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-topbas.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Some users with the exact same tweet about a candidate running for municipal presidency, before the elections.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;Be it buying accounts to follow you, or accounts to tweet about you; there are several questions to be asked. First question is, is it ethically correct? Is it nice to get inorganic information about yourself on social media? Do people who make such purchases follow common sense? Do they just think &amp;ldquo;trolling&amp;rdquo; worldwide used networks is of no problem? And what about the people who provide such &amp;ldquo;products&amp;rdquo; to the &amp;ldquo;market&amp;rdquo;? Do they feel guilty at all? Who&amp;rsquo;s to blame? These kinds of questions remind me of the famous discussion about &amp;ldquo;resisting evil&amp;rdquo; in the movie Winter Sleep. Should we act to stop this abuse? Do Twitter take steps to prevent the emergence of fake accounts?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-spam.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;A quote from Twitter Rules.&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;Obviously enough, they have it in the book that they don&amp;rsquo;t want fake accounts to be around. However, with a simple search on eBay anyone can reach the market.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-ebay.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;A screenshot from eBay&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;And there is also a market for Trending Topics (shortly TT), a list which has the popular hashtags that are being tweeted about. As most of the Turkish users already know, this list is not organic at all. When you want to see what is going on in Turkey, what you usually get is some advertising. Even when I&amp;rsquo;m writing in this post, the most popular topic was about the price of the TT.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-trends.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Trending Topics for Turkey on September 30th, 2014 night&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;I wanted to dig about that a bit, just to prove myself. So I looked at the latest 5 tweets.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-tweetdeck.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Recent tweets with the top TT, searched on tweetdeck&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;And I wanted to investigate the interface those tweets are sent from. To explain it a little more, I was curious about if those tweets are written on twitter.com, which is not likely, or are they being tweeted by some scripts. Until recently, the interface could have been seen on web, but it&amp;rsquo;s not possible anymore. I made use of tweetdeck client to get that information. The result was no surprise.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-source.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;A bot tweet promoting a hashtag, with a random &#34;rest of tweet&#34;&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;So the user has created an application with the same name (except the cedilla), and has been using the application to send his/her tweets. At this point, we can go back to the question &amp;ldquo;What&amp;rsquo;s wrong with that?&amp;rdquo;, but I&amp;rsquo;m not going to do it here. If you have a doubt about that, I&amp;rsquo;m going to put a link to &lt;a href=&#34;https://help.twitter.com/en/rules-and-policies/twitter-rules&#34;&gt;Twitter Rules&lt;/a&gt;. (But then again, who are the people to set the rules, why the rules are there, and the discussion goes on.) Then I&amp;rsquo;ve come up with a funny price list! Actually, it was not hard to find it at all.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-price.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;Follower prices for Twitter, Facebook and Instagram. It&#39;s funny prices are higher in Turkey&lt;/h6&gt;&lt;/center&gt;
+&lt;p&gt;And I found out that they started working for different networks as well. Well, I become a bit exhausted at this point, because it already became a creative business model. I&amp;rsquo;m personally following tens of Turkish users too, but I hope I made my reason for not looking at Turkish TTs clear. This is just insane. Trending topic abuse does not seem to be an issue around the world, but according to &lt;a href=&#34;http://news.yahoo.com/blogs/profit-minded/10-people-won-t-believe-fake-followers-twitter-215539518.html&#34;&gt;this article&lt;/a&gt; on Yahoo, some founders and co-founders of huge Silicon Valley companies (including Twitter) have a quite huge percentage of fake followers. I&amp;rsquo;m not saying they&amp;rsquo;re buying it, it might be even the fact that bots are following them as a protective measure. Still, I have no idea if following the CEO of Twitter reduces the possibility of your account being banned.&lt;/p&gt;
+&lt;p&gt;So why don&amp;rsquo;t they terminate all the fake accounts? Why don&amp;rsquo;t they ban all people who cause fake TTs? One reason is they&amp;rsquo;re not easy to detect. Speaking for English-tweeting accounts, some fake accounts &lt;a href=&#34;http://bits.blogs.nytimes.com/2013/04/05/fake-twitter-followers-becomes-multimillion-dollar-business/?_php=true&amp;amp;_type=blogs&amp;amp;_r=0&#34;&gt;look stronger than real accounts&lt;/a&gt;. There might be a real account with no information filled in, no tweets sent and no followers that are being used to just read and follow. On the other hand, some fake accounts look a lot like real human beings. But Twitter might be skipping two details in this battle: The client that the tweet is sent from, and the profile picture. I already talked about the client above. The profile picture of the user can be searched through the web to check whether it&amp;rsquo;s a popular picture or not. Some bots have exactly the same picture, because finding pictures for all these fake accounts must be the toughest part.&lt;/p&gt;
+&lt;p&gt;Another reason why this exists is, Twitter might not be putting enough importance on the whole blackmarket issue. It might have been the case that they don&amp;rsquo;t want to put hundreds of Twitter employees working on this issue. Although unlikely, it might have been the case that they secretly like the traffic. The only obvious thing is, the issue is real and I&amp;rsquo;m not the only one who is annoyed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kyzn.org/images/twitter-comment.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;h6&gt;&#34;oh come on i&#39;m fed up with these tags&#34;&lt;/h6&gt;&lt;/center&gt;
+</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>

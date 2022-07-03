@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>On Parsing Time Zones</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>On Parsing Time Zones</h1>
+        <div>
+                <time>February 8, 2017</time>
+            </div>
+    </header><p><em>I posted this to <a href="https://github.com/kyzn/WWW-Eksi/commit/667882c7">GitHub</a> first, later edited and moved here.</em></p>
+<h2 id="summary">Summary</h2>
+<p>This post is about a CPAN module I built, called <a href="https://metacpan.org/pod/WWW::Eksi">WWW::Eksi</a>. Module parses posts in a Turkish social network called <a href="https://eksisozluk.com">Eksisozluk</a>. All posts come with an attached &ldquo;creation time&rdquo;, and some also include &ldquo;last update time&rdquo;. I realized <a href="https://metacpan.org/pod/DateTime">DateTime</a> was throwing some errors for some of the posts. It turned out these posts had an attached time that never existed in Turkish time zone.</p>
+<ul>
+<li>This social network do not reveal time zone information to its users.</li>
+<li>Their daylight saving time (DST) changes were out of sync with reality of the country.</li>
+<li>In some cases, we can use some workarounds to figure out the correct time zone.</li>
+<li>But this is not true for all cases.</li>
+<li>This is why I stopped including time zone information in my module&rsquo;s output.</li>
+</ul>
+<h2 id="background">Background</h2>
+<p>Turkey had daylight saving time since the 1940s. This means we had a &ldquo;spring forward&rdquo; day in March, and a &ldquo;fall back&rdquo; day in October.</p>
+<p>Spring forward day is 23 hours. Clocks go from <code>00:59:59</code> to <code>02:00:00</code>. There is no <code>01:30:00</code> on that day. This means if you find a post in this social network that has a timestamp of <code>01:30:00</code>, then you are in trouble. I would like to call this nonexisting hour &ldquo;NEVER-ZONE&rdquo;.</p>
+<p>Fall back day is 25 hours. Clocks go from <code>01:59:59</code> to <code>01:00:00</code>. There are two <code>01:30:00</code>s on that day. If you find a post with this time, you need to figure out whether it&rsquo;s <code>01:30:00 (+3)</code> or <code>01:30:00 (+2)</code>. Let&rsquo;s call this interval &ldquo;AMBIGUOUS-ZONE&rdquo;.</p>
+<p>Let&rsquo;s look at what we can do to fix this problem.</p>
+<h2 id="fixing-spring-forward-with-try-catch">Fixing Spring Forward with Try-Catch</h2>
+<p>If daylight saving rules were in sync, we wouldn&rsquo;t have any problem figuring out time zone.</p>
+<table>
+<thead>
+<tr>
+<th>Post ID</th>
+<th>Turkey Time</th>
+<th>Eksisozluk Time</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td>101</td>
+<td>00:59:59 (+2)</td>
+<td>00:59:59 (+2)</td>
+<td>Both change TZ</td>
+</tr>
+<tr>
+<td>102</td>
+<td>02:00:00 (+3)</td>
+<td>02:00:00 (+3)</td>
+<td>at the same time</td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td>111</td>
+<td>02:59:59 (+3)</td>
+<td>02:59:59 (+3)</td>
+<td>They are in</td>
+</tr>
+<tr>
+<td>112</td>
+<td>03:00:00 (+3)</td>
+<td>03:00:00 (+3)</td>
+<td>sync all the time</td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>But we know that these rules were out of sync for 2001 through 2006. Turkey had observed daylight saving at <code>01:00:00</code>, whereas Eksisozluk had it at <code>02:00:00</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Post ID</th>
+<th>Turkey Time</th>
+<th>Eksisozluk Time</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td>201</td>
+<td>00:59:59 (+2)</td>
+<td>00:59:59 (+2)</td>
+<td>In sync up to here</td>
+</tr>
+<tr>
+<td>202</td>
+<td>02:00:00 (+3)</td>
+<td>01:00:00 (+2)</td>
+<td><strong>NEVER-ZONE</strong></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td><strong>NEVER-ZONE</strong></td>
+</tr>
+<tr>
+<td>211</td>
+<td>02:59:59 (+3)</td>
+<td>01:59:59 (+2)</td>
+<td><strong>NEVER-ZONE</strong></td>
+</tr>
+<tr>
+<td>212</td>
+<td>03:00:00 (+3)</td>
+<td>03:00:00 (+3)</td>
+<td>In sync again</td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>If you try to create a <code>DateTime</code> object in Never-Zone, it will throw an error.</p>
+<pre><code>$ reply
+0&gt; use DateTime;
+1&gt; my $dt = DateTime-&gt;new(year=&gt;2003, month=&gt;3, day=&gt;30, hour=&gt;1, minute=&gt;30, time_zone=&gt;'Europe/Istanbul');
+Invalid local time for date in time zone: Europe/Istanbul
+2&gt;
+</code></pre>
+<p>Here&rsquo;s the solution: We can <code>catch</code> that error, increment <code>hour</code> by one, and create <code>DateTime</code> object again. By doing so we will have the correct time zone data, even though that was not what Eksisozluk displayed to us.</p>
+<p>I mentioned some posts have two times: One for creation, and another one for update. This solution works for both, so we are good here.</p>
+<h2 id="fixing-fall-back-with-post-ids">Fixing Fall Back with Post IDs</h2>
+<p>Even if daylight saving rules were in sync, we still end up with an Ambiguous-Zone. This is because Eksisozluk does not show us time zone alongside with time.</p>
+<table>
+<thead>
+<tr>
+<th>Post ID</th>
+<th>Turkey Time</th>
+<th>Eksisozluk Time</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td>301</td>
+<td>00:59:59 (+3)</td>
+<td>00:59:59 (+3)</td>
+<td></td>
+</tr>
+<tr>
+<td>302</td>
+<td>01:00:00 (+3)</td>
+<td>01:00:00 (+3)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>311</td>
+<td>01:59:59 (+3)</td>
+<td>01:59:59 (+3)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>312</td>
+<td>01:00:00 (+2)</td>
+<td>01:00:00 (+2)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>321</td>
+<td>01:59:59 (+2)</td>
+<td>01:59:59 (+2)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>322</td>
+<td>02:00:00 (+2)</td>
+<td>02:00:00 (+2)</td>
+<td></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>If you try to create a <code>DateTime</code> object in Ambiguous-Zone, it will use latest possible time zone.</p>
+<pre><code>$ reply
+0&gt; use DateTime;
+1&gt; my $dt = DateTime-&gt;new(year=&gt;2003, month=&gt;10, day=&gt;26, hour=&gt;1, minute=&gt;30, time_zone=&gt;'Europe/Istanbul'); 1
+$res[0] = 1
+
+2&gt; $dt-&gt;offset / 3600 # offset is in seconds, divide to get hours (+2)
+$res[1] = '2'
+
+3&gt;
+</code></pre>
+<p>If you parse post #302 and post #312, both of them will have the same time zone, +2. But we do know posts up to #311 are in +3. We can use these IDs to decide time zone of the post. Problem solved for creation time, but this doesn&rsquo;t work for update time. If a post has an update time in Ambiguous-Zone, there is no way for us to know its time zone.</p>
+<p>But we know daylight saving rules were not in sync.</p>
+<table>
+<thead>
+<tr>
+<th>Post ID</th>
+<th>Turkey Time</th>
+<th>Eksisozluk Time</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td>401</td>
+<td>00:59:59 (+3)</td>
+<td>00:59:59 (+3)</td>
+<td></td>
+</tr>
+<tr>
+<td>402</td>
+<td>01:00:00 (+3)</td>
+<td>01:00:00 (+3)</td>
+<td></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td>411</td>
+<td>01:59:59 (+3)</td>
+<td>01:59:59 (+3)</td>
+<td></td>
+</tr>
+<tr>
+<td>412</td>
+<td>01:00:00 (+2)</td>
+<td>02:00:00 (+3)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>421</td>
+<td>01:59:59 (+2)</td>
+<td>02:59:59 (+3)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>422</td>
+<td>02:00:00 (+2)</td>
+<td>02:00:00 (+2)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>431</td>
+<td>02:59:59 (+2)</td>
+<td>02:59:59 (+2)</td>
+<td><strong>AMBIGUOUS-ZONE</strong></td>
+</tr>
+<tr>
+<td>432</td>
+<td>03:00:00 (+2)</td>
+<td>03:00:00 (+2)</td>
+<td></td>
+</tr>
+<tr>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td>&hellip;</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Turkey time has two <code>01:30:00</code>s, and Eksisozluk time has two <code>02:30:00</code>s. Since our goal is to parse Eksisozluk, I&rsquo;ve marked Eksisozluk&rsquo;s Ambiguous-Zone in table.</p>
+<p>If we are seeing <code>01:30:00</code> in a post, this can only mean +3. DateTime will assume it&rsquo;s +2, but we can subtract one hour to fix. This works both for creation time and update time.</p>
+<p>If we are seeing <code>02:30:00</code> in a post, this is the Ambiguous-Zone of Eksisozluk time. DateTime will assume it&rsquo;s +2, because there is only one <code>02:30:00</code> in Turkey time. We can get rid of ambiguity by looking at post IDs. If it&rsquo;s between #412 and #421, we know it is <code>01:30:00 (+2)</code>, even though that is not the time displayed on Eksisozluk. Otherwise, we can leave it as <code>02:30:00 (+2)</code>. This solves the problem for creation time, but not for update time.</p>
+<h2 id="conclusion">Conclusion</h2>
+<ul>
+<li>We can solve spring forward problem with try-catch. This works for both creation and update time.</li>
+<li>We can solve part of fall back problem by adding one hour. This also works for both creation and update time.</li>
+<li>We can solve another part of fall back problem by hardcoding some post IDs into module. This works only for creation time. There is no way to fix this for update time.</li>
+<li>This problem applies only to a very small subset of posts. This gave me three options.
+<ul>
+<li>Hardcode post IDs into the module to fix creation time.</li>
+<li>Drop time zone support for the affected time intervals.</li>
+<li>Drop time zone support completely.</li>
+</ul>
+</li>
+</ul>
+<p>I picked the last one.</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

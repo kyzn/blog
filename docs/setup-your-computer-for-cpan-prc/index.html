@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Setup Your Computer for CPAN-PRC</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Setup Your Computer for CPAN-PRC</h1>
+        <div>
+                <time>February 21, 2018</time>
+            </div>
+    </header><p><em>This blog is originally posted on <a href="https://perldotcom.perl.org/article/setup-your-computer-for-cpan-prc/">perl.com</a>, edited by <a href="https://www.perl.com/authors/david-farrell/">David Farrell</a>.</em></p>
+<p>Earlier I wrote about <a href="/posts/why-should-you-join-cpan-prc/">why should you join CPAN Pull Request Challenge</a>. Now I will explain how to get your computer ready to work on your assignment. You can grab a Docker image and start hacking right away, or you can install everything you need on your computer.</p>
+<h2 id="option-1-the-docker-way">Option 1: The Docker Way</h2>
+<p>By using a Docker image that has everything you need, you can start working in minutes.</p>
+<h3 id="1-install-docker">1: Install Docker</h3>
+<p>On Ubuntu:</p>
+<pre><code>$ sudo apt-get install docker.io
+</code></pre>
+<p>Alternatively, see the instructions for <a href="https://docs.docker.com/docker-for-mac/install/">macOS</a> and <a href="https://docs.docker.com/docker-for-windows/install/">Windows</a>.</p>
+<h3 id="2-fork--clone-the-repo">2: Fork &amp; clone the repo</h3>
+<p>Now you need to fork and clone the Github repository you were assigned for the PRC. For example, I created this <a href="https://github.com/kyzn/App-p">fork</a>, and can clone it with:</p>
+<pre><code>$ git clone https://github.com/kyzn/App-p ~/Desktop/App-p
+</code></pre>
+<h3 id="3-run-docker">3: Run Docker</h3>
+<p>I have prepared a docker <a href="https://github.com/kyzn/perlbrew-prc-dockerimage">image</a> which comes with a stable version of Perl, <a href="https://metacpan.org/pod/App::perlbrew">perlbrew</a>, <a href="https://metacpan.org/pod/App::cpanminus">cpanm</a> and <a href="https://metacpan.org/pod/Dist::Zilla">dzil</a>, all pre-installed.</p>
+<p>Here&rsquo;s how I would run docker on the repo I cloned in step 3:</p>
+<pre><code>$ docker run -v ~/Desktop/App-p:/App-p -it kyzn/perlbrew-prc
+</code></pre>
+<p>Where:</p>
+<ul>
+<li><code>~/Desktop/App-p</code> is the local path to the repo</li>
+<li><code>/App-p</code> is the path of the directory inside the Docker image</li>
+</ul>
+<p>This will launch an Ubuntu image as root user, mounting the repository to <code>/App-p</code>. Git is installed, but you need to use your local (non-Docker) terminal to pull/push. The text editors nano, vim, and emacs are installed in the image as well. You can also use your local text editor.</p>
+<h3 id="building-a-docker-image">Building a Docker Image</h3>
+<p>Alternatively, you can build the docker image by hand. Note that this will take some time:</p>
+<pre><code>$ git clone https://github.com/kyzn/perlbrew-prc-dockerimage
+$ cd perlbrew-prc-dockerimage
+$ docker build -t kyzn/perlbrew-prc:my_build .
+</code></pre>
+<p>Then use the same <code>docker run</code> command with your own <code>my_build</code> tag.</p>
+<hr>
+<h2 id="option-2-the-local-way">Option 2: The Local Way</h2>
+<p>You can install the same tools to your computer; I&rsquo;ve prepared instructions for macOS and Ubuntu. This usually takes about one to two hours.</p>
+<h3 id="notes-for-macos-users">Notes for macOS users</h3>
+<p>Perl, during its installation, will ask for permission for incoming network connections. Denying that request doesn&rsquo;t break anything for CPAN-PRC purposes.</p>
+<p>Installing modules via <code>cpanm</code> might give you a permission error. In the terminal, run:</p>
+<pre><code>$ sudo chown -R $USER:staff ~/.cpanm
+</code></pre>
+<p>This command changes the owner of the cpanm folder, which usually fixes the issue.</p>
+<p>You need to install homebrew:</p>
+<pre><code>$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+<h3 id="1-install-perlbrew">1: Install Perlbrew</h3>
+<p>Most systems come with a certain version of Perl installed. Yet it is often recommended not to tamper system Perl, as applications depend on its state. That&rsquo;s why we want to install a separate Perl for development purposes.</p>
+<pre><code>$ curl -L https://install.perlbrew.pl | bash
+</code></pre>
+<p>Once it&rsquo;s done, it will ask you to add <code>source ~/perl5/perlbrew/etc/bashrc</code> to your <code>~/.bashrc</code>. You should do as instructed right away.</p>
+<h3 id="2-install-perl">2: Install Perl</h3>
+<p>Now that we have Perlbrew in place, we can go ahead and install a Perl on our own, keeping system Perl alone. I am going to suggest installing latest stable-version. You may run <code>perlbrew available</code> to see most common versions. Note that this will take a while.</p>
+<pre><code>$ perlbrew install -j 4 stable
+</code></pre>
+<p>There are two ways to use a Perl version with Perlbrew: <code>use</code> and <code>switch</code>. <code>use</code> is temporary, it goes away once you close the terminal. That&rsquo;s why I recommend <code>switch</code>, which will make it permanent. Change the version to the one you just installed. You can run <code>perlbrew list</code> to see installed versions.</p>
+<pre><code>$ perlbrew switch $(perlbrew list)
+</code></pre>
+<p>To make sure switch worked, check your Perl version in the terminal:</p>
+<pre><code>$ perl -v
+</code></pre>
+<h3 id="3-install-cpanm">3: Install cpanm</h3>
+<p>This is a <a href="https://metacpan.org/pod/App::cpanminus">script</a> that will help you install CPAN modules. There already is a client installed, called <code>cpan</code>. But, <code>cpan</code> requires configuration and is more verbose and slower than <code>cpanm</code>.</p>
+<pre><code>$ perlbrew install-cpanm
+</code></pre>
+<p>To be sure you&rsquo;re using the perlbrew installed cpanm, run this command:</p>
+<pre><code>$ which cpanm | grep perlbrew
+</code></pre>
+<p>If the terminal displays any matching output, it worked.</p>
+<h3 id="4-install-dzil">4: Install dzil</h3>
+<p>Many CPAN authors use <a href="https://metacpan.org/pod/Dist::Zilla">dzil</a> to build and release their modules. The chances of your PRC assignment having a dist.ini file (dzil configuration) are high.</p>
+<p>First you need to install a non-Perl dependency, openssl. On macOS:</p>
+<pre><code>$ brew install openssl
+</code></pre>
+<p>And on Ubuntu:</p>
+<pre><code>$ sudo apt-get install libssl-dev
+</code></pre>
+<p>Then install Dist::Zilla with cpanm. Note that this will take a while, as it has a lot of dependencies.</p>
+<pre><code>$ cpanm Dist::Zilla
+</code></pre>
+<h3 id="5-install-reply-optional">5: Install reply (optional)</h3>
+<p><code>reply</code> is a nice interactive shell that lets you play around.</p>
+<p>Ubuntu users will need to install these missing dependencies:</p>
+<pre><code>$ sudo apt-get install libncurses5-dev libreadline-dev
+</code></pre>
+<p>Now install <code>reply</code>:</p>
+<pre><code>$ cpanm Term::ReadLine::Gnu Reply
+</code></pre>
+<hr>
+<p>Now you are ready to work on your assignment! Good luck!</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

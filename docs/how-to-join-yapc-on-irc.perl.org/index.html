@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>How to Join yapc on irc.perl.org</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>How to Join yapc on irc.perl.org</h1>
+        <div>
+                <time>June 19, 2017</time>
+            </div>
+    </header><ul>
+<li>IRC is used A LOT during The Perl Conference</li>
+<li>To go online instantly in a browser, you can use <a href="https://chat.mibbit.com/#yapc@irc.perl.org">Mibbit</a></li>
+<li>To stay online (to read all messages sent, even the ones sent when you were not around), you can use <a href="https://www.irccloud.com">IRCCloud</a></li>
+<li>You can set up your own bouncer too!</li>
+</ul>
+<center>
+<blockquote class="twitter-tweet" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">And if you are also headed to <a href="https://twitter.com/hashtag/tpc2017dc?src=hash&amp;ref_src=twsrc%5Etfw">#tpc2017dc</a>, hop on <a href="https://t.co/2UAyAKRpW3">https://t.co/2UAyAKRpW3</a>#yapc and hang out with the cool kids! <a href="https://twitter.com/hashtag/tpc2017?src=hash&amp;ref_src=twsrc%5Etfw">#tpc2017</a> <a href="https://twitter.com/hashtag/perl?src=hash&amp;ref_src=twsrc%5Etfw">#perl</a></p>&mdash; just john sez “Black Lives Matter” (@genehack) <a href="https://twitter.com/genehack/status/876059761657077760?ref_src=twsrc%5Etfw">June 17, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr"><a href="https://t.co/ju5k4bqbD1">https://t.co/ju5k4bqbD1</a> channel <a href="https://twitter.com/hashtag/yapc?src=hash&amp;ref_src=twsrc%5Etfw">#yapc</a> is a good place to community-coordinate beyond the wiki <a href="https://twitter.com/hashtag/tpc2017dc?src=hash&amp;ref_src=twsrc%5Etfw">#tpc2017dc</a> <a href="https://t.co/hHjma16LlQ">https://t.co/hHjma16LlQ</a></p>&mdash; The Perl and Raku Conference (@PerlConferences) <a href="https://twitter.com/PerlConferences/status/876570261444866049?ref_src=twsrc%5Etfw">June 18, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<h2 id="introduction">Introduction</h2>
+<p>Last year&rsquo;s The Perl Conference at Orlando was my first one. I had a lot of fun, met with brilliant people and learned numerous things about Perl.</p>
+<p>There was one thing that I didn&rsquo;t expect: People actually use IRC! Wiki for YAPC 2016 has a page named <a href="http://www.yapcna.org/yn2016/wiki?node=FirstTimers">Tips for First Timers</a> which includes a note saying &ldquo;Not All the Fun Happens in Meatspace&rdquo;. Indeed, IRC serves as a perfect medium for people to communicate, comment (on talks), ask for help, and so on.</p>
+<p>If you are attending YAPC, and not reading #yapc, you are missing <strong>a lot</strong>.</p>
+<h2 id="what-is-irc-anyway">What is IRC anyway?</h2>
+<p>IRC stands for Internet Relay Chat.. and it&rsquo;s been around since 1988! It lets people communicate in real time (think ancestor of Slack). There are channels like #yapc in servers like irc.perl.org. <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat" target="_blank">Wikipedia</a> has a lot more details if you want to take a look.</p>
+<h2 id="how-do-i-get-online-now">How do I get online now?</h2>
+<p>The fastest way to do it would be to use a service like <a href="https://chat.mibbit.com/#yapc@irc.perl.org">Mibbit</a>. You only need to pick a nickname, and you are online!</p>
+<p>There are a ton of applications available. Take a look at <a href="http://www.yapcna.org/yn2016/wiki?node=IRC">last year&rsquo;s wiki</a> to find what&rsquo;s best for you.</p>
+<p>If you decide to connect through an app, you might need to set up a few more things. Here&rsquo;s a screenshot from HexChat:</p>
+<p><img src="/images/irc-hexchat-1.png" alt="HexChat Configuration without bouncer"></p>
+<p>Make sure address is <code>ssl.irc.perl.org/7062</code> (<code>irc.perl.org/6667</code> works too), enable SSL, pick a nickname and leave password blank. That&rsquo;s pretty much it!</p>
+<p>There&rsquo;s a caveat though: You will be missing any messages sent when you are offline.</p>
+<h2 id="so-how-do-i-stay-online-all-the-time">So how do I stay online all the time?</h2>
+<p>You need a bouncer. Think of it as a middle-man: Bouncer connects to irc.perl.org on behalf of you, then you connect to your bouncer through your IRC client. Since the bouncer is always connected, you won&rsquo;t be missing any messages.</p>
+<p>There is a service for that too, called <a href="https://www.irccloud.com">IRCCloud</a>. It has a free plan which is good for a week, except you still have to login every two hours or so. They also have Android and iOS apps.</p>
+<h2 id="how-do-i-set-up-my-own-bouncer">How do I set up my own bouncer?</h2>
+<p>If you have a machine running 7/24, or willing to fire up a DigitalOcean/Linode box, here&rsquo;s what you need to do:</p>
+<ul>
+<li><code>sudo apt-get install znc</code> (<a href="http://wiki.znc.in/Installation">more ways to install znc</a></a>)</li>
+<li>znc won&rsquo;t work under root, so you need to have at least one non-root user. You can add one: <code>adduser znc &amp;&amp; su znc &amp;&amp; cd ~ </code></li>
+<li><code>znc --makeconf</code>
+<ul>
+<li><strong>Listen on port:</strong> This is tricky. If you are on a public wifi that blocks ports (could be the case for some conference venues) you need to make sure you pick a port that you have access to. Or you can use VPN to avoid that.</li>
+<li><strong>Listen using SSL:</strong> Yes.</li>
+<li><strong>Server host:</strong> <code>ssl.irc.perl.org</code> (or <code>irc.perl.org</code>)</li>
+<li><strong>Server uses SSL:</strong> Yes.</li>
+<li><strong>Server port:</strong> 7062 (or 6667)</li>
+<li>Server password is empty</li>
+<li><strong>Initial channels:</strong> #yapc (yay!)</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/irc-znc-1.png" alt="First part of znc setup"></p>
+<p><img src="/images/irc-znc-2.png" alt="Second part of znc setup"></p>
+<p>Once all is done, it will ask you whether you want to run znc now, which you can say yes. I also recommend setting a cronjob that restarts znc if it&rsquo;s not running for some reason.</p>
+<pre><code>*/10 * * * * /usr/bin/znc &gt;/dev/null 2&gt;&amp;1
+</code></pre>
+<p>If you want to see the admin panel, you can go to https://host:port. (port that znc listens to). You can login with admin username &amp; password you set during znc configuration setup.</p>
+<p>Here&rsquo;s how the entire installation process looks like.</p>
+<center><script id="asciicast-342071" src="https://asciinema.org/a/342071.js" async></script></center>
+<p>Only thing left is to set up your client just like before.</p>
+<p><img src="/images/irc-hexchat-2.png" alt="Hexchat configuration with bouncer"></p>
+<ul>
+<li>Address is host/port</li>
+<li>SSL is enabled</li>
+<li>Username is admin_username/network_name (both set at znc config setup)</li>
+<li>Login method is Server Password, and the password is admin password.</li>
+</ul>
+<p>That&rsquo;s it! See you at #yapc!</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

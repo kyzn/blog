@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Farewell to Google Code</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Farewell to Google Code</h1>
+        <div>
+                <time>November 17, 2015</time>
+            </div>
+    </header><p>A while ago, Google decided to shut down Google Code, which <a href="http://stackoverflow.com/a/8306775/1245539">hosts over 200k projects</a>. It is in read-only status as of now. You cannot update your code any more. No more wiki updates or issues, it&rsquo;s gone. But, you can still reach the repositories and all pages, that&rsquo;s what they mean by read only. It is also noted that Google is <a href="https://code.google.com/p/support/wiki/ReadOnlyTransition">not going to delete your data</a>, just move it to <a href="https://code.google.com/archive/">&ldquo;Google Code Archive&rdquo;</a>.</p>
+<p>If you decide to maintain your project, you should probably move your code, wiki and issues somewhere else. You might have already done this before, but here we go:</p>
+<h2 id="step-1-export-to-github">Step 1: Export to GitHub</h2>
+<ul>
+<li>Create a GitHub account if you don&rsquo;t have any.</li>
+<li>Go to your Google Code or Google Code Archive page, click the button &ldquo;Export to GitHub&rdquo;.</li>
+<li>Authorize with your GitHub account, and it will do the magic.</li>
+</ul>
+<p><img src="/images/google-code.png" alt=""></p>
+<center><h6>See the button at right top?</h6></center>
+<h2 id="step-2-where-did-my-wiki-go">Step 2: Where did my wiki go?</h2>
+<p>Now you&rsquo;ll see a new repository on your GitHub account named exactly the same with your Google Code project. You&rsquo;ll see your code, your issues, but where is your wiki? Well, it exports your wiki as a new branch, not as a GitHub wiki. But that&rsquo;s not what you want? Don&rsquo;t worry, there&rsquo;s a quick fix for that: morgant@GitHub had written a script to convert that branch into an actual wiki. (It&rsquo;s actually one of the frequently asked questions, you can see all of them <a href="https://code.google.com/p/support-tools/wiki/GitHubExporterFAQ">here</a>, in case you have some other problem.)</p>
+<ul>
+<li>Download the script <a href="https://raw.githubusercontent.com/morgant/finishGoogleCodeGitHubWikiMigration/master/finishGoogleCodeGitHubWikiMigration">for OSX</a> and <a href="https://raw.githubusercontent.com/seraasch/finishGoogleCodeGitHubWikiMigration/master/finishGoogleCodeGitHubWikiMigration">for Linux</a>. See <a href="https://github.com/morgant/finishGoogleCodeGitHubWikiMigration">readme</a> for details.</li>
+<li><code>chmod a+x finishGoogleCodeGitHubWikiMigration</code> (make it executable)</li>
+<li>At GitHub repository, go to your project settings, mark the checkbox that says &ldquo;Wikis&rdquo;.</li>
+<li>Actually go to the wiki and create a page, usually done with few clicks.</li>
+<li>Now run the script: <code>finishGoogleCodeGitHubWikiMigration https://github.com/&lt;user&gt;/&lt;project&gt;.git</code></li>
+<li>Review its commits. Only <code>git push</code> if you like the changes.</li>
+<li>If you don&rsquo;t want to keep wiki branch: <code>git push origin :wiki</code></li>
+</ul>
+<p>Just as a note, I think it somehow exposes your html style comments if you had any. So you might want to remove them. Also, your sidebar might not show up. To solve this, I went to Google Code wiki, copied html source for the sidebar, replaced code google links with just the name of wiki page.</p>
+<p>I think that&rsquo;s all! If you haven&rsquo;t moved your Google Code project yet, today&rsquo;s the day.</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

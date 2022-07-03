@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Log In to E-Government with Id Card</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Log In to E-Government with Id Card</h1>
+        <div>
+                <time>May 16, 2020</time>
+            </div>
+    </header><p><img src="/images/edevlet-menu.png" alt=""></p>
+<p>Turkish E-Government is a great web application with quite a number of features. There&rsquo;s many ways to login, one of which involves using a card reader. I have a mini card reader at home that I got from Estonian E-Residency.</p>
+<p>Things I used:</p>
+<ul>
+<li>Ubuntu 19.10</li>
+<li>Estonia E-Residency USB card reader</li>
+<li>Turkish ID card</li>
+<li>and its PIN number</li>
+</ul>
+<h1 id="step-1">Step 1</h1>
+<p>See if the card reader shows up in <code>lsusb</code>. Run <code>lsusb</code> before plugging the card reader in. And then re-run it after plugging in. You should notice an extra item in the list.</p>
+<pre><code>Advanced Card Systems, Ltd ACR38 SmartCard Reader
+</code></pre>
+<p>Another fun way to do this: Run <code>watch lsusb</code> and watch the screen as you plug/unplug your card reader.</p>
+<h1 id="step-2">Step 2</h1>
+<p>You need to download the E-ID application from <a href="https://cdn.e-devlet.gov.tr/downloads/e-kimlik/edevlet-ekimlik.jnlp">https://cdn.e-devlet.gov.tr/downloads/e-kimlik/edevlet-ekimlik.jnlp</a>. That&rsquo;s going to be a JNLP file, and you will need <code>icedtea-netx</code> to open it in Ubuntu. Get it with:</p>
+<pre><code>$ sudo apt-get install icedtea-netx
+</code></pre>
+<h1 id="step-3">Step 3</h1>
+<p><code>lsusb</code> recognizing the card reader doesn&rsquo;t mean the E-ID application can read from it. So we need some more libraries.</p>
+<pre><code>$ sudo apt-get install pcscd pcsc-tools
+</code></pre>
+<p>This brings in a useful command called <code>pcsc_scan</code>. You can use it to see if your card reader actually works. So go ahead, remove your card reader if connected and run the following. If you don&rsquo;t want to play around, <strong>feel free to <a href="#step-4">skip to Step 4</a>.</strong></p>
+<pre><code>$ pcsc_scan
+</code></pre>
+<p>The app will keep running until you send a <code>^C</code>. First you should see something like this:</p>
+<pre><code>Scanning present readers...
+Waiting for the first reader...
+</code></pre>
+<p>When you plug your card reader in, it should update the last line as:</p>
+<pre><code>Waiting for the first reader...found one
+</code></pre>
+<p>If it had no cards in the reader, you should see:</p>
+<pre><code>Card state: Card removed,
+</code></pre>
+<p>And when you insert a card,</p>
+<pre><code>Card state: Card inserted,
+ATR: 01 23 45 67 89 AB CD EF .. .. .. ..
+</code></pre>
+<p>I actually got an error when I inserted my card.</p>
+<pre><code>Can't locate Chipcard/PCSC/Card.pm in @INC
+</code></pre>
+<p>And that happened because I was using <code>perlbrew</code> instead of system Perl. So <code>libpcsc-perl</code> was installed, but my Perl installation was not pointing to it. So all I had to do was to run <code>perlbrew switch-off</code> and restart <code>pcsc_scan</code>.</p>
+<pre><code>$ which perl
+/home/kivanc/perl5/perlbrew/perls/perl-5.30.2/bin/perl
+$ perlbrew switch-off
+perlbrew is switched off.
+$ which perl
+/usr/bin/perl
+</code></pre>
+<p>Don&rsquo;t forget to <code>perlbrew switch</code> back on once you are done.</p>
+<h1 id="step-4">Step 4</h1>
+<p>Go to <a href="https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti">https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti</a> and enter your ID number. This will print a transaction code. Copy the code and keep the browser tab open.</p>
+<p><img src="/images/edevlet-giris.png" alt=""></p>
+<center><h6>Left: Input ID number and click continue. Right: You will see a transaction code.</h6></center>
+<h1 id="step-5">Step 5</h1>
+<p>Plug in the card and card reader, and launch the JNLP file. You can do so by double clicking the file, or running this:</p>
+<pre><code>$ javaws edevlet-ekimlik.jnlp
+</code></pre>
+<p>If it&rsquo;s the first time you are running this app, it may ask you about permissions and shortcuts. I chose not to create a desktop shortcut.</p>
+<h1 id="step-6">Step 6</h1>
+<p>Enter the transaction code from Step 4 into the app. Click &ldquo;login with standard card reader&rdquo;.</p>
+<p><img src="/images/edevlet-jnlp-menu.png" alt=""></p>
+<h1 id="step-7">Step 7</h1>
+<p>Now it will ask you to enter the PIN code of your ID card. Remember the envelope you got when you applied for the card? This number should be in there.</p>
+<p><img src="/images/edevlet-jnlp-pin.png" alt=""></p>
+<h1 id="step-8">Step 8</h1>
+<p>You will see a message saying it&rsquo;s done. Check your browser to see if it actually worked. You can close the app and unplug the card reader.</p>
+<p><img src="/images/edevlet-jnlp-done.png" alt=""></p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

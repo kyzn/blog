@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Update GitHub Default Branches</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Update GitHub Default Branches</h1>
+        <div>
+                <time>June 15, 2020</time>
+            </div>
+    </header><p>Each git repository comes with a default branch.  Here&rsquo;s a few-steps guide to update all your GitHub repositories&rsquo; default branches.</p>
+<h2 id="1-communicate">1) Communicate</h2>
+<p>Changing the name of the default branch may be big for teams. If you have repos with many contributors, you should communicate first. Give them a timeline so they know what to expect.</p>
+<h2 id="2-note-that-some-features-may-not-work">2) Note that some features may not work</h2>
+<p>For the longest time master has been the default branch name in git and GitHub. So you may see some GitHub features not working properly.</p>
+<p>One example is GitHub pages. It currently gives you two source options, and both are from the master branch. I think this will change soon. But in the meantime you may want to keep master branches of your GitHub pages repositories.</p>
+<p><img src="/images/github-pages-master.png" alt=""></p>
+<h2 id="3-get-ingydotnetgit-hub">3) Get ingydotnet/git-hub</h2>
+<p><a href="https://github.com/ingydotnet/git-hub/">git-hub</a> is a command line tool that you can use to talk to GitHub. There are three ways to install, all explained in its readme file. I will explain the preferred way here.</p>
+<h3 id="31-clone-git-hub-repository">3.1) Clone git-hub repository</h3>
+<p>First step is to clone the repository. It&rsquo;s going to be run from the folder you cloned it to. I picked <code>/home/kivanc/.git-hub</code>, or <code>~/.git-hub</code> in short.</p>
+<pre><code>git clone https://github.com/ingydotnet/git-hub ~/.git-hub
+</code></pre>
+<h3 id="32-run-initialization-script">3.2) Run initialization script</h3>
+<p>Now we cloned the repository, but we still don&rsquo;t have <code>git hub</code> command available. We need to run <code>source</code> for initialization script.</p>
+<pre><code>source ~/.git-hub/.rc
+</code></pre>
+<h3 id="33-run-initialization-script-at-startup">3.3) Run initialization script at startup</h3>
+<p>Instead of running <code>source</code> every time we need <code>git hub</code>, we can add it to our shell startup. I added it to <code>~/.bash_aliases</code>. If you don&rsquo;t have that, try <code>~/.bashrc</code>, <code>~/.bash_profile</code> or <code>~/.profile</code>. Note that you need two greater-than signs for &ldquo;append&rdquo;. One greater-than means &ldquo;overwrite&rdquo;.</p>
+<pre><code>echo 'source ~/.git-hub/.rc' &gt;&gt; ~/.bash_aliases
+</code></pre>
+<h3 id="34-run-git-hub-setup">3.4) Run git hub setup</h3>
+<p>For some git-hub commands to work, you need to run the following command. It will ask you for your GitHub username, password, and 2FA code (if any).</p>
+<pre><code>git hub setup
+</code></pre>
+<p>Here&rsquo;s how it looks.</p>
+<center><script id="asciicast-339891" src="https://asciinema.org/a/339891.js" async></script></center>
+<h2 id="4-get-ditch-mastersh">4) Get ditch-master.sh</h2>
+<p>fREW wrote a script that automates the whole process. So you don&rsquo;t have to go through repos one by one. You can see the script at <a href="https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347">https://gist.github.com/frioux/6c259c63dda705f9ef9d030ddb880347</a>.</p>
+<p>You can download the script from there, or you can clone it as if it was a repository.</p>
+<pre><code>git clone https://gist.github.com/6c259c63dda705f9ef9d030ddb880347.git ~/ditch-master
+</code></pre>
+<p>After you have the script, make sure it&rsquo;s executable:</p>
+<pre><code>cd ~/ditch-master
+chmod a+x ditch-master.sh
+</code></pre>
+<p>Script will use &ldquo;main&rdquo; as default branch name. If you want to use something else, you should find and replace &ldquo;main&rdquo; with the word of your choosing. So for example, if you want to use &ldquo;trunk&rdquo;, you can run the following.</p>
+<pre><code>perl -i -pe 's/main/trunk/g' ditch-master.sh
+</code></pre>
+<p>All that is left is to run the script.</p>
+<pre><code>./ditch-master.sh
+</code></pre>
+<p>Here&rsquo;s how it looks.</p>
+<center><script id="asciicast-EqW4uYlihVExmzb0OiIDA4NUY" src="https://asciinema.org/a/EqW4uYlihVExmzb0OiIDA4NUY.js" async></script></center>
+<p>That&rsquo;s it!</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

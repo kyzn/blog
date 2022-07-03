@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Two Perl Conferences in One Year</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Two Perl Conferences in One Year</h1>
+        <div>
+                <time>August 20, 2018</time>
+            </div>
+    </header><p>My very first Perl Conference was the one in Orlando, in 2016. In fact, the only blog I&rsquo;ve written in 2016 was about that very conference. I&rsquo;ve enjoyed it so much, I went again in 2017, this time as a speaker.</p>
+<p>I have attended not one but two Perl Conferences during 2018: One in Salt Lake City (NA), and one in Glasgow (EU). This time I was not only a speaker: I also organized a Birds of Feather (BOF). My talks and BOFs were about CPAN Pull Request Challenge.</p>
+<p>How many Perl Conferences is too many Perl Conferences, that I still don&rsquo;t know. But I can say I enjoyed both conferences a lot. Here&rsquo;s some takeaways, with a focus on talks I did.</p>
+<h2 id="importance-of-ecosystem">Importance of Ecosystem</h2>
+<p>VM Brasseur gave a keynote on a very serious topic in Salt Lake City. It was about being inclusive and not being harmful. I recommend everyone to watch it, and think about their environment while doing so.</p>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ySWez59lhH0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<p>This talk inspired me to build a Dist::Zilla plugin to make it easy to add a Code of Conduct to CPAN modules. The idea was that you could add one line to your dist.ini file, and get a Code of Conduct.</p>
+<p>I gave a lightning talk about this very module in Glasgow. I&rsquo;m glad I did that because it lead to a very constructive discussion. I already have a <a href="https://github.com/kyzn/Dist-Zilla-Plugin-ContributorCovenant/issues/3">plan</a> to improve it. This was another proof for me that keeping in touch with your community matters. Presenting your ideas matters. Providing constructive critisism <em>and</em> listening to it matters.</p>
+<p>There were more great talks given on the topic. Do you want to hear about how to make your application more inclusive? Then you should see Joelle Maslak&rsquo;s talk &ldquo;<a href="https://www.youtube.com/watch?v=ZqpCKisOL5k">You&rsquo;re not wanted here</a>&rdquo;. Do you want to get some crucial tips on how to make your community more friendly? Then you should also see Ruth Holloway&rsquo;s &ldquo;<a href="https://www.youtube.com/watch?v=-lWnmVm5owQ">Discourse without drama</a>&rdquo;. Both speakers delivered their talks at both venues.</p>
+<p>I am also going to recommend &ldquo;<a href="https://youtu.be/RfdOYbyRwB4?t=3h13m40s">Developers, engineers and the downward spiral</a>&rdquo; by Christopher Rasch-Olsen Raa, given in Glasgow. This talk has very important notes about mental health. You will find some crucial tips for employees, managers, and leaders.</p>
+<h2 id="pull-request-challenge">Pull Request Challenge</h2>
+<p>Neil Bowers is organizing Pull Request Challenge for 4 years now. In January 2018, he announced that it is going to <a href="http://neilb.org/2018/01/01/cpan-prc-2018.html">end this year</a>. I&rsquo;m trying to build a successor named <a href="https://pullrequest.club">pullrequest.club</a>.  I&rsquo;ve presented a talk that explained what Pull Request Challenge is in general.</p>
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/QiZOEIwkuek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<p>Mohammad Anwar gave a great talk on how to become a CPAN contributor. I recommend this talk to everyone, but especially to people who feel that &ldquo;their code is not good enough&rdquo;.  He will tell you why you don&rsquo;t have to be an expert to contribute! If this sounds like a joke to you, it&rsquo;s not. You really don&rsquo;t have to be an expert. He will also tell you about the self-confidence boost you&rsquo;ll get when your PR gets merged.</p>
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/QYN1nijo9VY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<h2 id="some-notes">Some Notes</h2>
+<ul>
+<li>You can suppress that long output you get when using <code>reply</code> by adding <code>1</code> to the end. Instead of <code>$schema-&gt;resultset('Child')</code>, do a <code>$schema-&gt;resultset('Child'); 1</code>! (The Perl Advent Calendar 2017 Redux, Mark Fowler, Glasgow)</li>
+<li>Term::Choose is a cool alternative to Getopt::Args. It prints options to terminal, through which user navigates with arrow keys. (The Perl Advent Calendar 2017 Redux, Mark Fowler, Glasgow)</li>
+<li>The Perl Advent Calendar is accepting submissions for 2018 edition! Go to <a href="http://cfp.perladvent.org/">cfp.perladvent.org</a> if interested. (LT Advertisement, Mark Fowler, Glasgow)</li>
+<li>101 year old people use computers too! (Joelle Maslak, You&rsquo;re Not Wanted Here, Salt Lake City)</li>
+<li>When writing tests, make sure it fails first. Tests are code too, so don&rsquo;t ignore the fact that they might contain bugs. (Scott Lee, Writing Testable Code, Salt Lake City)</li>
+<li><code>.dockerignore</code> is much like <code>.gitignore</code>. It ignores files listed in it when doing a copy command for docker. (Wesley Schwengle, Docker for Perl Developers, Glasgow)</li>
+<li>There is an open source network vulnerability scanner named <a href="https://github.com/Arachni/arachni">Arachni</a> and it&rsquo;s pretty good. (Lee Johnson, Find and fix your web security vulnerabilities with Burp Scanner, Glasgow)</li>
+</ul>
+<p>That&rsquo;s all for now! See you all next time.</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>

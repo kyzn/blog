@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineer interested in web apps &amp; security">
+    
+    <link rel="shortcut icon" href="https://kyzn.org/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>How to Setup Headless Raspberry Pi</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://kyzn.org">kyzn</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/slides/" title="slides">slides</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>How to Setup Headless Raspberry Pi</h1>
+        <div>
+                <time>August 7, 2017</time>
+            </div>
+    </header><p><img src="/images/pi-zero.jpg" alt=""></p>
+<center><h6>Quarter to scale</h6></center>
+<p>&ldquo;I had no ideas for projects&rdquo; was the reason I waited so long before finally buying a Raspberry Pi. I got tired of waiting for a light bulb to appear, and ordered a model Zero W. It&rsquo;s the smallest one, and it can connect to wireless networks. Only later I found out that this model was not recommended for beginners. One of the reasons might be that there is no soldered general purpose pins. Which means you need some soldering to do if you want to connect any low-level peripherals.</p>
+<p>The set I bought had a preloaded SD card too, and I started from there. The very first problem I had was about powering the device. For a moment, I couldn&rsquo;t figure out how to turn it on. As it turns out, it powers on as soon as you connect the power cable, that is, there is no power switch. And there&rsquo;s a LED that blinks if something is wrong.</p>
+<p>Noobs was the preloaded system in card, which I played with for a couple hours. It welcomes you with a menu, listing several operating systems for you to choose. Then it downloads &amp; installs what you select, while reserving some space for recovery. This makes it easy to get a taste of how each Pi-compatible OS looks like.</p>
+<p>In the end, I decided I did not want Noobs. I wanted to have &ldquo;something like Ubuntu&rdquo;, and with no Desktop. My goal was to have my Pi running, using only power cable and WiFi. I ended up installing &ldquo;Raspbian Lite&rdquo;, which is a Debian.</p>
+<p>I did manage to get a headless-Pi running on Debian, without ever connecting a keyboard or screen to it. I kept some notes so that I don&rsquo;t forget how I did that, and what you are reading are exactly those notes.</p>
+<h2 id="step-1-flash-raspbian-lite-into-card">Step 1: Flash Raspbian-Lite into card</h2>
+<p>First step is to download and flash the OS. Download <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Lite on right</a>. It&rsquo;s an archive that has a single image file in it, and that&rsquo;s what we need. You also need <a href="https://etcher.io/">Etcher</a>, a tool for flashing images into SD-cards. It makes the process easier. Insert your SD card, and point to image file in archive. Don&rsquo;t remove your card yet.</p>
+<h2 id="step-2-enable-ssh">Step 2: Enable SSH</h2>
+<p>I appreciated how Raspbian comes with SSH-disabled by default. It&rsquo;s to prevent someone else from trying default password to reach your Pi. But here, we want to turn it back on. If you already connected a keyboard and screen, you can use <code>raspi-config</code> to turn it on. If you want to start headless, there&rsquo;s another way. You will notice there are two partitions in card. Go into &ldquo;boot&rdquo; partition, and create an empty file named ssh: <code>touch ssh</code>. Raspbian will remove this file and enable ssh. It will also print a warning that says &ldquo;Change your password you fool&rdquo; when you login.</p>
+<h2 id="step-3-connect-to-wireless-network">Step 3: Connect to Wireless Network</h2>
+<p>I have a network protected with a WPA2 password. You might need to do some extra research if you want to connect to, say, an enterprise WiFi.</p>
+<p>Just like the file created for enabling ssh, we will create another one for WiFi in the very same &ldquo;boot&rdquo; partition, this time with the name <code>wpa_supplicant.conf</code>. This file will contain our password. Here&rsquo;s how it should look like:</p>
+<pre><code>ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+network={
+ ssid=&quot;my_network&quot;
+ psk=&quot;my_password&quot;
+}
+</code></pre>
+<p>Make sure NOT to remove quotes. There&rsquo;s one problem with this approach: your password is visible to anyone who has access to the file. It&rsquo;s a better idea to not have it this way. If you are using Ubuntu/Debian, run the following command:</p>
+<pre><code>wpa_passphrase &quot;my_network&quot; &quot;my_password&quot;
+</code></pre>
+<p>Here&rsquo;s another quick tip: If you don&rsquo;t want your password to show up in your bash history, put a space before command above. This command will output a text like below:</p>
+<pre><code>network={
+ ssid=&quot;my_network&quot;
+ #psk=&quot;my_password&quot;
+ psk=a4ea383f2d8e77c45ec859de70b9ea37b30d79153d049cbc88fe6bc86d2cba3d
+}
+</code></pre>
+<p>You can take uncommented <code>psk</code> line and replace it with plaintext password. Make sure not to forget <code>ctrl_interface</code>, otherwise you might not be able to connect to WiFi.</p>
+<h2 id="step-4-power-on">Step 4: Power on!</h2>
+<p>Before connecting Pi to power, run following command on your machine.</p>
+<pre><code>nmap -sP 192.168.0.1/24
+</code></pre>
+<p>This will list devices/hosts connected to your network. Note that your network may be on a different address, so try <code>192.168.1.1</code> or <code>192.168.2.1</code> if above doesn&rsquo;t list anything.</p>
+<p>Note the number of hosts that are up. Then turn your Pi on, and wait for 15 seconds. Run the command again, and you will see a new host (Pi) on you network. Assume its IP address is 192.168.0.13. You can use following command to ssh:</p>
+<pre><code>ssh pi@192.168.0.13
+</code></pre>
+<p>It will ask for a password, the default password is <code>raspberry</code>. Once logged in, first thing you should do is to run <code>passwd</code> and pick yourself a new password.</p>
+<p>That&rsquo;s pretty much how far I could get so far! I will write more blogs about Pi as I go forward.</p>
+</article>
+
+        </main><footer id="footer">
+    <center><a href="/">© 2022 Kivanc Yazan</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></center>
+</footer>
+</body>
+</html>
