@@ -48,6 +48,19 @@ main#content ul#posts li a:hover {
 main#content header#post-header div {
     color: #a7a7a7;
 }
+
+main#content table, td, th {
+  border: 1px solid white;
+}
+
+main#content pre {
+  background-color: #333;
+}
+
+main#content img {
+  border: 1px solid #fff;
+}
+
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}
