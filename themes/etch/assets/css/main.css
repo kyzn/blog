@@ -253,6 +253,7 @@ main#content pre {
 main#content code {
     font-size: 0.96em;
     padding: 0 5px;
+    background-color: #eee;
 }
 
 main#content pre {
