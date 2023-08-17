@@ -7,8 +7,8 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "Software engineer interested in web apps & security"
-  copyright = "<center><a href=\"/\">© 2022 Kivanc Yazan</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">CC BY 4.0</a></center>"
+  description = "Software Engineer pursuing Security Specialization"
+  copyright = "<center><a href=\"/\">© 2023 Kivanc Yazan</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">CC BY 4.0</a></center>"
   dark = "auto"
   highlight = true
 

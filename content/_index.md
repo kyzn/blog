@@ -1,4 +1,4 @@
 ---
 title: "kyzn"
 ---
-Software engineer interested in web apps & security.
+Software Engineer pursuing Security Specialization
