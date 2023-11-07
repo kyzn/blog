@@ -13,6 +13,35 @@
     
     
     <item>
+      <title>Secrets in Git Repo</title>
+      <link>https://kyzn.org/secrets-in-git-repo/</link>
+      <pubDate>Tue, 07 Nov 2023 23:40:51 +0900</pubDate>
+      
+      <guid>https://kyzn.org/secrets-in-git-repo/</guid>
+      <description>&lt;p&gt;It’s no secret that keeping secrets in a git repository is a bad idea. I want to do the mental exercise of imagining what can go wrong. I need to limit this to a point so as not to come up with far-fetched attack vectors like “Aliens invade the earth and they figured out all our prime numbers”. So here is a quick-list of some things that can go wrong when you add secrets to your repo.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Some devs may assume the secret is not a real secret because it’s in a repo. This may result in &lt;strong&gt;sharing the secret in other channels like email or Slack&lt;/strong&gt; by mistake. Likewise, &lt;strong&gt;the secret may be logged&lt;/strong&gt; by mistake and may show up in even more places.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When an employee leaves your company, &lt;strong&gt;they become an outsider who knows your secrets&lt;/strong&gt;. You may choose to rotate your keys every time an employee leaves, but there may be an easier alternative. If you&amp;rsquo;re using a vault, you can set up which employees have access to which secrets. You also get access logs so that&amp;rsquo;s another plus.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the repo is leaked (either by mistake or on purpose), &lt;strong&gt;your secret is leaked&lt;/strong&gt; too. The secret you put into the repository lives in all computers that clone the repository. This increases the chance of the leak happening.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;You may lose reputation&lt;/strong&gt; when your code with secrets is leaked and it makes into news. &lt;strong&gt;You may be sued by some customers&lt;/strong&gt; who saw this and thought you don&amp;rsquo;t have good enough security or you broke a policy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If your code is fed into a LLM (Large Language Models), &lt;strong&gt;attackers may retrieve it with prompt injection&lt;/strong&gt;. They can tell ChatGPT how their grandma used to tell them passwords when they were trying to fall asleep.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>QR in QR</title>
       <link>https://kyzn.org/qr-in-qr/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:17 +0900</pubDate>
