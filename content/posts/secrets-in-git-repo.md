@@ -18,3 +18,4 @@ It’s no secret that keeping secrets in a git repository is a bad idea. I want 
 
 5. If your code is fed into a LLM (Large Language Models), **attackers may retrieve it with prompt injection**. They can tell ChatGPT how their grandma used to tell them passwords when they were trying to fall asleep.
 
+![](/images/grandma.jpg)
