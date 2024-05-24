@@ -31,7 +31,7 @@ I wanted this challenge to go on, so I created Pull Request Club. It has been a 
 - 60 of those were completed, meaning **users have submitted 60 pull requests**.
 
 <center>
-<blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">I joined <a href="https://twitter.com/PullRequestClub?ref_src=twsrc%5Etfw">@PullRequestClub</a> yesterday. Today I got my first Pull Request and it was from <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a> himself. This thing works!!!<br><br>Also, thanks <a href="https://twitter.com/cpan_author?ref_src=twsrc%5Etfw">@cpan_author</a>. I need to buy you lunch sometime. <a href="https://t.co/Bk3iTFJzUu">https://t.co/Bk3iTFJzUu</a></p>&mdash; Olaf Alders (@olafalders) <a href="https://twitter.com/olafalders/status/1179083495177629696?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thanks @olafalders for accepting and merging. <a href="https://t.co/hxS5kRtkru">pic.twitter.com/hxS5kRtkru</a></p>&mdash; Mohammad Sajid Anwar (@cpan_author) <a href="https://twitter.com/cpan_author/status/1179082066836766720?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
 # Join us!
