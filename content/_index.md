@@ -1,4 +1,4 @@
 ---
 title: "kyzn"
 ---
-Software Engineer pursuing Security Specialization
+Software Engineer | Looking for Security Engineer roles in Japan

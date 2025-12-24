@@ -7,7 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "Software Engineer pursuing Security Specialization"
+  description = "Software Engineer | Looking for Security Engineer roles in Japan"
   copyright = "<center><a href=\"/\">© 2025 Kivanc Yazan</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">CC BY 4.0</a></center>"
   dark = "auto"
   highlight = true
