@@ -42,7 +42,7 @@ Overall stats are below. Two things to note:
 - I've lost the calculation method I used in previous reports. Therefore you may see a difference between this report and previous ones.
 - "The pool" stats for 2019 actually include 2018 numbers too. This is because the sign ups were opened in November 2018, but the first assignment was given in January 2019.
 
-|   | &nbsp;&nbsp;&nbsp;2019&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;2020&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;2021&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;2022&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;2023&nbsp;&nbsp;&nbsp;  | TOTAL |
+|   | 2019  | 2020  | 2021  | 2022  | 2023  | TOTAL |
 | :----------------------------: | :------: | :------: | :------: | :------: | :------: | :------: |
 |          **THE POOL**          |          |          |          |          |          |          |
 |           New users            |    96    |    46    |    24    |    9     |    16    |   191    |
@@ -65,7 +65,7 @@ Overall stats are below. Two things to note:
 
 Here's a little more details on assignment statuses:
 
-| &nbsp;&nbsp;&nbsp;Assigned in&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;2019&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;2020&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;2021&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;2022&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;2023&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;TOTAL&nbsp;&nbsp;&nbsp; |
+| Assigned in | 2019 | 2020 | 2021 | 2022 | 2023 | TOTAL |
 | :---------: | :---: | :---: | :---: | :--: | :--: | :---: |
 |     Open    |   -   |   -   |   -   |  -   |  22  |   22  |
 |  Timed Out  |   49  |   49  |   22  |  9   |  -   |  130  |

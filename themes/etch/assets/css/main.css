@@ -283,6 +283,14 @@ main#content table, td, th {
   margin: auto;
 }
 
+main#content table {
+  margin: 25px auto;
+}
+
+main#content td, main#content th {
+  padding: 4px 12px;
+}
+
 footer#footer {
     font-size: 14px;
     font-size: 1.4rem;

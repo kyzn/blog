@@ -1,0 +1,3 @@
+<footer id="footer">
+    {{ replace .Site.Params.copyright "{year}" (string now.Year) | safeHTML }}
+</footer>

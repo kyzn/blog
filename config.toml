@@ -1,14 +1,12 @@
 baseURL = "https://kyzn.org"
 title = "kyzn"
 theme = "etch"
-languageCode = "en-US"
+locale = "en-US"
 enableInlineShortcodes = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
 
 [params]
   description = "Software Engineer | Looking for Security Engineer roles in Japan"
-  copyright = "<center><a href=\"/\">© 2025 Kivanc Yazan</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">CC BY 4.0</a></center>"
+  copyright = "<center><a href=\"/\">© {year} Kivanc Yazan</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">CC BY 4.0</a></center>"
   dark = "auto"
   highlight = true
 
@@ -34,5 +32,9 @@ pygmentsUseClasses = true
   # Allow HTML in Markdown
   unsafe = true
 
-  [markup.tableOfContents]
-    ordered = true
+[markup.highlight]
+  codeFences = true
+  noClasses = false
+
+[markup.tableOfContents]
+  ordered = true

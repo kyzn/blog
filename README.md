@@ -33,7 +33,11 @@ This is hugo repository for [kivanc's blog](https://kyzn.org/). Generated conten
 
 ## Installing hugo
 
-- Install hugo
+- Install hugo (macOS)
+
+      brew install hugo
+
+- Install hugo (Linux)
 
       snap install hugo
 
