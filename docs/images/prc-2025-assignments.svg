@@ -1,0 +1,61 @@
+<svg version="1.1" viewBox="0.0 0.0 600 371" width="600" height="371" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" x="0" y="0" width="600" height="371"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M55.5 51.5L55.5 332.5"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M141.5 51.5L141.5 332.5"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M227.5 51.5L227.5 332.5"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M313.5 51.5L313.5 332.5"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M399.5 51.5L399.5 332.5"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M485.5 51.5L485.5 332.5"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M571.5 51.5L571.5 332.5"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M45.5 262.25L581.5 262.25"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M45.5 192.0L581.5 192.0"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M45.5 121.75L581.5 121.75"/>
+<path stroke="#cccccc" stroke-width="1.0" d="M45.5 51.5L581.5 51.5"/>
+<text x="37.5" y="336.5" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#444444">0</text>
+<text x="37.5" y="266.25" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#444444">50</text>
+<text x="37.5" y="196.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#444444">100</text>
+<text x="37.5" y="125.75" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#444444">150</text>
+<text x="37.5" y="55.5" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#444444">200</text>
+<path stroke="#333333" stroke-width="1.0" d="M45.5 332.5L581.5 332.5"/>
+<text x="55.5" y="350.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#222222">2019</text>
+<text x="141.5" y="350.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#222222">2020</text>
+<text x="227.5" y="350.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#222222">2021</text>
+<text x="313.5" y="350.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#222222">2022</text>
+<text x="399.5" y="350.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#222222">2023</text>
+<text x="485.5" y="350.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#222222">2024</text>
+<text x="571.5" y="350.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#222222">2025</text>
+<circle cx="225.60000000000002" cy="25" r="6.5" fill="#4285f4"/>
+<text x="238.10000000000002" y="29.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">Assignments</text>
+<circle cx="348.3" cy="25" r="6.5" fill="#ea4335"/>
+<text x="360.8" y="29.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">PRs</text>
+<polyline points="55.5,99.27000000000001 141.5,86.625 227.5,183.57 313.5,213.075 399.5,211.67000000000002 485.5,239.76999999999998 571.5,276.3" fill="none" stroke="#4285f4" stroke-width="2.0"/>
+<circle cx="55.5" cy="99.27000000000001" r="4.5" fill="#4285f4"/>
+<text x="55.5" y="89.27000000000001" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4285f4">166</text>
+<circle cx="141.5" cy="86.625" r="4.5" fill="#4285f4"/>
+<text x="141.5" y="76.625" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4285f4">175</text>
+<circle cx="227.5" cy="183.57" r="4.5" fill="#4285f4"/>
+<text x="227.5" y="173.57" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4285f4">106</text>
+<circle cx="313.5" cy="213.075" r="4.5" fill="#4285f4"/>
+<text x="313.5" y="203.075" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4285f4">85</text>
+<circle cx="399.5" cy="211.67000000000002" r="4.5" fill="#4285f4"/>
+<text x="399.5" y="201.67000000000002" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4285f4">86</text>
+<circle cx="485.5" cy="239.76999999999998" r="4.5" fill="#4285f4"/>
+<text x="485.5" y="229.76999999999998" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4285f4">66</text>
+<circle cx="571.5" cy="276.3" r="4.5" fill="#4285f4"/>
+<text x="571.5" y="266.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4285f4">40</text>
+<polyline points="55.5,252.41500000000002 141.5,228.53 227.5,242.57999999999998 313.5,280.515 399.5,273.49 485.5,295.97 571.5,324.07" fill="none" stroke="#ea4335" stroke-width="2.0"/>
+<circle cx="55.5" cy="252.41500000000002" r="4.5" fill="#ea4335"/>
+<text x="55.5" y="242.41500000000002" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ea4335">57</text>
+<circle cx="141.5" cy="228.53" r="4.5" fill="#ea4335"/>
+<text x="141.5" y="218.53" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ea4335">74</text>
+<circle cx="227.5" cy="242.57999999999998" r="4.5" fill="#ea4335"/>
+<text x="227.5" y="232.57999999999998" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ea4335">64</text>
+<circle cx="313.5" cy="280.515" r="4.5" fill="#ea4335"/>
+<text x="313.5" y="270.515" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ea4335">37</text>
+<circle cx="399.5" cy="273.49" r="4.5" fill="#ea4335"/>
+<text x="399.5" y="263.49" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ea4335">42</text>
+<circle cx="485.5" cy="295.97" r="4.5" fill="#ea4335"/>
+<text x="485.5" y="285.97" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ea4335">26</text>
+<circle cx="571.5" cy="324.07" r="4.5" fill="#ea4335"/>
+<text x="571.5" y="314.07" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ea4335">6</text>
+</svg>
