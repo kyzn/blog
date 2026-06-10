@@ -85,3 +85,7 @@ And the top PR-getters:
 Pull Request Club was never a big club. But for seven years, a small group of people kept exchanging pull requests every month, and I'm glad I was able to keep the lights on for them.
 
 I'm thankful to everyone who joined, shared their repos, wrote pull requests, and helped the community grow. Thank you for being part of it.
+
+---
+
+<small>This post was written with the help of Claude.</small>
